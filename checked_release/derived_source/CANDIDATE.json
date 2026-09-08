@@ -1,0 +1,101 @@
+{
+  "N0": "705688158939417766083006128695703821080101605304173623991920300506716846627203440324635068341693109509608786929844839653207121849017872676157797788816",
+  "N1": "705692619930489413584189552943991443716392885026759451863953624242911159057444856108323516589876967077721069272782760798453832061060020786354479288616",
+  "added": [
+    [
+      "N",
+      "VHA"
+    ],
+    [
+      "A",
+      "BDA"
+    ]
+  ],
+  "date": "2026-09-08",
+  "decimal_denominator": "1000000000000000",
+  "decimal_lower_numerator": "5295492477500681",
+  "decimal_upper_numerator": "5295492477500682",
+  "delta": "4460991071647501183424248287622636291279722585827872033323736194312430241415783688448248183857568112282342937921145246710212042148110196681499800",
+  "dimension": 207,
+  "removed": [
+    [
+      "N",
+      "ADA"
+    ],
+    [
+      "N",
+      "HHA"
+    ],
+    [
+      "A",
+      "NDA"
+    ]
+  ],
+  "replacement_node": "x27",
+  "replacement_table": {
+    "A": [
+      "BNA",
+      "BDA",
+      "BVV",
+      "NAB",
+      "ABN",
+      "AND",
+      "HDN",
+      "VNV",
+      "VVN"
+    ],
+    "B": [
+      "BBB",
+      "NHD",
+      "NVA",
+      "ABV",
+      "AHH",
+      "AVA",
+      "DNH",
+      "DAH",
+      "DHA",
+      "HAN",
+      "HAA",
+      "HHH",
+      "VAD",
+      "VDB"
+    ],
+    "D": [
+      "NND",
+      "NDN",
+      "DNN"
+    ],
+    "H": [
+      "BHN",
+      "NBH",
+      "HNB"
+    ],
+    "N": [
+      "BHD",
+      "NNN",
+      "AAD",
+      "DBH",
+      "DAB",
+      "HVH",
+      "VAA",
+      "VDH",
+      "VHA"
+    ],
+    "O": [],
+    "V": [
+      "NNV",
+      "NAH",
+      "NDV",
+      "NVN",
+      "AVN",
+      "DHN",
+      "HNA",
+      "VNN",
+      "VND"
+    ]
+  },
+  "schema": "C11_AUXILIARY_TRADE_CERTIFICATE_V1",
+  "scope": "Explicit improvement of the pinned BPZ C11 certificate. No general two-sided extension theorem, no claim of completed Lean build, no external adversarial review, and no complete priority clearance.",
+  "source_commit": "aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65",
+  "status": "EXACT_IMPROVEMENT_OF_FROZEN_BASELINE"
+}

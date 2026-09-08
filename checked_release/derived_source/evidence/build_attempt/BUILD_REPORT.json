@@ -1,0 +1,35 @@
+{
+  "schema": "C11_LEAN_GATE_RUN_V1",
+  "status": "NOT_COMPLETED",
+  "source_commit": "aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65",
+  "commands": [
+    {
+      "label": "01_r1_replay",
+      "command": [
+        "/opt/pyvenv/bin/python3",
+        "-B",
+        "VERIFY_PACKAGE.py"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 4.588174397999978,
+      "log": "logs/01_r1_replay.log",
+      "sha256": "6566e23021e34889a2ea7f0bbeceb6a140c4139c62c8785de04bdfab12df3762"
+    }
+  ],
+  "axioms": null,
+  "local_lean_compilation_completed": false,
+  "negative_compile_controls": [],
+  "source_package": "/mnt/data/C11_Lean_Integration_Source_R2_2026-09-08",
+  "work_directory": "/mnt/data/c11_lean_attempt_2026-09-08",
+  "failure": "missing required executable(s): lake",
+  "source_checks": {
+    "status": "PASS_SOURCE_AND_FROZEN_DATA_CHECKS_ONLY",
+    "lean_build": "NOT_COMPLETED",
+    "typechecking_or_axiom_audit_executed": false,
+    "manifest_files_checked": 22,
+    "dimension": 207,
+    "N1": "705692619930489413584189552943991443716392885026759451863953624242911159057444856108323516589876967077721069272782760798453832061060020786354479288616",
+    "candidate_table_words": 47,
+    "note": "Static checks and Python arithmetic do not establish Lean elaboration or kernel acceptance."
+  }
+}

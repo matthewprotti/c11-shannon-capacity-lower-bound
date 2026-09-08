@@ -1,0 +1,12 @@
+C11 Shannon capacity lower-bound improvement
+Copyright 2026 Matthew Protti for the new contribution and publication wrapper.
+
+This repository includes and builds upon the work of Pjotr Buys, Sven Polak,
+and Jeroen Zuiddam, released under the Apache License, Version 2.0.
+Their existing copyright and attribution notices are retained in the source
+and original archives. See checked_release/derived_source/NOTICE and
+checked_release/derived_source/LICENSE_UPSTREAM.txt.
+
+The new publication material is provided under the Apache License, Version 2.0.
+Mathematical statements, scientific credit, and AI involvement are described
+in README.md, REFERENCES.md, and AI_DISCLOSURE.md.

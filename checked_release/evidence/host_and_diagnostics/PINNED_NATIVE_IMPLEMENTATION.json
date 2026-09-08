@@ -1,0 +1,10 @@
+{
+  "src/Lean/Meta/Native.lean": {
+    "git_blob_sha1": "890d6e446ffff269d98078b436b569134f172ae0",
+    "sha256": "e1d0c6b5be42f492810a12281fc0d8ff4c981e421397c3ec00e165a255ed09c1"
+  },
+  "src/Lean/Elab/Tactic/Decide.lean": {
+    "git_blob_sha1": "aa99499ca91f1f86efbd3c0fde0ee9ee3e8d4c9c",
+    "sha256": "4cbd21f448eb8afbd81daee71bed7ce3f272af0fe916621b1e56b506c29a5c7b"
+  }
+}

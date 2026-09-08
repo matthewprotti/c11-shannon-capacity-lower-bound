@@ -1,0 +1,76 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["c98641172a4ee327.olean"],
+  "m": false,
+  "i": "a2f5cff15a68a1e6.ilean",
+  "c": "6b0ede5e51dd78ef.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/Cli/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/batteries/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/Qq/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/aesop/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/importGraph/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/plausible/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/build/lib/lean /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lean /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/ShannonBounds/PortRealisation.lean -o /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/build/lib/lean/ShannonBounds/PortRealisation.olean -i /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/build/lib/lean/ShannonBounds/PortRealisation.ilean -c /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/build/ir/ShannonBounds/PortRealisation.c --setup /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/build/ir/ShannonBounds/PortRealisation.setup.json --json",
+   "level": "trace"},
+  {"message":
+   "ShannonBounds/PortRealisation.lean:72:0: automatically included section variable(s) unused in theorem `ShannonBounds.RichPortSystem.isIndepSet_image_ep`:\n  [Fintype α]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype α] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "ShannonBounds/PortRealisation.lean:95:0: automatically included section variable(s) unused in theorem `ShannonBounds.RichPortSystem.sep_symm_of`:\n  [Fintype α]\n  [DecidableEq α]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype α] [DecidableEq α] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "ShannonBounds/PortRealisation.lean:99:0: automatically included section variable(s) unused in theorem `ShannonBounds.RichPortSystem.sep_core_ports`:\n  [Fintype α]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype α] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "ShannonBounds/PortRealisation.lean:106:0: automatically included section variable(s) unused in theorem `ShannonBounds.RichPortSystem.sep_core_transversal`:\n  [Fintype α]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype α] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "ShannonBounds/PortRealisation.lean:115:0: automatically included section variable(s) unused in theorem `ShannonBounds.RichPortSystem.sep_neutral_footprint`:\n  [Fintype α]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype α] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "ShannonBounds/PortRealisation.lean:125:0: automatically included section variable(s) unused in theorem `ShannonBounds.RichPortSystem.sep_neutral_ports`:\n  [Fintype α]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype α] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "ShannonBounds/PortRealisation.lean:129:0: automatically included section variable(s) unused in theorem `ShannonBounds.RichPortSystem.sep_neutral_transversal`:\n  [Fintype α]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype α] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "ShannonBounds/PortRealisation.lean:137:0: automatically included section variable(s) unused in theorem `ShannonBounds.RichPortSystem.sep_footprints`:\n  [Fintype α]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype α] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "ShannonBounds/PortRealisation.lean:145:0: automatically included section variable(s) unused in theorem `ShannonBounds.RichPortSystem.sep_footprint_other_transversal`:\n  [Fintype α]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype α] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "ShannonBounds/PortRealisation.lean:186:0: automatically included section variable(s) unused in theorem `ShannonBounds.RichPortSystem.ep_injOn`:\n  [Fintype α]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype α] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "ShannonBounds/PortRealisation.lean:191:8: automatically included section variable(s) unused in theorem `ShannonBounds.RichPortSystem.card_fam_O`:\n  [Fintype α]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype α] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "ShannonBounds/PortRealisation.lean:199:8: automatically included section variable(s) unused in theorem `ShannonBounds.RichPortSystem.card_fam_B`:\n  [Fintype α]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype α] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "ShannonBounds/PortRealisation.lean:203:8: automatically included section variable(s) unused in theorem `ShannonBounds.RichPortSystem.card_fam_N`:\n  [Fintype α]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype α] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"}],
+ "inputs":
+ [["ShannonBounds.PortRealisation:deps",
+   [["deps",
+     [["ShannonBounds/ShannonBounds:extraDep",
+       [["@ShannonBounds:extraDep", "00000000000006bb"]]],
+      ["imports",
+       [["ShannonBounds.Layered transitive imports (legacy)",
+         "e39ebd049ac0e64a"],
+        ["ShannonBounds.Layered:importAllArts", "256911b8286a1370"]]]]],
+    ["libs",
+     [["import dynlibs", "00000000000006bb"],
+      ["package external libraries", "00000000000006bb"],
+      ["module dynlibs", "00000000000006bb"],
+      ["module plugins", "00000000000006bb"]]]]],
+  ["Lean 4.32.2, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c",
+   "7508232886a2752a"],
+  ["/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/ShannonBounds/PortRealisation.lean",
+   "5346b7b0e59a1830"],
+  ["options",
+   [["-DrelaxedAutoImplicit=false", "74a2b5546b55be80"],
+    ["-Dpp.unicode.fun=true", "9b94070140457fab"]]],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: ShannonBounds.PortRealisation", "a38764f64009b1b7"],
+  ["Package.id?: (some ShannonBounds)", "a59fd3ce7e18c771"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "9995527459d498de"}

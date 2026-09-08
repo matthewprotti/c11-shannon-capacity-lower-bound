@@ -1,0 +1,27 @@
+{
+  "status": "PASS_PYTHON_HARNESS_UNIT_TESTS_ONLY",
+  "lean_executed": false,
+  "test_count": 19,
+  "tests_passed": [
+    "synthetic positive parser fixture only",
+    "accept observed pinned universe annotations and ax_1_1 suffix",
+    "reject missing axiom report",
+    "reject duplicate axiom report",
+    "reject sorryAx",
+    "reject handwritten arbitrary axiom",
+    "reject misleading native prefix",
+    "reject nonnumeric native suffix",
+    "reject arbitrary universe-annotated axiom",
+    "reject empty transcript",
+    "reject changed N1 source literal",
+    "reject changed literal table",
+    "reject changed x27 weight",
+    "reject changed x27 input interface",
+    "reject changed terminal order",
+    "reject explicit placeholder",
+    "reject handwritten assumption",
+    "reject missing scope audit command",
+    "reject missing exact scope literal"
+  ],
+  "warning": "Synthetic axiom-output fixtures do not validate the unbuilt Lean audit command."
+}

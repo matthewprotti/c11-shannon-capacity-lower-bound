@@ -1,0 +1,32 @@
+[
+  {
+    "path": "MANIFEST.sha256",
+    "before_sha256": "f56eab312c51000a194b3cbf311e061bdb539afa1472ca1cbe040e80c81347ca",
+    "after_sha256": "6b2e73d16ae83648a89ff46c9d26462e1ccb7afdef0dfbc521af48cc0c2032fa"
+  },
+  {
+    "path": "RUN_LEAN_GATE.py",
+    "before_sha256": "83ca75b3797d52cbbc76ed384df0288ff5cfa7a29d21ea7b4dc180593986e634",
+    "after_sha256": "a766b5e4f05b86b791abb091ca6cf71b7df1527c7d711501811b13f5bec717fe"
+  },
+  {
+    "path": "SOURCE_CHECKS.py",
+    "before_sha256": "b72839d433bd0ecb9df5d1733c7a526a3b8565fd19b14c2e40238b8b7a03a376",
+    "after_sha256": "852895f0db981c83a40ba849ff37d0ed382f76e81a836b273ae606fcb97f3f2a"
+  },
+  {
+    "path": "TEST_HARNESS.py",
+    "before_sha256": "90978c6d6dda732c525760b1f242b3b74b7caf4a70019e4e67ccf2c1f344f5d9",
+    "after_sha256": "12df1353aabb9883f105ebc275bea1632865e8b273e3ce285d5b45cf367698fb"
+  },
+  {
+    "path": "lean/C11_AxiomAudit.lean",
+    "before_sha256": "71ab993257bce3c768d0a461fee10a12c17e2efcc9dfbd7b8c54425ee25a3abc",
+    "after_sha256": "8aefe9e0e6c0fa13bd690e969ee7b79a7a87cdeaea6656f7dda5651491aeac22"
+  },
+  {
+    "path": "lean/NativeAxiomAudit.lean.in",
+    "before_sha256": "52283de70a2d6da1572e92958e877e967105f388f3f2f46d72681753292283a7",
+    "after_sha256": "0987c517db2b6e9d2ba92d8dabf51f047a7beae359e33c7773d6a5400417f44f"
+  }
+]

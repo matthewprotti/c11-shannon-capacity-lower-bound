@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "-B",
+    "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/source_r2/C11_Lean_Integration_Source_R2_2026-09-08/RUN_LEAN_GATE.py",
+    "--work-dir",
+    "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/01_initial"
+  ],
+  "environment_overrides": {
+    "PATH_prefix": "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "LEAN_NUM_THREADS": "2"
+  }
+}

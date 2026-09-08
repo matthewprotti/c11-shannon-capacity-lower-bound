@@ -1,0 +1,10 @@
+{
+  "status": "PASS_SOURCE_AND_FROZEN_DATA_CHECKS_ONLY",
+  "lean_build": "NOT_COMPLETED",
+  "typechecking_or_axiom_audit_executed": false,
+  "manifest_files_checked": 28,
+  "dimension": 207,
+  "N1": "705692619930489413584189552943991443716392885026759451863953624242911159057444856108323516589876967077721069272782760798453832061060020786354479288616",
+  "candidate_table_words": 47,
+  "note": "Static checks and Python arithmetic do not establish Lean elaboration or kernel acceptance."
+}

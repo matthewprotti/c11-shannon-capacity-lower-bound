@@ -1,0 +1,72 @@
+[01_r1_replay] /opt/homebrew/opt/python@3.14/bin/python3.14 -B VERIFY_PACKAGE.py
+[02_git_init] git init
+[03_set_origin] git remote add origin https://github.com/spectra-research/shannon-capacity-lean.git
+[04_fetch_pin] git fetch --depth=1 origin aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65
+[05_checkout_pin] git checkout --detach aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65
+[06_head] git rev-parse HEAD
+[07_pristine_source] git diff --exit-code
+[07a_cached_dep_mathlib_head] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/01_initial/bpz/.lake/packages/mathlib rev-parse HEAD
+[07a_cached_dep_mathlib_clean] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/01_initial/bpz/.lake/packages/mathlib diff --exit-code
+[07a_cached_dep_plausible_head] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/01_initial/bpz/.lake/packages/plausible rev-parse HEAD
+[07a_cached_dep_plausible_clean] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/01_initial/bpz/.lake/packages/plausible diff --exit-code
+[07a_cached_dep_LeanSearchClient_head] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/01_initial/bpz/.lake/packages/LeanSearchClient rev-parse HEAD
+[07a_cached_dep_LeanSearchClient_clean] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/01_initial/bpz/.lake/packages/LeanSearchClient diff --exit-code
+[07a_cached_dep_importGraph_head] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/01_initial/bpz/.lake/packages/importGraph rev-parse HEAD
+[07a_cached_dep_importGraph_clean] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/01_initial/bpz/.lake/packages/importGraph diff --exit-code
+[07a_cached_dep_proofwidgets_head] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/01_initial/bpz/.lake/packages/proofwidgets rev-parse HEAD
+[07a_cached_dep_proofwidgets_clean] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/01_initial/bpz/.lake/packages/proofwidgets diff --exit-code
+[07a_cached_dep_aesop_head] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/01_initial/bpz/.lake/packages/aesop rev-parse HEAD
+[07a_cached_dep_aesop_clean] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/01_initial/bpz/.lake/packages/aesop diff --exit-code
+[07a_cached_dep_Qq_head] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/01_initial/bpz/.lake/packages/Qq rev-parse HEAD
+[07a_cached_dep_Qq_clean] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/01_initial/bpz/.lake/packages/Qq diff --exit-code
+[07a_cached_dep_batteries_head] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/01_initial/bpz/.lake/packages/batteries rev-parse HEAD
+[07a_cached_dep_batteries_clean] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/01_initial/bpz/.lake/packages/batteries diff --exit-code
+[07a_cached_dep_Cli_head] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/01_initial/bpz/.lake/packages/Cli rev-parse HEAD
+[07a_cached_dep_Cli_clean] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/01_initial/bpz/.lake/packages/Cli diff --exit-code
+[07b_clone_pinned_dependencies] /bin/cp -cR /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/01_initial/bpz/.lake/packages /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages
+[08_lean_version] lake env lean --version
+[08a_actual_dep_mathlib_head] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/mathlib rev-parse HEAD
+[08a_actual_dep_mathlib_clean] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/mathlib diff --exit-code
+[08a_actual_dep_plausible_head] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/plausible rev-parse HEAD
+[08a_actual_dep_plausible_clean] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/plausible diff --exit-code
+[08a_actual_dep_LeanSearchClient_head] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/LeanSearchClient rev-parse HEAD
+[08a_actual_dep_LeanSearchClient_clean] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/LeanSearchClient diff --exit-code
+[08a_actual_dep_importGraph_head] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/importGraph rev-parse HEAD
+[08a_actual_dep_importGraph_clean] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/importGraph diff --exit-code
+[08a_actual_dep_proofwidgets_head] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/proofwidgets rev-parse HEAD
+[08a_actual_dep_proofwidgets_clean] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/proofwidgets diff --exit-code
+[08a_actual_dep_aesop_head] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/aesop rev-parse HEAD
+[08a_actual_dep_aesop_clean] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/aesop diff --exit-code
+[08a_actual_dep_Qq_head] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/Qq rev-parse HEAD
+[08a_actual_dep_Qq_clean] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/Qq diff --exit-code
+[08a_actual_dep_batteries_head] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/batteries rev-parse HEAD
+[08a_actual_dep_batteries_clean] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/batteries diff --exit-code
+[08a_actual_dep_Cli_head] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/Cli rev-parse HEAD
+[08a_actual_dep_Cli_clean] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/Cli diff --exit-code
+[10_baseline_build] lake --rehash --no-ansi build ShannonBounds.CapCertC11
+[11_candidate_build] lake --rehash --no-ansi build ShannonBounds.C11AuxiliaryTrade
+[12_scope_and_axioms] lake env lean -o C11_AxiomAudit.olean C11_AxiomAudit.lean
+[12b_native_axiom_shapes] lake env lean C11_NativeAxiomAudit.lean
+[13_wrong_cardinality] lake env lean NEGATIVE_wrong_cardinality.lean
+[14_forbidden_block] lake env lean NEGATIVE_forbidden_block.lean
+[15_upstream_unchanged] git diff --exit-code
+[16_upstream_index_unchanged] git diff --cached --exit-code
+[16a_final_dep_mathlib_head] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/mathlib rev-parse HEAD
+[16a_final_dep_mathlib_clean] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/mathlib diff --exit-code
+[16a_final_dep_plausible_head] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/plausible rev-parse HEAD
+[16a_final_dep_plausible_clean] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/plausible diff --exit-code
+[16a_final_dep_LeanSearchClient_head] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/LeanSearchClient rev-parse HEAD
+[16a_final_dep_LeanSearchClient_clean] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/LeanSearchClient diff --exit-code
+[16a_final_dep_importGraph_head] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/importGraph rev-parse HEAD
+[16a_final_dep_importGraph_clean] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/importGraph diff --exit-code
+[16a_final_dep_proofwidgets_head] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/proofwidgets rev-parse HEAD
+[16a_final_dep_proofwidgets_clean] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/proofwidgets diff --exit-code
+[16a_final_dep_aesop_head] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/aesop rev-parse HEAD
+[16a_final_dep_aesop_clean] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/aesop diff --exit-code
+[16a_final_dep_Qq_head] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/Qq rev-parse HEAD
+[16a_final_dep_Qq_clean] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/Qq diff --exit-code
+[16a_final_dep_batteries_head] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/batteries rev-parse HEAD
+[16a_final_dep_batteries_clean] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/batteries diff --exit-code
+[16a_final_dep_Cli_head] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/Cli rev-parse HEAD
+[16a_final_dep_Cli_clean] git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/Cli diff --exit-code
+PASS_C11_PINNED_LEAN_GATE

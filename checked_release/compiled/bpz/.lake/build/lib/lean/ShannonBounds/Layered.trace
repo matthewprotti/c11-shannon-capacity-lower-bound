@@ -1,0 +1,78 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["a0afc7a8f0b888d5.olean"],
+  "m": false,
+  "i": "3bde5cc5298ae9f9.ilean",
+  "c": "20827e6e61b4f141.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/Cli/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/batteries/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/Qq/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/aesop/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/importGraph/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/plausible/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/build/lib/lean /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lean /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/ShannonBounds/Layered.lean -o /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/build/lib/lean/ShannonBounds/Layered.olean -i /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/build/lib/lean/ShannonBounds/Layered.ilean -c /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/build/ir/ShannonBounds/Layered.c --setup /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/build/ir/ShannonBounds/Layered.setup.json --json",
+   "level": "trace"},
+  {"message":
+   "ShannonBounds/Layered.lean:58:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_wordSet`:\n  [Fintype V]\n  [DecidableEq V]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype V] [DecidableEq V] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "ShannonBounds/Layered.lean:64:0: automatically included section variable(s) unused in theorem `ShannonBounds.isIndepSet_wordSet`:\n  [Fintype V]\n  [DecidableEq V]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype V] [DecidableEq V] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "ShannonBounds/Layered.lean:76:0: automatically included section variable(s) unused in theorem `ShannonBounds.sep_wordSet`:\n  [Fintype V]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype V] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "ShannonBounds/Layered.lean:103:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_substSet`:\n  [DecidableEq A]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [DecidableEq A] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "ShannonBounds/Layered.lean:230:8: automatically included section variable(s) unused in theorem `ShannonBounds.Realisation.w_mapIso`:\n  [Fintype V]\n  [DecidableEq V]\n  [DecidableEq A]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype V] [DecidableEq V] [DecidableEq A] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "ShannonBounds/Layered.lean:261:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_multiWordSet`:\n  [Fintype V]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype V] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "ShannonBounds/Layered.lean:268:0: automatically included section variable(s) unused in theorem `ShannonBounds.isIndepSet_multiWordSet`:\n  [Fintype V]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype V] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "ShannonBounds/Layered.lean:280:0: automatically included section variable(s) unused in theorem `ShannonBounds.sep_multiWordSet`:\n  [Fintype V]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype V] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "ShannonBounds/Layered.lean:298:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_multiSubstSet`:\n  [DecidableEq A]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [DecidableEq A] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "ShannonBounds/Layered.lean:390:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_codeSet`:\n  [DecidableEq A]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [DecidableEq A] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "ShannonBounds/Layered.lean:425:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_multiCodeSet`:\n  [DecidableEq A]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [DecidableEq A] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "ShannonBounds/Layered.lean:520:0: automatically included section variable(s) unused in theorem `ShannonBounds.isIndepSet_image_symm`:\n  [Fintype V]\n  [DecidableRel G.Adj]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype V] [DecidableRel G.Adj] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"}],
+ "inputs":
+ [["ShannonBounds.Layered:deps",
+   [["deps",
+     [["ShannonBounds/ShannonBounds:extraDep",
+       [["@ShannonBounds:extraDep", "00000000000006bb"]]],
+      ["imports",
+       [["ShannonBounds.Lift transitive imports (legacy)", "bad2cad03dc33128"],
+        ["ShannonBounds.Lift:importAllArts", "5e57c78917db4d82"],
+        ["ShannonBounds.Defs transitive imports (legacy)", "41ee555379b41172"],
+        ["ShannonBounds.Defs:importAllArts", "d1073b442affcedd"],
+        ["Mathlib.Algebra.BigOperators.Fin transitive imports (legacy)",
+         "772a2ffcc1ae80dd"],
+        ["Mathlib.Algebra.BigOperators.Fin:importAllArts",
+         "b54bb708e146c43a"]]]]],
+    ["libs",
+     [["import dynlibs", "00000000000006bb"],
+      ["package external libraries", "00000000000006bb"],
+      ["module dynlibs", "00000000000006bb"],
+      ["module plugins", "00000000000006bb"]]]]],
+  ["Lean 4.32.2, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c",
+   "7508232886a2752a"],
+  ["/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/ShannonBounds/Layered.lean",
+   "8c69b29f59570768"],
+  ["options",
+   [["-DrelaxedAutoImplicit=false", "74a2b5546b55be80"],
+    ["-Dpp.unicode.fun=true", "9b94070140457fab"]]],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: ShannonBounds.Layered", "db89c82b52440def"],
+  ["Package.id?: (some ShannonBounds)", "a59fd3ce7e18c771"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "8adbece9aa57ddfa"}

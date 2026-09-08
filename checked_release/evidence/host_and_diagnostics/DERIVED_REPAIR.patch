@@ -1,0 +1,128 @@
+--- R2/RUN_LEAN_GATE.py
++++ R3/RUN_LEAN_GATE.py
+@@ -59,6 +59,7 @@
+     parser.add_argument('--work-dir', required=True, type=Path, help='New directory, outside this source package.')
+     parser.add_argument('--timeout', type=int, default=1800, help='Per-command timeout in seconds (default: 1800).')
+     parser.add_argument('--skip-cache-download', action='store_true', help='Do not invoke Mathlib cache get; dependencies still need to exist or download.')
++    parser.add_argument('--reuse-pinned-deps', type=Path, help='On macOS/APFS, clone an existing pinned dependency directory without copying any BPZ build products.')
+     args = parser.parse_args()
+     output = args.work_dir.expanduser().resolve()
+     require(not output.exists(), 'work directory already exists; choose a new path')
+@@ -128,9 +129,38 @@
+         require((repo/'lean-toolchain').read_text().strip() == lock['toolchain'], 'wrong Lean toolchain')
+         manifest_hash = sha256(repo/'lake-manifest.json')
+         check_checkout_data(repo, frozen)
++        packages = json.loads((repo/'lake-manifest.json').read_text())['packages']
++        def inspect_dependencies(directory: Path, label_prefix: str) -> dict:
++            result = {}
++            for package in packages:
++                require(package['type'] == 'git', 'unexpected non-git dependency')
++                name = package['name']
++                require(re.fullmatch(r'[A-Za-z0-9_-]+', name) is not None, 'unsafe dependency name')
++                dependency = directory/name
++                require(dependency.is_dir() and not dependency.is_symlink(), 'missing/symlink dependency: ' + name)
++                head_output = run(['git', '-C', str(dependency), 'rev-parse', 'HEAD'], repo, label_prefix + '_' + name + '_head')
++                heads = [line.strip() for line in head_output.splitlines() if re.fullmatch(r'[0-9a-f]{40}', line.strip())]
++                require(len(heads) == 1, 'malformed dependency revision output: ' + name)
++                head = heads[0]
++                require(head == package['rev'], 'dependency pin mismatch: ' + name)
++                run(['git', '-C', str(dependency), 'diff', '--exit-code'], repo, label_prefix + '_' + name + '_clean')
++                result[name] = head
++            require(result['mathlib'] == lock['mathlib_commit'], 'actual Mathlib pin mismatch')
++            return result
++        if args.reuse_pinned_deps:
++            require(sys.platform == 'darwin', 'copy-on-write dependency reuse requires macOS/APFS')
++            cache = args.reuse_pinned_deps.expanduser().resolve()
++            cache_pins = inspect_dependencies(cache, '07a_cached_dep')
++            (repo/'.lake').mkdir(exist_ok=True)
++            destination = repo/'.lake'/'packages'
++            require(not destination.exists(), 'dependency destination already exists')
++            run(['/bin/cp', '-cR', str(cache), str(destination)], repo, '07b_clone_pinned_dependencies')
++            report['dependency_cache_reuse'] = {'source': str(cache), 'method': 'APFS_COPY_ON_WRITE',
++                'verified_git_pins': cache_pins, 'bpz_build_products_reused': False}
+         version = run(['lake', 'env', 'lean', '--version'], repo, '08_lean_version')
+         require(re.search(r'\bversion 4\.32\.2\b', version) is not None, 'wrong running Lean version')
+         report['lean_version_output'] = version
++        report['actual_dependency_pins'] = inspect_dependencies(repo/'.lake'/'packages', '08a_actual_dep')
+         if not args.skip_cache_download:
+             run(['lake', 'exe', 'cache', 'get'], repo, '09_pinned_mathlib_cache')
+         require(sha256(repo/'lake-manifest.json') == manifest_hash, 'dependency lock changed during setup')
+@@ -179,6 +209,7 @@
+         run(['git', 'diff', '--exit-code'], repo, '15_upstream_unchanged')
+         run(['git', 'diff', '--cached', '--exit-code'], repo, '16_upstream_index_unchanged')
+         require(sha256(repo/'lake-manifest.json') == manifest_hash, 'dependency lock changed')
++        report['final_dependency_pins'] = inspect_dependencies(repo/'.lake'/'packages', '16a_final_dep')
+         for rel in ['ShannonBounds/C11AuxiliaryTrade.lean', 'C11_AxiomAudit.lean']:
+             require(sha256(repo/rel) == sha256(ROOT/'lean'/rel), 'candidate/audit source changed during build')
+         olean = repo/'.lake'/'build'/'lib'/'lean'/'ShannonBounds'/'C11AuxiliaryTrade.olean'
+--- R2/SOURCE_CHECKS.py
++++ R3/SOURCE_CHECKS.py
+@@ -20,7 +20,13 @@
+ ALLOWED_AXIOMS = {'propext', 'Classical.choice', 'Quot.sound'}
+ # Lean 4.32.2 creates a fresh Bool-equality axiom for each successful native check.
+ # Matching the name is only stage one: RUN_LEAN_GATE also checks its actual Lean type.
+-NATIVE_AXIOM_PATTERN = re.compile(r'(?:[A-Za-z0-9_]+\.)*_native\.(?:native_decide|decide|bv_decide)\.ax(?:_\d+)?')
++NATIVE_AXIOM_PATTERN = re.compile(r'(?:[A-Za-z0-9_]+\.)*_native\.(?:native_decide|decide|bv_decide)\.ax(?:_\d+){0,2}')
++# Observed with pp.universes=true in the pinned compiler. These are universe
++# annotations on the same three standard constants, not additional axioms.
++STANDARD_AXIOM_PRINT_FORMS = {
++    'Classical.choice.{u}': 'Classical.choice',
++    'Quot.sound.{u}': 'Quot.sound',
++}
+ 
+ def is_native_axiom(name: str) -> bool:
+     return NATIVE_AXIOM_PATTERN.fullmatch(name) is not None
+@@ -112,7 +118,8 @@
+         if name not in AUDITED_NAMES:
+             continue
+         require(name not in found, f'duplicate axiom report for {name}')
+-        deps = [x.strip() for x in (m.group(2) or '').split(',') if x.strip()]
++        printed_deps = [x.strip() for x in (m.group(2) or '').split(',') if x.strip()]
++        deps = [STANDARD_AXIOM_PRINT_FORMS.get(d, d) for d in printed_deps]
+         require(all(d in ALLOWED_AXIOMS or is_native_axiom(d) for d in deps), f'unapproved axioms for {name}: {deps}')
+         found[name] = deps
+     require(set(found) == set(AUDITED_NAMES), 'missing one or more required axiom reports')
+--- R2/TEST_HARNESS.py
++++ R3/TEST_HARNESS.py
+@@ -19,6 +19,10 @@
+     fixture = '\n'.join(f"'{n}' depends on axioms: [propext, Quot.sound, Classical.choice, {native}]" for n in AUDITED_NAMES)
+     require(len(check_axiom_output(fixture)) == len(AUDITED_NAMES), 'positive parser fixture failed')
+     passed.append('synthetic positive parser fixture only')
++    observed_fixture = fixture.replace('Classical.choice', 'Classical.choice.{u}').replace('Quot.sound', 'Quot.sound.{u}').replace(native, native + '_1')
++    observed = check_axiom_output(observed_fixture)
++    require(all('Classical.choice' in deps and 'Quot.sound' in deps and native + '_1' in deps for deps in observed.values()), 'pinned universe/native print forms failed')
++    passed.append('accept observed pinned universe annotations and ax_1_1 suffix')
+     def reject_text(name: str, text: str) -> None:
+         try: check_axiom_output(text)
+         except CheckError: passed.append(name); return
+@@ -28,6 +32,8 @@
+     reject_text('reject sorryAx', fixture.replace('propext', 'sorryAx', 1))
+     reject_text('reject handwritten arbitrary axiom', fixture.replace('propext', 'MyAssumedCapacity', 1))
+     reject_text('reject misleading native prefix', fixture.replace(native, 'evil_native_decide_axiom'))
++    reject_text('reject nonnumeric native suffix', fixture.replace(native, native + '_assumed'))
++    reject_text('reject arbitrary universe-annotated axiom', fixture.replace('propext', 'MyAssumedCapacity.{u}'))
+     reject_text('reject empty transcript', '')
+     verify_sources(ROOT, check_manifest=False)
+     source_rel = Path('lean/ShannonBounds/C11AuxiliaryTrade.lean')
+--- R2/lean/C11_AxiomAudit.lean
++++ R3/lean/C11_AxiomAudit.lean
+@@ -3,6 +3,7 @@
+ 
+ set_option autoImplicit false
+ set_option pp.universes true
++set_option pp.fullNames true
+ set_option pp.proofs false
+ 
+ open ShannonBounds
+--- R2/lean/NativeAxiomAudit.lean.in
++++ R3/lean/NativeAxiomAudit.lean.in
+@@ -3,6 +3,9 @@
+ The template itself was not compiled in the authoring session. -/
+ import ShannonBounds.C11AuxiliaryTrade
+ import Lean
++
++set_option pp.fullNames true
++set_option pp.universes true
+ 
+ open Lean Elab Command
+ 

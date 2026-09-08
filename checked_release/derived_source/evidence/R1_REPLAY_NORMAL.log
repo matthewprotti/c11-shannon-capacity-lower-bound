@@ -1,0 +1,44 @@
+{
+  "N0": "705688158939417766083006128695703821080101605304173623991920300506716846627203440324635068341693109509608786929844839653207121849017872676157797788816",
+  "N1": "705692619930489413584189552943991443716392885026759451863953624242911159057444856108323516589876967077721069272782760798453832061060020786354479288616",
+  "accepted_files_preserved_byte_for_byte": [
+    "CANDIDATE.json",
+    "FROZEN_INPUTS.json",
+    "PROOF.md",
+    "CandidateTrade.lean"
+  ],
+  "delta": "4460991071647501183424248287622636291279722585827872033323736194312430241415783688448248183857568112282342937921145246710212042148110196681499800",
+  "dimension": 207,
+  "end_to_end_lean_build": "NOT_RUN",
+  "finite_replay": "PASS_EXACT_C11_IMPROVEMENT",
+  "independent_review_target": "ORIGINAL_PARENT_ZIP; mathematical inputs unchanged in R1",
+  "manifest_files_checked": 53,
+  "metadata_repair": "F3_REPRODUCED_ON_PARENT_AND_REJECTED_ON_R1",
+  "negative_controls_rejected": 30,
+  "new_independent_review_of_R1_patch": "NOT_PERFORMED",
+  "new_literature_or_priority_scan_this_release": false,
+  "parent_sha256": "b62863f7cd1718024a94a52683dd2fd2e95725bc9531832d8b37585450fb5b66",
+  "physical_b2_audit": {
+    "nonempty_first_block_queries": 317348,
+    "physical_independence_and_required_cross_separation": "PASS",
+    "sizes": {
+      "A": 879,
+      "B": 21043,
+      "D": 852,
+      "H": 861,
+      "N": 20173,
+      "O": 0,
+      "V": 870
+    },
+    "within_product_disjointness": "PASS"
+  },
+  "positive_controls_passed": [
+    "reordered added/removed lists preserve exact result"
+  ],
+  "received_review_sha256": "e983a2235be05eca8230eee2b2b951903c2cd605c1510efcb3fabe27ee7c0520",
+  "reviewer_mutations_rejected": 10,
+  "root_interval_from_independent_replay": "(5.295492477500681, 5.295492477500682)",
+  "status": "PASS_C11_R1_RELEASE",
+  "supplied_independent_reviewer_replay": "PASS_INDEPENDENT_FINITE_REPLAY",
+  "worldwide_priority_clearance": "INCOMPLETE"
+}

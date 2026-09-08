@@ -1,0 +1,2 @@
+$ git -C /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/01_initial/bpz/.lake/packages/plausible rev-parse HEAD
+e12c1910fe855cbfc38803cd4e55543906d5fa62

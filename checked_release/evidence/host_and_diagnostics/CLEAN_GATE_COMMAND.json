@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "-B",
+    "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/derived_r3/C11_Lean_Integration_Derived_R3_2026-09-08/RUN_LEAN_GATE.py",
+    "--work-dir",
+    "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay",
+    "--skip-cache-download",
+    "--reuse-pinned-deps",
+    "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/01_initial/bpz/.lake/packages"
+  ],
+  "environment_overrides": {
+    "PATH_prefix": "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "LEAN_NUM_THREADS": "2"
+  },
+  "fresh_bpz_checkout": true,
+  "reuse": "Only pinned dependency sources and compiled Mathlib/dependency cache; no BPZ or candidate build artifacts"
+}

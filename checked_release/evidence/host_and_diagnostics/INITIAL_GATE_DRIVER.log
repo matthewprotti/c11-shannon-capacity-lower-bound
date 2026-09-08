@@ -1,0 +1,13 @@
+[01_r1_replay] /opt/homebrew/opt/python@3.14/bin/python3.14 -B VERIFY_PACKAGE.py
+[02_git_init] git init
+[03_set_origin] git remote add origin https://github.com/spectra-research/shannon-capacity-lean.git
+[04_fetch_pin] git fetch --depth=1 origin aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65
+[05_checkout_pin] git checkout --detach aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65
+[06_head] git rev-parse HEAD
+[07_pristine_source] git diff --exit-code
+[08_lean_version] lake env lean --version
+[09_pinned_mathlib_cache] lake exe cache get
+[10_baseline_build] lake --rehash --no-ansi build ShannonBounds.CapCertC11
+[11_candidate_build] lake --rehash --no-ansi build ShannonBounds.C11AuxiliaryTrade
+[12_scope_and_axioms] lake env lean -o C11_AxiomAudit.olean C11_AxiomAudit.lean
+NOT_COMPLETED: unapproved axioms for ShannonBounds.C11AuxiliaryTrade.T3mix_eq_row_hybrid: ['propext', 'Classical.choice.{u}', 'Quot.sound.{u}', 'C11AuxiliaryTrade.T3mix_eq_row_hybrid._native.native_decide.ax_1_1', 'C11AuxiliaryTrade.T3mix_eq_row_hybrid._native.native_decide.ax_1_2', 'C11AuxiliaryTrade.T3mix_eq_row_hybrid._native.native_decide.ax_1_3', 'C11AuxiliaryTrade.T3mix_eq_row_hybrid._native.native_decide.ax_1_4', 'C11AuxiliaryTrade.T3mix_eq_row_hybrid._native.native_decide.ax_1_5', 'C11AuxiliaryTrade.T3mix_eq_row_hybrid._native.native_decide.ax_1_6', 'C11AuxiliaryTrade.T3mix_eq_row_hybrid._native.native_decide.ax_1_7']

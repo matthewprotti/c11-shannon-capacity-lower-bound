@@ -1,0 +1,49 @@
+{
+  "executables": {
+    "lean": null,
+    "lake": null,
+    "elan": null,
+    "git": "/usr/bin/git"
+  },
+  "native_compiler_installed": false,
+  "lean_compilation_run": false,
+  "checks": [
+    {
+      "command": [
+        "curl",
+        "-I",
+        "-L",
+        "--max-time",
+        "10",
+        "https://github.com/spectra-research/shannon-capacity-lean.git"
+      ],
+      "returncode": 6,
+      "stdout": "",
+      "stderr": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: github.com\n",
+      "elapsed_seconds": 0.008762242999978298
+    },
+    {
+      "command": [
+        "git",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "git version 2.47.3\n",
+      "stderr": "",
+      "elapsed_seconds": 0.0014177560000234735
+    }
+  ],
+  "connector_artifact_attempt": {
+    "repo": "leanprover/lean4",
+    "artifact_id": 8692669129,
+    "artifact_name": "build-Linux release",
+    "bytes": 1435839181,
+    "download_limit": 536870912,
+    "result": "InvalidInputException: Artifact exceeds max size of 536870912 bytes: 1435839181 bytes."
+  },
+  "container_download_attempt": {
+    "file": "lean-4.32.2-linux.tar.zst",
+    "result": "download failed because url not viewed in conversation before; web open of the binary URL returned DisabledError",
+    "file_downloaded": false
+  }
+}

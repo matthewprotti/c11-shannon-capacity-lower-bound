@@ -1,0 +1,7 @@
+$ lake env lean NEGATIVE_wrong_cardinality.lean
+NEGATIVE_wrong_cardinality.lean:4:2: error: Type mismatch
+  C11AuxiliaryTrade.card_code207
+has type
+  C11AuxiliaryTrade.code207.card = C11AuxiliaryTrade.N1
+but is expected to have type
+  C11AuxiliaryTrade.code207.card = C11AuxiliaryTrade.N1 + 1

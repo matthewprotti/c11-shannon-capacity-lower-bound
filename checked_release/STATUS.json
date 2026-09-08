@@ -1,0 +1,30 @@
+{
+  "schema": "C11_LEAN_CHECKED_RELEASE_V1",
+  "prepared_at_utc": "2026-09-08T18:51:38.162568+00:00",
+  "status": "PASS_C11_PINNED_LEAN_GATE",
+  "lean_version": "4.32.2",
+  "lean_commit": "f3b06c705e6c85f5314019d5d3baab0fec5b580c",
+  "bpz_commit": "aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65",
+  "mathlib_commit": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "construction_source_changed": false,
+  "candidate_and_frozen_inputs_preserved_byte_for_byte": true,
+  "dimension": 207,
+  "capacity_lower_bound": "5.295492477500681",
+  "full_frozen_root_strictly_improved": true,
+  "scope_aliases_checked": 3,
+  "audited_declarations": 13,
+  "distinct_native_axioms_audited": 193,
+  "final_capacity_native_axioms": 185,
+  "negative_controls": {
+    "wrong_cardinality": "REJECTED_EXACT_CARDINALITY_TYPE_MISMATCH",
+    "forbidden_block": "REJECTED_PROPOSITION_EVALUATED_FALSE"
+  },
+  "trust": "Pinned Lean compiler/runtime, standard Lean axioms, disclosed per-evaluation native Bool-equality axioms, and pinned Mathlib/dependency cache. Not kernel-only arithmetic replay.",
+  "mathlib_rebuilt_from_source": false,
+  "fresh_bpz_and_candidate_build": true,
+  "dependency_cache_reuse": "Verified pinned APFS copy-on-write dependency cache only; no BPZ build products reused",
+  "priority_clearance": "NOT_PERFORMED",
+  "external_publication": "NOT_PERFORMED",
+  "original_r2_archive_sha256": "50aa49d829dd21ce86a67fd32d2b3dbf16376106d860ae621dc5116c3c0a431a",
+  "unchanged_r1_archive_sha256": "68604c46a4e58685811473251a3bbdcb209ec700454d50fd584b510e2afbd51d"
+}

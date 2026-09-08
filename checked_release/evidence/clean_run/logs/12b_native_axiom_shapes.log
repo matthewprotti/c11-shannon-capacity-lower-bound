@@ -1,0 +1,1536 @@
+$ lake env lean C11_NativeAxiomAudit.lean
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.BaseC11.IlenCheck._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1} (Decidable.decide (Eq.{1} (List.length.{0} ShannonBounds.BaseC11.Ilist) 148)) Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.BaseC11.Iset._native.native_decide.ax_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1} (Decidable.decide (Multiset.Nodup.{0} ↑ShannonBounds.BaseC11.Ilist)) Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.BaseC11.XcFalseLenCheck._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1} (List.length.{0} (List.filter.{0} (ShannonBounds.BaseC11.fpB Bool.false) ShannonBounds.BaseC11.Xlist)) 3))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.BaseC11.XcTrueLenCheck._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1} (List.length.{0} (List.filter.{0} (ShannonBounds.BaseC11.fpB Bool.true) ShannonBounds.BaseC11.Xlist)) 3))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.BaseC11.XlenCheck._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1} (Decidable.decide (Eq.{1} (List.length.{0} ShannonBounds.BaseC11.Xlist) 148)) Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.BaseC11.Xset._native.native_decide.ax_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1} (Decidable.decide (Multiset.Nodup.{0} ↑ShannonBounds.BaseC11.Xlist)) Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.BaseC11.altInjCheck._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (List.all.{0} ShannonBounds.BaseC11.portsList fun r =>
+        List.all.{0} ShannonBounds.BaseC11.portsList fun s =>
+          !BEq.beq.{0} (ShannonBounds.BaseC11.bep (!ShannonBounds.BaseC11.bside r) r)
+                (ShannonBounds.BaseC11.bep (!ShannonBounds.BaseC11.bside s) s) ||
+            BEq.beq.{0} r s)
+      Bool.true))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.BaseC11.altNotCheck._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (List.all.{0} ShannonBounds.BaseC11.portsList fun r =>
+        !List.contains.{0} ShannonBounds.BaseC11.Ilist (ShannonBounds.BaseC11.bep (!ShannonBounds.BaseC11.bside r) r))
+      Bool.true))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.BaseC11.epParentCheck._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (List.all.{0} ShannonBounds.BaseC11.portsList fun r =>
+        BEq.beq.{0} (ShannonBounds.BaseC11.bep (ShannonBounds.BaseC11.bside r) r) r)
+      Bool.true))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.BaseC11.pFalseCheck._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (List.all.{0} ShannonBounds.BaseC11.portsList fun r =>
+        List.all.{0} ShannonBounds.BaseC11.portsList fun s =>
+          BEq.beq.{0} r s ||
+            !ShannonBounds.BaseC11.wconf (ShannonBounds.BaseC11.bep Bool.false r)
+                (ShannonBounds.BaseC11.bep Bool.false s))
+      Bool.true))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.BaseC11.pTrueCheck._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (List.all.{0} ShannonBounds.BaseC11.portsList fun r =>
+        List.all.{0} ShannonBounds.BaseC11.portsList fun s =>
+          BEq.beq.{0} r s ||
+            !ShannonBounds.BaseC11.wconf (ShannonBounds.BaseC11.bep Bool.true r)
+                (ShannonBounds.BaseC11.bep Bool.true s))
+      Bool.true))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.BaseC11.pairConflict._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (List.all.{0} ShannonBounds.BaseC11.portsList fun r =>
+        ShannonBounds.BaseC11.wconf (ShannonBounds.BaseC11.bep Bool.false r) (ShannonBounds.BaseC11.bep Bool.true r))
+      Bool.true))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.BaseC11.pairwiseOK_I._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide (Eq.{1} (ShannonBounds.BaseC11.pairwiseOK ShannonBounds.BaseC11.Ilist) Bool.true)) Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.BaseC11.pairwiseOK_X._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide (Eq.{1} (ShannonBounds.BaseC11.pairwiseOK ShannonBounds.BaseC11.Xlist) Bool.true)) Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.BaseC11.portsCheck._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1} (List.all.{0} ShannonBounds.BaseC11.portsList fun r => List.contains.{0} ShannonBounds.BaseC11.Ilist r)
+      Bool.true))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.BaseC11.portsLenCheck._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1} (Decidable.decide (Eq.{1} (List.length.{0} ShannonBounds.BaseC11.portsList) 3)) Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.BaseC11.portsSet._native.native_decide.ax_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1} (Decidable.decide (Multiset.Nodup.{0} ↑ShannonBounds.BaseC11.portsList)) Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.BaseC11.privCheck._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (List.all.{0} ShannonBounds.BaseC11.portsList fun r =>
+        List.all.{0} ShannonBounds.BaseC11.Ilist fun w =>
+          !ShannonBounds.BaseC11.wconf (ShannonBounds.BaseC11.bep (!ShannonBounds.BaseC11.bside r) r) w ||
+            BEq.beq.{0} w r)
+      Bool.true))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.BaseC11.sconf_iff_conflict._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (∀ (a b : Fin 11),
+      Eq.{1} (ShannonBounds.BaseC11.sconf ↑a ↑b) Bool.true ↔
+        ShannonBounds.conflict.{0} ShannonBounds.BaseC11.Cyc11 a b))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.BaseC11.sconf_refl._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide (∀ (a : ℕ), LT.lt.{0} a 11 → Eq.{1} (ShannonBounds.BaseC11.sconf a a) Bool.true)) Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.BaseC11.sconf_symm._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (∀ (a : ℕ),
+      LT.lt.{0} a 11 →
+        ∀ (b : ℕ), LT.lt.{0} b 11 → Eq.{1} (ShannonBounds.BaseC11.sconf a b) (ShannonBounds.BaseC11.sconf b a)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.BaseC11.sepCheck._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (List.all.{0} ShannonBounds.BaseC11.Xlist fun x =>
+        !(ShannonBounds.BaseC11.fpB Bool.false x && ShannonBounds.BaseC11.fpB Bool.true x))
+      Bool.true))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.C11AuxiliaryTrade.S3mix._native.native_decide.ax_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (∀ (a : ShannonBounds.Letter) (x : Fin 3 → ShannonBounds.Letter),
+      Membership.mem.{0, 0} (ShannonBounds.C11AuxiliaryTrade.T3mix a) x →
+        ∀ (y : Fin 3 → ShannonBounds.Letter),
+          Membership.mem.{0, 0} (ShannonBounds.C11AuxiliaryTrade.T3mix a) y →
+            Ne.{1} x y → ∃ i, Eq.{1} ((x i).sep (y i)) Bool.true))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.C11AuxiliaryTrade.S3mix._native.native_decide.ax_2
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (∀ (a b : ShannonBounds.Letter),
+      Eq.{1} (a.sep b) Bool.true →
+        ∀ (x : Fin 3 → ShannonBounds.Letter),
+          Membership.mem.{0, 0} (ShannonBounds.C11AuxiliaryTrade.T3mix a) x →
+            ∀ (y : Fin 3 → ShannonBounds.Letter),
+              Membership.mem.{0, 0} (ShannonBounds.C11AuxiliaryTrade.T3mix b) y →
+                ∃ i, Eq.{1} ((x i).sep (y i)) Bool.true))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.C11AuxiliaryTrade.T3mix_eq_row_hybrid._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1} (ShannonBounds.C11AuxiliaryTrade.T3mix ShannonBounds.Letter.B)
+      (match ShannonBounds.Letter.B with
+      | ShannonBounds.Letter.N => ShannonBounds.Substitutions.T3d ShannonBounds.Letter.N
+      | ShannonBounds.Letter.A => ShannonBounds.Substitutions.T3d ShannonBounds.Letter.A
+      | b => ShannonBounds.Substitutions.T3c b)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.C11AuxiliaryTrade.T3mix_eq_row_hybrid._native.native_decide.ax_1_2
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1} (ShannonBounds.C11AuxiliaryTrade.T3mix ShannonBounds.Letter.N)
+      (match ShannonBounds.Letter.N with
+      | ShannonBounds.Letter.N => ShannonBounds.Substitutions.T3d ShannonBounds.Letter.N
+      | ShannonBounds.Letter.A => ShannonBounds.Substitutions.T3d ShannonBounds.Letter.A
+      | b => ShannonBounds.Substitutions.T3c b)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.C11AuxiliaryTrade.T3mix_eq_row_hybrid._native.native_decide.ax_1_3
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1} (ShannonBounds.C11AuxiliaryTrade.T3mix ShannonBounds.Letter.A)
+      (match ShannonBounds.Letter.A with
+      | ShannonBounds.Letter.N => ShannonBounds.Substitutions.T3d ShannonBounds.Letter.N
+      | ShannonBounds.Letter.A => ShannonBounds.Substitutions.T3d ShannonBounds.Letter.A
+      | b => ShannonBounds.Substitutions.T3c b)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.C11AuxiliaryTrade.T3mix_eq_row_hybrid._native.native_decide.ax_1_4
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1} (ShannonBounds.C11AuxiliaryTrade.T3mix ShannonBounds.Letter.D)
+      (match ShannonBounds.Letter.D with
+      | ShannonBounds.Letter.N => ShannonBounds.Substitutions.T3d ShannonBounds.Letter.N
+      | ShannonBounds.Letter.A => ShannonBounds.Substitutions.T3d ShannonBounds.Letter.A
+      | b => ShannonBounds.Substitutions.T3c b)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.C11AuxiliaryTrade.T3mix_eq_row_hybrid._native.native_decide.ax_1_5
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1} (ShannonBounds.C11AuxiliaryTrade.T3mix ShannonBounds.Letter.O)
+      (match ShannonBounds.Letter.O with
+      | ShannonBounds.Letter.N => ShannonBounds.Substitutions.T3d ShannonBounds.Letter.N
+      | ShannonBounds.Letter.A => ShannonBounds.Substitutions.T3d ShannonBounds.Letter.A
+      | b => ShannonBounds.Substitutions.T3c b)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.C11AuxiliaryTrade.T3mix_eq_row_hybrid._native.native_decide.ax_1_6
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1} (ShannonBounds.C11AuxiliaryTrade.T3mix ShannonBounds.Letter.H)
+      (match ShannonBounds.Letter.H with
+      | ShannonBounds.Letter.N => ShannonBounds.Substitutions.T3d ShannonBounds.Letter.N
+      | ShannonBounds.Letter.A => ShannonBounds.Substitutions.T3d ShannonBounds.Letter.A
+      | b => ShannonBounds.Substitutions.T3c b)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.C11AuxiliaryTrade.T3mix_eq_row_hybrid._native.native_decide.ax_1_7
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1} (ShannonBounds.C11AuxiliaryTrade.T3mix ShannonBounds.Letter.V)
+      (match ShannonBounds.Letter.V with
+      | ShannonBounds.Letter.N => ShannonBounds.Substitutions.T3d ShannonBounds.Letter.N
+      | ShannonBounds.Letter.A => ShannonBounds.Substitutions.T3d ShannonBounds.Letter.A
+      | b => ShannonBounds.Substitutions.T3c b)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.C11AuxiliaryTrade.decimal_lower_integer._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (LE.le.{0} (HPow.hPow.{0, 0, 0} 5295492477500681 207)
+      (HMul.hMul.{0, 0, 0} ShannonBounds.C11AuxiliaryTrade.N1 (HPow.hPow.{0, 0, 0} 1000000000000000 207))))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.C11AuxiliaryTrade.stepx27._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.C11AuxiliaryTrade.S3mix ShannonBounds.Letter.B,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh7 (x 0)) (ShannonBounds.CertC11.wp11 (x 1)))
+          (ShannonBounds.CertC11.wh9 (x 2)))
+      (ShannonBounds.C11AuxiliaryTrade.wx27 ShannonBounds.Letter.B)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.C11AuxiliaryTrade.stepx27._native.native_decide.ax_1_2
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.C11AuxiliaryTrade.S3mix ShannonBounds.Letter.N,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh7 (x 0)) (ShannonBounds.CertC11.wp11 (x 1)))
+          (ShannonBounds.CertC11.wh9 (x 2)))
+      (ShannonBounds.C11AuxiliaryTrade.wx27 ShannonBounds.Letter.N)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.C11AuxiliaryTrade.stepx27._native.native_decide.ax_1_3
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.C11AuxiliaryTrade.S3mix ShannonBounds.Letter.A,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh7 (x 0)) (ShannonBounds.CertC11.wp11 (x 1)))
+          (ShannonBounds.CertC11.wh9 (x 2)))
+      (ShannonBounds.C11AuxiliaryTrade.wx27 ShannonBounds.Letter.A)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.C11AuxiliaryTrade.stepx27._native.native_decide.ax_1_4
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.C11AuxiliaryTrade.S3mix ShannonBounds.Letter.D,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh7 (x 0)) (ShannonBounds.CertC11.wp11 (x 1)))
+          (ShannonBounds.CertC11.wh9 (x 2)))
+      (ShannonBounds.C11AuxiliaryTrade.wx27 ShannonBounds.Letter.D)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.C11AuxiliaryTrade.stepx27._native.native_decide.ax_1_5
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.C11AuxiliaryTrade.S3mix ShannonBounds.Letter.O,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh7 (x 0)) (ShannonBounds.CertC11.wp11 (x 1)))
+          (ShannonBounds.CertC11.wh9 (x 2)))
+      (ShannonBounds.C11AuxiliaryTrade.wx27 ShannonBounds.Letter.O)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.C11AuxiliaryTrade.stepx27._native.native_decide.ax_1_6
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.C11AuxiliaryTrade.S3mix ShannonBounds.Letter.H,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh7 (x 0)) (ShannonBounds.CertC11.wp11 (x 1)))
+          (ShannonBounds.CertC11.wh9 (x 2)))
+      (ShannonBounds.C11AuxiliaryTrade.wx27 ShannonBounds.Letter.H)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.C11AuxiliaryTrade.stepx27._native.native_decide.ax_1_7
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.C11AuxiliaryTrade.S3mix ShannonBounds.Letter.V,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh7 (x 0)) (ShannonBounds.CertC11.wp11 (x 1)))
+          (ShannonBounds.CertC11.wh9 (x 2)))
+      (ShannonBounds.C11AuxiliaryTrade.wx27 ShannonBounds.Letter.V)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.C11AuxiliaryTrade.strictly_larger._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1} (Decidable.decide (LT.lt.{0} ShannonBounds.CertC11.M ShannonBounds.C11AuxiliaryTrade.N1))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.C11AuxiliaryTrade.terminal_value._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Code.C.{0} ShannonBounds.CertC11.K,
+        HMul.hMul.{0, 0, 0}
+          (HMul.hMul.{0, 0, 0} (ShannonBounds.C11AuxiliaryTrade.wx27 (x 0)) (ShannonBounds.CertC11.wx29 (x 1)))
+          (ShannonBounds.CertC11.wb13 (x 2)))
+      ShannonBounds.C11AuxiliaryTrade.N1))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb10._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.B,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb9 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb10 ShannonBounds.Letter.B)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb10._native.native_decide.ax_1_2
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.N,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb9 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb10 ShannonBounds.Letter.N)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb10._native.native_decide.ax_1_3
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.A,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb9 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb10 ShannonBounds.Letter.A)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb10._native.native_decide.ax_1_4
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.D,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb9 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb10 ShannonBounds.Letter.D)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb10._native.native_decide.ax_1_5
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.O,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb9 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb10 ShannonBounds.Letter.O)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb10._native.native_decide.ax_1_6
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.H,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb9 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb10 ShannonBounds.Letter.H)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb10._native.native_decide.ax_1_7
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.V,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb9 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb10 ShannonBounds.Letter.V)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb11._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.B,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb10 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb11 ShannonBounds.Letter.B)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb11._native.native_decide.ax_1_2
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.N,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb10 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb11 ShannonBounds.Letter.N)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb11._native.native_decide.ax_1_3
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.A,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb10 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb11 ShannonBounds.Letter.A)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb11._native.native_decide.ax_1_4
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.D,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb10 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb11 ShannonBounds.Letter.D)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb11._native.native_decide.ax_1_5
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.O,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb10 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb11 ShannonBounds.Letter.O)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb11._native.native_decide.ax_1_6
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.H,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb10 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb11 ShannonBounds.Letter.H)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb11._native.native_decide.ax_1_7
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.V,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb10 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb11 ShannonBounds.Letter.V)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb12._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.B,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb11 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb12 ShannonBounds.Letter.B)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb12._native.native_decide.ax_1_2
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.N,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb11 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb12 ShannonBounds.Letter.N)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb12._native.native_decide.ax_1_3
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.A,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb11 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb12 ShannonBounds.Letter.A)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb12._native.native_decide.ax_1_4
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.D,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb11 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb12 ShannonBounds.Letter.D)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb12._native.native_decide.ax_1_5
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.O,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb11 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb12 ShannonBounds.Letter.O)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb12._native.native_decide.ax_1_6
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.H,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb11 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb12 ShannonBounds.Letter.H)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb12._native.native_decide.ax_1_7
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.V,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb11 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb12 ShannonBounds.Letter.V)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb13._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.B,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb12 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb13 ShannonBounds.Letter.B)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb13._native.native_decide.ax_1_2
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.N,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb12 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb13 ShannonBounds.Letter.N)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb13._native.native_decide.ax_1_3
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.A,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb12 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb13 ShannonBounds.Letter.A)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb13._native.native_decide.ax_1_4
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.D,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb12 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb13 ShannonBounds.Letter.D)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb13._native.native_decide.ax_1_5
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.O,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb12 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb13 ShannonBounds.Letter.O)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb13._native.native_decide.ax_1_6
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.H,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb12 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb13 ShannonBounds.Letter.H)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb13._native.native_decide.ax_1_7
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.V,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb12 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb13 ShannonBounds.Letter.V)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb2._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.B,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.w0 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb2 ShannonBounds.Letter.B)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb2._native.native_decide.ax_1_2
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.N,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.w0 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb2 ShannonBounds.Letter.N)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb2._native.native_decide.ax_1_3
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.A,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.w0 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb2 ShannonBounds.Letter.A)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb2._native.native_decide.ax_1_4
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.D,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.w0 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb2 ShannonBounds.Letter.D)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb2._native.native_decide.ax_1_5
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.O,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.w0 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb2 ShannonBounds.Letter.O)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb2._native.native_decide.ax_1_6
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.H,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.w0 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb2 ShannonBounds.Letter.H)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb2._native.native_decide.ax_1_7
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.V,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.w0 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb2 ShannonBounds.Letter.V)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb3._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.B,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb2 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb3 ShannonBounds.Letter.B)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb3._native.native_decide.ax_1_2
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.N,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb2 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb3 ShannonBounds.Letter.N)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb3._native.native_decide.ax_1_3
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.A,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb2 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb3 ShannonBounds.Letter.A)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb3._native.native_decide.ax_1_4
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.D,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb2 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb3 ShannonBounds.Letter.D)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb3._native.native_decide.ax_1_5
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.O,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb2 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb3 ShannonBounds.Letter.O)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb3._native.native_decide.ax_1_6
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.H,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb2 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb3 ShannonBounds.Letter.H)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb3._native.native_decide.ax_1_7
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.V,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb2 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb3 ShannonBounds.Letter.V)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb4._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.B,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb3 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb4 ShannonBounds.Letter.B)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb4._native.native_decide.ax_1_2
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.N,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb3 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb4 ShannonBounds.Letter.N)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb4._native.native_decide.ax_1_3
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.A,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb3 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb4 ShannonBounds.Letter.A)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb4._native.native_decide.ax_1_4
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.D,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb3 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb4 ShannonBounds.Letter.D)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb4._native.native_decide.ax_1_5
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.O,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb3 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb4 ShannonBounds.Letter.O)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb4._native.native_decide.ax_1_6
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.H,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb3 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb4 ShannonBounds.Letter.H)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb4._native.native_decide.ax_1_7
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.V,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb3 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb4 ShannonBounds.Letter.V)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb5._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.B,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb4 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb5 ShannonBounds.Letter.B)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb5._native.native_decide.ax_1_2
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.N,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb4 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb5 ShannonBounds.Letter.N)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb5._native.native_decide.ax_1_3
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.A,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb4 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb5 ShannonBounds.Letter.A)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb5._native.native_decide.ax_1_4
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.D,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb4 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb5 ShannonBounds.Letter.D)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb5._native.native_decide.ax_1_5
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.O,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb4 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb5 ShannonBounds.Letter.O)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb5._native.native_decide.ax_1_6
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.H,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb4 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb5 ShannonBounds.Letter.H)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb5._native.native_decide.ax_1_7
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.V,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb4 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb5 ShannonBounds.Letter.V)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb6._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.B,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb5 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb6 ShannonBounds.Letter.B)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb6._native.native_decide.ax_1_2
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.N,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb5 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb6 ShannonBounds.Letter.N)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb6._native.native_decide.ax_1_3
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.A,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb5 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb6 ShannonBounds.Letter.A)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb6._native.native_decide.ax_1_4
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.D,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb5 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb6 ShannonBounds.Letter.D)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb6._native.native_decide.ax_1_5
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.O,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb5 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb6 ShannonBounds.Letter.O)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb6._native.native_decide.ax_1_6
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.H,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb5 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb6 ShannonBounds.Letter.H)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb6._native.native_decide.ax_1_7
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.V,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb5 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb6 ShannonBounds.Letter.V)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb7._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.B,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb6 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb7 ShannonBounds.Letter.B)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb7._native.native_decide.ax_1_2
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.N,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb6 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb7 ShannonBounds.Letter.N)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb7._native.native_decide.ax_1_3
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.A,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb6 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb7 ShannonBounds.Letter.A)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb7._native.native_decide.ax_1_4
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.D,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb6 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb7 ShannonBounds.Letter.D)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb7._native.native_decide.ax_1_5
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.O,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb6 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb7 ShannonBounds.Letter.O)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb7._native.native_decide.ax_1_6
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.H,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb6 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb7 ShannonBounds.Letter.H)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb7._native.native_decide.ax_1_7
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.V,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb6 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb7 ShannonBounds.Letter.V)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb8._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.B,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb7 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb8 ShannonBounds.Letter.B)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb8._native.native_decide.ax_1_2
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.N,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb7 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb8 ShannonBounds.Letter.N)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb8._native.native_decide.ax_1_3
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.A,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb7 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb8 ShannonBounds.Letter.A)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb8._native.native_decide.ax_1_4
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.D,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb7 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb8 ShannonBounds.Letter.D)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb8._native.native_decide.ax_1_5
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.O,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb7 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb8 ShannonBounds.Letter.O)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb8._native.native_decide.ax_1_6
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.H,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb7 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb8 ShannonBounds.Letter.H)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb8._native.native_decide.ax_1_7
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.V,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb7 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb8 ShannonBounds.Letter.V)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb9._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.B,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb8 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb9 ShannonBounds.Letter.B)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb9._native.native_decide.ax_1_2
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.N,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb8 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb9 ShannonBounds.Letter.N)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb9._native.native_decide.ax_1_3
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.A,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb8 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb9 ShannonBounds.Letter.A)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb9._native.native_decide.ax_1_4
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.D,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb8 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb9 ShannonBounds.Letter.D)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb9._native.native_decide.ax_1_5
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.O,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb8 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb9 ShannonBounds.Letter.O)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb9._native.native_decide.ax_1_6
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.H,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb8 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb9 ShannonBounds.Letter.H)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepb9._native.native_decide.ax_1_7
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.V,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wb8 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wb9 ShannonBounds.Letter.V)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepg3._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Gg ShannonBounds.Letter.B,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.w0 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+          (ShannonBounds.CertC11.w0 (x 2)))
+      (ShannonBounds.CertC11.wg3 ShannonBounds.Letter.B)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepg3._native.native_decide.ax_1_2
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Gg ShannonBounds.Letter.N,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.w0 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+          (ShannonBounds.CertC11.w0 (x 2)))
+      (ShannonBounds.CertC11.wg3 ShannonBounds.Letter.N)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepg3._native.native_decide.ax_1_3
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Gg ShannonBounds.Letter.A,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.w0 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+          (ShannonBounds.CertC11.w0 (x 2)))
+      (ShannonBounds.CertC11.wg3 ShannonBounds.Letter.A)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepg3._native.native_decide.ax_1_4
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Gg ShannonBounds.Letter.D,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.w0 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+          (ShannonBounds.CertC11.w0 (x 2)))
+      (ShannonBounds.CertC11.wg3 ShannonBounds.Letter.D)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepg3._native.native_decide.ax_1_5
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Gg ShannonBounds.Letter.O,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.w0 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+          (ShannonBounds.CertC11.w0 (x 2)))
+      (ShannonBounds.CertC11.wg3 ShannonBounds.Letter.O)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepg3._native.native_decide.ax_1_6
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Gg ShannonBounds.Letter.H,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.w0 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+          (ShannonBounds.CertC11.w0 (x 2)))
+      (ShannonBounds.CertC11.wg3 ShannonBounds.Letter.H)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepg3._native.native_decide.ax_1_7
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Gg ShannonBounds.Letter.V,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.w0 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+          (ShannonBounds.CertC11.w0 (x 2)))
+      (ShannonBounds.CertC11.wg3 ShannonBounds.Letter.V)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph4._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.B,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wg3 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh4 ShannonBounds.Letter.B)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph4._native.native_decide.ax_1_2
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.N,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wg3 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh4 ShannonBounds.Letter.N)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph4._native.native_decide.ax_1_3
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.A,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wg3 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh4 ShannonBounds.Letter.A)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph4._native.native_decide.ax_1_4
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.D,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wg3 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh4 ShannonBounds.Letter.D)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph4._native.native_decide.ax_1_5
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.O,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wg3 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh4 ShannonBounds.Letter.O)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph4._native.native_decide.ax_1_6
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.H,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wg3 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh4 ShannonBounds.Letter.H)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph4._native.native_decide.ax_1_7
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.V,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wg3 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh4 ShannonBounds.Letter.V)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph5._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.B,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh4 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh5 ShannonBounds.Letter.B)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph5._native.native_decide.ax_1_2
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.N,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh4 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh5 ShannonBounds.Letter.N)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph5._native.native_decide.ax_1_3
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.A,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh4 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh5 ShannonBounds.Letter.A)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph5._native.native_decide.ax_1_4
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.D,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh4 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh5 ShannonBounds.Letter.D)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph5._native.native_decide.ax_1_5
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.O,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh4 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh5 ShannonBounds.Letter.O)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph5._native.native_decide.ax_1_6
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.H,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh4 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh5 ShannonBounds.Letter.H)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph5._native.native_decide.ax_1_7
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.V,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh4 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh5 ShannonBounds.Letter.V)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph6._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.B,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh5 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh6 ShannonBounds.Letter.B)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph6._native.native_decide.ax_1_2
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.N,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh5 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh6 ShannonBounds.Letter.N)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph6._native.native_decide.ax_1_3
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.A,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh5 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh6 ShannonBounds.Letter.A)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph6._native.native_decide.ax_1_4
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.D,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh5 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh6 ShannonBounds.Letter.D)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph6._native.native_decide.ax_1_5
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.O,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh5 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh6 ShannonBounds.Letter.O)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph6._native.native_decide.ax_1_6
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.H,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh5 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh6 ShannonBounds.Letter.H)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph6._native.native_decide.ax_1_7
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.V,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh5 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh6 ShannonBounds.Letter.V)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph7._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.B,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh6 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh7 ShannonBounds.Letter.B)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph7._native.native_decide.ax_1_2
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.N,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh6 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh7 ShannonBounds.Letter.N)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph7._native.native_decide.ax_1_3
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.A,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh6 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh7 ShannonBounds.Letter.A)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph7._native.native_decide.ax_1_4
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.D,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh6 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh7 ShannonBounds.Letter.D)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph7._native.native_decide.ax_1_5
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.O,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh6 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh7 ShannonBounds.Letter.O)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph7._native.native_decide.ax_1_6
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.H,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh6 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh7 ShannonBounds.Letter.H)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph7._native.native_decide.ax_1_7
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.V,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh6 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh7 ShannonBounds.Letter.V)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph8._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.B,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh7 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh8 ShannonBounds.Letter.B)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph8._native.native_decide.ax_1_2
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.N,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh7 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh8 ShannonBounds.Letter.N)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph8._native.native_decide.ax_1_3
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.A,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh7 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh8 ShannonBounds.Letter.A)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph8._native.native_decide.ax_1_4
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.D,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh7 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh8 ShannonBounds.Letter.D)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph8._native.native_decide.ax_1_5
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.O,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh7 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh8 ShannonBounds.Letter.O)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph8._native.native_decide.ax_1_6
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.H,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh7 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh8 ShannonBounds.Letter.H)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph8._native.native_decide.ax_1_7
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.V,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh7 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh8 ShannonBounds.Letter.V)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph9._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.B,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh8 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh9 ShannonBounds.Letter.B)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph9._native.native_decide.ax_1_2
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.N,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh8 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh9 ShannonBounds.Letter.N)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph9._native.native_decide.ax_1_3
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.A,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh8 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh9 ShannonBounds.Letter.A)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph9._native.native_decide.ax_1_4
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.D,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh8 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh9 ShannonBounds.Letter.D)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph9._native.native_decide.ax_1_5
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.O,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh8 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh9 ShannonBounds.Letter.O)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph9._native.native_decide.ax_1_6
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.H,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh8 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh9 ShannonBounds.Letter.H)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.steph9._native.native_decide.ax_1_7
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Hh ShannonBounds.Letter.V,
+        HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh8 (x 0)) (ShannonBounds.CertC11.w0 (x 1)))
+      (ShannonBounds.CertC11.wh9 ShannonBounds.Letter.V)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepp11._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Gg ShannonBounds.Letter.B,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wg3 (x 0)) (ShannonBounds.CertC11.wh6 (x 1)))
+          (ShannonBounds.CertC11.wb2 (x 2)))
+      (ShannonBounds.CertC11.wp11 ShannonBounds.Letter.B)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepp11._native.native_decide.ax_1_2
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Gg ShannonBounds.Letter.N,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wg3 (x 0)) (ShannonBounds.CertC11.wh6 (x 1)))
+          (ShannonBounds.CertC11.wb2 (x 2)))
+      (ShannonBounds.CertC11.wp11 ShannonBounds.Letter.N)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepp11._native.native_decide.ax_1_3
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Gg ShannonBounds.Letter.A,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wg3 (x 0)) (ShannonBounds.CertC11.wh6 (x 1)))
+          (ShannonBounds.CertC11.wb2 (x 2)))
+      (ShannonBounds.CertC11.wp11 ShannonBounds.Letter.A)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepp11._native.native_decide.ax_1_4
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Gg ShannonBounds.Letter.D,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wg3 (x 0)) (ShannonBounds.CertC11.wh6 (x 1)))
+          (ShannonBounds.CertC11.wb2 (x 2)))
+      (ShannonBounds.CertC11.wp11 ShannonBounds.Letter.D)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepp11._native.native_decide.ax_1_5
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Gg ShannonBounds.Letter.O,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wg3 (x 0)) (ShannonBounds.CertC11.wh6 (x 1)))
+          (ShannonBounds.CertC11.wb2 (x 2)))
+      (ShannonBounds.CertC11.wp11 ShannonBounds.Letter.O)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepp11._native.native_decide.ax_1_6
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Gg ShannonBounds.Letter.H,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wg3 (x 0)) (ShannonBounds.CertC11.wh6 (x 1)))
+          (ShannonBounds.CertC11.wb2 (x 2)))
+      (ShannonBounds.CertC11.wp11 ShannonBounds.Letter.H)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepp11._native.native_decide.ax_1_7
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Gg ShannonBounds.Letter.V,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wg3 (x 0)) (ShannonBounds.CertC11.wh6 (x 1)))
+          (ShannonBounds.CertC11.wb2 (x 2)))
+      (ShannonBounds.CertC11.wp11 ShannonBounds.Letter.V)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepx29._native.native_decide.ax_1_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Gg ShannonBounds.Letter.B,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh6 (x 0)) (ShannonBounds.CertC11.wb12 (x 1)))
+          (ShannonBounds.CertC11.wp11 (x 2)))
+      (ShannonBounds.CertC11.wx29 ShannonBounds.Letter.B)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepx29._native.native_decide.ax_1_2
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Gg ShannonBounds.Letter.N,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh6 (x 0)) (ShannonBounds.CertC11.wb12 (x 1)))
+          (ShannonBounds.CertC11.wp11 (x 2)))
+      (ShannonBounds.CertC11.wx29 ShannonBounds.Letter.N)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepx29._native.native_decide.ax_1_3
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Gg ShannonBounds.Letter.A,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh6 (x 0)) (ShannonBounds.CertC11.wb12 (x 1)))
+          (ShannonBounds.CertC11.wp11 (x 2)))
+      (ShannonBounds.CertC11.wx29 ShannonBounds.Letter.A)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepx29._native.native_decide.ax_1_4
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Gg ShannonBounds.Letter.D,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh6 (x 0)) (ShannonBounds.CertC11.wb12 (x 1)))
+          (ShannonBounds.CertC11.wp11 (x 2)))
+      (ShannonBounds.CertC11.wx29 ShannonBounds.Letter.D)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepx29._native.native_decide.ax_1_5
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Gg ShannonBounds.Letter.O,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh6 (x 0)) (ShannonBounds.CertC11.wb12 (x 1)))
+          (ShannonBounds.CertC11.wp11 (x 2)))
+      (ShannonBounds.CertC11.wx29 ShannonBounds.Letter.O)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepx29._native.native_decide.ax_1_6
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Gg ShannonBounds.Letter.H,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh6 (x 0)) (ShannonBounds.CertC11.wb12 (x 1)))
+          (ShannonBounds.CertC11.wp11 (x 2)))
+      (ShannonBounds.CertC11.wx29 ShannonBounds.Letter.H)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.CertC11.stepx29._native.native_decide.ax_1_7
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (Eq.{1}
+      (∑ x ∈ ShannonBounds.Subst.T.{0} ShannonBounds.CertC11.Gg ShannonBounds.Letter.V,
+        HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} (ShannonBounds.CertC11.wh6 (x 0)) (ShannonBounds.CertC11.wb12 (x 1)))
+          (ShannonBounds.CertC11.wp11 (x 2)))
+      (ShannonBounds.CertC11.wx29 ShannonBounds.Letter.V)))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.Substitutions.S2b._native.native_decide.ax_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (∀ (a : ShannonBounds.Letter) (x : Fin 2 → ShannonBounds.Letter),
+      Membership.mem.{0, 0} (ShannonBounds.Substitutions.T2b a) x →
+        ∀ (y : Fin 2 → ShannonBounds.Letter),
+          Membership.mem.{0, 0} (ShannonBounds.Substitutions.T2b a) y →
+            Ne.{1} x y → ∃ i, Eq.{1} ((x i).sep (y i)) Bool.true))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.Substitutions.S2b._native.native_decide.ax_2
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (∀ (a b : ShannonBounds.Letter),
+      Eq.{1} (a.sep b) Bool.true →
+        ∀ (x : Fin 2 → ShannonBounds.Letter),
+          Membership.mem.{0, 0} (ShannonBounds.Substitutions.T2b a) x →
+            ∀ (y : Fin 2 → ShannonBounds.Letter),
+              Membership.mem.{0, 0} (ShannonBounds.Substitutions.T2b b) y → ∃ i, Eq.{1} ((x i).sep (y i)) Bool.true))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.Substitutions.S3c._native.native_decide.ax_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (∀ (a : ShannonBounds.Letter) (x : Fin 3 → ShannonBounds.Letter),
+      Membership.mem.{0, 0} (ShannonBounds.Substitutions.T3c a) x →
+        ∀ (y : Fin 3 → ShannonBounds.Letter),
+          Membership.mem.{0, 0} (ShannonBounds.Substitutions.T3c a) y →
+            Ne.{1} x y → ∃ i, Eq.{1} ((x i).sep (y i)) Bool.true))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.Substitutions.S3c._native.native_decide.ax_2
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (∀ (a b : ShannonBounds.Letter),
+      Eq.{1} (a.sep b) Bool.true →
+        ∀ (x : Fin 3 → ShannonBounds.Letter),
+          Membership.mem.{0, 0} (ShannonBounds.Substitutions.T3c a) x →
+            ∀ (y : Fin 3 → ShannonBounds.Letter),
+              Membership.mem.{0, 0} (ShannonBounds.Substitutions.T3c b) y → ∃ i, Eq.{1} ((x i).sep (y i)) Bool.true))
+  Bool.true
+NATIVE_BOOL_AXIOM_CHECKED: ShannonBounds.TerminalCodes.K3a._native.native_decide.ax_1
+NATIVE_BOOL_AXIOM_TYPE: Eq.{1}
+  (Decidable.decide
+    (∀ (x : Fin 3 → ShannonBounds.Letter),
+      Membership.mem.{0, 0} ShannonBounds.TerminalCodes.C3a x →
+        ∀ (y : Fin 3 → ShannonBounds.Letter),
+          Membership.mem.{0, 0} ShannonBounds.TerminalCodes.C3a y →
+            Ne.{1} x y → ∃ i, Eq.{1} ((x i).sep (y i)) Bool.true))
+  Bool.true

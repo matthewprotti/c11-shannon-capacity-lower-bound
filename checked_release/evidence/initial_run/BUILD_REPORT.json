@@ -1,0 +1,181 @@
+{
+  "schema": "C11_LEAN_GATE_RUN_V1",
+  "status": "NOT_COMPLETED",
+  "source_commit": "aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65",
+  "commands": [
+    {
+      "label": "01_r1_replay",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "-B",
+        "VERIFY_PACKAGE.py"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 2.2376197499688715,
+      "log": "logs/01_r1_replay.log",
+      "sha256": "0c839bc37e72972319ec83ef3d2b6e53c174d1a9a2ac205ef55e63c912ced064"
+    },
+    {
+      "label": "02_git_init",
+      "command": [
+        "git",
+        "init"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.07501662499271333,
+      "log": "logs/02_git_init.log",
+      "sha256": "abd19e69b06c684937cdea6033ae340b4b71d69f7cc41af3d09096aa01340436"
+    },
+    {
+      "label": "03_set_origin",
+      "command": [
+        "git",
+        "remote",
+        "add",
+        "origin",
+        "https://github.com/spectra-research/shannon-capacity-lean.git"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.04098737519234419,
+      "log": "logs/03_set_origin.log",
+      "sha256": "408891385b99ccfed16376ccf4147a889b6a07de2d372a9f91373897c0aacca8"
+    },
+    {
+      "label": "04_fetch_pin",
+      "command": [
+        "git",
+        "fetch",
+        "--depth=1",
+        "origin",
+        "aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 1.2115606248844415,
+      "log": "logs/04_fetch_pin.log",
+      "sha256": "02336106983d10069ca83310c703ff2932ffa1aa91784283eb16f66c77a1de87"
+    },
+    {
+      "label": "05_checkout_pin",
+      "command": [
+        "git",
+        "checkout",
+        "--detach",
+        "aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.0748109167907387,
+      "log": "logs/05_checkout_pin.log",
+      "sha256": "a3fc1bf0aef5c8b10855eb461449199d6718a2d7e68abfd1483bc5d6500b8336"
+    },
+    {
+      "label": "06_head",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.02061258303001523,
+      "log": "logs/06_head.log",
+      "sha256": "9be104d9fae2e8eee65a07d2f95d8d84c5a169697b6dd3b0d236502dff7924c1"
+    },
+    {
+      "label": "07_pristine_source",
+      "command": [
+        "git",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.03893520915880799,
+      "log": "logs/07_pristine_source.log",
+      "sha256": "fa392478538ba56e66953d343327c7b9264607de366a21925e65af69babb40a9"
+    },
+    {
+      "label": "08_lean_version",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--version"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 59.436641209060326,
+      "log": "logs/08_lean_version.log",
+      "sha256": "05dc5deb1b30659f63a839cfc5c1d00a3c15b64dbd52a1f6fd5184b4e77c8d0f"
+    },
+    {
+      "label": "09_pinned_mathlib_cache",
+      "command": [
+        "lake",
+        "exe",
+        "cache",
+        "get"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 60.79298195801675,
+      "log": "logs/09_pinned_mathlib_cache.log",
+      "sha256": "c8fab3a25d9c74ca1194b17b91f16e4fd8064cb0f55005bb07c30fc2abee8ea3"
+    },
+    {
+      "label": "10_baseline_build",
+      "command": [
+        "lake",
+        "--rehash",
+        "--no-ansi",
+        "build",
+        "ShannonBounds.CapCertC11"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 82.89974662498571,
+      "log": "logs/10_baseline_build.log",
+      "sha256": "7fe44eaae44398ecd3ce248603daa9edd690e37efb5ab164874a25b1334440e3"
+    },
+    {
+      "label": "11_candidate_build",
+      "command": [
+        "lake",
+        "--rehash",
+        "--no-ansi",
+        "build",
+        "ShannonBounds.C11AuxiliaryTrade"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 12.427769250003621,
+      "log": "logs/11_candidate_build.log",
+      "sha256": "4c24575c78232d0ab7c66df5ccd8704c237e97c844841940d5308239b08f0d39"
+    },
+    {
+      "label": "12_scope_and_axioms",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        "C11_AxiomAudit.olean",
+        "C11_AxiomAudit.lean"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 3.332161416998133,
+      "log": "logs/12_scope_and_axioms.log",
+      "sha256": "f62f7682c138ac672648d0b430f0b0525fe7b33bf57756947775c27f475534b9"
+    }
+  ],
+  "axioms": null,
+  "local_lean_compilation_completed": false,
+  "negative_compile_controls": [],
+  "source_package": "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/source_r2/C11_Lean_Integration_Source_R2_2026-09-08",
+  "work_directory": "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/01_initial",
+  "failure": "unapproved axioms for ShannonBounds.C11AuxiliaryTrade.T3mix_eq_row_hybrid: ['propext', 'Classical.choice.{u}', 'Quot.sound.{u}', 'C11AuxiliaryTrade.T3mix_eq_row_hybrid._native.native_decide.ax_1_1', 'C11AuxiliaryTrade.T3mix_eq_row_hybrid._native.native_decide.ax_1_2', 'C11AuxiliaryTrade.T3mix_eq_row_hybrid._native.native_decide.ax_1_3', 'C11AuxiliaryTrade.T3mix_eq_row_hybrid._native.native_decide.ax_1_4', 'C11AuxiliaryTrade.T3mix_eq_row_hybrid._native.native_decide.ax_1_5', 'C11AuxiliaryTrade.T3mix_eq_row_hybrid._native.native_decide.ax_1_6', 'C11AuxiliaryTrade.T3mix_eq_row_hybrid._native.native_decide.ax_1_7']",
+  "source_checks": {
+    "status": "PASS_SOURCE_AND_FROZEN_DATA_CHECKS_ONLY",
+    "lean_build": "NOT_COMPLETED",
+    "typechecking_or_axiom_audit_executed": false,
+    "manifest_files_checked": 28,
+    "dimension": 207,
+    "N1": "705692619930489413584189552943991443716392885026759451863953624242911159057444856108323516589876967077721069272782760798453832061060020786354479288616",
+    "candidate_table_words": 47,
+    "note": "Static checks and Python arithmetic do not establish Lean elaboration or kernel acceptance."
+  },
+  "lean_version_output": "$ lake env lean --version\ninfo: mathlib: cloning https://github.com/leanprover-community/mathlib4.git\ninfo: mathlib: checking out revision '905b95818eb32af7874a58b427f50c1711a5e96c'\ninfo: plausible: cloning https://github.com/leanprover-community/plausible\ninfo: plausible: checking out revision 'e12c1910fe855cbfc38803cd4e55543906d5fa62'\ninfo: LeanSearchClient: cloning https://github.com/leanprover-community/LeanSearchClient\ninfo: LeanSearchClient: checking out revision 'c5d5b8fe6e5158def25cd28eb94e4141ad97c843'\ninfo: importGraph: cloning https://github.com/leanprover-community/import-graph\ninfo: importGraph: checking out revision '7e9612bf0b9ee66db3cb5b9988a35afc706f5a12'\ninfo: proofwidgets: cloning https://github.com/leanprover-community/ProofWidgets4\ninfo: proofwidgets: checking out revision '6e311e2a844da9b2cc3971187df2fe0066947b93'\ninfo: aesop: cloning https://github.com/leanprover-community/aesop\ninfo: aesop: checking out revision 'a7dbf0c63b694e47f425f3dcddbc0e178bb432d3'\ninfo: Qq: cloning https://github.com/leanprover-community/quote4\ninfo: Qq: checking out revision '38d591e778f100aec9762bb582f9c7f55f50e9dc'\ninfo: batteries: cloning https://github.com/leanprover-community/batteries\ninfo: batteries: checking out revision '023ce7d62a0531e22a5331e20b587817a80d49ff'\ninfo: Cli: cloning https://github.com/leanprover/lean4-cli\ninfo: Cli: checking out revision '88679d088c9720c27ebdf2ba4dafe17341747f94'\nLean (version 4.32.2, arm64-apple-darwin24.6.0, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)\n"
+}
