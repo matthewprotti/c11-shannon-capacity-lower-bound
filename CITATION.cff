@@ -6,7 +6,7 @@ authors:
   - family-names: "Protti"
     given-names: "Matthew"
 date-released: 2026-09-08
-version: "v0.1.0"
+version: "v0.2.0"
 license: Apache-2.0
 repository-code: "https://github.com/matthewprotti/c11-shannon-capacity-lower-bound"
-abstract: "An explicit independent set in the 207th strong power of C11 gives a Shannon capacity lower bound of 5.295492477500681, strictly improving the full pinned BPZ certificate. AI co-developed with OpenAI's Astra 6 Pro and Codex GPT-6 Astra Extra-High. Lean checked with disclosed native-evaluation trust."
+abstract: "Explicit independent sets in strong powers of C11 give lower bounds 5.295498140339058 in dimension 186, 5.295509919114478 in dimension 198, and 5.295514953483263 in dimension 213. Each strictly improves the full frozen BPZ, R3, and R4 constructed roots. AI co-developed with OpenAI's Astra 6 Pro and Codex GPT-6 Astra Extra-High. Lean checked with disclosed native-evaluation trust."

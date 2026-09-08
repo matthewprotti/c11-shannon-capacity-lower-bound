@@ -7,4 +7,6 @@
 
 BPZ's source attributes the 148-word C11 base construction to Baumert, McEliece, Rodemich, Rumsey, Stanley, and Taylor (1971); the present work reuses the pinned base data and formal proofs.
 
-The new claim is a strict numerical improvement for C11 through a particular row hybrid. No optimality, exact Shannon-capacity determination, new general product theorem, independent expert endorsement, or exhaustive priority clearance is claimed. A dated public-source search supports the qualified statement that no equal or stronger public C11 lower bound was located as of 8 September 2026.
+The original R3 claim is a strict numerical improvement through a particular row hybrid. The R5 update supplies three stronger finite recursive assemblies with new literal substitution and terminal tables. Their exact comparisons use the full frozen BPZ, R3, R4-201, and R4-210 integers.
+
+No optimality, minimum dimension, exact Shannon-capacity determination, new general product theorem, independent expert endorsement, or exhaustive priority clearance is claimed. The earlier dated public-source search concerned R3; the R5 formalization did not repeat that search. The preserved R5 construction note and search ledger describe the scope and provenance of the new finite assemblies.

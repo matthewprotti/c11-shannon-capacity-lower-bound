@@ -1,0 +1,392 @@
+{
+  "schema": "C11_RECURSIVE_SEARCH_CERTIFICATE_V1",
+  "source_commit": "aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65",
+  "parent_r3_sha256": "9ac3006b54d5c449db357819d88ea507b66778923c61c54623d72d905517a357",
+  "frozen_input_sha256": "bc3f401480f2b9a878ad24faa1d98c1ad848755a0537ceff0043f12f67bf7c26",
+  "tables": {
+    "660b0244997e1b9c": {
+      "B": [
+        "AAH",
+        "ADV",
+        "AHD",
+        "ANH",
+        "BBB",
+        "BVA",
+        "DBV",
+        "HAD",
+        "HDN",
+        "HHA",
+        "HHH",
+        "NHD",
+        "VAA",
+        "VAN"
+      ],
+      "N": [
+        "AAV",
+        "ABD",
+        "ADA",
+        "BHD",
+        "DHV",
+        "HAV",
+        "HDB",
+        "NNN",
+        "VHH"
+      ],
+      "A": [
+        "ABN",
+        "BNA",
+        "DAB",
+        "DNH",
+        "NAB",
+        "NDA",
+        "NVV",
+        "VNV",
+        "VVB"
+      ],
+      "D": [
+        "DNN",
+        "NDN",
+        "NND"
+      ],
+      "O": [],
+      "H": [
+        "BHN",
+        "HNB",
+        "NBH"
+      ],
+      "V": [
+        "AHN",
+        "DVN",
+        "HND",
+        "NAH",
+        "NDV",
+        "NNV",
+        "NVN",
+        "VNA",
+        "VNN"
+      ]
+    },
+    "736066bd2f9d64da": {
+      "B": [
+        "AAV",
+        "ADH",
+        "ANH",
+        "AVD",
+        "BBB",
+        "BHA",
+        "DBV",
+        "HAN",
+        "HDD",
+        "HVA",
+        "HVH",
+        "NVD",
+        "VDA",
+        "VDN"
+      ],
+      "N": [
+        "AAA",
+        "ABD",
+        "ADV",
+        "BVD",
+        "DVV",
+        "HAB",
+        "HDV",
+        "NNN",
+        "VVH"
+      ],
+      "A": [
+        "ABN",
+        "BNA",
+        "DDB",
+        "DNH",
+        "NAA",
+        "NDB",
+        "NHV",
+        "VHB",
+        "VNV"
+      ],
+      "D": [
+        "DNN",
+        "NAN",
+        "NND"
+      ],
+      "O": [],
+      "H": [
+        "BVN",
+        "HNB",
+        "NBH"
+      ],
+      "V": [
+        "AVN",
+        "DHN",
+        "HND",
+        "NAV",
+        "NDH",
+        "NHN",
+        "NNV",
+        "VNA",
+        "VNN"
+      ]
+    },
+    "B_singleton": [
+      "B"
+    ],
+    "d69d77dbd205519b": {
+      "B": [
+        "AAH",
+        "ADV",
+        "AHD",
+        "ANH",
+        "BBB",
+        "BVA",
+        "DBV",
+        "HAD",
+        "HDN",
+        "HHA",
+        "HHH",
+        "NHD",
+        "VAA",
+        "VAN"
+      ],
+      "N": [
+        "AAV",
+        "ABD",
+        "ADA",
+        "BHD",
+        "DHV",
+        "HAV",
+        "HDB",
+        "NNN",
+        "VHH"
+      ],
+      "A": [
+        "DNN",
+        "NDN",
+        "NND"
+      ],
+      "D": [
+        "ABN",
+        "BNA",
+        "DAB",
+        "DNH",
+        "NAB",
+        "NDA",
+        "NVV",
+        "VNV",
+        "VVB"
+      ],
+      "O": [],
+      "H": [
+        "AHN",
+        "DVN",
+        "HND",
+        "NAH",
+        "NDV",
+        "NNV",
+        "NVN",
+        "VNA",
+        "VNN"
+      ],
+      "V": [
+        "BHN",
+        "HNB",
+        "NBH"
+      ]
+    },
+    "e788020168e26abb": {
+      "B": [
+        "AV",
+        "BB",
+        "DH"
+      ],
+      "N": [
+        "AA",
+        "NN"
+      ],
+      "A": [
+        "AN",
+        "BD",
+        "DV",
+        "VH"
+      ],
+      "D": [
+        "DN",
+        "NA"
+      ],
+      "O": [],
+      "H": [
+        "HB",
+        "NV"
+      ],
+      "V": [
+        "HA",
+        "NH",
+        "VD",
+        "VN"
+      ]
+    },
+    "eb8c8e1991916b40": {
+      "B": [
+        "AH",
+        "BB",
+        "DV"
+      ],
+      "N": [
+        "AD",
+        "NN"
+      ],
+      "A": [
+        "AN",
+        "BA",
+        "DH",
+        "VV"
+      ],
+      "D": [
+        "DN",
+        "ND"
+      ],
+      "O": [],
+      "H": [
+        "HB",
+        "NH"
+      ],
+      "V": [
+        "HD",
+        "NV",
+        "VA",
+        "VN"
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "name": "v",
+      "kind": "base"
+    },
+    {
+      "name": "n1",
+      "kind": "e788020168e26abb",
+      "children": [
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n2",
+      "kind": "eb8c8e1991916b40",
+      "children": [
+        "v",
+        "n1"
+      ]
+    },
+    {
+      "name": "n3",
+      "kind": "eb8c8e1991916b40",
+      "children": [
+        "v",
+        "n2"
+      ]
+    },
+    {
+      "name": "n4",
+      "kind": "eb8c8e1991916b40",
+      "children": [
+        "v",
+        "n3"
+      ]
+    },
+    {
+      "name": "n5",
+      "kind": "eb8c8e1991916b40",
+      "children": [
+        "v",
+        "n4"
+      ]
+    },
+    {
+      "name": "n6",
+      "kind": "eb8c8e1991916b40",
+      "children": [
+        "v",
+        "n5"
+      ]
+    },
+    {
+      "name": "n7",
+      "kind": "eb8c8e1991916b40",
+      "children": [
+        "v",
+        "n6"
+      ]
+    },
+    {
+      "name": "n8",
+      "kind": "eb8c8e1991916b40",
+      "children": [
+        "v",
+        "n7"
+      ]
+    },
+    {
+      "name": "n9",
+      "kind": "eb8c8e1991916b40",
+      "children": [
+        "v",
+        "n8"
+      ]
+    },
+    {
+      "name": "n10",
+      "kind": "eb8c8e1991916b40",
+      "children": [
+        "v",
+        "n9"
+      ]
+    },
+    {
+      "name": "n11",
+      "kind": "660b0244997e1b9c",
+      "children": [
+        "v",
+        "v",
+        "n10"
+      ]
+    },
+    {
+      "name": "n12",
+      "kind": "736066bd2f9d64da",
+      "children": [
+        "v",
+        "v",
+        "n11"
+      ]
+    },
+    {
+      "name": "n13",
+      "kind": "d69d77dbd205519b",
+      "children": [
+        "v",
+        "v",
+        "n12"
+      ]
+    },
+    {
+      "name": "out",
+      "kind": "B_singleton",
+      "children": [
+        "n13"
+      ]
+    }
+  ],
+  "root": "out",
+  "dimension": 51,
+  "N": "6165083577245722566874934626475974297",
+  "target_N": "705692619930489413584189552943991443716392885026759451863953624242911159057444856108323516589876967077721069272782760798453832061060020786354479288616",
+  "target_dimension": 207,
+  "beats_R3": false,
+  "decimal_approximation": 5.264672404977839,
+  "metadata": {
+    "profile_only": true
+  },
+  "status": "FINITE_EXACT_CANDIDATE_NOT_LEAN_CHECKED"
+}

@@ -1,0 +1,1120 @@
+{
+  "schema": "C11_RECURSIVE_SEARCH_CERTIFICATE_V1",
+  "source_commit": "aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65",
+  "parent_r3_sha256": "9ac3006b54d5c449db357819d88ea507b66778923c61c54623d72d905517a357",
+  "frozen_input_sha256": "bc3f401480f2b9a878ad24faa1d98c1ad848755a0537ceff0043f12f67bf7c26",
+  "tables": {
+    "04339297651c9c49": {
+      "B": [
+        "AAH",
+        "AHA",
+        "AHN",
+        "BBB",
+        "DAV",
+        "DHH",
+        "DVB",
+        "HBD",
+        "HDA",
+        "NAV",
+        "NDH",
+        "VAA",
+        "VHH",
+        "VNA"
+      ],
+      "N": [
+        "ABA",
+        "AHB",
+        "BDH",
+        "DAD",
+        "DDA",
+        "HAA",
+        "HHD",
+        "NNN",
+        "VAH",
+        "VHV"
+      ],
+      "A": [
+        "BAN",
+        "BVV",
+        "DDN",
+        "DNB",
+        "HNV",
+        "HVN",
+        "NAD",
+        "NBA",
+        "VND"
+      ],
+      "D": [
+        "ANN",
+        "NDN",
+        "NND"
+      ],
+      "O": [],
+      "H": [
+        "BNH",
+        "NHB",
+        "VBN"
+      ],
+      "V": [
+        "ANH",
+        "DNV",
+        "HDN",
+        "HNN",
+        "NHA",
+        "NNV",
+        "NVD",
+        "NVN",
+        "VAN"
+      ]
+    },
+    "18277b0c484b4c41": {
+      "B": [
+        "AAH",
+        "AHD",
+        "AVA",
+        "AVN",
+        "BBB",
+        "BDV",
+        "DHB",
+        "HAA",
+        "HDH",
+        "HND",
+        "HVH",
+        "NAH",
+        "VDA",
+        "VNA"
+      ],
+      "N": [
+        "AAB",
+        "ADD",
+        "AHA",
+        "BAH",
+        "DDA",
+        "DHH",
+        "HBD",
+        "HVA",
+        "NNN",
+        "VVH"
+      ],
+      "A": [
+        "ANB",
+        "BDN",
+        "DNA",
+        "DVN",
+        "NBA",
+        "NDD",
+        "NHV",
+        "VBV",
+        "VHN"
+      ],
+      "D": [
+        "DNN",
+        "NAN",
+        "NND"
+      ],
+      "O": [],
+      "H": [
+        "BNH",
+        "HBN",
+        "NVB"
+      ],
+      "V": [
+        "ANH",
+        "DNV",
+        "HAN",
+        "NHD",
+        "NHN",
+        "NNV",
+        "NVA",
+        "VDN",
+        "VNN"
+      ]
+    },
+    "31d500a381a04d9a": {
+      "B": [
+        "ABV",
+        "AHH",
+        "AVA",
+        "BBB",
+        "DBH",
+        "DHA",
+        "DVD",
+        "HAA",
+        "HAN",
+        "NHD",
+        "NVA",
+        "VAD",
+        "VDB"
+      ],
+      "N": [
+        "AAD",
+        "ADA",
+        "BHD",
+        "DAB",
+        "DBH",
+        "HHA",
+        "HVH",
+        "NNN",
+        "VAA",
+        "VDH"
+      ],
+      "A": [
+        "ABN",
+        "AND",
+        "BNA",
+        "BVV",
+        "HDN",
+        "NAB",
+        "NDA",
+        "VNV",
+        "VVN"
+      ],
+      "D": [
+        "DNN",
+        "NDN",
+        "NND"
+      ],
+      "O": [],
+      "H": [
+        "BHN",
+        "HNB",
+        "NBH"
+      ],
+      "V": [
+        "AVN",
+        "DHN",
+        "HNA",
+        "NAH",
+        "NDV",
+        "NNV",
+        "NVN",
+        "VND",
+        "VNN"
+      ]
+    },
+    "36518f191584a644": {
+      "B": [
+        "AAV",
+        "AHD",
+        "ANV",
+        "BBB",
+        "DBH",
+        "DHV",
+        "DVD",
+        "HAA",
+        "HDB",
+        "NHA",
+        "NVD",
+        "VAD",
+        "VAN",
+        "VHV"
+      ],
+      "N": [
+        "AAB",
+        "ABV",
+        "BHA",
+        "DAA",
+        "DDD",
+        "HAD",
+        "HDV",
+        "NNN",
+        "VHD",
+        "VVV"
+      ],
+      "A": [
+        "BND",
+        "BVH",
+        "DBN",
+        "DNA",
+        "HNH",
+        "HVN",
+        "NAB",
+        "NDD",
+        "VDN"
+      ],
+      "D": [
+        "ANN",
+        "NDN",
+        "NNA"
+      ],
+      "O": [],
+      "H": [
+        "BHN",
+        "NBV",
+        "VNB"
+      ],
+      "V": [
+        "AHN",
+        "DVN",
+        "HNA",
+        "HNN",
+        "NAV",
+        "NDH",
+        "NNH",
+        "NVN",
+        "VND"
+      ]
+    },
+    "3b145410351af05c": {
+      "B": [
+        "ABH",
+        "BBB",
+        "BVD",
+        "DAV",
+        "DDH",
+        "DHA",
+        "DNV",
+        "HAD",
+        "HAN",
+        "NHA",
+        "VAA",
+        "VDN",
+        "VHD",
+        "VHV"
+      ],
+      "N": [
+        "AAD",
+        "AHH",
+        "BHA",
+        "DAH",
+        "DBA",
+        "DDD",
+        "HHV",
+        "NNN",
+        "VAV",
+        "VDB"
+      ],
+      "A": [
+        "AAN",
+        "ANV",
+        "BND",
+        "DBN",
+        "HNH",
+        "HVB",
+        "NAB",
+        "NDD",
+        "NVH"
+      ],
+      "D": [
+        "ANN",
+        "NDN",
+        "NNA"
+      ],
+      "O": [],
+      "H": [
+        "BHN",
+        "NBV",
+        "VNB"
+      ],
+      "V": [
+        "AVN",
+        "DHN",
+        "HND",
+        "HNN",
+        "NAV",
+        "NDH",
+        "NNH",
+        "NVN",
+        "VNA"
+      ]
+    },
+    "3daf90758a80fbb9": {
+      "B": [
+        "AAV",
+        "ADH",
+        "ANH",
+        "AVD",
+        "BBB",
+        "BHA",
+        "DBV",
+        "HAN",
+        "HDD",
+        "HVA",
+        "HVH",
+        "NVD",
+        "VDA",
+        "VDN"
+      ],
+      "N": [
+        "AAA",
+        "ABD",
+        "ADV",
+        "BVD",
+        "DDA",
+        "DVV",
+        "HAB",
+        "HDH",
+        "NNN",
+        "VVH"
+      ],
+      "A": [
+        "ABN",
+        "BNA",
+        "DDN",
+        "DNH",
+        "NAA",
+        "NDB",
+        "NHV",
+        "VHB",
+        "VNV"
+      ],
+      "D": [
+        "DNN",
+        "NAN",
+        "NND"
+      ],
+      "O": [],
+      "H": [
+        "BVN",
+        "HNB",
+        "NBH"
+      ],
+      "V": [
+        "AVN",
+        "DHN",
+        "HND",
+        "NAV",
+        "NDH",
+        "NHN",
+        "NNV",
+        "VNA",
+        "VNN"
+      ]
+    },
+    "55932e91694d52ae": {
+      "B": [
+        "AAV",
+        "AHH",
+        "AVB",
+        "BBB",
+        "DAH",
+        "DHA",
+        "DHN",
+        "HAA",
+        "HHH",
+        "HNA",
+        "NAV",
+        "NDH",
+        "VBD",
+        "VDA"
+      ],
+      "N": [
+        "ADA",
+        "BDH",
+        "DBA",
+        "DHB",
+        "HHV",
+        "NNN",
+        "VAA",
+        "VAH",
+        "VHD"
+      ],
+      "A": [
+        "ADN",
+        "ANB",
+        "BAD",
+        "BAN",
+        "BVV",
+        "HND",
+        "NBA",
+        "VNV",
+        "VVN"
+      ],
+      "D": [
+        "DNN",
+        "NDN",
+        "NND"
+      ],
+      "O": [],
+      "H": [
+        "BNH",
+        "HBN",
+        "NHB"
+      ],
+      "V": [
+        "ANV",
+        "DNH",
+        "HAN",
+        "NHA",
+        "NNV",
+        "NVD",
+        "NVN",
+        "VDN",
+        "VNN"
+      ]
+    },
+    "6859b0ec25991d42": {
+      "A": [
+        "ABN",
+        "AND",
+        "BNA",
+        "BVV",
+        "HDN",
+        "NAB",
+        "NDA",
+        "VNV",
+        "VVN"
+      ],
+      "B": [
+        "ABV",
+        "AHH",
+        "AVA",
+        "BBB",
+        "DAH",
+        "DHA",
+        "DNH",
+        "HAA",
+        "HAN",
+        "HHH",
+        "NHD",
+        "NVA",
+        "VAD",
+        "VDB"
+      ],
+      "D": [
+        "DNN",
+        "NDN",
+        "NND"
+      ],
+      "H": [
+        "BHN",
+        "HNB",
+        "NBH"
+      ],
+      "N": [
+        "AAD",
+        "ADA",
+        "BHD",
+        "DAB",
+        "DBH",
+        "HHA",
+        "HVH",
+        "NNN",
+        "VAA",
+        "VDH"
+      ],
+      "O": [],
+      "V": [
+        "AVN",
+        "DHN",
+        "HNA",
+        "NAH",
+        "NDV",
+        "NNV",
+        "NVN",
+        "VND",
+        "VNN"
+      ]
+    },
+    "7b6c163f0dc4b608": {
+      "B": [
+        "ADH",
+        "AHA",
+        "AHN",
+        "AVD",
+        "BAV",
+        "BBB",
+        "DVB",
+        "HAH",
+        "HDA",
+        "HHH",
+        "HND",
+        "NDH",
+        "VAA",
+        "VNA"
+      ],
+      "N": [
+        "AAD",
+        "ADB",
+        "AVA",
+        "BDH",
+        "DAA",
+        "DVH",
+        "HBD",
+        "HHA",
+        "NNN",
+        "VHH"
+      ],
+      "A": [
+        "ANB",
+        "BAN",
+        "DHN",
+        "DNA",
+        "NAD",
+        "NBA",
+        "NVV",
+        "VBV",
+        "VVN"
+      ],
+      "D": [
+        "DNN",
+        "NDN",
+        "NND"
+      ],
+      "O": [],
+      "H": [
+        "BNH",
+        "HBN",
+        "NHB"
+      ],
+      "V": [
+        "ANH",
+        "DNV",
+        "HDN",
+        "NHA",
+        "NNV",
+        "NVD",
+        "NVN",
+        "VAN",
+        "VNN"
+      ]
+    },
+    "9e38b3099f09811f": {
+      "B": [
+        "AAH",
+        "AHD",
+        "AVA",
+        "AVN",
+        "BBB",
+        "BDV",
+        "DAV",
+        "DHN",
+        "HAD",
+        "HHA",
+        "HHH",
+        "HND",
+        "NAH",
+        "VBA"
+      ],
+      "N": [
+        "AAV",
+        "ADA",
+        "AHH",
+        "BAD",
+        "DAA",
+        "DHB",
+        "HBD",
+        "HDV",
+        "HVH",
+        "NNN"
+      ],
+      "A": [
+        "ADN",
+        "ANB",
+        "BAN",
+        "DNA",
+        "NBA",
+        "NDH",
+        "NVV",
+        "VNV",
+        "VVB"
+      ],
+      "D": [
+        "DNN",
+        "NDN",
+        "NND"
+      ],
+      "O": [],
+      "H": [
+        "BNH",
+        "HBN",
+        "NHB"
+      ],
+      "V": [
+        "ANH",
+        "DNV",
+        "HAN",
+        "NHD",
+        "NNV",
+        "NVA",
+        "NVN",
+        "VDN",
+        "VNN"
+      ]
+    },
+    "bb9e908f789ae1e0": [
+      "ABV",
+      "AHN",
+      "AVH",
+      "BAB",
+      "BDD",
+      "BHA",
+      "BNB",
+      "DAH",
+      "DDN",
+      "DNH",
+      "HBA",
+      "HHH",
+      "HVN",
+      "NBV",
+      "NHN",
+      "NVH",
+      "VBD",
+      "VBN",
+      "VVA"
+    ],
+    "cd41b86686c50a10": {
+      "B": [
+        "AV",
+        "BB",
+        "DH"
+      ],
+      "N": [
+        "AA",
+        "NN"
+      ],
+      "A": [
+        "DN",
+        "NA"
+      ],
+      "D": [
+        "AN",
+        "BD",
+        "DV",
+        "VH"
+      ],
+      "O": [],
+      "H": [
+        "HA",
+        "NH",
+        "VD",
+        "VN"
+      ],
+      "V": [
+        "HB",
+        "NV"
+      ]
+    },
+    "e1a4fa6c62e58e60": {
+      "A": [
+        "BNA",
+        "BDA",
+        "BVV",
+        "NAB",
+        "ABN",
+        "AND",
+        "HDN",
+        "VNV",
+        "VVN"
+      ],
+      "B": [
+        "BBB",
+        "NHD",
+        "NVA",
+        "ABV",
+        "AHH",
+        "AVA",
+        "DNH",
+        "DAH",
+        "DHA",
+        "HAN",
+        "HAA",
+        "HHH",
+        "VAD",
+        "VDB"
+      ],
+      "D": [
+        "NND",
+        "NDN",
+        "DNN"
+      ],
+      "H": [
+        "BHN",
+        "NBH",
+        "HNB"
+      ],
+      "N": [
+        "BHD",
+        "NNN",
+        "AAD",
+        "DBH",
+        "DAB",
+        "HVH",
+        "VAA",
+        "VDH",
+        "VHA"
+      ],
+      "O": [],
+      "V": [
+        "NNV",
+        "NAH",
+        "NDV",
+        "NVN",
+        "AVN",
+        "DHN",
+        "HNA",
+        "VNN",
+        "VND"
+      ]
+    },
+    "e620baced0654ce9": {
+      "B": [
+        "AAH",
+        "AHV",
+        "AVB",
+        "BBB",
+        "DAV",
+        "DHD",
+        "DHN",
+        "HAD",
+        "HHV",
+        "HND",
+        "NAH",
+        "NDV",
+        "VBA",
+        "VDD"
+      ],
+      "N": [
+        "AAA",
+        "ADD",
+        "BDV",
+        "DBD",
+        "DHB",
+        "HAV",
+        "HHH",
+        "NNN",
+        "VAD",
+        "VHA"
+      ],
+      "A": [
+        "ADN",
+        "ANB",
+        "BAN",
+        "BVH",
+        "HNA",
+        "NAA",
+        "NBD",
+        "VNH",
+        "VVN"
+      ],
+      "D": [
+        "DNN",
+        "NDN",
+        "NNA"
+      ],
+      "O": [],
+      "H": [
+        "BNV",
+        "HBN",
+        "NHB"
+      ],
+      "V": [
+        "ANH",
+        "DNV",
+        "HAN",
+        "NHD",
+        "NNH",
+        "NVA",
+        "NVN",
+        "VDN",
+        "VNN"
+      ]
+    },
+    "e788020168e26abb": {
+      "B": [
+        "AV",
+        "BB",
+        "DH"
+      ],
+      "N": [
+        "AA",
+        "NN"
+      ],
+      "A": [
+        "AN",
+        "BD",
+        "DV",
+        "VH"
+      ],
+      "D": [
+        "DN",
+        "NA"
+      ],
+      "O": [],
+      "H": [
+        "HB",
+        "NV"
+      ],
+      "V": [
+        "HA",
+        "NH",
+        "VD",
+        "VN"
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "name": "v",
+      "kind": "base"
+    },
+    {
+      "name": "n1",
+      "kind": "e788020168e26abb",
+      "children": [
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n2",
+      "kind": "3b145410351af05c",
+      "children": [
+        "v",
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n3",
+      "kind": "6859b0ec25991d42",
+      "children": [
+        "n1",
+        "n2",
+        "n1"
+      ]
+    },
+    {
+      "name": "n4",
+      "kind": "6859b0ec25991d42",
+      "children": [
+        "v",
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n5",
+      "kind": "6859b0ec25991d42",
+      "children": [
+        "v",
+        "n1",
+        "v"
+      ]
+    },
+    {
+      "name": "n6",
+      "kind": "9e38b3099f09811f",
+      "children": [
+        "n4",
+        "n5",
+        "n2"
+      ]
+    },
+    {
+      "name": "n7",
+      "kind": "36518f191584a644",
+      "children": [
+        "v",
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n8",
+      "kind": "6859b0ec25991d42",
+      "children": [
+        "v",
+        "n7",
+        "v"
+      ]
+    },
+    {
+      "name": "n9",
+      "kind": "6859b0ec25991d42",
+      "children": [
+        "n4",
+        "n8",
+        "n1"
+      ]
+    },
+    {
+      "name": "n10",
+      "kind": "55932e91694d52ae",
+      "children": [
+        "n3",
+        "n6",
+        "n9"
+      ]
+    },
+    {
+      "name": "n11",
+      "kind": "cd41b86686c50a10",
+      "children": [
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n12",
+      "kind": "e620baced0654ce9",
+      "children": [
+        "v",
+        "v",
+        "n11"
+      ]
+    },
+    {
+      "name": "n13",
+      "kind": "31d500a381a04d9a",
+      "children": [
+        "v",
+        "n12",
+        "v"
+      ]
+    },
+    {
+      "name": "n14",
+      "kind": "18277b0c484b4c41",
+      "children": [
+        "v",
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n15",
+      "kind": "3daf90758a80fbb9",
+      "children": [
+        "n14",
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n16",
+      "kind": "e788020168e26abb",
+      "children": [
+        "n15",
+        "v"
+      ]
+    },
+    {
+      "name": "n17",
+      "kind": "e788020168e26abb",
+      "children": [
+        "n16",
+        "v"
+      ]
+    },
+    {
+      "name": "n18",
+      "kind": "e788020168e26abb",
+      "children": [
+        "n17",
+        "v"
+      ]
+    },
+    {
+      "name": "n19",
+      "kind": "e788020168e26abb",
+      "children": [
+        "n18",
+        "v"
+      ]
+    },
+    {
+      "name": "n20",
+      "kind": "e788020168e26abb",
+      "children": [
+        "n19",
+        "v"
+      ]
+    },
+    {
+      "name": "n21",
+      "kind": "e788020168e26abb",
+      "children": [
+        "n20",
+        "v"
+      ]
+    },
+    {
+      "name": "n22",
+      "kind": "e788020168e26abb",
+      "children": [
+        "n21",
+        "v"
+      ]
+    },
+    {
+      "name": "n23",
+      "kind": "e788020168e26abb",
+      "children": [
+        "n22",
+        "v"
+      ]
+    },
+    {
+      "name": "n24",
+      "kind": "04339297651c9c49",
+      "children": [
+        "v",
+        "v",
+        "n1"
+      ]
+    },
+    {
+      "name": "n25",
+      "kind": "7b6c163f0dc4b608",
+      "children": [
+        "n24",
+        "n7",
+        "n4"
+      ]
+    },
+    {
+      "name": "n26",
+      "kind": "e1a4fa6c62e58e60",
+      "children": [
+        "n13",
+        "n23",
+        "n25"
+      ]
+    },
+    {
+      "name": "n27",
+      "kind": "e788020168e26abb",
+      "children": [
+        "n23",
+        "v"
+      ]
+    },
+    {
+      "name": "n28",
+      "kind": "bb9e908f789ae1e0",
+      "children": [
+        "n10",
+        "n26",
+        "n27"
+      ]
+    }
+  ],
+  "root": "n28",
+  "dimension": 210,
+  "N": "104802410848390794134755509270740985210629397084438544392076552130751115178812406793784902677866960513574652101418212166781162869119093223889271310994762",
+  "target_N": "705692619930489413584189552943991443716392885026759451863953624242911159057444856108323516589876967077721069272782760798453832061060020786354479288616",
+  "target_dimension": 207,
+  "beats_R3": true,
+  "decimal_approximation": 5.295494604434808,
+  "metadata": {
+    "parent": "/mnt/data/c11_r5_work/trades210/d210.json",
+    "records": [
+      {
+        "N": "104801838824685084713092212985675174621983334453495556212966567273841906621302709924621466538381091460130294048543619970722244157105498023529452029463133",
+        "dimension": 210,
+        "root": 5.295494466799084,
+        "stage": "start",
+        "elapsed_seconds": 0.7025899469999786
+      },
+      {
+        "N": "104802410848390794134755509270740985210629397084438544392076552130751115178812406793784902677866960513574652101418212166781162869119093223889271310994762",
+        "dimension": 210,
+        "root": 5.295494604434808,
+        "stage": "bank_sweep_0_3_0",
+        "elapsed_seconds": 0.8338539079999805
+      }
+    ]
+  },
+  "status": "FINITE_EXACT_CANDIDATE_NOT_LEAN_CHECKED"
+}

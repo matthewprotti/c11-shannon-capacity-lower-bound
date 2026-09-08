@@ -1,0 +1,35 @@
+{
+  "186": {
+    "certificate": "frozen/certificates/C11_d186.json",
+    "sha256": "5b581005153673e537c03acb44bc7f397c71e54afae56c8812ad3bf425bfd49a",
+    "exact_cardinality": "443270157200265347115284826329865904474755713155493374073233878851201668185355198338517321290509706352279222882837542619589988350408464",
+    "source": "source/ShannonBounds/C11R5D186.lean",
+    "set_theorem": "ShannonBounds.C11R5D186.exists_code",
+    "capacity_theorem": "ShannonBounds.C11R5D186.capacity_lower",
+    "root_bracket_theorem": "ShannonBounds.C11R5D186.root_bracket",
+    "native_axioms_in_set": 236,
+    "native_axioms_in_capacity": 238
+  },
+  "198": {
+    "certificate": "frozen/certificates/C11_d198.json",
+    "sha256": "bf7778966ea22020b0015f0385d88bafde891c0cccc42d7a19a0c2a72b378508",
+    "exact_cardinality": "215646095940880307358247576980823349483595594251592326034771350156505941167027753389393565833792562656142818333030435546482415612817144515859336",
+    "source": "source/ShannonBounds/C11R5D198.lean",
+    "set_theorem": "ShannonBounds.C11R5D198.exists_code",
+    "capacity_theorem": "ShannonBounds.C11R5D198.capacity_lower",
+    "root_bracket_theorem": "ShannonBounds.C11R5D198.root_bracket",
+    "native_axioms_in_set": 265,
+    "native_axioms_in_capacity": 267
+  },
+  "213": {
+    "certificate": "frozen/certificates/C11_d213.json",
+    "sha256": "f5970ad96a2e391bce71822795296e87ed6c134298327a043f2ab950b232ed32",
+    "exact_cardinality": "15575655426175670262980356243306221873167074980689569793363838130479999529429857666850517103134244772329978664731663687319144867678577766570404657587474324",
+    "source": "source/ShannonBounds/C11R5D213.lean",
+    "set_theorem": "ShannonBounds.C11R5D213.exists_code",
+    "capacity_theorem": "ShannonBounds.C11R5D213.capacity_lower",
+    "root_bracket_theorem": "ShannonBounds.C11R5D213.root_bracket",
+    "native_axioms_in_set": 276,
+    "native_axioms_in_capacity": 278
+  }
+}

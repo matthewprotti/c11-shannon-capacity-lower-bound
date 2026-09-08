@@ -1,0 +1,51 @@
+
+# Context-directed small-subtree dynamic-programming beam. Not exhaustive.
+import random
+rng=random.Random(20260908)
+context=[]
+for i in range(7):context.append([float(i==j)for j in range(7)])
+context.append([1.0]*7)
+for t in nodes()[1:]:
+ if t.tab is None or not max(t.grad):continue
+ v=np.array([g/max(t.grad)for g in t.grad]);
+ if all(np.linalg.norm(v-np.array(w))>0.2 for w in context):context.append(list(v))
+ if len(context)>=24:break
+while len(context)<24:context.append([rng.random()for _ in range(7)])
+contexts=np.array(context)
+beam={1:[Node()]};beam[1][0].evaluate()
+beamsizes={1:1}
+for n in range(2,10):
+ if time.monotonic()-START>args.seconds:break
+ bestscores=np.full(len(contexts),-1.0);bestnodes=[None]*len(contexts);trials=0
+ def consider(kids,p):
+  global attempts
+  ws=p.profiles(kids)*math.prod(float(max(k.w))for k in kids)
+  scores=contexts@ws.T;idx=np.argmax(scores,axis=1);vv=scores[np.arange(len(contexts)),idx]
+  for j in np.flatnonzero(vv>bestscores*(1+1e-15)):
+   bestscores[j]=vv[j];bestnodes[j]=Node(p.tabs[idx[j]],kids)
+  attempts+=len(p.tabs)
+ for q in (2,3):
+  for parts in itertools.combinations_with_replacement(range(1,n),q):
+   if sum(parts)!=n or not all(a in beam for a in parts):continue
+   for kids in itertools.product(*(beam[a]for a in parts)):
+    consider(kids,polys[q]);trials+=1
+    if time.monotonic()-START>args.seconds:break
+   if time.monotonic()-START>args.seconds:break
+  if time.monotonic()-START>args.seconds:break
+ unique={}
+ for t in bestnodes:
+  if t is not None:t.evaluate();unique[t.w]=t
+ beam[n]=list(unique.values());beamsizes[n]=len(beam[n]);print('DP',n,len(beam[n]),'input_combinations',trials,'elapsed',time.monotonic()-START,flush=True)
+ # Export intermediate library itself as dummy-terminal certificates (singleton B).
+ # These are exploration records, not claimed improvements.
+ for j,t in enumerate(beam[n]):
+  ns=[];tt={};seen={}
+  def visit(t):
+   if t.tab is None:key='base';kids=[];kind='base'
+   else:
+    kids=[visit(k)for k in t.kids];kind=hashlib.sha256(json.dumps(t.tab,sort_keys=True).encode()).hexdigest()[:16];tt[kind]=t.tab;key=(kind,tuple(kids))
+   if key in seen:return seen[key]
+   name='v'if key=='base'else f'n{len(ns)}';ns.append(dict(name=name,kind=kind,**({'children':kids}if kids else {})));seen[key]=name;return name
+  rn=visit(t);tt['B_singleton']=['B'];ns.append({'name':'out','kind':'B_singleton','children':[rn]})
+  save_certificate(OUT/f'profile_d{n*3}_{j}.json',ns,tt,meta={'profile_only':True})
+(OUT/'dp_summary.json').write_text(json.dumps({'beam_sizes':beamsizes,'contexts':context,'attempted_table_evaluations':attempts,'elapsed':time.monotonic()-START,'exhaustive':False},indent=2)+'\n')

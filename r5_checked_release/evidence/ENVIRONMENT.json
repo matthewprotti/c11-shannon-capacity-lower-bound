@@ -1,0 +1,11 @@
+{
+  "platform": "macOS-26.4.1-arm64-arm-64bit-Mach-O",
+  "architecture": "arm64",
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "toolchain_binaries": {
+    "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lean": "1b370cfcbf44e80d1b004ab1b1ab9a4c73951f9f7c242140bcff9bc577576554",
+    "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lake": "58261a1a2fa1a362376c71e02ca854a093e71cc5e6ea64b287a931cb2565273d"
+  },
+  "disk_free_bytes": 10266595328,
+  "cache": "Pinned Mathlib/dependency binary cache reused by APFS clone; original BPZ and all R5 proof modules rebuilt."
+}

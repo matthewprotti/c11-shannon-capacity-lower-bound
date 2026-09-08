@@ -1,0 +1,90 @@
+
+from numba import njit
+@njit
+def best_pair_float(values,losses,blockers,weights,compatible):
+ best=0.0;bi=-1;bj=-1;n=len(values)
+ singles=values-losses
+ for i in range(n):
+  if singles[i]>best:best=singles[i];bi=i;bj=-1
+ for i in range(n):
+  for j in range(i):
+   if not compatible[i,j]:continue
+   if values[i]+values[j]-max(losses[i],losses[j])<=best:continue
+   inter=blockers[i]&blockers[j]
+   if inter==0:continue
+   delta=singles[i]+singles[j];k=0
+   while inter:
+    if inter&np.uint64(1):delta+=weights[k]
+    inter>>=np.uint64(1);k+=1
+   if delta>best:best=delta;bi=i;bj=j
+ return bi,bj,best
+tradecache={}
+def candidate_space(q,terminal):
+ key=(q,terminal)
+ if key in tradecache:return tradecache[key]
+ words=[''.join(x)for x in itertools.product(ABC,repeat=q)]
+ entries=[('_',w)for w in words]if terminal else [(a,w)for a in ABC for w in words]
+ arr=np.array([[IDX[x]for x in w]for w in words],dtype=np.int8)
+ sep=np.array([[(a,b)in SEP for b in ABC]for a in ABC],dtype=bool)
+ wc=np.zeros((len(words),len(words)),dtype=bool)
+ for j in range(q):wc|=sep[arr[:,j,None],arr[None,:,j]]
+ if terminal:compat=wc
+ else:
+  outconf=(~sep)&(~np.eye(7,dtype=bool));compat=np.tile(wc,(7,7))|np.repeat(np.repeat(outconf,len(words),0),len(words),1)
+ tradecache[key]=(entries,{e:i for i,e in enumerate(entries)},compat)
+ return tradecache[key]
+
+def trade_sweep():
+ global attempts,accepted
+ changes=0
+ for t in nodes():
+  if t.tab is None:continue
+  if time.monotonic()-START>args.seconds:break
+  ist=isinstance(t.tab,list);q=len(t.kids)
+  # q=4 output substitution would make the candidate space unnecessarily huge.
+  if q>3 and not ist:continue
+  entries,index,compatall=candidate_space(q,ist)
+  for subround in range(5):
+   old=root.evaluate();nodes()
+   oldentries=[('_',w)for w in t.tab]if ist else[(a,w)for a,ws in t.tab.items()for w in ws]
+   if len(oldentries)>63:break
+   oldset=set(oldentries)
+   def wt(entry):
+    a,w=entry
+    return (1 if ist else t.grad[IDX[a]])*math.prod(k.w[IDX[ch]]for k,ch in zip(t.kids,w))
+   occweights=[wt(e)for e in oldentries];oi=np.array([index[e]for e in oldentries]);pool=[];vals=[];masks=[];costs=[]
+   for i,e in enumerate(entries):
+    if e in oldset:continue
+    val=wt(e)
+    if val==0:continue
+    mask=0;cost=0
+    for j,oldi in enumerate(oi):
+     if not compatall[i,oldi]:mask|=1<<j;cost+=occweights[j]
+    # 2-insertion can replace a large blocker union too; do not cap blocker count.
+    pool.append(i);vals.append(val);masks.append(mask);costs.append(cost)
+   if not vals:break
+   scale=max(max(vals),max(costs),1)
+   vv=np.array([v/scale for v in vals]);ll=np.array([v/scale for v in costs]);mm=np.array(masks,dtype=np.uint64);ww=np.array([v/scale for v in occweights]);comp=compatall[np.ix_(pool,pool)]
+   i,j,delta=best_pair_float(vv,ll,mm,ww,comp);attempts+=len(pool)*(len(pool)+1)//2
+   if i<0:break
+   selected=[i]if j<0 else [i,j];mask=0
+   for u in selected:mask|=masks[u]
+   exact=sum(vals[u]for u in selected)-sum(w for k,w in enumerate(occweights)if mask>>k&1)
+   if exact<=0:break
+   replacement=[e for k,e in enumerate(oldentries)if not(mask>>k&1)]+[entries[pool[u]]for u in selected]
+   ntab=sorted(w for a,w in replacement)if ist else {a:sorted(w for b,w in replacement if a==b)for a in ABC}
+   if not admissible(ntab):raise RuntimeError('trade produced inadmissible table')
+   t.tab=ntab;N=root.evaluate()
+   if N!=old+exact:raise RuntimeError('trade root delta mismatch')
+   changes+=1;accepted+=1;save(f'exact_{len(selected)}_insertion_trade_q{q}_oldblocks{len(oldentries)}')
+ return changes
+
+save('start')
+try:
+ for r in range(args.rounds):
+  if time.monotonic()-START>args.seconds:break
+  changed=trade_sweep()
+  ss=sweep()
+  if ss:save(f'aftertrade_table_sweep_{r}_{ss}')
+  if not changed and not ss:break
+finally:save('stopped')

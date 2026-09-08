@@ -1,0 +1,2 @@
+$ git -C /Users/matthew/Documents/Codex/2026-09-08/c11-r5-lean/runs/01_development/bpz/.lake/packages/mathlib rev-parse HEAD
+905b95818eb32af7874a58b427f50c1711a5e96c

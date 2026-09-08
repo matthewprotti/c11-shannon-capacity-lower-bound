@@ -1,0 +1,275 @@
+{
+  "schema": "C11_RECURSIVE_SEARCH_CERTIFICATE_V1",
+  "source_commit": "aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65",
+  "parent_r3_sha256": "9ac3006b54d5c449db357819d88ea507b66778923c61c54623d72d905517a357",
+  "frozen_input_sha256": "bc3f401480f2b9a878ad24faa1d98c1ad848755a0537ceff0043f12f67bf7c26",
+  "tables": {
+    "6138d348bee2c086": {
+      "B": [
+        "AH",
+        "BB",
+        "DV"
+      ],
+      "N": [
+        "AD",
+        "NN"
+      ],
+      "A": [
+        "DN",
+        "ND"
+      ],
+      "D": [
+        "AN",
+        "BA",
+        "DH",
+        "VV"
+      ],
+      "O": [],
+      "H": [
+        "HD",
+        "NV",
+        "VA",
+        "VN"
+      ],
+      "V": [
+        "HB",
+        "NH"
+      ]
+    },
+    "B_singleton": [
+      "B"
+    ],
+    "cd41b86686c50a10": {
+      "B": [
+        "AV",
+        "BB",
+        "DH"
+      ],
+      "N": [
+        "AA",
+        "NN"
+      ],
+      "A": [
+        "DN",
+        "NA"
+      ],
+      "D": [
+        "AN",
+        "BD",
+        "DV",
+        "VH"
+      ],
+      "O": [],
+      "H": [
+        "HA",
+        "NH",
+        "VD",
+        "VN"
+      ],
+      "V": [
+        "HB",
+        "NV"
+      ]
+    },
+    "e788020168e26abb": {
+      "B": [
+        "AV",
+        "BB",
+        "DH"
+      ],
+      "N": [
+        "AA",
+        "NN"
+      ],
+      "A": [
+        "AN",
+        "BD",
+        "DV",
+        "VH"
+      ],
+      "D": [
+        "DN",
+        "NA"
+      ],
+      "O": [],
+      "H": [
+        "HB",
+        "NV"
+      ],
+      "V": [
+        "HA",
+        "NH",
+        "VD",
+        "VN"
+      ]
+    },
+    "eb8c8e1991916b40": {
+      "B": [
+        "AH",
+        "BB",
+        "DV"
+      ],
+      "N": [
+        "AD",
+        "NN"
+      ],
+      "A": [
+        "AN",
+        "BA",
+        "DH",
+        "VV"
+      ],
+      "D": [
+        "DN",
+        "ND"
+      ],
+      "O": [],
+      "H": [
+        "HB",
+        "NH"
+      ],
+      "V": [
+        "HD",
+        "NV",
+        "VA",
+        "VN"
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "name": "v",
+      "kind": "base"
+    },
+    {
+      "name": "n1",
+      "kind": "e788020168e26abb",
+      "children": [
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n2",
+      "kind": "eb8c8e1991916b40",
+      "children": [
+        "v",
+        "n1"
+      ]
+    },
+    {
+      "name": "n3",
+      "kind": "eb8c8e1991916b40",
+      "children": [
+        "v",
+        "n2"
+      ]
+    },
+    {
+      "name": "n4",
+      "kind": "eb8c8e1991916b40",
+      "children": [
+        "v",
+        "n3"
+      ]
+    },
+    {
+      "name": "n5",
+      "kind": "eb8c8e1991916b40",
+      "children": [
+        "v",
+        "n4"
+      ]
+    },
+    {
+      "name": "n6",
+      "kind": "eb8c8e1991916b40",
+      "children": [
+        "v",
+        "n5"
+      ]
+    },
+    {
+      "name": "n7",
+      "kind": "eb8c8e1991916b40",
+      "children": [
+        "v",
+        "n6"
+      ]
+    },
+    {
+      "name": "n8",
+      "kind": "eb8c8e1991916b40",
+      "children": [
+        "v",
+        "n7"
+      ]
+    },
+    {
+      "name": "n9",
+      "kind": "eb8c8e1991916b40",
+      "children": [
+        "v",
+        "n8"
+      ]
+    },
+    {
+      "name": "n10",
+      "kind": "eb8c8e1991916b40",
+      "children": [
+        "v",
+        "n9"
+      ]
+    },
+    {
+      "name": "n11",
+      "kind": "eb8c8e1991916b40",
+      "children": [
+        "v",
+        "n10"
+      ]
+    },
+    {
+      "name": "n12",
+      "kind": "6138d348bee2c086",
+      "children": [
+        "v",
+        "n11"
+      ]
+    },
+    {
+      "name": "n13",
+      "kind": "cd41b86686c50a10",
+      "children": [
+        "v",
+        "n12"
+      ]
+    },
+    {
+      "name": "n14",
+      "kind": "cd41b86686c50a10",
+      "children": [
+        "v",
+        "n13"
+      ]
+    },
+    {
+      "name": "out",
+      "kind": "B_singleton",
+      "children": [
+        "n14"
+      ]
+    }
+  ],
+  "root": "out",
+  "dimension": 45,
+  "N": "286205629563406528696339341328486",
+  "target_N": "705692619930489413584189552943991443716392885026759451863953624242911159057444856108323516589876967077721069272782760798453832061060020786354479288616",
+  "target_dimension": 207,
+  "beats_R3": false,
+  "decimal_approximation": 5.263316846822287,
+  "metadata": {
+    "profile_only": true
+  },
+  "status": "FINITE_EXACT_CANDIDATE_NOT_LEAN_CHECKED"
+}

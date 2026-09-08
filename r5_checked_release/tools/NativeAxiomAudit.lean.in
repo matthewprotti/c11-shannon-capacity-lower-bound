@@ -1,0 +1,34 @@
+/- Generated only after the real axiom names have been read from Lean output.
+This audit validates declarations; it introduces no mathematical assumptions.
+The template itself was not compiled in the authoring session. -/
+import ShannonBounds.C11AuxiliaryTrade
+import Lean
+
+set_option pp.fullNames true
+set_option pp.universes true
+
+open Lean Elab Command
+
+elab "#check_native_bool_axiom " s:str : command => do
+  let mut name := Name.anonymous
+  for part in s.getString.splitOn "." do
+    match part.toNat? with
+    | some k => name := Name.num name k
+    | none => name := Name.str name part
+  let env ← getEnv
+  match env.find? name with
+  | some (.axiomInfo info) =>
+    if info.isUnsafe then
+      throwError "Unsafe native axiom: {name}"
+    unless info.type.isAppOfArity ``Eq 3 do
+      throwError "Native axiom is not an equality: {name}"
+    let args := info.type.getAppArgs
+    unless args[0]!.isConstOf ``Bool && args[2]!.isConstOf ``Bool.true do
+      throwError "Native axiom is not a Bool equality to true: {name}"
+    if args[1]!.hasFVar || args[1]!.hasMVar || args[1]!.hasLooseBVars then
+      throwError "Native axiom expression is not closed: {name}"
+    logInfo m!"NATIVE_BOOL_AXIOM_CHECKED: {name}"
+    logInfo m!"NATIVE_BOOL_AXIOM_TYPE: {info.type}"
+  | _ => throwError "Missing axiom declaration: {name}"
+
+__NATIVE_AXIOM_COMMANDS__
