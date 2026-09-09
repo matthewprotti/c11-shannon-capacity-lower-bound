@@ -1,0 +1,222 @@
+{
+  "C11_six_dimensional": {
+    "all_literal_neighbor_profiles_match": true,
+    "dimension": 6,
+    "each_family_directly_independent": true,
+    "implementation": "separable six-axis integer convolution on the 11^6 torus",
+    "physical_family_sizes": [
+      21043,
+      20173,
+      879,
+      852,
+      0,
+      861,
+      870
+    ],
+    "universe": 1771561
+  },
+  "information_loss_and_widening": {
+    "independence_numbers": [
+      2,
+      3
+    ],
+    "mandatory_widening_repairs_example": true,
+    "optimistic_unwidened_mask_is_unsound": true,
+    "same_weights_and_all_boolean_separations": true
+  },
+  "status": "PASS_DIRECT_PHYSICAL_CHECKS",
+  "toy_cases": [
+    {
+      "added_count": 4,
+      "last_family_sizes": [
+        72,
+        48,
+        104,
+        32,
+        0,
+        32,
+        96
+      ],
+      "overlapping_families": false,
+      "seed": 0,
+      "target": "O",
+      "word": "VN"
+    },
+    {
+      "added_count": 6,
+      "last_family_sizes": [
+        84,
+        75,
+        142,
+        62,
+        0,
+        46,
+        146
+      ],
+      "overlapping_families": true,
+      "seed": 1,
+      "target": "O",
+      "word": "VN"
+    },
+    {
+      "added_count": 4,
+      "last_family_sizes": [
+        72,
+        48,
+        104,
+        32,
+        0,
+        32,
+        96
+      ],
+      "overlapping_families": false,
+      "seed": 2,
+      "target": "O",
+      "word": "VN"
+    },
+    {
+      "added_count": 6,
+      "last_family_sizes": [
+        84,
+        75,
+        142,
+        62,
+        0,
+        46,
+        146
+      ],
+      "overlapping_families": true,
+      "seed": 3,
+      "target": "O",
+      "word": "VN"
+    },
+    {
+      "added_count": 4,
+      "last_family_sizes": [
+        72,
+        48,
+        112,
+        32,
+        0,
+        32,
+        112
+      ],
+      "overlapping_families": false,
+      "seed": 4,
+      "target": "V",
+      "word": "VH"
+    },
+    {
+      "added_count": 8,
+      "last_family_sizes": [
+        100,
+        75,
+        158,
+        62,
+        0,
+        46,
+        146
+      ],
+      "overlapping_families": true,
+      "seed": 5,
+      "target": "B",
+      "word": "NN"
+    },
+    {
+      "added_count": 4,
+      "last_family_sizes": [
+        72,
+        48,
+        104,
+        32,
+        0,
+        32,
+        96
+      ],
+      "overlapping_families": false,
+      "seed": 6,
+      "target": "O",
+      "word": "VN"
+    },
+    {
+      "added_count": 6,
+      "last_family_sizes": [
+        84,
+        75,
+        142,
+        62,
+        0,
+        46,
+        146
+      ],
+      "overlapping_families": true,
+      "seed": 7,
+      "target": "O",
+      "word": "VN"
+    },
+    {
+      "added_count": 4,
+      "last_family_sizes": [
+        72,
+        48,
+        104,
+        32,
+        0,
+        32,
+        96
+      ],
+      "overlapping_families": false,
+      "seed": 8,
+      "target": "O",
+      "word": "VN"
+    },
+    {
+      "added_count": 6,
+      "last_family_sizes": [
+        84,
+        75,
+        142,
+        62,
+        0,
+        46,
+        146
+      ],
+      "overlapping_families": true,
+      "seed": 9,
+      "target": "O",
+      "word": "VN"
+    },
+    {
+      "added_count": 4,
+      "last_family_sizes": [
+        72,
+        48,
+        104,
+        32,
+        0,
+        32,
+        96
+      ],
+      "overlapping_families": false,
+      "seed": 10,
+      "target": "O",
+      "word": "VN"
+    },
+    {
+      "added_count": 6,
+      "last_family_sizes": [
+        84,
+        75,
+        142,
+        62,
+        0,
+        46,
+        146
+      ],
+      "overlapping_families": true,
+      "seed": 11,
+      "target": "O",
+      "word": "VN"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "schema": "C11_AVOIDANCE_PROFILE_EXTENSION_V1",
+  "graph": "SimpleGraph.cycleGraph 11",
+  "base_dimension": 3,
+  "dimension": 213,
+  "parent_file": "parent/C11_d213.json",
+  "parent_sha256": "f5970ad96a2e391bce71822795296e87ed6c134298327a043f2ab950b232ed32",
+  "frozen_input_sha256": "bc3f401480f2b9a878ad24faa1d98c1ad848755a0537ceff0043f12f67bf7c26",
+  "parent_N": "15575655426175670262980356243306221873167074980689569793363838130479999529429857666850517103134244772329978664731663687319144867678577766570404657587474324",
+  "N": "15576025705482926919349953542643365905237782337909670850715691763072207372542781005458638810301625659402522397392173748140017563747809127752382797850207774",
+  "decimal_lower_numerator": "5295515544509239",
+  "decimal_upper_numerator": "5295515544509240",
+  "decimal_denominator": "1000000000000000",
+  "augmentations": [
+    {
+      "node": "n3",
+      "target_family": "A",
+      "extension_words": [
+        "BBV",
+        "BAB"
+      ],
+      "avoid_letters": "NADH",
+      "mode": "KEEP_ZERO_MASKS_THEN_CONSERVATIVE_WIDENING"
+    },
+    {
+      "node": "n6",
+      "target_family": "A",
+      "extension_words": [
+        "BVB",
+        "ABB",
+        "HBN",
+        "HBA"
+      ],
+      "avoid_letters": "NADH",
+      "mode": "KEEP_ZERO_MASKS_THEN_CONSERVATIVE_WIDENING"
+    },
+    {
+      "node": "n9",
+      "target_family": "A",
+      "extension_words": [
+        "BBV",
+        "DBB",
+        "VNB",
+        "VDB"
+      ],
+      "avoid_letters": "NADH",
+      "mode": "KEEP_ZERO_MASKS_THEN_CONSERVATIVE_WIDENING"
+    },
+    {
+      "node": "n10",
+      "target_family": "N",
+      "extension_words": [
+        "BBV",
+        "BAB",
+        "BHB",
+        "HBN",
+        "VBH"
+      ],
+      "avoid_letters": "NADOHV",
+      "mode": "KEEP_ZERO_MASKS_THEN_CONSERVATIVE_WIDENING"
+    },
+    {
+      "node": "n20",
+      "target_family": "A",
+      "extension_words": [
+        "BBA"
+      ],
+      "avoid_letters": "NADH",
+      "mode": "KEEP_ZERO_MASKS_THEN_CONSERVATIVE_WIDENING"
+    },
+    {
+      "node": "n26",
+      "target_family": "A",
+      "extension_words": [
+        "BBV",
+        "ABB",
+        "HNB",
+        "HAB"
+      ],
+      "avoid_letters": "NADH",
+      "mode": "KEEP_ZERO_MASKS_THEN_CONSERVATIVE_WIDENING"
+    },
+    {
+      "node": "n30",
+      "target_family": "A",
+      "extension_words": [
+        "BNH",
+        "BHV",
+        "BVB",
+        "ABB",
+        "HBB"
+      ],
+      "avoid_letters": "NADH",
+      "mode": "KEEP_ZERO_MASKS_THEN_CONSERVATIVE_WIDENING"
+    }
+  ],
+  "status": "EXACT_FINITE_CERTIFICATE_WITH_WRITTEN_GENERAL_PROOF_NOT_LEAN_CHECKED"
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "C11_R6_STATUS_V1",
+  "status": "FINITE_CONSTRUCTIONS_CHECKED_WITH_WRITTEN_GENERAL_REFINEMENT_PROOF",
+  "strongest_dimension": 213,
+  "strongest_decimal_lower": "5.295515544509239",
+  "base_seeds_changed": false,
+  "parent_assembly_changed": false,
+  "parent_coarse_tables_changed": false,
+  "richer_type_state": true,
+  "ordinary_refined_alphabet_size": 58,
+  "three_replays_agree": true,
+  "Lean_build_for_R6": false,
+  "independent_external_review_for_R6": false,
+  "priority_cleared": false,
+  "optimality_claim": false,
+  "general_Tandon_two_sided_extension_solved": false,
+  "stronger_than_BPZ_arbitrary_alphabet_theorem": false
+}

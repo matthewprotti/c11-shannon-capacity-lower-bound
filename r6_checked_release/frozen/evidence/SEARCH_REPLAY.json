@@ -1,0 +1,6 @@
+{
+  "dimension": 186,
+  "restricted_search_replayed": true,
+  "same_full_cardinality": true,
+  "scope": "Only dimension 186 was rerun after making search paths portable; d198 and d213 have their original saved histories and independently checked certificates."
+}

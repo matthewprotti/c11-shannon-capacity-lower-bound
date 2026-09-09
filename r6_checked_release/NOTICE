@@ -1,0 +1,5 @@
+C11 R6 finite Lean formalization
+Copyright 2026 Matthew Protti. Apache-2.0.
+Uses the pinned work of Pjotr Buys, Sven Polak, and Jeroen Zuiddam.
+Original source and seed attributions and notices are preserved in frozen/.
+The received R6 data and the preserved R5 templates are unchanged.

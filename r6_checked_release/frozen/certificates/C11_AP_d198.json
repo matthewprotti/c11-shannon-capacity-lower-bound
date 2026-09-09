@@ -1,0 +1,89 @@
+{
+  "schema": "C11_AVOIDANCE_PROFILE_EXTENSION_V1",
+  "graph": "SimpleGraph.cycleGraph 11",
+  "base_dimension": 3,
+  "dimension": 198,
+  "parent_file": "parent/C11_d198.json",
+  "parent_sha256": "bf7778966ea22020b0015f0385d88bafde891c0cccc42d7a19a0c2a72b378508",
+  "frozen_input_sha256": "bc3f401480f2b9a878ad24faa1d98c1ad848755a0537ceff0043f12f67bf7c26",
+  "parent_N": "215646095940880307358247576980823349483595594251592326034771350156505941167027753389393565833792562656142818333030435546482415612817144515859336",
+  "N": "215650308240559271076661927763289270756233042340399408085079498236580156319151638131903708724387292184834844476542038069560746092535997639387752",
+  "decimal_lower_numerator": "5295510441529957",
+  "decimal_upper_numerator": "5295510441529958",
+  "decimal_denominator": "1000000000000000",
+  "augmentations": [
+    {
+      "node": "n12",
+      "target_family": "A",
+      "extension_words": [
+        "BBV",
+        "BAB"
+      ],
+      "avoid_letters": "NADH",
+      "mode": "KEEP_ZERO_MASKS_THEN_CONSERVATIVE_WIDENING"
+    },
+    {
+      "node": "n15",
+      "target_family": "A",
+      "extension_words": [
+        "BVB",
+        "ABB",
+        "HBN",
+        "HBA"
+      ],
+      "avoid_letters": "NADH",
+      "mode": "KEEP_ZERO_MASKS_THEN_CONSERVATIVE_WIDENING"
+    },
+    {
+      "node": "n18",
+      "target_family": "A",
+      "extension_words": [
+        "BBD",
+        "BVB",
+        "NBV",
+        "ABV"
+      ],
+      "avoid_letters": "NADH",
+      "mode": "KEEP_ZERO_MASKS_THEN_CONSERVATIVE_WIDENING"
+    },
+    {
+      "node": "n19",
+      "target_family": "N",
+      "extension_words": [
+        "BBV",
+        "BAB",
+        "BHB",
+        "HBN",
+        "VBH"
+      ],
+      "avoid_letters": "NADOHV",
+      "mode": "KEEP_ZERO_MASKS_THEN_CONSERVATIVE_WIDENING"
+    },
+    {
+      "node": "n26",
+      "target_family": "A",
+      "extension_words": [
+        "BBV",
+        "ABB",
+        "HNB",
+        "HAB"
+      ],
+      "avoid_letters": "NADH",
+      "mode": "KEEP_ZERO_MASKS_THEN_CONSERVATIVE_WIDENING"
+    },
+    {
+      "node": "n29",
+      "target_family": "N",
+      "extension_words": [
+        "BNH",
+        "BAB",
+        "BHB",
+        "BHV",
+        "VBB"
+      ],
+      "avoid_letters": "NADOHV",
+      "mode": "KEEP_ZERO_MASKS_THEN_CONSERVATIVE_WIDENING"
+    }
+  ],
+  "status": "EXACT_FINITE_CERTIFICATE_WITH_WRITTEN_GENERAL_PROOF_NOT_LEAN_CHECKED"
+}

@@ -1,0 +1,146 @@
+{
+  "dimension": 186,
+  "history": [
+    {
+      "iteration": 0,
+      "N": "443273666913860104167349678558896715337434259480955779270184039201835529213702727922725357334186859483676984657135406680970797567080464",
+      "new_node": "n26",
+      "augmentation": {
+        "family": "A",
+        "rectangles": [
+          "BBV",
+          "BAB",
+          "BHB",
+          "NNB",
+          "ANB",
+          "HBN",
+          "VBH",
+          "VVB"
+        ]
+      },
+      "trials": 21
+    },
+    {
+      "iteration": 1,
+      "N": "443276286722656568786460258358332713520806612788468968555705169254728054854472237615040527940491177054460404454612934777997375357970400",
+      "new_node": "n17",
+      "augmentation": {
+        "family": "N",
+        "rectangles": [
+          "BNV",
+          "BAV",
+          "BHH",
+          "BVB",
+          "NBN",
+          "NBD",
+          "ABB",
+          "HBB",
+          "VBH"
+        ]
+      },
+      "trials": 15
+    },
+    {
+      "iteration": 2,
+      "N": "443276300243494438796870700946920302903084214301980460654158433978767031742973573183578504165639066919604120784006086945084620325915624",
+      "new_node": "n11",
+      "augmentation": {
+        "family": "A",
+        "rectangles": [
+          "BVB",
+          "ABB",
+          "HBN",
+          "HBA"
+        ]
+      },
+      "trials": 9
+    },
+    {
+      "iteration": 3,
+      "N": "443276313058343210261523409371215915714472259386574142710083492809225752216305952493386350067417789614076641336239499204316295532653356",
+      "new_node": "n14",
+      "augmentation": {
+        "family": "A",
+        "rectangles": [
+          "BBV",
+          "ABB",
+          "HNB",
+          "HAB"
+        ]
+      },
+      "trials": 6
+    },
+    {
+      "iteration": 4,
+      "N": "443276324003031783611356421181113884309761038339701682272503913637018224991280684849272770480887399420629190490478636970970895319532912",
+      "new_node": "n25",
+      "augmentation": {
+        "family": "A",
+        "rectangles": [
+          "BBV",
+          "ABB",
+          "HNB",
+          "HAB"
+        ]
+      },
+      "trials": 3
+    }
+  ],
+  "final_schedule": {
+    "n26": {
+      "family": "A",
+      "rectangles": [
+        "BBV",
+        "BAB",
+        "BHB",
+        "NNB",
+        "ANB",
+        "HBN",
+        "VBH",
+        "VVB"
+      ]
+    },
+    "n17": {
+      "family": "N",
+      "rectangles": [
+        "BNV",
+        "BAV",
+        "BHH",
+        "BVB",
+        "NBN",
+        "NBD",
+        "ABB",
+        "HBB",
+        "VBH"
+      ]
+    },
+    "n11": {
+      "family": "A",
+      "rectangles": [
+        "BVB",
+        "ABB",
+        "HBN",
+        "HBA"
+      ]
+    },
+    "n14": {
+      "family": "A",
+      "rectangles": [
+        "BBV",
+        "ABB",
+        "HNB",
+        "HAB"
+      ]
+    },
+    "n25": {
+      "family": "A",
+      "rectangles": [
+        "BBV",
+        "ABB",
+        "HNB",
+        "HAB"
+      ]
+    }
+  },
+  "search_termination": "NO_POSITIVE_UNUSED_NODE_OFFER_IN_RESTRICTED_HEURISTIC"
+}

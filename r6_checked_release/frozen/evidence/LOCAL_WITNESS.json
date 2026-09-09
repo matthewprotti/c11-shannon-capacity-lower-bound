@@ -1,0 +1,63 @@
+{
+  "case": "d213",
+  "node": "n20",
+  "dimension": 24,
+  "target_family": "A",
+  "reference_word": "BBA",
+  "child_nodes": [
+    "n1",
+    "n17",
+    "v"
+  ],
+  "child_masks": [
+    5,
+    5,
+    85
+  ],
+  "child_mask_labels": [
+    "BA",
+    "BA",
+    "BAOV"
+  ],
+  "child_type_cardinalities": [
+    9,
+    244660887,
+    3
+  ],
+  "preaugmentation_output_mask": [
+    "B"
+  ],
+  "protected_labels": [
+    "N",
+    "A",
+    "D",
+    "H"
+  ],
+  "new_points": 6605843949,
+  "postaugmentation_output_mask": [
+    "B",
+    "A"
+  ],
+  "whole_word_blockers": [
+    [
+      "N",
+      "ADA"
+    ],
+    [
+      "N",
+      "DAB"
+    ],
+    [
+      "A",
+      "BNA"
+    ],
+    [
+      "A",
+      "NAB"
+    ],
+    [
+      "A",
+      "NDA"
+    ]
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "schema": "C11_R6_LINEAGE_V1",
+  "R5_archive_sha256": "a57b1ba556ff2d74cfa5654a6b5677299dfac5308995bb2ea2cc7aa5c329d8a3",
+  "BPZ_commit": "aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65",
+  "frozen_input_sha256": "bc3f401480f2b9a878ad24faa1d98c1ad848755a0537ceff0043f12f67bf7c26",
+  "parents": {
+    "parent/C11_d186.json": "5b581005153673e537c03acb44bc7f397c71e54afae56c8812ad3bf425bfd49a",
+    "parent/C11_d198.json": "bf7778966ea22020b0015f0385d88bafde891c0cccc42d7a19a0c2a72b378508",
+    "parent/C11_d213.json": "f5970ad96a2e391bce71822795296e87ed6c134298327a043f2ab950b232ed32"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "C11_LEAN_UPSTREAM_LOCK_V1",
+  "repository": "spectra-research/shannon-capacity-lean",
+  "commit": "aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65",
+  "toolchain": "leanprover/lean4:v4.32.2",
+  "mathlib_commit": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "frozen_file_sha256": {
+    "CANDIDATE.json": "dfaf60949876fddd71afa42018dec4a7e806e28b9dbe1939c61539f9eb03fb4a",
+    "FROZEN_INPUTS.json": "bc3f401480f2b9a878ad24faa1d98c1ad848755a0537ceff0043f12f67bf7c26"
+  },
+  "retrieved_git_blob_sha1": {
+    "lean-toolchain": "0ec5999cc044e45c8e7c613fc6830e018b47d595",
+    "lakefile.toml": "3ae0484b08018bc6a39817072e13a9171f2efa1a",
+    "lake-manifest.json": "6416efcc7a8d785b93fa516b01d8e71fbaeda014",
+    "ShannonBounds/CertC11.lean": "e9f6611918f86e4e4c1a8ac95e7dfa5620961f06",
+    "ShannonBounds/CapCertC11.lean": "631e8bdb0f8148252060d9e5159496a2dd1b882c",
+    "ShannonBounds/CapC11.lean": "f80a0d1c5b5b2480934aa0f26126e53f37c4813f",
+    "ShannonBounds/Layered.lean": "9666aed76b94faadc6d5e46e37814e5961be464f",
+    "ShannonBounds/Decimal.lean": "b94f4f911d1b63851c52cca563ac2d25ad63b9b0",
+    "ShannonBounds/Defs.lean": "28dc8aaac8156d6f555b37c96978efd3d047d8e0"
+  },
+  "lean_native_implementation": {
+    "repository": "leanprover/lean4",
+    "ref": "v4.32.2",
+    "commit": "f3b06c705e6c85f5314019d5d3baab0fec5b580c",
+    "files": {
+      "src/Lean/Meta/Native.lean": "890d6e446ffff269d98078b436b569134f172ae0",
+      "src/Lean/Elab/Tactic/Decide.lean": "aa99499ca91f1f86efbd3c0fde0ee9ee3e8d4c9c"
+    },
+    "observation": "nativeEqTrue adds a fresh axiom asserting that a compiled closed Bool expression equals true after native execution returns true."
+  }
+}

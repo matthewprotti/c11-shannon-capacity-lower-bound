@@ -1,0 +1,4 @@
+$ lake env lean NEGATIVE_terminal_213.lean
+NEGATIVE_terminal_213.lean:8:62: error: Tactic `native_decide` evaluated that the proposition
+  C11R6ListChecks.inside (C11R6ListChecks.wordApart C11R6Base.typedSep) badRows = true
+is false
