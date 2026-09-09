@@ -1,0 +1,413 @@
+[
+  {
+    "module": "Core",
+    "bytes": [
+      454664,
+      454664
+    ],
+    "differing_positions": 55,
+    "range_count": 7,
+    "first_ranges": [
+      [
+        444032,
+        444033
+      ],
+      [
+        444040,
+        444041
+      ],
+      [
+        444048,
+        444049
+      ],
+      [
+        444122,
+        444123
+      ],
+      [
+        444124,
+        444144
+      ],
+      [
+        444145,
+        444157
+      ],
+      [
+        444158,
+        444177
+      ]
+    ],
+    "first_chunks": [
+      {
+        "offset": 444032,
+        "development": "3407d578fce084f300000000010000f97900000000000000790000000000000078",
+        "fresh": "3407d578fce084f300000000010000f97a000000000000007a0000000000000079"
+      },
+      {
+        "offset": 444040,
+        "development": "00000000010000f97900000000000000790000000000000078000000000000002f",
+        "fresh": "00000000010000f97a000000000000007a0000000000000079000000000000002f"
+      },
+      {
+        "offset": 444048,
+        "development": "7900000000000000790000000000000078000000000000002f55736572732f6d61",
+        "fresh": "7a000000000000007a0000000000000079000000000000002f55736572732f6d61"
+      },
+      {
+        "offset": 444122,
+        "development": "6f6c69646174696f6e2f72756e732f30315f646576656c6f706d656e742f62707a",
+        "fresh": "6f6c69646174696f6e2f72756e732f30325f66726573685f7265706c61792f6270"
+      },
+      {
+        "offset": 444124,
+        "development": "69646174696f6e2f72756e732f30315f646576656c6f706d656e742f62707a2f5368616e6e6f6e426f756e64732f43656c6c5265",
+        "fresh": "69646174696f6e2f72756e732f30325f66726573685f7265706c61792f62707a2f5368616e6e6f6e426f756e64732f43656c6c52"
+      }
+    ],
+    "ascii_only_development": [
+      "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/ShannonBounds/CellRetyping/Core.lean"
+    ],
+    "ascii_only_fresh": [
+      "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/ShannonBounds/CellRetyping/Core.lean"
+    ],
+    "ilean_equal": true
+  },
+  {
+    "module": "Semantics",
+    "bytes": [
+      540512,
+      540512
+    ],
+    "differing_positions": 60,
+    "range_count": 7,
+    "first_ranges": [
+      [
+        528448,
+        528449
+      ],
+      [
+        528456,
+        528457
+      ],
+      [
+        528464,
+        528465
+      ],
+      [
+        528538,
+        528539
+      ],
+      [
+        528540,
+        528560
+      ],
+      [
+        528561,
+        528573
+      ],
+      [
+        528574,
+        528598
+      ]
+    ],
+    "first_chunks": [
+      {
+        "offset": 528448,
+        "development": "3407d578fce084f300000000010000f97e000000000000007e000000000000007d",
+        "fresh": "3407d578fce084f300000000010000f97f000000000000007f000000000000007e"
+      },
+      {
+        "offset": 528456,
+        "development": "00000000010000f97e000000000000007e000000000000007d000000000000002f",
+        "fresh": "00000000010000f97f000000000000007f000000000000007e000000000000002f"
+      },
+      {
+        "offset": 528464,
+        "development": "7e000000000000007e000000000000007d000000000000002f55736572732f6d61",
+        "fresh": "7f000000000000007f000000000000007e000000000000002f55736572732f6d61"
+      },
+      {
+        "offset": 528538,
+        "development": "6f6c69646174696f6e2f72756e732f30315f646576656c6f706d656e742f62707a",
+        "fresh": "6f6c69646174696f6e2f72756e732f30325f66726573685f7265706c61792f6270"
+      },
+      {
+        "offset": 528540,
+        "development": "69646174696f6e2f72756e732f30315f646576656c6f706d656e742f62707a2f5368616e6e6f6e426f756e64732f43656c6c5265",
+        "fresh": "69646174696f6e2f72756e732f30325f66726573685f7265706c61792f62707a2f5368616e6e6f6e426f756e64732f43656c6c52"
+      }
+    ],
+    "ascii_only_development": [
+      "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/ShannonBounds/CellRetyping/Semantics.lean"
+    ],
+    "ascii_only_fresh": [
+      "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/ShannonBounds/CellRetyping/Semantics.lean"
+    ],
+    "ilean_equal": true
+  },
+  {
+    "module": "Operations",
+    "bytes": [
+      308712,
+      308712
+    ],
+    "differing_positions": 61,
+    "range_count": 7,
+    "first_ranges": [
+      [
+        303952,
+        303953
+      ],
+      [
+        303960,
+        303961
+      ],
+      [
+        303968,
+        303969
+      ],
+      [
+        304042,
+        304043
+      ],
+      [
+        304044,
+        304064
+      ],
+      [
+        304065,
+        304077
+      ],
+      [
+        304078,
+        304103
+      ]
+    ],
+    "first_chunks": [
+      {
+        "offset": 303952,
+        "development": "f0fc2d416f9b88dc00000000010000f97f000000000000007f000000000000007e",
+        "fresh": "f0fc2d416f9b88dc00000000010000f9800000000000000080000000000000007f"
+      },
+      {
+        "offset": 303960,
+        "development": "00000000010000f97f000000000000007f000000000000007e000000000000002f",
+        "fresh": "00000000010000f9800000000000000080000000000000007f000000000000002f"
+      },
+      {
+        "offset": 303968,
+        "development": "7f000000000000007f000000000000007e000000000000002f55736572732f6d61",
+        "fresh": "800000000000000080000000000000007f000000000000002f55736572732f6d61"
+      },
+      {
+        "offset": 304042,
+        "development": "6f6c69646174696f6e2f72756e732f30315f646576656c6f706d656e742f62707a",
+        "fresh": "6f6c69646174696f6e2f72756e732f30325f66726573685f7265706c61792f6270"
+      },
+      {
+        "offset": 304044,
+        "development": "69646174696f6e2f72756e732f30315f646576656c6f706d656e742f62707a2f5368616e6e6f6e426f756e64732f43656c6c5265",
+        "fresh": "69646174696f6e2f72756e732f30325f66726573685f7265706c61792f62707a2f5368616e6e6f6e426f756e64732f43656c6c52"
+      }
+    ],
+    "ascii_only_development": [
+      "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/ShannonBounds/CellRetyping/Operations.lean"
+    ],
+    "ascii_only_fresh": [
+      "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/ShannonBounds/CellRetyping/Operations.lean"
+    ],
+    "ilean_equal": true
+  },
+  {
+    "module": "Recursion",
+    "bytes": [
+      444024,
+      444024
+    ],
+    "differing_positions": 60,
+    "range_count": 7,
+    "first_ranges": [
+      [
+        436688,
+        436689
+      ],
+      [
+        436696,
+        436697
+      ],
+      [
+        436704,
+        436705
+      ],
+      [
+        436778,
+        436779
+      ],
+      [
+        436780,
+        436800
+      ],
+      [
+        436801,
+        436813
+      ],
+      [
+        436814,
+        436838
+      ]
+    ],
+    "first_chunks": [
+      {
+        "offset": 436688,
+        "development": "3407d578fce084f300000000010000f97e000000000000007e000000000000007d",
+        "fresh": "3407d578fce084f300000000010000f97f000000000000007f000000000000007e"
+      },
+      {
+        "offset": 436696,
+        "development": "00000000010000f97e000000000000007e000000000000007d000000000000002f",
+        "fresh": "00000000010000f97f000000000000007f000000000000007e000000000000002f"
+      },
+      {
+        "offset": 436704,
+        "development": "7e000000000000007e000000000000007d000000000000002f55736572732f6d61",
+        "fresh": "7f000000000000007f000000000000007e000000000000002f55736572732f6d61"
+      },
+      {
+        "offset": 436778,
+        "development": "6f6c69646174696f6e2f72756e732f30315f646576656c6f706d656e742f62707a",
+        "fresh": "6f6c69646174696f6e2f72756e732f30325f66726573685f7265706c61792f6270"
+      },
+      {
+        "offset": 436780,
+        "development": "69646174696f6e2f72756e732f30315f646576656c6f706d656e742f62707a2f5368616e6e6f6e426f756e64732f43656c6c5265",
+        "fresh": "69646174696f6e2f72756e732f30325f66726573685f7265706c61792f62707a2f5368616e6e6f6e426f756e64732f43656c6c52"
+      }
+    ],
+    "ascii_only_development": [
+      "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/ShannonBounds/CellRetyping/Recursion.lean"
+    ],
+    "ascii_only_fresh": [
+      "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/ShannonBounds/CellRetyping/Recursion.lean"
+    ],
+    "ilean_equal": true
+  },
+  {
+    "module": "DAG",
+    "bytes": [
+      499752,
+      499760
+    ],
+    "differing_positions": 5721,
+    "range_count": 1050,
+    "first_ranges": [
+      [
+        88,
+        89
+      ],
+      [
+        490712,
+        490713
+      ],
+      [
+        490720,
+        490721
+      ],
+      [
+        490728,
+        490729
+      ],
+      [
+        490802,
+        490803
+      ],
+      [
+        490804,
+        490824
+      ],
+      [
+        490825,
+        490837
+      ],
+      [
+        490838,
+        490856
+      ],
+      [
+        490860,
+        490861
+      ],
+      [
+        490862,
+        490864
+      ],
+      [
+        490865,
+        490872
+      ],
+      [
+        490873,
+        490878
+      ],
+      [
+        490879,
+        490881
+      ],
+      [
+        490884,
+        490885
+      ],
+      [
+        490887,
+        490888
+      ]
+    ],
+    "first_chunks": [
+      {
+        "offset": 88,
+        "development": "656335623538306300004f1b1d1c0000f09f561b1d1c000000000000010000f905",
+        "fresh": "656335623538306300004f1b1d1c0000f89f561b1d1c000000000000010000f905"
+      },
+      {
+        "offset": 490712,
+        "development": "3407d578fce084f300000000010000f97800000000000000780000000000000077",
+        "fresh": "3407d578fce084f300000000010000f97900000000000000790000000000000078"
+      },
+      {
+        "offset": 490720,
+        "development": "00000000010000f97800000000000000780000000000000077000000000000002f",
+        "fresh": "00000000010000f97900000000000000790000000000000078000000000000002f"
+      },
+      {
+        "offset": 490728,
+        "development": "7800000000000000780000000000000077000000000000002f55736572732f6d61",
+        "fresh": "7900000000000000790000000000000078000000000000002f55736572732f6d61"
+      },
+      {
+        "offset": 490802,
+        "development": "6f6c69646174696f6e2f72756e732f30315f646576656c6f706d656e742f62707a",
+        "fresh": "6f6c69646174696f6e2f72756e732f30325f66726573685f7265706c61792f6270"
+      }
+    ],
+    "ascii_only_development": [
+      "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/ShannonBounds/CellRetyping/DAG.lean"
+    ],
+    "ascii_only_fresh": [
+      "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/ShannonBounds/CellRetyping/DAG.lean"
+    ],
+    "ilean_equal": true
+  },
+  {
+    "module": "Examples",
+    "bytes": [
+      83408,
+      83408
+    ],
+    "differing_positions": 0,
+    "range_count": 0,
+    "first_ranges": [],
+    "first_chunks": [],
+    "ascii_only_development": [],
+    "ascii_only_fresh": [],
+    "ilean_equal": true
+  }
+]

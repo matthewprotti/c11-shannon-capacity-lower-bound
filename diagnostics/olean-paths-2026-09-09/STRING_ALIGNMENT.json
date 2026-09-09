@@ -1,0 +1,97 @@
+[
+  {
+    "module": "Core",
+    "01_development": {
+      "path_bytes": 120,
+      "serialized_string_bytes_with_header": 153,
+      "aligned_size": 160,
+      "file_bytes": 454664,
+      "path_offset": 444056
+    },
+    "02_fresh_replay": {
+      "path_bytes": 121,
+      "serialized_string_bytes_with_header": 154,
+      "aligned_size": 160,
+      "file_bytes": 454664,
+      "path_offset": 444056
+    },
+    "alignment_growth": 0,
+    "file_growth": 0
+  },
+  {
+    "module": "Semantics",
+    "01_development": {
+      "path_bytes": 125,
+      "serialized_string_bytes_with_header": 158,
+      "aligned_size": 160,
+      "file_bytes": 540512,
+      "path_offset": 528472
+    },
+    "02_fresh_replay": {
+      "path_bytes": 126,
+      "serialized_string_bytes_with_header": 159,
+      "aligned_size": 160,
+      "file_bytes": 540512,
+      "path_offset": 528472
+    },
+    "alignment_growth": 0,
+    "file_growth": 0
+  },
+  {
+    "module": "Operations",
+    "01_development": {
+      "path_bytes": 126,
+      "serialized_string_bytes_with_header": 159,
+      "aligned_size": 160,
+      "file_bytes": 308712,
+      "path_offset": 303976
+    },
+    "02_fresh_replay": {
+      "path_bytes": 127,
+      "serialized_string_bytes_with_header": 160,
+      "aligned_size": 160,
+      "file_bytes": 308712,
+      "path_offset": 303976
+    },
+    "alignment_growth": 0,
+    "file_growth": 0
+  },
+  {
+    "module": "Recursion",
+    "01_development": {
+      "path_bytes": 125,
+      "serialized_string_bytes_with_header": 158,
+      "aligned_size": 160,
+      "file_bytes": 444024,
+      "path_offset": 436712
+    },
+    "02_fresh_replay": {
+      "path_bytes": 126,
+      "serialized_string_bytes_with_header": 159,
+      "aligned_size": 160,
+      "file_bytes": 444024,
+      "path_offset": 436712
+    },
+    "alignment_growth": 0,
+    "file_growth": 0
+  },
+  {
+    "module": "DAG",
+    "01_development": {
+      "path_bytes": 119,
+      "serialized_string_bytes_with_header": 152,
+      "aligned_size": 152,
+      "file_bytes": 499752,
+      "path_offset": 490736
+    },
+    "02_fresh_replay": {
+      "path_bytes": 120,
+      "serialized_string_bytes_with_header": 153,
+      "aligned_size": 160,
+      "file_bytes": 499760,
+      "path_offset": 490736
+    },
+    "alignment_growth": 8,
+    "file_growth": 8
+  }
+]

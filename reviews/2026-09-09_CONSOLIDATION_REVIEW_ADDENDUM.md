@@ -19,10 +19,16 @@ native-evaluation dependencies; its audited axioms are limited to `propext`,
 compiler/kernel and dependency-cache trust.
 
 The recorded builds have matching source, theorem types, and axiom dependencies.
-Seven of twelve new compiled `.olean` files are byte-identical and five differ.
-The cause of those differences is unestablished; byte-identical builds are not
-claimed. This addendum reports the existing evidence and does not constitute
-another audit.
+Seven of twelve new compiled `.olean` files are byte-identical. The subsequent
+[binary diagnosis](../diagnostics/olean-paths-2026-09-09/README.md) established that
+the other five differ because Lean persists absolute source filenames in its
+linter-warning metadata. Normalizing only those filename fields in separate
+diagnostic copies makes all five pairs byte-identical. All 249 declarations in
+those files have matching types and proof/definition values. A one-byte-longer
+filename changes eight-byte object alignment in `DAG.olean`, accounting for its
+extra eight bytes. Original artifacts and sealed packages remain unchanged.
+This is a diagnosis of the existing files, not a new mathematical audit or a
+claim that arbitrary Lean builds are byte-reproducible.
 
 ## Numerical constructions
 
