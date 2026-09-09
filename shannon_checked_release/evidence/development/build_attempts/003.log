@@ -1,0 +1,271 @@
+$ /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lake --no-ansi build ShannonBounds.CellRetyping.Core
+⚠ [2031/2240] Replayed ShannonBounds.Layered
+warning: ShannonBounds/Layered.lean:58:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_wordSet`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:64:0: automatically included section variable(s) unused in theorem `ShannonBounds.isIndepSet_wordSet`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:76:0: automatically included section variable(s) unused in theorem `ShannonBounds.sep_wordSet`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:103:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_substSet`:
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:230:8: automatically included section variable(s) unused in theorem `ShannonBounds.Realisation.w_mapIso`:
+  [Fintype V]
+  [DecidableEq V]
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:261:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_multiWordSet`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:268:0: automatically included section variable(s) unused in theorem `ShannonBounds.isIndepSet_multiWordSet`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:280:0: automatically included section variable(s) unused in theorem `ShannonBounds.sep_multiWordSet`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:298:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_multiSubstSet`:
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:390:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_codeSet`:
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:425:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_multiCodeSet`:
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:520:0: automatically included section variable(s) unused in theorem `ShannonBounds.isIndepSet_image_symm`:
+  [Fintype V]
+  [DecidableRel G.Adj]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableRel G.Adj] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3020/3021] Built ShannonBounds.ProfileCompiler.Core (13s)
+warning: ShannonBounds/ProfileCompiler/Core.lean:24:8: automatically included section variable(s) unused in theorem `ShannonBounds.ProfileCompiler.self_mem`:
+  [Fintype A]
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype A] [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/ProfileCompiler/Core.lean:26:0: automatically included section variable(s) unused in theorem `ShannonBounds.ProfileCompiler.type_ext`:
+  [Fintype A]
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype A] [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/ProfileCompiler/Core.lean:34:8: automatically included section variable(s) unused in theorem `ShannonBounds.ProfileCompiler.apart_iff`:
+  [Fintype A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/ProfileCompiler/Core.lean:147:0: automatically included section variable(s) unused in theorem `ShannonBounds.ProfileCompiler.subset_update`:
+  [Fintype A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/ProfileCompiler/Core.lean:151:0: automatically included section variable(s) unused in theorem `ShannonBounds.ProfileCompiler.update_normal`:
+  [Fintype A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✖ [3021/3021] Building ShannonBounds.CellRetyping.Core (2.4s)
+trace: .> LEAN_PATH=/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/packages/Cli/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/packages/batteries/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/packages/Qq/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/packages/aesop/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/packages/importGraph/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/packages/plausible/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/packages/mathlib/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/build/lib/lean /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lean /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/ShannonBounds/CellRetyping/Core.lean -o /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/build/lib/lean/ShannonBounds/CellRetyping/Core.olean -i /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/build/lib/lean/ShannonBounds/CellRetyping/Core.ilean -c /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/build/ir/ShannonBounds/CellRetyping/Core.c --setup /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/build/ir/ShannonBounds/CellRetyping/Core.setup.json --json
+warning: ShannonBounds/CellRetyping/Core.lean:22:0: automatically included section variable(s) unused in theorem `ShannonBounds.CellRetyping.wordSep_symm`:
+  [Fintype J]
+  [DecidableEq J]
+  [(i : J) → Fintype (K i)]
+  [(i : J) → DecidableEq (K i)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype J] [DecidableEq J] [(i : J) → Fintype (K i)] [(i : J) → DecidableEq (K i)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/CellRetyping/Core.lean:27:0: automatically included section variable(s) unused in theorem `ShannonBounds.CellRetyping.conflict_refl`:
+  [Fintype J]
+  [DecidableEq J]
+  [(i : J) → Fintype (K i)]
+  [(i : J) → DecidableEq (K i)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype J] [DecidableEq J] [(i : J) → Fintype (K i)] [(i : J) → DecidableEq (K i)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+error: ShannonBounds/CellRetyping/Core.lean:36:13: unexpected token '∈'; expected ','
+error: ShannonBounds/CellRetyping/Core.lean:39:32: Unknown identifier `Table`
+
+Note: It is not possible to treat `Table` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+error: ShannonBounds/CellRetyping/Core.lean:39:32: Unknown identifier `Table`
+
+Note: It is not possible to treat `Table` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+error: ShannonBounds/CellRetyping/Core.lean:42:19: Unknown identifier `Table`
+
+Note: It is not possible to treat `Table` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+error: ShannonBounds/CellRetyping/Core.lean:45:35: Unknown identifier `Table`
+
+Note: It is not possible to treat `Table` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+warning: ShannonBounds/CellRetyping/Core.lean:47:8: declaration uses `sorry`
+error: ShannonBounds/CellRetyping/Core.lean:49:50: Unknown identifier `Table`
+
+Note: It is not possible to treat `Table` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+error: ShannonBounds/CellRetyping/Core.lean:51:11: Unknown identifier `mem_touchMask`
+error: ShannonBounds/CellRetyping/Core.lean:53:25: Unknown identifier `mem_touchMask`
+error: ShannonBounds/CellRetyping/Core.lean:53:9: Tactic `rcases` failed: `x✝ : ?m.28` is not an inductive datatype
+error: ShannonBounds/CellRetyping/Core.lean:56:23: Unknown identifier `Table`
+
+Note: It is not possible to treat `Table` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+error: ShannonBounds/CellRetyping/Core.lean:59:39: Unknown identifier `Table`
+
+Note: It is not possible to treat `Table` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+error: ShannonBounds/CellRetyping/Core.lean:60:77: unsolved goals
+A : Type u_1
+inst✝⁵ : Fintype A
+inst✝⁴ : DecidableEq A
+s : A → A → Bool
+J : Type u_2
+inst✝³ : Fintype J
+inst✝² : DecidableEq J
+K : J → Type u_3
+inst✝¹ : (i : J) → Fintype (K i)
+inst✝ : (i : J) → DecidableEq (K i)
+U : sorry
+p : Ty s
+u : (i : J) → K i
+⊢ u ∈ sorry () ↔ u ∈ sorry () ∧ touchMask U u = mask p
+warning: ShannonBounds/CellRetyping/Core.lean:61:8: declaration uses `sorry`
+error: ShannonBounds/CellRetyping/Core.lean:64:53: Unknown identifier `Table`
+
+Note: It is not possible to treat `Table` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+error: ShannonBounds/CellRetyping/Core.lean:64:66: Unknown identifier `Table`
+
+Note: It is not possible to treat `Table` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+error: ShannonBounds/CellRetyping/Core.lean:86:62: Unknown identifier `Table`
+
+Note: It is not possible to treat `Table` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+error: ShannonBounds/CellRetyping/Core.lean:89:39: Unknown identifier `normal`
+error: ShannonBounds/CellRetyping/Core.lean:88:56: unsolved goals
+A : Type u_1
+inst✝⁵ : Fintype A
+inst✝⁴ : DecidableEq A
+s : A → A → Bool
+J : Type u_2
+inst✝³ : Fintype J
+inst✝² : DecidableEq J
+K : J → Type u_3
+inst✝¹ : (i : J) → Fintype (K i)
+inst✝ : (i : J) → DecidableEq (K i)
+t : (i : J) → K i → K i → Bool
+hi : ∀ (i : J) (a : K i), t i a a = false
+U : sorry
+a : A
+u : (i : J) → K i
+hu : u ∈ sorry
+⊢ ∃! p, label p = a ∧ u ∈ canonicalRows U p
+error: ShannonBounds/CellRetyping/Core.lean:94:20: Unknown identifier `Table`
+
+Note: It is not possible to treat `Table` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+error: ShannonBounds/CellRetyping/Core.lean:97:36: Unknown identifier `Table`
+
+Note: It is not possible to treat `Table` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+error: ShannonBounds/CellRetyping/Core.lean:99:67: unsolved goals
+A : Type u_1
+inst✝⁵ : Fintype A
+inst✝⁴ : DecidableEq A
+s : A → A → Bool
+J : Type u_2
+inst✝³ : Fintype J
+inst✝² : DecidableEq J
+K : J → Type u_3
+inst✝¹ : (i : J) → Fintype (K i)
+inst✝ : (i : J) → DecidableEq (K i)
+S : sorry
+a : A
+u : (i : J) → K i
+⊢ u ∈ {p | label p = a}.biUnion (sorry ()) ↔ ∃ p, label p = a ∧ u ∈ sorry ()
+warning: ShannonBounds/CellRetyping/Core.lean:100:8: declaration uses `sorry`
+error: ShannonBounds/CellRetyping/Core.lean:102:16: Unknown identifier `Table`
+
+Note: It is not possible to treat `Table` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+error: ShannonBounds/CellRetyping/Core.lean:102:44: Unknown identifier `Table`
+
+Note: It is not possible to treat `Table` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+error: ShannonBounds/CellRetyping/Core.lean:120:39: Unknown identifier `Table`
+
+Note: It is not possible to treat `Table` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+error: ShannonBounds/CellRetyping/Core.lean:121:8: Unknown identifier `Table.ext`
+error: ShannonBounds/CellRetyping/Core.lean:122:2: No goals to be solved
+error: ShannonBounds/CellRetyping/Core.lean:133:51: Unknown identifier `Table`
+
+Note: It is not possible to treat `Table` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+error: ShannonBounds/CellRetyping/Core.lean:134:4: Unknown identifier `Table`
+
+Note: It is not possible to treat `Table` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+error: ShannonBounds/CellRetyping/Core.lean:137:39: Unknown identifier `Table`
+
+Note: It is not possible to treat `Table` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+error: ShannonBounds/CellRetyping/Core.lean:141:39: Unknown identifier `Table`
+
+Note: It is not possible to treat `Table` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+error: ShannonBounds/CellRetyping/Core.lean:142:48: unsolved goals
+J : Type u_2
+inst✝³ : Fintype J
+inst✝² : DecidableEq J
+K : J → Type u_3
+inst✝¹ : (i : J) → Fintype (K i)
+inst✝ : (i : J) → DecidableEq (K i)
+t : (i : J) → K i → K i → Bool
+hs : ∀ (i : J) (a b : K i), t i a b = t i b a
+hi : ∀ (i : J) (a : K i), t i a a = false
+S : sorry
+⊢ sorry
+error: ShannonBounds/CellRetyping/Core.lean:146:23: Unknown identifier `Table`
+
+Note: It is not possible to treat `Table` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+error: ShannonBounds/CellRetyping/Core.lean:150:25: Unknown identifier `mem_touchMask`
+error: ShannonBounds/CellRetyping/Core.lean:150:9: Tactic `rcases` failed: `x✝ : ?m.24` is not an inductive datatype
+error: ShannonBounds/CellRetyping/Core.lean:157:63: Unknown identifier `Table`
+
+Note: It is not possible to treat `Table` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+error: Lean exited with code 1
+Some required targets logged failures:
+- ShannonBounds.CellRetyping.Core
+error: build failed

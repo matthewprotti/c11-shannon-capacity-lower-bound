@@ -1,0 +1,11 @@
+{
+  "status": "FINITE_DIAGNOSTIC_SPRINT_COMPLETE",
+  "new_capacity_lower_bound": "5.295526013632343",
+  "dimension": 213,
+  "new_Lean_compilation": false,
+  "external_review": false,
+  "worldwide_priority_claim": false,
+  "general_capacity_upper_bound_claim": false,
+  "large_gain_target_met": false,
+  "recommended_disposition": "PARK_ROUTINE_NUMERICAL_SHANNON_SEARCH; retain certificates and finish existing review/formalization lanes. Reopen for changed cells/seeds/assembly or a genuinely stronger optimization argument."
+}

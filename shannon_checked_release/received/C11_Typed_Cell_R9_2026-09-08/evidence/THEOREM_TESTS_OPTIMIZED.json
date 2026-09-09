@@ -1,0 +1,28 @@
+{
+  "augmentation_cases": 440,
+  "case_breakdown": {
+    "r1_relation0_q0": 2,
+    "r1_relation0_q1": 2,
+    "r1_relation0_q2": 2,
+    "r2_relation0_q0": 4,
+    "r2_relation0_q1": 100,
+    "r2_relation0_q2": 16129,
+    "r2_relation1_q0": 3,
+    "r2_relation1_q1": 9,
+    "r2_relation1_q2": 63
+  },
+  "negative_controls": [
+    "within_family_conflict",
+    "duplicate_generator",
+    "required_cross_conflict",
+    "asymmetric_relation",
+    "reflexive_relation",
+    "nonseparated_extension",
+    "omitted_self_protection_counterexample"
+  ],
+  "ordinary_cases": 16314,
+  "proof_status": "written proof only; no R9 Lean build",
+  "status": "PASS_R9_CANONICAL_RETYPE_FINITE_REGRESSIONS",
+  "strict_mask_improvements_counted_by_generator": 45434,
+  "zero_arity_cases": 9
+}

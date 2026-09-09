@@ -1,0 +1,2 @@
+$ git -C /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/proofwidgets rev-parse HEAD
+6e311e2a844da9b2cc3971187df2fe0066947b93

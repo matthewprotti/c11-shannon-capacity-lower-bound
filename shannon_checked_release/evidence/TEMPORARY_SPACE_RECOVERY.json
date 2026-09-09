@@ -1,0 +1,7 @@
+{
+  "at_utc": "2026-09-09T16:56:08.959524+00:00",
+  "removed": "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/downloads/lean-4.32.2-darwin_aarch64.tar.zst",
+  "size": 550165784,
+  "sha256": "ea99ead969901b9fe4c7e7bf350b812a0249e9a5cea20474a737c0cc64746bc0",
+  "reason": "Redundant downloaded Lean installer; extracted toolchain retained. Disk was full during new build. No sources, sealed packages, or proof receipts removed."
+}

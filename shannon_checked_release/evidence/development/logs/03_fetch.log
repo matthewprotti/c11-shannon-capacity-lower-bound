@@ -1,0 +1,3 @@
+$ git fetch --depth=1 origin aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65
+From https://github.com/spectra-research/shannon-capacity-lean
+ * branch            aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65 -> FETCH_HEAD

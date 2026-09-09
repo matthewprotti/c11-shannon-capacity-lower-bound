@@ -1,0 +1,17 @@
+[
+  {
+    "archive": "/Users/matthew/Downloads/C11_Typed_Cell_R9_2026-09-08.zip",
+    "sha256": "d74fab6f4dd44a5c04124bd53e8dcf2e1ecaa6d48a95dc54f7a87a24d491025f",
+    "files": 59
+  },
+  {
+    "archive": "/Users/matthew/Downloads/C11_Diagnostic_Sprint_R10_2026-09-09.zip",
+    "sha256": "9d823c4a7227487ecee9bbf34487220ac8fa141e709efbfa537230a2df09de6b",
+    "files": 43
+  },
+  {
+    "archive": "/Users/matthew/Downloads/C13_Profile_Transfer_R8_2026-09-08.zip",
+    "sha256": "4617612b6330a8dd3726bb3ee91b5f1dcd29177cf76b3c9cf47c29e1edcd0caf",
+    "files": 34
+  }
+]

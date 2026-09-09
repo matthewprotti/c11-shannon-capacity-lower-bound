@@ -1,0 +1,50 @@
+[
+  {
+    "stored": "evidence/development/RAW_STATEMENT_TYPES.json.gz",
+    "original_path": "evidence/development/RAW_STATEMENT_TYPES.json",
+    "uncompressed_sha256": "1ff457d1e5b8f64a3bd9962a570260dfaba5eff7dc24e65ee0a993c29f86dbdc",
+    "uncompressed_bytes": 9198333
+  },
+  {
+    "stored": "evidence/development/RAW_NATIVE_TYPES.json.gz",
+    "original_path": "evidence/development/RAW_NATIVE_TYPES.json",
+    "uncompressed_sha256": "d534c21e228c7fba39803cd36334babb4a37e1c73c4f2d7ab45729959e3979c4",
+    "uncompressed_bytes": 6927734
+  },
+  {
+    "stored": "evidence/development/audit/ConsolidationAudit.log.gz",
+    "original_path": "evidence/development/audit/ConsolidationAudit.log",
+    "uncompressed_sha256": "bddf1b2deabee5f301000538883d910492f6edd6aab8470cd2775e3e6ba2e4cb",
+    "uncompressed_bytes": 9176456
+  },
+  {
+    "stored": "evidence/development/audit/ConsolidationNativeAudit.log.gz",
+    "original_path": "evidence/development/audit/ConsolidationNativeAudit.log",
+    "uncompressed_sha256": "a74a0b4e581b0459ba63b71e2ee48e4939b2302f328fc2be3fabe70629e82612",
+    "uncompressed_bytes": 6922073
+  },
+  {
+    "stored": "evidence/fresh/RAW_STATEMENT_TYPES.json.gz",
+    "original_path": "evidence/fresh/RAW_STATEMENT_TYPES.json",
+    "uncompressed_sha256": "1ff457d1e5b8f64a3bd9962a570260dfaba5eff7dc24e65ee0a993c29f86dbdc",
+    "uncompressed_bytes": 9198333
+  },
+  {
+    "stored": "evidence/fresh/RAW_NATIVE_TYPES.json.gz",
+    "original_path": "evidence/fresh/RAW_NATIVE_TYPES.json",
+    "uncompressed_sha256": "d534c21e228c7fba39803cd36334babb4a37e1c73c4f2d7ab45729959e3979c4",
+    "uncompressed_bytes": 6927734
+  },
+  {
+    "stored": "evidence/fresh/audit/ConsolidationAudit.log.gz",
+    "original_path": "evidence/fresh/audit/ConsolidationAudit.log",
+    "uncompressed_sha256": "bddf1b2deabee5f301000538883d910492f6edd6aab8470cd2775e3e6ba2e4cb",
+    "uncompressed_bytes": 9176456
+  },
+  {
+    "stored": "evidence/fresh/audit/ConsolidationNativeAudit.log.gz",
+    "original_path": "evidence/fresh/audit/ConsolidationNativeAudit.log",
+    "uncompressed_sha256": "a74a0b4e581b0459ba63b71e2ee48e4939b2302f328fc2be3fabe70629e82612",
+    "uncompressed_bytes": 6922073
+  }
+]

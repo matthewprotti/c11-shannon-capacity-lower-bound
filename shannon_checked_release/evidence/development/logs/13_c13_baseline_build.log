@@ -1,0 +1,172 @@
+⚠ [2032/2061] Replayed ShannonBounds.Layered
+warning: ShannonBounds/Layered.lean:58:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_wordSet`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:64:0: automatically included section variable(s) unused in theorem `ShannonBounds.isIndepSet_wordSet`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:76:0: automatically included section variable(s) unused in theorem `ShannonBounds.sep_wordSet`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:103:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_substSet`:
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:230:8: automatically included section variable(s) unused in theorem `ShannonBounds.Realisation.w_mapIso`:
+  [Fintype V]
+  [DecidableEq V]
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:261:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_multiWordSet`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:268:0: automatically included section variable(s) unused in theorem `ShannonBounds.isIndepSet_multiWordSet`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:280:0: automatically included section variable(s) unused in theorem `ShannonBounds.sep_multiWordSet`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:298:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_multiSubstSet`:
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:390:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_codeSet`:
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:425:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_multiCodeSet`:
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:520:0: automatically included section variable(s) unused in theorem `ShannonBounds.isIndepSet_image_symm`:
+  [Fintype V]
+  [DecidableRel G.Adj]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableRel G.Adj] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [2033/2061] Replayed ShannonBounds.PortRealisation
+warning: ShannonBounds/PortRealisation.lean:72:0: automatically included section variable(s) unused in theorem `ShannonBounds.RichPortSystem.isIndepSet_image_ep`:
+  [Fintype α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/PortRealisation.lean:95:0: automatically included section variable(s) unused in theorem `ShannonBounds.RichPortSystem.sep_symm_of`:
+  [Fintype α]
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/PortRealisation.lean:99:0: automatically included section variable(s) unused in theorem `ShannonBounds.RichPortSystem.sep_core_ports`:
+  [Fintype α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/PortRealisation.lean:106:0: automatically included section variable(s) unused in theorem `ShannonBounds.RichPortSystem.sep_core_transversal`:
+  [Fintype α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/PortRealisation.lean:115:0: automatically included section variable(s) unused in theorem `ShannonBounds.RichPortSystem.sep_neutral_footprint`:
+  [Fintype α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/PortRealisation.lean:125:0: automatically included section variable(s) unused in theorem `ShannonBounds.RichPortSystem.sep_neutral_ports`:
+  [Fintype α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/PortRealisation.lean:129:0: automatically included section variable(s) unused in theorem `ShannonBounds.RichPortSystem.sep_neutral_transversal`:
+  [Fintype α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/PortRealisation.lean:137:0: automatically included section variable(s) unused in theorem `ShannonBounds.RichPortSystem.sep_footprints`:
+  [Fintype α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/PortRealisation.lean:145:0: automatically included section variable(s) unused in theorem `ShannonBounds.RichPortSystem.sep_footprint_other_transversal`:
+  [Fintype α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/PortRealisation.lean:186:0: automatically included section variable(s) unused in theorem `ShannonBounds.RichPortSystem.ep_injOn`:
+  [Fintype α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/PortRealisation.lean:191:8: automatically included section variable(s) unused in theorem `ShannonBounds.RichPortSystem.card_fam_O`:
+  [Fintype α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/PortRealisation.lean:199:8: automatically included section variable(s) unused in theorem `ShannonBounds.RichPortSystem.card_fam_B`:
+  [Fintype α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/PortRealisation.lean:203:8: automatically included section variable(s) unused in theorem `ShannonBounds.RichPortSystem.card_fam_N`:
+  [Fintype α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [2051/2061] Built ShannonBounds.CertC13 (11s)
+✔ [2052/2061] Built ShannonBounds.BaseC13Data (13s)
+✔ [2053/2061] Built ShannonBounds.BaseC13Sets (1.7s)
+✔ [2054/2061] Built ShannonBounds.BaseC13Ports (10s)
+✖ [2055/2061] Building ShannonBounds.BaseC13PIndep (31s)
+trace: .> LEAN_PATH=/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/packages/Cli/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/packages/batteries/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/packages/Qq/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/packages/aesop/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/packages/importGraph/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/packages/plausible/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/packages/mathlib/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/build/lib/lean /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lean /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/ShannonBounds/BaseC13PIndep.lean -o /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/build/lib/lean/ShannonBounds/BaseC13PIndep.olean -i /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/build/lib/lean/ShannonBounds/BaseC13PIndep.ilean -c /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/build/ir/ShannonBounds/BaseC13PIndep.c --setup /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/build/ir/ShannonBounds/BaseC13PIndep.setup.json --json
+info: stderr:
+failed to write '/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/build/lib/lean/ShannonBounds/BaseC13PIndep.olean': failed to create file '/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/build/lib/lean/ShannonBounds/BaseC13PIndep.olean'
+error: Lean exited with code 1
+✔ [2056/2061] Built ShannonBounds.BaseC13Priv (50s)
+✔ [2057/2061] Built ShannonBounds.BaseC13Foot (66s)
+Some required targets logged failures:
+- ShannonBounds.BaseC13PIndep
+error: build failed

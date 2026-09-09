@@ -1,0 +1,11 @@
+{
+  "parent_R7_checked_zip_sha256": "cc230eeaef95f974110827d149e07d7763ce136c58dfa85f5cf7b0b4648ea5c4",
+  "parent_R7_general_source_zip_sha256": "f6c16059de6509b5040becfaa565b19535298705935d23eae31924bc39728ac7",
+  "R6_source_zip_sha256": "24b64ccbd1f38cd1ad7921993575d6ebff0638c5d3c694f8e78c8fca3b2be045",
+  "BPZ_commit": "aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65",
+  "input_json_sha256": "2142e048f2807b129991097a526548cca3afc761d2a2cef48d43be6525b3b05a",
+  "baseline_schedule_sha256": "1c7bc91bcce902d9314decb26f435bb91821d3e06a34f5a2249e6588901cadfc",
+  "public_C11_packages_modified": false,
+  "new_C13_Lean_build": false,
+  "external_review": false
+}

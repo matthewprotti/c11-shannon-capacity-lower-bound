@@ -1,0 +1,7 @@
+The seeds, separation framework, and baseline substitution/terminal tables
+are adapted from the Apache-2.0-licensed BPZ ShannonBounds repository.
+Copyright (c) 2026 Pjotr Buys, Sven Polak, Jeroen Zuiddam.
+Earlier seed authors are credited in the upstream README and papers.
+The new certificates, search arrangements, checker, and notes were developed
+in Matthew's AI-assisted C11 follow-on investigation on 8 September 2026.
+No claim of a new general product/substitution theorem is made.

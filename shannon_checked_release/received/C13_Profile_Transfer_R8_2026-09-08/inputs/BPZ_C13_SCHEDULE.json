@@ -1,0 +1,355 @@
+{
+  "schema": "C13_FROZEN_BPZ_SCHEDULE_V1",
+  "base_dimension": 6,
+  "dimension": 522,
+  "N": "2296460381476588218557784714607916555821735215842235657422063709967472046388590671039445990314835453532287927129054300935809605566313640680416850619170792677088359272060919872915091855126481463077864366034595511602265113812807433166736895166001025727331303746555909789115142163380824770899805627970640032438106635377536797524856543870646748758850611538293943083007991697753785956882728113597379667638999165717627011072",
+  "tables": {
+    "T2b": {
+      "A": [
+        "AN",
+        "BD",
+        "DV",
+        "VH"
+      ],
+      "B": [
+        "AV",
+        "BB",
+        "DH"
+      ],
+      "D": [
+        "DN",
+        "NA"
+      ],
+      "H": [
+        "HB",
+        "NV"
+      ],
+      "N": [
+        "AA",
+        "NN"
+      ],
+      "O": [],
+      "V": [
+        "HA",
+        "NH",
+        "VD",
+        "VN"
+      ]
+    },
+    "T3c": {
+      "A": [
+        "ABN",
+        "AND",
+        "BNA",
+        "BVV",
+        "HDN",
+        "NAB",
+        "NDA",
+        "VNV",
+        "VVN"
+      ],
+      "B": [
+        "ABV",
+        "AHH",
+        "AVA",
+        "BBB",
+        "DAH",
+        "DHA",
+        "DNH",
+        "HAA",
+        "HAN",
+        "HHH",
+        "NHD",
+        "NVA",
+        "VAD",
+        "VDB"
+      ],
+      "D": [
+        "DNN",
+        "NDN",
+        "NND"
+      ],
+      "H": [
+        "BHN",
+        "HNB",
+        "NBH"
+      ],
+      "N": [
+        "AAD",
+        "ADA",
+        "BHD",
+        "DAB",
+        "DBH",
+        "HHA",
+        "HVH",
+        "NNN",
+        "VAA",
+        "VDH"
+      ],
+      "O": [],
+      "V": [
+        "AVN",
+        "DHN",
+        "HNA",
+        "NAH",
+        "NDV",
+        "NNV",
+        "NVN",
+        "VND",
+        "VNN"
+      ]
+    },
+    "K3a": [
+      "ABV",
+      "AHN",
+      "AVH",
+      "BAB",
+      "BDD",
+      "BHA",
+      "BNB",
+      "DAH",
+      "DDN",
+      "DNH",
+      "HBA",
+      "HHH",
+      "HVN",
+      "NBV",
+      "NHN",
+      "NVH",
+      "VBD",
+      "VBN",
+      "VVA"
+    ]
+  },
+  "nodes": [
+    {
+      "name": "base",
+      "kind": "base"
+    },
+    {
+      "name": "a3",
+      "kind": "T3c",
+      "children": [
+        "base",
+        "base",
+        "base"
+      ]
+    },
+    {
+      "name": "a4",
+      "kind": "T2b",
+      "children": [
+        "a3",
+        "base"
+      ]
+    },
+    {
+      "name": "a5",
+      "kind": "T2b",
+      "children": [
+        "a4",
+        "base"
+      ]
+    },
+    {
+      "name": "a6",
+      "kind": "T2b",
+      "children": [
+        "a5",
+        "base"
+      ]
+    },
+    {
+      "name": "a7",
+      "kind": "T2b",
+      "children": [
+        "a6",
+        "base"
+      ]
+    },
+    {
+      "name": "a8",
+      "kind": "T2b",
+      "children": [
+        "a7",
+        "base"
+      ]
+    },
+    {
+      "name": "a9",
+      "kind": "T2b",
+      "children": [
+        "a8",
+        "base"
+      ]
+    },
+    {
+      "name": "b2",
+      "kind": "T2b",
+      "children": [
+        "base",
+        "base"
+      ]
+    },
+    {
+      "name": "b3",
+      "kind": "T2b",
+      "children": [
+        "b2",
+        "base"
+      ]
+    },
+    {
+      "name": "b4",
+      "kind": "T2b",
+      "children": [
+        "b3",
+        "base"
+      ]
+    },
+    {
+      "name": "b5",
+      "kind": "T2b",
+      "children": [
+        "b4",
+        "base"
+      ]
+    },
+    {
+      "name": "b6",
+      "kind": "T2b",
+      "children": [
+        "b5",
+        "base"
+      ]
+    },
+    {
+      "name": "b7",
+      "kind": "T2b",
+      "children": [
+        "b6",
+        "base"
+      ]
+    },
+    {
+      "name": "b8",
+      "kind": "T2b",
+      "children": [
+        "b7",
+        "base"
+      ]
+    },
+    {
+      "name": "b9",
+      "kind": "T2b",
+      "children": [
+        "b8",
+        "base"
+      ]
+    },
+    {
+      "name": "b10",
+      "kind": "T2b",
+      "children": [
+        "b9",
+        "base"
+      ]
+    },
+    {
+      "name": "b11",
+      "kind": "T2b",
+      "children": [
+        "b10",
+        "base"
+      ]
+    },
+    {
+      "name": "b12",
+      "kind": "T2b",
+      "children": [
+        "b11",
+        "base"
+      ]
+    },
+    {
+      "name": "b13",
+      "kind": "T2b",
+      "children": [
+        "b12",
+        "base"
+      ]
+    },
+    {
+      "name": "b14",
+      "kind": "T2b",
+      "children": [
+        "b13",
+        "base"
+      ]
+    },
+    {
+      "name": "b15",
+      "kind": "T2b",
+      "children": [
+        "b14",
+        "base"
+      ]
+    },
+    {
+      "name": "b16",
+      "kind": "T2b",
+      "children": [
+        "b15",
+        "base"
+      ]
+    },
+    {
+      "name": "b17",
+      "kind": "T2b",
+      "children": [
+        "b16",
+        "base"
+      ]
+    },
+    {
+      "name": "c12",
+      "kind": "T3c",
+      "children": [
+        "a3",
+        "a7",
+        "b2"
+      ]
+    },
+    {
+      "name": "x34",
+      "kind": "T3c",
+      "children": [
+        "a9",
+        "b13",
+        "c12"
+      ]
+    },
+    {
+      "name": "x36",
+      "kind": "T3c",
+      "children": [
+        "a7",
+        "b17",
+        "c12"
+      ]
+    },
+    {
+      "name": "terminal",
+      "kind": "K3a",
+      "children": [
+        "x34",
+        "x36",
+        "b17"
+      ]
+    }
+  ],
+  "root": "terminal",
+  "source_commit": "aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65",
+  "source_repository": "spectra-research/shannon-capacity-lean",
+  "baseline_file": "ShannonBounds/CertC13.lean"
+}

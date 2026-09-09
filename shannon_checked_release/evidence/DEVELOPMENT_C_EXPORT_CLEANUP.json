@@ -1,0 +1,242 @@
+{
+  "reason": "Remove regeneratable C exports from completed development build to make space for independent fresh Lean replay. Lean sources, oleans, ileans, logs, and frozen packages retained.",
+  "utc": "2026-09-09T17:19:26.889185+00:00",
+  "files": [
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/BaseC11.c",
+      "size": 10017,
+      "sha256": "7fe8be767bb19b87f9db84c74839a30880d7e0e28648466219802596c083a23a"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/BaseC11Data.c",
+      "size": 469492,
+      "sha256": "f160df655bbb7d5a94621638ec3035f03777835c873520101bb3429a7d395b69"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/BaseC13.c",
+      "size": 5434,
+      "sha256": "87a90af99fd46eccc856ae57dd41fddd11b1876c045d1c33cbffba52e32f009e"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/BaseC13Data.c",
+      "size": 765547,
+      "sha256": "d777f60458fccdc1d6a55c20a76707989aff3fc2b4d7706ce312fe124c418232"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/BaseC13Foot.c",
+      "size": 3242,
+      "sha256": "5ce018ee0da130263ce14376675524b264b571d84dfa1badfc4184f7d718a081"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/BaseC13PIndep.c",
+      "size": 1374,
+      "sha256": "6a276a6f0af0d26224e5e260e9d169161ac087d9209faac6230a77a811601ef3"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/BaseC13Ports.c",
+      "size": 5486,
+      "sha256": "e90b035a39192cb2a9c960575c19d800f5386deb3d8bcc036d424fbfbdce51ba"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/BaseC13Priv.c",
+      "size": 1370,
+      "sha256": "72ed03d95e277d1a9026a5e8eba223cc4889e392efa6963bf88b84ca80c2b6c0"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/BaseC13Sets.c",
+      "size": 30898,
+      "sha256": "2ca395c7c9e570267b8ac6b81016c22561b643691f0495e459ce9f93407c623b"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/C11R10D213.c",
+      "size": 4526343,
+      "sha256": "76c8a4693ec0089e4f479af1638defd49f3bc092ded8b3e044c5a27307e02b18"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/C11R6Base.c",
+      "size": 699352,
+      "sha256": "7b384566f6ebde178a5b56db2baf7abd5e2559ae78b6b43448289837f86be68f"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/C11R6Common.c",
+      "size": 1364,
+      "sha256": "65ee84e12afdde092d1b5de38145e59ab1ed701432fac6dfe15f5d1555efdb85"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/C11R6D198.c",
+      "size": 1230690,
+      "sha256": "533a780f68e93dc246ab7056e5e95aef48e6a0fd63d5a82220e871dc639b19d4"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/C11R6D213.c",
+      "size": 1258418,
+      "sha256": "1c4b20865b3059b2e8fca3798b6dd8162bb4c1ec25c2a60dfca56e86579d0834"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/C11R6History.c",
+      "size": 9673,
+      "sha256": "d7bf29ee2fed1b17d440a883b758608c4bbd174776cdd322a0607fd10c6ea299"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/C11R6ListChecks.c",
+      "size": 27833,
+      "sha256": "381a8f77da0e23a77d85478f099959a7e536deb40910c2c41035357754fc8c6b"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/C11R6Tables.c",
+      "size": 18799959,
+      "sha256": "05c5973eac09cc814567a5da23ef9823e3cb6de95ef6976b240069da320ad99c"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/C11R9D198.c",
+      "size": 4412307,
+      "sha256": "79e0ad237bdbb62a448f5a73ffb796b539526338a0091ae26838bb2798f05ede"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/C11R9D213.c",
+      "size": 4535270,
+      "sha256": "1888d2704fd08ba3dcb721bb155b71c3d8c002febe60daa803edcce2b6763fab"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/C13R8Base.c",
+      "size": 438705,
+      "sha256": "5e015da7a9ed04fc42278f5f599115d956e70013827b5627dc4a97b16c70e28e"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/C13R8D522.c",
+      "size": 1206039,
+      "sha256": "a7ace017a2b475448d49ebfc62ac344c91b718e0019a2a0b4cd7bbb082e09f1a"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/C13R8Tables.c",
+      "size": 2029690,
+      "sha256": "f1973b4b6afcdf4b9f512e1d92e5c879f307b7ff680aef7ee04ef0848e34fc85"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/CapC11.c",
+      "size": 4507,
+      "sha256": "4b5ca4b188d0b1794c19b3a36e6fb7d1c3bc346b538fe5eb7c8e8d0ae8812718"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/CapC13.c",
+      "size": 4507,
+      "sha256": "fe6c2595827a2403329e4217a4b448df8c77432c039533068ba5227aa3032284"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/CapCertC11.c",
+      "size": 9941,
+      "sha256": "8ef849315421f34fcbedc802f8964b1da3fd0508f95130f6fad6a482dc6022bb"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/CapCertC13.c",
+      "size": 9941,
+      "sha256": "9e82489d5eafd02625d1020a2072e456fbec144385fe13e9cc384b86e8e64436"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/CellRetyping/Core.c",
+      "size": 34012,
+      "sha256": "8fb0b69541b42e3ba8b6a692f8026e08c9479825ed9d0603906601c6e5fcbd0f"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/CellRetyping/DAG.c",
+      "size": 35988,
+      "sha256": "f123cddeb2d817d70426bd29554431804ec5234a0e5e01613852ea0353ba5a7a"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/CellRetyping/Examples.c",
+      "size": 12448,
+      "sha256": "2aa86284eb0a4d74db8f6b1eab25ee62abdf8358f25d55e92657625e0999a4de"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/CellRetyping/Operations.c",
+      "size": 27796,
+      "sha256": "4123b5840d8114834f035c26680df153e926667cc1ca5136b3043c21685a429b"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/CellRetyping/Recursion.c",
+      "size": 49428,
+      "sha256": "50034f0516598aa196a4a79bc168c912245604d4a105c9eb7b83f1ba372ad4e1"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/CellRetyping/Semantics.c",
+      "size": 32598,
+      "sha256": "5d037c4fe42f93b2103d70cadcdbde8faeb4cdb9a9e44320a1761c43cdfa62ed"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/CertC11.c",
+      "size": 246960,
+      "sha256": "e8f36a81b68c872211d5704269855d31672cf862a84bbbeab8e71a288be74c95"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/CertC13.c",
+      "size": 327463,
+      "sha256": "646aa6ae698c53187777772a9c0c50c155866d83db511594a9d4f8dffba0d5da"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/CycleC11.c",
+      "size": 5174,
+      "sha256": "faf6c266b6cbca7c62d407e0843e63bd9d5ae1dfe7ca58999197796d1cb9138d"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/CycleC13.c",
+      "size": 5174,
+      "sha256": "35a9d6db3283ad5ecfd90731fcc006d145479bb02fc5908471c38f03cc6c427a"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/Decimal.c",
+      "size": 1338,
+      "sha256": "ad7e08f2607e362a636ea82aa640fe340f7d5f0170a9af4b153f76e087eaf4b6"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/Defs.c",
+      "size": 42272,
+      "sha256": "083c37c48c2d63844252d2a641d94260eef76c38f30969ef5878da60605562fc"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/Flatten.c",
+      "size": 11205,
+      "sha256": "f03de441530b60a3ef30e399d957926238e03e3f8c9e8505ccc0cd4def2af008"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/Layered.c",
+      "size": 67309,
+      "sha256": "380a0a5b1c8166ef5bd1f190a8510e3490ebf9119cb3ff2f110bac941b2e76a6"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/Lift.c",
+      "size": 64925,
+      "sha256": "5bbcb2a9e4b1b92bea3de0a0a4f00313a532791008543d5d12e7b8dc5728b3d0"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/PortRealisation.c",
+      "size": 84570,
+      "sha256": "82c0e62ecf4a6f1d47368399cd027bcc2821f9dea9d5a8110eeaf2b8b307e89d"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/ProfileCompiler/Cardinality.c",
+      "size": 15421,
+      "sha256": "b33e4f658650142d383e16337d38bcd5d4d6b8efa68d8545ddf8aa950a5bf7ce"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/ProfileCompiler/Core.c",
+      "size": 53646,
+      "sha256": "cfad3fa1e5ee941bf08225d6266d9cd79221db4d20c35f143de75d63bc12d20c"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/ProfileCompiler/Profiles.c",
+      "size": 19596,
+      "sha256": "226759e27d641cc9357e9526e4a4025464b1fcecc28712f42e754b49a539289e"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/Substitutions.c",
+      "size": 373233,
+      "sha256": "f3e6a1800aa856c4876d7fc2c33a0cde040af258302809b429dfec8e7eb936ff"
+    },
+    {
+      "path": "runs/01_development/bpz/.lake/build/ir/ShannonBounds/TerminalCodes.c",
+      "size": 279855,
+      "sha256": "3db8c5df2873e01fcddcffd499caf315e14314f45a1347c974d9dd658165bfde"
+    }
+  ],
+  "bytes": 42287810
+}

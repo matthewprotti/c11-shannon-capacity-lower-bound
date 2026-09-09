@@ -1,0 +1,4 @@
+universe 30030 index time 0.19899589800002104
+PASS 0 moves 295 root 5.295511804043716 seconds 0.17745122300004823
+PASS 1 moves 0 root 5.295511804043716 seconds 0.34858724000002894
+EXCHANGE_FINAL 198 5.295511804043716 /mnt/data/r9_search_replay/scout_198_coarse_wide_terminal_exchange1.json

@@ -1,0 +1,93 @@
+{
+  "source_hashes_equal": true,
+  "statement_types_equal": true,
+  "axiom_dependencies_equal": true,
+  "native_types_equal": true,
+  "artifacts": {
+    ".lake/build/lib/lean/ShannonBounds/C11R9D213.olean": {
+      "development_sha256": "8eceb5698d544c0d1e791d03aee98e41e8acfe31de2d4e6ad0b1bd4e0fddc060",
+      "fresh_sha256": "8eceb5698d544c0d1e791d03aee98e41e8acfe31de2d4e6ad0b1bd4e0fddc060",
+      "development_bytes": 7060824,
+      "fresh_bytes": 7060824,
+      "byte_identical": true
+    },
+    ".lake/build/lib/lean/ShannonBounds/C13R8Tables.olean": {
+      "development_sha256": "225c950c65728d0aad8ad601aaf32ba18a0186e548bfd4950a02f66d6f3e4d1b",
+      "fresh_sha256": "225c950c65728d0aad8ad601aaf32ba18a0186e548bfd4950a02f66d6f3e4d1b",
+      "development_bytes": 3458936,
+      "fresh_bytes": 3458936,
+      "byte_identical": true
+    },
+    ".lake/build/lib/lean/ShannonBounds/C11R10D213.olean": {
+      "development_sha256": "53664e5353d76c873cec2af2e1602e48695344279da70f4b91224e03d0bac480",
+      "fresh_sha256": "53664e5353d76c873cec2af2e1602e48695344279da70f4b91224e03d0bac480",
+      "development_bytes": 6984072,
+      "fresh_bytes": 6984072,
+      "byte_identical": true
+    },
+    ".lake/build/lib/lean/ShannonBounds/C11R9D198.olean": {
+      "development_sha256": "a9b5d66e23666d6d3c5b36d666bbe63b4b15f616e55743f040dd13da840a5728",
+      "fresh_sha256": "a9b5d66e23666d6d3c5b36d666bbe63b4b15f616e55743f040dd13da840a5728",
+      "development_bytes": 6851584,
+      "fresh_bytes": 6851584,
+      "byte_identical": true
+    },
+    ".lake/build/lib/lean/ShannonBounds/C13R8Base.olean": {
+      "development_sha256": "0d07fae0a55611f64ea4f1b02ad26b1d646ba929eccebfd0258867ea1d10bdc0",
+      "fresh_sha256": "0d07fae0a55611f64ea4f1b02ad26b1d646ba929eccebfd0258867ea1d10bdc0",
+      "development_bytes": 1643032,
+      "fresh_bytes": 1643032,
+      "byte_identical": true
+    },
+    ".lake/build/lib/lean/ShannonBounds/C13R8D522.olean": {
+      "development_sha256": "15f25bdbd06da3f35d84a0feecf4a31257c86a0e31ea3f17c4814aa5b759dcbd",
+      "fresh_sha256": "15f25bdbd06da3f35d84a0feecf4a31257c86a0e31ea3f17c4814aa5b759dcbd",
+      "development_bytes": 2651536,
+      "fresh_bytes": 2651536,
+      "byte_identical": true
+    },
+    ".lake/build/lib/lean/ShannonBounds/CellRetyping/Core.olean": {
+      "development_sha256": "8707118ae2483f7943f6aad6feca76e0ce4d91c167a10d1532c5f89f2f05e72d",
+      "fresh_sha256": "1e0ea8c83af6cf9f9338a74fb1ad197283fa13b7943de665b947fa1dcc2400d0",
+      "development_bytes": 454664,
+      "fresh_bytes": 454664,
+      "byte_identical": false
+    },
+    ".lake/build/lib/lean/ShannonBounds/CellRetyping/Semantics.olean": {
+      "development_sha256": "32a2040e6b6023415ac453c1f3082ea4d008c4cc43f3bccd6d1d6d42286ac573",
+      "fresh_sha256": "f42e1a9cc8c38a01ccc87bf3a4b6260e2322e88c762019829ea4abd588a1f7f5",
+      "development_bytes": 540512,
+      "fresh_bytes": 540512,
+      "byte_identical": false
+    },
+    ".lake/build/lib/lean/ShannonBounds/CellRetyping/DAG.olean": {
+      "development_sha256": "b21389262a55198501ad4ce6c02a45ce813a55007aaddd1c447e977b98fe4107",
+      "fresh_sha256": "73627cd6c060dd76ee762bdf492042b263b5b14af65937bd26d36c239a188168",
+      "development_bytes": 499752,
+      "fresh_bytes": 499760,
+      "byte_identical": false
+    },
+    ".lake/build/lib/lean/ShannonBounds/CellRetyping/Operations.olean": {
+      "development_sha256": "71a913be4d857e31dfe0fd8d13d9d9add763c672ee8ad388ea35b395736f44fe",
+      "fresh_sha256": "43f659cee803011ea7d3d38bcaf2c063d157b93663fdc0713333d06b2bdbdc72",
+      "development_bytes": 308712,
+      "fresh_bytes": 308712,
+      "byte_identical": false
+    },
+    ".lake/build/lib/lean/ShannonBounds/CellRetyping/Recursion.olean": {
+      "development_sha256": "ef92810b35e15f0094b49abbc31c2fa5e869e2642fd8a40f8e30908dc1818a96",
+      "fresh_sha256": "182cb5a21e959430897f1eee9cd7f3ac2333d06e8fa97f0dcb73ea85f0ec2844",
+      "development_bytes": 444024,
+      "fresh_bytes": 444024,
+      "byte_identical": false
+    },
+    ".lake/build/lib/lean/ShannonBounds/CellRetyping/Examples.olean": {
+      "development_sha256": "58ecbffad66bc5115b3e6c2cc5846c7a59c62b58a3473052091c021d04501108",
+      "fresh_sha256": "58ecbffad66bc5115b3e6c2cc5846c7a59c62b58a3473052091c021d04501108",
+      "development_bytes": 83408,
+      "fresh_bytes": 83408,
+      "byte_identical": true
+    }
+  },
+  "artifact_hash_cause": "No cause inferred for any binary differences; complete sources, types and dependencies are compared separately."
+}

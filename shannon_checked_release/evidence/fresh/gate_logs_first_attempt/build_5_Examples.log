@@ -1,0 +1,593 @@
+$ lake --rehash --no-ansi build ShannonBounds.CellRetyping.Examples
+⚠ [2031/2148] Replayed ShannonBounds.Layered
+warning: ShannonBounds/Layered.lean:58:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_wordSet`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:64:0: automatically included section variable(s) unused in theorem `ShannonBounds.isIndepSet_wordSet`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:76:0: automatically included section variable(s) unused in theorem `ShannonBounds.sep_wordSet`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:103:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_substSet`:
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:230:8: automatically included section variable(s) unused in theorem `ShannonBounds.Realisation.w_mapIso`:
+  [Fintype V]
+  [DecidableEq V]
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:261:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_multiWordSet`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:268:0: automatically included section variable(s) unused in theorem `ShannonBounds.isIndepSet_multiWordSet`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:280:0: automatically included section variable(s) unused in theorem `ShannonBounds.sep_multiWordSet`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:298:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_multiSubstSet`:
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:390:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_codeSet`:
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:425:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_multiCodeSet`:
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:520:0: automatically included section variable(s) unused in theorem `ShannonBounds.isIndepSet_image_symm`:
+  [Fintype V]
+  [DecidableRel G.Adj]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableRel G.Adj] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✖ [2441/2527] Replaying Mathlib.RingTheory.Noetherian.Basic
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/RingTheory/Noetherian/Basic.olean.private.hash
+✖ [2450/2527] Replaying Mathlib.RingTheory.OrzechProperty
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/RingTheory/OrzechProperty.ir.hash
+✖ [2456/2527] Replaying Mathlib.LinearAlgebra.FreeModule.Finite.Basic
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/LinearAlgebra/FreeModule/Finite/Basic.ir.hash
+✖ [2470/2527] Replaying Mathlib.Combinatorics.Enumerative.Partition.Basic
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Combinatorics/Enumerative/Partition/Basic.olean.private.hash
+✖ [2473/2527] Replaying Mathlib.GroupTheory.Perm.Cycle.Factors
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/GroupTheory/Perm/Cycle/Factors.olean.server.hash
+✖ [2476/2527] Replaying Mathlib.LinearAlgebra.Multilinear.DFinsupp
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/LinearAlgebra/Multilinear/DFinsupp.olean.private.hash
+✖ [2480/2527] Replaying Mathlib.LinearAlgebra.Matrix.SemiringInverse
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/LinearAlgebra/Matrix/SemiringInverse.olean.hash
+✖ [2485/2527] Replaying Mathlib.RingTheory.Nilpotent.Defs
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/RingTheory/Nilpotent/Defs.olean.server.hash
+✖ [2544/2589] Replaying Mathlib.Logic.Equiv.Finset
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Logic/Equiv/Finset.olean.server.hash
+✖ [2556/2621] Replaying Mathlib.Algebra.Polynomial.Splits
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/ir/Mathlib/Algebra/Polynomial/Splits.c.hash
+✖ [2563/2621] Replaying Mathlib.GroupTheory.SpecificGroups.Cyclic
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/GroupTheory/SpecificGroups/Cyclic.olean.private.hash
+✖ [2576/2621] Replaying Mathlib.Algebra.Order.Ring.IsNonarchimedean
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/ir/Mathlib/Algebra/Order/Ring/IsNonarchimedean.c.hash
+✖ [2577/2621] Replaying Mathlib.Data.Int.WithZero
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Data/Int/WithZero.olean.private.hash
+✖ [2578/2621] Replaying Mathlib.RingTheory.LocalRing.MaximalIdeal.Defs
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/RingTheory/LocalRing/MaximalIdeal/Defs.olean.hash
+✖ [2579/2621] Replaying Mathlib.RingTheory.Spectrum.Maximal.Defs
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/RingTheory/Spectrum/Maximal/Defs.olean.hash
+✖ [2581/2621] Replaying Mathlib.RingTheory.Localization.NumDen
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/RingTheory/Localization/NumDen.olean.hash
+✖ [2584/2650] Replaying Mathlib.RingTheory.Jacobson.Ideal
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/RingTheory/Jacobson/Ideal.ilean.hash
+✖ [2595/2650] Replaying Mathlib.Algebra.Ring.Action.End
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/Ring/Action/End.ir.hash
+✖ [2599/2650] Replaying Mathlib.RingTheory.Ideal.Colon
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/RingTheory/Ideal/Colon.ilean.hash
+✖ [2602/2650] Replaying Mathlib.RingTheory.Spectrum.Prime.Defs
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/RingTheory/Spectrum/Prime/Defs.ir.hash
+✖ [2615/2650] Replaying Mathlib.RingTheory.Ideal.Quotient.PowTransition
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/RingTheory/Ideal/Quotient/PowTransition.olean.private.hash
+✖ [2617/2650] Replaying Mathlib.Data.SetLike.Fintype
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Data/SetLike/Fintype.olean.private.hash
+✖ [2620/2650] Replaying Mathlib.Order.Atoms.Finite
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Order/Atoms/Finite.olean.hash
+✖ [2623/2650] Replaying Mathlib.Algebra.GroupWithZero.Submonoid.Instances
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/GroupWithZero/Submonoid/Instances.ir.hash
+✖ [2630/2694] Replaying Mathlib.Control.Bifunctor
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/ir/Mathlib/Control/Bifunctor.c.hash
+✖ [2646/2694] Replaying Mathlib.GroupTheory.Rank
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/GroupTheory/Rank.ir.hash
+✖ [2648/2694] Replaying Mathlib.RingTheory.Coprime.Ideal
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/RingTheory/Coprime/Ideal.olean.private.hash
+✖ [2650/2694] Replaying Mathlib.Algebra.Polynomial.Module.AEval
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/Polynomial/Module/AEval.olean.hash
+✖ [2661/2694] Replaying Mathlib.LinearAlgebra.TensorProduct.Quotient
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/ir/Mathlib/LinearAlgebra/TensorProduct/Quotient.c.hash
+✖ [2664/2792] Replaying Mathlib.RingTheory.Finiteness.Nakayama
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/ir/Mathlib/RingTheory/Finiteness/Nakayama.c.hash
+✖ [2668/2792] Replaying Mathlib.LinearAlgebra.TensorProduct.RightExactness
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/ir/Mathlib/LinearAlgebra/TensorProduct/RightExactness.c.hash
+✖ [2674/2792] Replaying Mathlib.Order.BooleanSubalgebra
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/ir/Mathlib/Order/BooleanSubalgebra.c.hash
+✖ [2675/2792] Replaying Mathlib.Topology.Sets.OpenCover
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Sets/OpenCover.ilean.hash
+✖ [2676/2792] Replaying Mathlib.Topology.LocallyClosed
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/LocallyClosed.olean.private.hash
+✖ [2678/2792] Replaying Mathlib.Topology.Spectral.Hom
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Spectral/Hom.ilean.hash
+✖ [2679/2792] Replaying Mathlib.Order.Ideal
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Order/Ideal.olean.hash
+✖ [2689/2792] Replaying Mathlib.CategoryTheory.ConcreteCategory.Forget
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/CategoryTheory/ConcreteCategory/Forget.olean.hash
+✖ [2691/2792] Replaying Mathlib.CategoryTheory.Endomorphism
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/CategoryTheory/Endomorphism.olean.hash
+✖ [2694/2792] Replaying Mathlib.CategoryTheory.Limits.Cones
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/CategoryTheory/Limits/Cones.olean.hash
+✖ [2696/2792] Replaying Mathlib.CategoryTheory.Category.ULift
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/CategoryTheory/Category/ULift.olean.hash
+✖ [2697/2792] Replaying Mathlib.CategoryTheory.Category.Preorder
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/CategoryTheory/Category/Preorder.olean.hash
+✖ [2698/2792] Replaying Mathlib.CategoryTheory.IsomorphismClasses
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/CategoryTheory/IsomorphismClasses.olean.hash
+✖ [2699/2792] Replaying Mathlib.CategoryTheory.Thin
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/CategoryTheory/Thin.olean.hash
+✖ [2702/2792] Replaying Mathlib.CategoryTheory.Balanced
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/CategoryTheory/Balanced.olean.server.hash
+✖ [2703/2792] Replaying Mathlib.CategoryTheory.PUnit
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/CategoryTheory/PUnit.olean.server.hash
+✖ [2704/2792] Replaying Mathlib.CategoryTheory.PEmpty
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/CategoryTheory/PEmpty.olean.server.hash
+✖ [2707/2792] Replaying Mathlib.CategoryTheory.MorphismProperty.Factorization
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/CategoryTheory/MorphismProperty/Factorization.olean.server.hash
+✖ [2710/2792] Replaying Mathlib.CategoryTheory.Limits.Types.ColimitType
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/CategoryTheory/Limits/Types/ColimitType.olean.hash
+✖ [2713/2792] Replaying Mathlib.CategoryTheory.Functor.Currying
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/CategoryTheory/Functor/Currying.olean.server.hash
+✖ [2715/2792] Replaying Mathlib.Algebra.Ring.TransferInstance
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/Ring/TransferInstance.olean.server.hash
+✖ [2717/2792] Replaying Mathlib.RingTheory.FreeRing
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/RingTheory/FreeRing.olean.hash
+✖ [2721/2792] Replaying Mathlib.CategoryTheory.ObjectProperty.CompleteLattice
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/CategoryTheory/ObjectProperty/CompleteLattice.olean.hash
+✖ [2722/2792] Replaying Mathlib.CategoryTheory.ObjectProperty.Equivalence
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/CategoryTheory/ObjectProperty/Equivalence.olean.hash
+✖ [2725/2792] Replaying Mathlib.CategoryTheory.HomCongr
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/CategoryTheory/HomCongr.olean.hash
+✖ [2727/2872] Replaying Mathlib.CategoryTheory.Functor.TwoSquare
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/CategoryTheory/Functor/TwoSquare.ir.hash
+✖ [2729/2872] Replaying Mathlib.CategoryTheory.Monad.Basic
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/CategoryTheory/Monad/Basic.olean.private.hash
+✖ [2730/2872] Replaying Mathlib.CategoryTheory.MorphismProperty.Composition
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/CategoryTheory/MorphismProperty/Composition.olean.private.hash
+✖ [2731/2872] Replaying Mathlib.Algebra.Ring.Subsemiring.Pointwise
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/Ring/Subsemiring/Pointwise.ilean.hash
+✖ [2741/2872] Replaying Mathlib.Algebra.Order.Hom.Units
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/Order/Hom/Units.olean.private.hash
+✖ [2742/2872] Replaying Mathlib.Algebra.CharZero.AddMonoidHom
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/CharZero/AddMonoidHom.olean.private.hash
+✖ [2743/2872] Replaying Mathlib.LinearAlgebra.BilinearForm.Basic
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/LinearAlgebra/BilinearForm/Basic.olean.hash
+✖ [2748/2872] Replaying Mathlib.Algebra.Polynomial.GroupRingAction
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/Polynomial/GroupRingAction.olean.hash
+✖ [2749/2872] Replaying Mathlib.Algebra.Ring.Action.Field
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/Ring/Action/Field.olean.hash
+✖ [2750/2872] Replaying Mathlib.Algebra.Ring.Action.Invariant
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/Ring/Action/Invariant.olean.hash
+✖ [2754/2872] Replaying Mathlib.FieldTheory.IntermediateField.Adjoin.Defs
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/FieldTheory/IntermediateField/Adjoin/Defs.olean.hash
+✖ [2757/2872] Replaying Mathlib.RingTheory.Adjoin.Singleton
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/RingTheory/Adjoin/Singleton.olean.hash
+✖ [2761/2872] Replaying Mathlib.Algebra.Group.Pointwise.Set.Card
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/Group/Pointwise/Set/Card.olean.hash
+✖ [2763/2872] Replaying Mathlib.RingTheory.TensorProduct.Finite
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/RingTheory/TensorProduct/Finite.olean.hash
+✖ [2768/2872] Replaying Mathlib.GroupTheory.Perm.ViaEmbedding
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/GroupTheory/Perm/ViaEmbedding.olean.server.hash
+✖ [2774/2872] Replaying Mathlib.Data.Multiset.Fintype
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Data/Multiset/Fintype.olean.hash
+✖ [2776/2872] Replaying Mathlib.Combinatorics.Matroid.Init
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Combinatorics/Matroid/Init.olean.hash
+✖ [2789/2872] Replaying Mathlib.Algebra.MvPolynomial.Supported
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/MvPolynomial/Supported.olean.server.hash
+✖ [2791/2938] Replaying Mathlib.CategoryTheory.LiftingProperties.Basic
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/ir/Mathlib/CategoryTheory/LiftingProperties/Basic.c.hash
+✖ [2805/2938] Replaying Mathlib.RingTheory.ChainOfDivisors
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/ir/Mathlib/RingTheory/ChainOfDivisors.c.hash
+✖ [2807/2938] Replaying Mathlib.RingTheory.AlgebraicIndependent.Defs
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/RingTheory/AlgebraicIndependent/Defs.ilean.hash
+✖ [2809/2938] Replaying Mathlib.Algebra.MvPolynomial.Monad
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/MvPolynomial/Monad.olean.hash
+✖ [2810/2938] Replaying Mathlib.Data.DFinsupp.Small
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Data/DFinsupp/Small.olean.hash
+✖ [2820/2938] Replaying Mathlib.GroupTheory.GroupAction.FixedPoints
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/GroupTheory/GroupAction/FixedPoints.olean.hash
+✖ [2826/2938] Replaying Mathlib.Algebra.CharP.IntermediateField
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/CharP/IntermediateField.olean.hash
+✖ [2830/2938] Replaying Mathlib.Data.Nat.Factorial.SuperFactorial
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Data/Nat/Factorial/SuperFactorial.ilean.hash
+✖ [2832/2938] Replaying Mathlib.LinearAlgebra.Basis.Bilinear
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/LinearAlgebra/Basis/Bilinear.olean.server.hash
+✖ [2836/2938] Replaying Mathlib.RingTheory.Finiteness.Prod
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/RingTheory/Finiteness/Prod.olean.server.hash
+✖ [2837/2938] Replaying Mathlib.RingTheory.TensorProduct.Free
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/RingTheory/TensorProduct/Free.ilean.hash
+✖ [2844/2938] Replaying Mathlib.Topology.Algebra.OpenSubgroup
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Algebra/OpenSubgroup.ilean.hash
+✖ [2848/2938] Replaying Mathlib.Topology.Algebra.WithZeroTopology
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Algebra/WithZeroTopology.olean.private.hash
+✖ [2849/2938] Replaying Mathlib.Topology.Algebra.GroupCompletion
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Algebra/GroupCompletion.olean.private.hash
+✖ [2850/2938] Replaying Mathlib.Topology.Algebra.Ring.Ideal
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Algebra/Ring/Ideal.olean.hash
+✖ [2858/2938] Replaying Mathlib.RingTheory.UniqueFactorizationDomain.Nat
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/RingTheory/UniqueFactorizationDomain/Nat.olean.server.hash
+✖ [2864/2938] Replaying Mathlib.RingTheory.Int.Basic
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/RingTheory/Int/Basic.olean.server.hash
+✖ [2930/2990] Replaying Mathlib.Topology.Algebra.UniformFilterBasis
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Algebra/UniformFilterBasis.ir.hash
+✖ [2938/2990] Replaying Mathlib.RingTheory.Polynomial.Eisenstein.Criterion
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/RingTheory/Polynomial/Eisenstein/Criterion.olean.server.hash
+✖ [2945/2990] Replaying Mathlib.Topology.Algebra.Group.ClosedSubgroup
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Algebra/Group/ClosedSubgroup.olean.hash
+✖ [2954/2990] Replaying Mathlib.Topology.Maps.Proper.CompactlyGenerated
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Topology/Maps/Proper/CompactlyGenerated.olean.private.hash
+✖ [2956/2990] Replaying Mathlib.NumberTheory.Padics.PadicVal.Basic
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/NumberTheory/Padics/PadicVal/Basic.olean.server.hash
+✖ [2957/2990] Replaying Mathlib.Analysis.Normed.Module.Ray
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/Normed/Module/Ray.olean.hash
+✖ [2960/2990] Replaying Mathlib.Analysis.InnerProductSpace.Defs
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Analysis/InnerProductSpace/Defs.olean.hash
+✖ [2961/2990] Replaying Mathlib.Algebra.Algebra.ZMod
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/Algebra/ZMod.olean.hash
+✖ [2965/2990] Replaying Mathlib.Data.ZMod.Units
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Data/ZMod/Units.olean.hash
+✖ [2968/2990] Replaying Mathlib.Tactic.NormNum.ModEq
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/NormNum/ModEq.olean.hash
+✖ [2969/2990] Replaying Mathlib.Data.Nat.DvdSequence
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Data/Nat/DvdSequence.olean.server.hash
+✖ [2972/2990] Replaying Mathlib.Tactic.NormNum.NatLog
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/NormNum/NatLog.olean.hash
+✖ [2973/2990] Replaying Mathlib.Tactic.NormNum.NatSqrt
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/NormNum/NatSqrt.olean.hash
+✖ [2974/2990] Replaying Mathlib.Tactic.NormNum.Ordinal
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/NormNum/Ordinal.olean.hash
+✖ [2975/2990] Replaying Mathlib.Tactic.NormNum.Parity
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/NormNum/Parity.olean.hash
+✖ [2976/2990] Replaying Mathlib.Tactic.NormNum.PowMod
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/NormNum/PowMod.olean.hash
+✖ [2977/2990] Replaying Mathlib.Tactic.NormNum.Prime
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/NormNum/Prime.olean.hash
+✖ [2979/3028] Replaying Mathlib.Algebra.BigOperators.Field
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Algebra/BigOperators/Field.olean.server.hash
+✖ [2991/3028] Replaying Mathlib.Tactic.NormNum.RealSqrt
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/NormNum/RealSqrt.olean.hash
+✖ [2992/3028] Replaying Mathlib.Tactic.PNatToNat
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/PNatToNat.olean.hash
+✖ [2993/3028] Replaying Mathlib.Tactic.Polynomial.Basic
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/Polynomial/Basic.olean.hash
+✖ [2994/3028] Replaying Mathlib.Tactic.Polyrith
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/Polyrith.olean.hash
+✖ [2995/3028] Replaying Mathlib.Tactic.ProdAssoc
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/ProdAssoc.olean.hash
+✖ [2996/3028] Replaying Mathlib.Tactic.Recall
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/Recall.olean.hash
+✖ [2997/3028] Replaying Mathlib.Tactic.ReduceModChar.Ext
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/ReduceModChar/Ext.olean.hash
+✖ [2999/3028] Replaying Mathlib.Tactic.Relation.Symm
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/Relation/Symm.olean.hash
+✖ [3000/3028] Replaying Mathlib.Tactic.Replace
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/Replace.olean.server.hash
+✖ [3001/3028] Replaying Mathlib.Tactic.RewriteSearch
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/RewriteSearch.olean.hash
+✖ [3002/3028] Replaying Mathlib.Tactic.Ring.NamePolyVars
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/Ring/NamePolyVars.olean.hash
+✖ [3003/3028] Replaying Mathlib.RingTheory.MvPowerSeries.Basic
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/RingTheory/MvPowerSeries/Basic.olean.hash
+✖ [3005/3028] Replaying Mathlib.Tactic.Sat.FromLRAT
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/Sat/FromLRAT.olean.hash
+✖ [3006/3028] Replaying Mathlib.Tactic.Simproc.Divisors
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/Simproc/Divisors.olean.server.hash
+✖ [3008/3028] Replaying Mathlib.Tactic.Simproc.FinsetInterval
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/Simproc/FinsetInterval.olean.hash
+✖ [3009/3028] Replaying Mathlib.Tactic.Simproc.VecPerm
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/Simproc/VecPerm.olean.hash
+✖ [3010/3028] Replaying Mathlib.Tactic.StacksAttribute
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/StacksAttribute.olean.hash
+✖ [3011/3028] Replaying Mathlib.Tactic.TypeCheck
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/TypeCheck.olean.hash
+✖ [3012/3028] Replaying ProofWidgets.Component.PenroseDiagram
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/proofwidgets/.lake/build/lib/lean/ProofWidgets/Component/PenroseDiagram.olean.hash
+✖ [3013/3028] Replaying ProofWidgets.Presentation.Expr
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/proofwidgets/.lake/build/lib/lean/ProofWidgets/Presentation/Expr.olean.hash
+✖ [3015/3028] Replaying Mathlib.Tactic.WithoutCDot
+error: resource exhausted (error code: 28, no space left on device)
+  file: /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/bpz/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Tactic/WithoutCDot.olean.hash
+Some required targets logged failures:
+- Mathlib.RingTheory.Noetherian.Basic
+- Mathlib.RingTheory.OrzechProperty
+- Mathlib.LinearAlgebra.FreeModule.Finite.Basic
+- Mathlib.Combinatorics.Enumerative.Partition.Basic
+- Mathlib.GroupTheory.Perm.Cycle.Factors
+- Mathlib.LinearAlgebra.Multilinear.DFinsupp
+- Mathlib.LinearAlgebra.Matrix.SemiringInverse
+- Mathlib.RingTheory.Nilpotent.Defs
+- Mathlib.Logic.Equiv.Finset
+- Mathlib.Algebra.Polynomial.Splits
+- Mathlib.GroupTheory.SpecificGroups.Cyclic
+- Mathlib.Algebra.Order.Ring.IsNonarchimedean
+- Mathlib.Data.Int.WithZero
+- Mathlib.RingTheory.LocalRing.MaximalIdeal.Defs
+- Mathlib.RingTheory.Spectrum.Maximal.Defs
+- Mathlib.RingTheory.Localization.NumDen
+- Mathlib.RingTheory.Jacobson.Ideal
+- Mathlib.Algebra.Ring.Action.End
+- Mathlib.RingTheory.Ideal.Colon
+- Mathlib.RingTheory.Spectrum.Prime.Defs
+- Mathlib.RingTheory.Ideal.Quotient.PowTransition
+- Mathlib.Data.SetLike.Fintype
+- Mathlib.Order.Atoms.Finite
+- Mathlib.Algebra.GroupWithZero.Submonoid.Instances
+- Mathlib.Control.Bifunctor
+- Mathlib.GroupTheory.Rank
+- Mathlib.RingTheory.Coprime.Ideal
+- Mathlib.Algebra.Polynomial.Module.AEval
+- Mathlib.LinearAlgebra.TensorProduct.Quotient
+- Mathlib.RingTheory.Finiteness.Nakayama
+- Mathlib.LinearAlgebra.TensorProduct.RightExactness
+- Mathlib.Order.BooleanSubalgebra
+- Mathlib.Topology.Sets.OpenCover
+- Mathlib.Topology.LocallyClosed
+- Mathlib.Topology.Spectral.Hom
+- Mathlib.Order.Ideal
+- Mathlib.CategoryTheory.ConcreteCategory.Forget
+- Mathlib.CategoryTheory.Endomorphism
+- Mathlib.CategoryTheory.Limits.Cones
+- Mathlib.CategoryTheory.Category.ULift
+- Mathlib.CategoryTheory.Category.Preorder
+- Mathlib.CategoryTheory.IsomorphismClasses
+- Mathlib.CategoryTheory.Thin
+- Mathlib.CategoryTheory.Balanced
+- Mathlib.CategoryTheory.PUnit
+- Mathlib.CategoryTheory.PEmpty
+- Mathlib.CategoryTheory.MorphismProperty.Factorization
+- Mathlib.CategoryTheory.Limits.Types.ColimitType
+- Mathlib.CategoryTheory.Functor.Currying
+- Mathlib.Algebra.Ring.TransferInstance
+- Mathlib.RingTheory.FreeRing
+- Mathlib.CategoryTheory.ObjectProperty.CompleteLattice
+- Mathlib.CategoryTheory.ObjectProperty.Equivalence
+- Mathlib.CategoryTheory.HomCongr
+- Mathlib.CategoryTheory.Functor.TwoSquare
+- Mathlib.CategoryTheory.Monad.Basic
+- Mathlib.CategoryTheory.MorphismProperty.Composition
+- Mathlib.Algebra.Ring.Subsemiring.Pointwise
+- Mathlib.Algebra.Order.Hom.Units
+- Mathlib.Algebra.CharZero.AddMonoidHom
+- Mathlib.LinearAlgebra.BilinearForm.Basic
+- Mathlib.Algebra.Polynomial.GroupRingAction
+- Mathlib.Algebra.Ring.Action.Field
+- Mathlib.Algebra.Ring.Action.Invariant
+- Mathlib.FieldTheory.IntermediateField.Adjoin.Defs
+- Mathlib.RingTheory.Adjoin.Singleton
+- Mathlib.Algebra.Group.Pointwise.Set.Card
+- Mathlib.RingTheory.TensorProduct.Finite
+- Mathlib.GroupTheory.Perm.ViaEmbedding
+- Mathlib.Data.Multiset.Fintype
+- Mathlib.Combinatorics.Matroid.Init
+- Mathlib.Algebra.MvPolynomial.Supported
+- Mathlib.CategoryTheory.LiftingProperties.Basic
+- Mathlib.RingTheory.ChainOfDivisors
+- Mathlib.RingTheory.AlgebraicIndependent.Defs
+- Mathlib.Algebra.MvPolynomial.Monad
+- Mathlib.Data.DFinsupp.Small
+- Mathlib.GroupTheory.GroupAction.FixedPoints
+- Mathlib.Algebra.CharP.IntermediateField
+- Mathlib.Data.Nat.Factorial.SuperFactorial
+- Mathlib.LinearAlgebra.Basis.Bilinear
+- Mathlib.RingTheory.Finiteness.Prod
+- Mathlib.RingTheory.TensorProduct.Free
+- Mathlib.Topology.Algebra.OpenSubgroup
+- Mathlib.Topology.Algebra.WithZeroTopology
+- Mathlib.Topology.Algebra.GroupCompletion
+- Mathlib.Topology.Algebra.Ring.Ideal
+- Mathlib.RingTheory.UniqueFactorizationDomain.Nat
+- Mathlib.RingTheory.Int.Basic
+- Mathlib.Topology.Algebra.UniformFilterBasis
+- Mathlib.RingTheory.Polynomial.Eisenstein.Criterion
+- Mathlib.Topology.Algebra.Group.ClosedSubgroup
+- Mathlib.Topology.Maps.Proper.CompactlyGenerated
+- Mathlib.NumberTheory.Padics.PadicVal.Basic
+- Mathlib.Analysis.Normed.Module.Ray
+- Mathlib.Analysis.InnerProductSpace.Defs
+- Mathlib.Algebra.Algebra.ZMod
+- Mathlib.Data.ZMod.Units
+- Mathlib.Tactic.NormNum.ModEq
+- Mathlib.Data.Nat.DvdSequence
+- Mathlib.Tactic.NormNum.NatLog
+- Mathlib.Tactic.NormNum.NatSqrt
+- Mathlib.Tactic.NormNum.Ordinal
+- Mathlib.Tactic.NormNum.Parity
+- Mathlib.Tactic.NormNum.PowMod
+- Mathlib.Tactic.NormNum.Prime
+- Mathlib.Algebra.BigOperators.Field
+- Mathlib.Tactic.NormNum.RealSqrt
+- Mathlib.Tactic.PNatToNat
+- Mathlib.Tactic.Polynomial.Basic
+- Mathlib.Tactic.Polyrith
+- Mathlib.Tactic.ProdAssoc
+- Mathlib.Tactic.Recall
+- Mathlib.Tactic.ReduceModChar.Ext
+- Mathlib.Tactic.Relation.Symm
+- Mathlib.Tactic.Replace
+- Mathlib.Tactic.RewriteSearch
+- Mathlib.Tactic.Ring.NamePolyVars
+- Mathlib.RingTheory.MvPowerSeries.Basic
+- Mathlib.Tactic.Sat.FromLRAT
+- Mathlib.Tactic.Simproc.Divisors
+- Mathlib.Tactic.Simproc.FinsetInterval
+- Mathlib.Tactic.Simproc.VecPerm
+- Mathlib.Tactic.StacksAttribute
+- Mathlib.Tactic.TypeCheck
+- ProofWidgets.Component.PenroseDiagram
+- ProofWidgets.Presentation.Expr
+- Mathlib.Tactic.WithoutCDot
+error: build failed

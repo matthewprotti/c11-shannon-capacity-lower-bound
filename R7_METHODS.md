@@ -59,3 +59,7 @@ R5/R6 retain their original numerical claims and disclosed native-evaluation dep
 The underlying framework is due to **Pjotr Buys, Sven Polak, and Jeroen Zuiddam**. The new work was **AI co-developed** under Matthew Protti's direction with **OpenAI's Astra 6 Pro** and **Codex GPT-6 Astra Extra-High**. See [AI_DISCLOSURE.md](AI_DISCLOSURE.md), [REFERENCES.md](REFERENCES.md), and [NOTICE](NOTICE).
 
 The [v0.4.0 release](https://github.com/matthewprotti/c11-shannon-capacity-lower-bound/releases/tag/v0.4.0) preserves `C11_R7_Lean_Checked_2026-09-08.zip` unchanged, with SHA256 `cc230eeaef95f974110827d149e07d7763ce136c58dfa85f5cf7b0b4648ea5c4`. GitHub's actual publication timestamp records disclosure of this version; the filename date is not a timestamp or proof of worldwide priority.
+
+## Subsequent methods follow-up
+
+The [canonical cell retyping development](CANONICAL_RETYPING.md), released with v0.5.0, is a separate follow-up. It tightens masks against fixed generator cells, proves least sound masks relative to that information, and preserves coarse sets/counts idempotently. It keeps the R7 normalized alphabet and does not alter this frozen R7 theorem or its release package.

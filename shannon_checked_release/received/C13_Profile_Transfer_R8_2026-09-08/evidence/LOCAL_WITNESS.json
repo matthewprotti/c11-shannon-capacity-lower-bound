@@ -1,0 +1,46 @@
+{
+  "node": "c12",
+  "dimension": 72,
+  "target_family": "A",
+  "reference_word": "BBV",
+  "typed_masks": [
+    5,
+    5,
+    100
+  ],
+  "typed_mask_labels": [
+    "BA",
+    "BA",
+    "AHV"
+  ],
+  "input_cell_sizes": [
+    "183322205820",
+    "17079235853279475335877211451436",
+    "124754448"
+  ],
+  "propagated_mask": 1,
+  "protected_labels": "NADH",
+  "contribution": "390606574697507753270521849102154254852831147848960",
+  "coarse_blockers": [
+    [
+      "N",
+      "ADA"
+    ],
+    [
+      "N",
+      "DBH"
+    ],
+    [
+      "A",
+      "BNA"
+    ],
+    [
+      "A",
+      "NDA"
+    ],
+    [
+      "H",
+      "NBH"
+    ]
+  ]
+}

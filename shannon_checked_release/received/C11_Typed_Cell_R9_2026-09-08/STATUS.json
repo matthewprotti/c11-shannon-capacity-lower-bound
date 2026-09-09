@@ -1,0 +1,18 @@
+{
+  "status": "R9_FINITE_CERTIFICATES_CHECKED_GENERAL_THEOREM_WRITTEN",
+  "R9_Lean_checked": false,
+  "external_review": false,
+  "worldwide_priority_clearance": false,
+  "R8_C13_unchanged": true,
+  "cases": [
+    {
+      "dimension": 198,
+      "lower": "5295515084805001"
+    },
+    {
+      "dimension": 213,
+      "lower": "5295524149098711"
+    }
+  ],
+  "new_general_theorem": "canonical cell retyping: admissibility, coarse semantics, local least masks, idempotence; written proof only"
+}

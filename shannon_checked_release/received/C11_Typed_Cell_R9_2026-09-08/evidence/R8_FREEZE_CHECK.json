@@ -1,0 +1,15 @@
+{
+  "R8_archive_sha256": "4617612b6330a8dd3726bb3ee91b5f1dcd29177cf76b3c9cf47c29e1edcd0caf",
+  "expected_sha256": "4617612b6330a8dd3726bb3ee91b5f1dcd29177cf76b3c9cf47c29e1edcd0caf",
+  "unchanged": true,
+  "exposed_files_identical_to_archive": [
+    "CODEX_HANDOFF.md",
+    "PROOF.md",
+    "certificates/C13_d522.json",
+    "evidence/METRICS.json",
+    "evidence/VERIFICATION_NORMAL.json",
+    "evidence/LOCAL_WITNESS.json",
+    "compiled/C13_d522.json"
+  ],
+  "operation": "No C13/R8 search, modification, replacement, or formalization performed in R9."
+}

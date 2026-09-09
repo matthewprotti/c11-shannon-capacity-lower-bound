@@ -1,0 +1,20 @@
+{
+  "schema": "R10_EXACT_RELATION_GAIN_LIMIT_V1",
+  "frozen_dimension": 213,
+  "parent_N": "15581417495499244082365919592642781336557169190184505729531184988512265817617037617125618829671532871759899754343522415371430987488600093437366857505800109",
+  "exception_rules": [
+    {
+      "coordinate": 2,
+      "type": 54
+    },
+    {
+      "coordinate": 3,
+      "type": 51
+    }
+  ],
+  "exception_vertex_count": 4158,
+  "exception_total_weight": "130733448740482067495864706649431879479565892580622177639759430796384300413232779331535551387177854215370737248261847222837310185145833350108813213370",
+  "root_gain_limit_numerator": "21",
+  "root_gain_limit_denominator": "100000000",
+  "scope": "Difference between the optima of the realized-conflict and fixed-symbolic terminal models on the same whole cells; not a limit on internal changes or finer cell partitions."
+}
