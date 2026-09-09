@@ -1,0 +1,3 @@
+/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/negative_controls/bad_terminal_C11R9D198.lean:8:62: error: Tactic `native_decide` evaluated that the proposition
+  C11R6ListChecks.inside (C11R6ListChecks.wordApart C11R6Base.typedSep) badRows = true
+is false

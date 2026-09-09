@@ -1,0 +1,13 @@
+{
+  "version": "4.32.2",
+  "platform": "darwin_aarch64",
+  "source_url": "https://github.com/leanprover/lean4/releases/download/v4.32.2/lean-4.32.2-darwin_aarch64.tar.zst",
+  "archive_bytes": 550165784,
+  "release_sha256": "ea99ead969901b9fe4c7e7bf350b812a0249e9a5cea20474a737c0cc64746bc0",
+  "measured_sha256": "ea99ead969901b9fe4c7e7bf350b812a0249e9a5cea20474a737c0cc64746bc0",
+  "checksum_verified": true,
+  "executables": {
+    "lean": "1b370cfcbf44e80d1b004ab1b1ab9a4c73951f9f7c242140bcff9bc577576554",
+    "lake": "58261a1a2fa1a362376c71e02ca854a093e71cc5e6ea64b287a931cb2565273d"
+  }
+}

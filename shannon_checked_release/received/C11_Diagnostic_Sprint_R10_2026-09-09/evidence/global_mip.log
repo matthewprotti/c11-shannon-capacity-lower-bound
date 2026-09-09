@@ -1,0 +1,51 @@
+GLOBAL_MIP 10987 66065 741731 lower 100363850.0
+/mnt/data/shannon_sprint_r10_work/global_mip.py:19: RuntimeWarning: Unrecognized options detected: {'threads'}. These will be passed to HiGHS verbatim.
+  r=milp(-obj,integrality=np.ones(len(sel)),bounds=Bounds(np.zeros(len(sel)),np.ones(len(sel))),constraints=LinearConstraint(a,lo,hi),options={'time_limit':180.,'mip_rel_gap':0.00002,'threads':1,'disp':True})
+Running HiGHS 1.8.0 (git hash: 222cce7): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 1e+07]
+  Cost   [1e+02, 1e+07]
+  Bound  [1e+00, 1e+00]
+  RHS    [1e+00, 1e+08]
+Presolving model
+66066 rows, 10987 cols, 741731 nonzeros  0s
+38910 rows, 10987 cols, 568089 nonzeros  6s
+38910 rows, 10987 cols, 568089 nonzeros  16s
+Objective function is integral with scale 1
+
+Solving MIP model with:
+   38910 rows
+   10987 cols (10987 binary, 0 integer, 0 implied int., 0 continuous)
+   568089 nonzeros
+MIP-Timing:          20 - starting analytic centre calculation
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic; L => Sub-MIP;
+     P => Empty MIP; R => Randomized rounding; S => Solve LP; T => Evaluate node; U => Unbounded;
+     z => Trivial zero; l => Trivial lower; u => Trivial upper; p => Trivial point
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   -736825959      inf                  inf        0      0      0         0    19.8s
+         0       0         0   0.00%   -736825959      inf                  inf        0      0      0     40292   180.0s
+
+Solving report
+  Status            Time limit reached
+  Primal bound      inf
+  Dual bound        -736825959
+  Gap               inf
+  P-D integral      0
+  Solution status   -
+  Timing            180.03 (total)
+                    0.00 (presolve)
+                    0.00 (solve)
+                    0.00 (postsolve)
+  Max sub-MIP depth 0
+  Nodes             0
+  Repair LPs        0 (0 feasible; 0 iterations)
+  LP iterations     40292 (total)
+                    0 (strong br.)
+                    0 (separation)
+                    0 (heuristics)
+DONE Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None) secs 180.25806427001953 fun None
+RESULT None None

@@ -1,0 +1,30 @@
+{
+  "status": "PASS_C11_R5_PINNED_LEAN_GATE",
+  "prepared_at_utc": "2026-09-08T23:10:38.134613+00:00",
+  "dimensions": [
+    186,
+    198,
+    213
+  ],
+  "capacity_lower_bounds": {
+    "186": "5.295498140339058",
+    "198": "5.295509919114478",
+    "213": "5.295514953483263"
+  },
+  "bpz_commit": "aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65",
+  "mathlib_commit": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "lean_version": "4.32.2",
+  "frozen_R5_archive_sha256": "a57b1ba556ff2d74cfa5654a6b5677299dfac5308995bb2ea2cc7aa5c329d8a3",
+  "frozen_R5_files_changed": false,
+  "fresh_complete_replay": true,
+  "scope_aliases": 21,
+  "audited_declarations": 191,
+  "native_axioms_type_checked": 699,
+  "semantic_negative_compile_controls": 6,
+  "native_evaluation_used": true,
+  "kernel_only_arithmetic_replay": false,
+  "independent_statement_review": false,
+  "external_expert_endorsement": false,
+  "new_priority_review_performed": false,
+  "remote_publication_performed": false
+}

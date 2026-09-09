@@ -1,0 +1,121 @@
+{
+  "status": "INCOMPLETE",
+  "started_at_utc": "2026-09-09T17:20:56.815051+00:00",
+  "commands": [
+    {
+      "label": "build_1_C11R9D198",
+      "command": [
+        "lake",
+        "--rehash",
+        "--no-ansi",
+        "build",
+        "ShannonBounds.C11R9D198"
+      ],
+      "returncode": 0,
+      "seconds": 128.7957234159112,
+      "log": "gate_logs/build_1_C11R9D198.log",
+      "sha256": "d09d1208468d71fb74271d8159dcb330bc1493a87eb6775940d1a6ba6e61f961"
+    },
+    {
+      "label": "build_2_C11R9D213",
+      "command": [
+        "lake",
+        "--rehash",
+        "--no-ansi",
+        "build",
+        "ShannonBounds.C11R9D213"
+      ],
+      "returncode": 0,
+      "seconds": 50.099458625074476,
+      "log": "gate_logs/build_2_C11R9D213.log",
+      "sha256": "4572759e45df51ad84486498ea3a894ec5c177a46ca5c5dba34db0908aa93b96"
+    },
+    {
+      "label": "build_3_C11R10D213",
+      "command": [
+        "lake",
+        "--rehash",
+        "--no-ansi",
+        "build",
+        "ShannonBounds.C11R10D213"
+      ],
+      "returncode": 0,
+      "seconds": 40.41321687493473,
+      "log": "gate_logs/build_3_C11R10D213.log",
+      "sha256": "32621c99bb1813fb775b41d1b9121b8b3ec2498e66323ab4977658cf51186e53"
+    },
+    {
+      "label": "build_4_C13R8D522",
+      "command": [
+        "lake",
+        "--rehash",
+        "--no-ansi",
+        "build",
+        "ShannonBounds.C13R8D522"
+      ],
+      "returncode": 0,
+      "seconds": 70.10544466716237,
+      "log": "gate_logs/build_4_C13R8D522.log",
+      "sha256": "953e0975030fc812104a6931bbdabbb006da7ba1d1088e5891c0ee95f50ce993"
+    },
+    {
+      "label": "build_5_Examples",
+      "command": [
+        "lake",
+        "--rehash",
+        "--no-ansi",
+        "build",
+        "ShannonBounds.CellRetyping.Examples"
+      ],
+      "returncode": 1,
+      "seconds": 7.268828958971426,
+      "log": "gate_logs/build_5_Examples.log",
+      "sha256": "31bc45b9af9f5965bfcd5c22fe079a49308335688904f3018b2ee744bf9ef30d"
+    }
+  ],
+  "source_bindings": {
+    "derived_source_hashes": {
+      "ShannonBounds/C11R9D213.lean": "06afafc257de98706bced2f4b76d54a4dca19e15bcbffe46d089562edf33999a",
+      "ShannonBounds/C13R8Tables.lean": "8054b26bf507ea27760abfa97bdea3ccc6a554948ccb6f75284067333774112c",
+      "ShannonBounds/C11R10D213.lean": "3661c5c294f2b5225775006adbe5372960b348f981baf5c860097b18c66e38c9",
+      "ShannonBounds/C11R9D198.lean": "ca7f63f9052ff3c0d180ef792a73e64affb091e3cd801c8cba05e1ad57023242",
+      "ShannonBounds/C13R8Base.lean": "b6c5da2cbbb3d60490eceb2a570a21761d2faebd9efd9d7f78113d0b59945506",
+      "ShannonBounds/C13R8D522.lean": "06fb80a12c8d88942ddbcdf4884e3ab161b5f832c7202690378341c24e6302b6",
+      "ShannonBounds/CellRetyping/Core.lean": "481126ceaf0abe2990e4ec05bad7ab8c7ab15824533fe7b186b81068f68c8211",
+      "ShannonBounds/CellRetyping/Semantics.lean": "3a9ffafff3b24b6f033d9e4127de912eff7ab27917b3c253df12498b6308b8be",
+      "ShannonBounds/CellRetyping/DAG.lean": "7a4f344e2fb0fdcfc0f296b69a40d7aaff11bde19d0a5aaacad366f4e1c1e1d4",
+      "ShannonBounds/CellRetyping/Operations.lean": "ab48c919298df25f2f4716adeeda0a673700f6ed7c26eb4d5f17a4fae8a9247c",
+      "ShannonBounds/CellRetyping/Recursion.lean": "e33fd02ec0d5f708d5b5cbcbd44cf5d2f03ee369caabc00cae83f2c1d41f19b9",
+      "ShannonBounds/CellRetyping/Examples.lean": "2136a3bf61dba8ba57e43b6044e218c7caa8156e1be48083c94f4f89f4d97b9f"
+    },
+    "unchanged_parent_source_hashes": {
+      "ShannonBounds/C11R6.lean": "c1e8dc447de4bdf20f7a6d1e2d92bf70852fa85966ea50c026babab279e7aab2",
+      "ShannonBounds/C11R6Base.lean": "8901cfd56a6f7930560cf1463596f83d3728d178c1ef31523aeb3ea6e778c435",
+      "ShannonBounds/C11R6Common.lean": "024db44f24cdf7f4ef6d3e7dc4c9a23139081e8957fd0152cd97cd69d41aaee8",
+      "ShannonBounds/C11R6D186.lean": "a36a3c1023da8c834f6da153d66ee6935a570509350b0f87f475cc3abb82f178",
+      "ShannonBounds/C11R6D198.lean": "9c3973b6f2a5c50cbea29202cd2f7203297a9d24d4f94676d8e0d3551485ef1a",
+      "ShannonBounds/C11R6D213.lean": "3caa7dc650cdbd8b473047be55579b200546199cf08b83a1230fff27f7551f21",
+      "ShannonBounds/C11R6History.lean": "3a0ace15e9cfcde7bd2028c052f7fd2e7c9384f5b658e9e09686ee079bdfe33c",
+      "ShannonBounds/C11R6ListChecks.lean": "9b702263fa418ae6791af994f1f5b6fb21422cc7f923d9daa2b7cc4e548a85fb",
+      "ShannonBounds/C11R6Tables.lean": "896e8b4fe6fa1eb791e0b0ec0c712b55c9941b225b2debb6f1f0f40fd953e9fd",
+      "ShannonBounds/ProfileCompiler/Cardinality.lean": "b057a6e9e5d18bf4a6f66a0acfa0d5056acb5534b9123fd7bfc2d5fe5ee82826",
+      "ShannonBounds/ProfileCompiler/Core.lean": "3e26fb9f03212c40758f0b9d152c343eda624e9bff74ca660d895cc3b66e85ac",
+      "ShannonBounds/ProfileCompiler/DAG.lean": "9f3b2b70764361d455fd4736f9f32281eccbe6aec0cfe08a81d030f1f3a9ad3b",
+      "ShannonBounds/ProfileCompiler/Examples.lean": "f566965836304574d02713b8806ac2cc1f81a0dc87157cf5a036a1b929dce749",
+      "ShannonBounds/ProfileCompiler/Powers.lean": "00cce75797e2c5117f7366c74acc5fecadbba0a4459d4d056e64367cc866c0e6",
+      "ShannonBounds/ProfileCompiler/Products.lean": "856daaad42ca0bc93ef2777c53c2836bc92f1095fd4ae58088c2c58b5a3d6e29",
+      "ShannonBounds/ProfileCompiler/Profiles.lean": "7aa4f9425180f914d03022bae753c22645a9f8fd731272c2c48acaed900c4d59",
+      "ShannonBounds/ProfileCompiler/Pruning.lean": "1df8657f1e615faf581a1614e21405c52ff7e34d8b1fd67b302ffa9effcffc15",
+      "ShannonBounds/ProfileCompiler/Recursion.lean": "3e3d53276ebddd20ac11c551fc1f6807080d24c85b13ac9255a472a4a539073a",
+      "ShannonBounds/ProfileCompiler/Semantics.lean": "e415589fa3ce2239db3a04a6148569a1e3c4a4e806f7995c22bffeb81f7e9330",
+      "ShannonBounds/ProfileCompiler.lean": "97bb8d1693b0abb0caf5eb371a3bc11ea3a52e36e397ef81799883f89a5fd104"
+    },
+    "frozen_manifests": {
+      "C11_Diagnostic_Sprint_R10_2026-09-09": "701ea1e90ba2e2a6577aa5b9580cb11f7663411203945e8e38362899d8dfd002",
+      "C11_Typed_Cell_R9_2026-09-08": "5a536454b3f96d666d42bde7d9bb8af34228e9b8ddd8623e25b526952eaffe37",
+      "C13_Profile_Transfer_R8_2026-09-08": "cf85b76eb2d7a2500ddf4336e20757e586e0045e024cdae181f1b767811e3c6f"
+    }
+  },
+  "trust": "Pinned Lean compiler/runtime, standard axioms, audited native Bool-equality axioms for finite numerical certificates, and pinned dependency binaries. Symbolic retyping has no native axioms.",
+  "failure": "ra.GroupWithZero.Submonoid.Instances\n- Mathlib.Control.Bifunctor\n- Mathlib.GroupTheory.Rank\n- Mathlib.RingTheory.Coprime.Ideal\n- Mathlib.Algebra.Polynomial.Module.AEval\n- Mathlib.LinearAlgebra.TensorProduct.Quotient\n- Mathlib.RingTheory.Finiteness.Nakayama\n- Mathlib.LinearAlgebra.TensorProduct.RightExactness\n- Mathlib.Order.BooleanSubalgebra\n- Mathlib.Topology.Sets.OpenCover\n- Mathlib.Topology.LocallyClosed\n- Mathlib.Topology.Spectral.Hom\n- Mathlib.Order.Ideal\n- Mathlib.CategoryTheory.ConcreteCategory.Forget\n- Mathlib.CategoryTheory.Endomorphism\n- Mathlib.CategoryTheory.Limits.Cones\n- Mathlib.CategoryTheory.Category.ULift\n- Mathlib.CategoryTheory.Category.Preorder\n- Mathlib.CategoryTheory.IsomorphismClasses\n- Mathlib.CategoryTheory.Thin\n- Mathlib.CategoryTheory.Balanced\n- Mathlib.CategoryTheory.PUnit\n- Mathlib.CategoryTheory.PEmpty\n- Mathlib.CategoryTheory.MorphismProperty.Factorization\n- Mathlib.CategoryTheory.Limits.Types.ColimitType\n- Mathlib.CategoryTheory.Functor.Currying\n- Mathlib.Algebra.Ring.TransferInstance\n- Mathlib.RingTheory.FreeRing\n- Mathlib.CategoryTheory.ObjectProperty.CompleteLattice\n- Mathlib.CategoryTheory.ObjectProperty.Equivalence\n- Mathlib.CategoryTheory.HomCongr\n- Mathlib.CategoryTheory.Functor.TwoSquare\n- Mathlib.CategoryTheory.Monad.Basic\n- Mathlib.CategoryTheory.MorphismProperty.Composition\n- Mathlib.Algebra.Ring.Subsemiring.Pointwise\n- Mathlib.Algebra.Order.Hom.Units\n- Mathlib.Algebra.CharZero.AddMonoidHom\n- Mathlib.LinearAlgebra.BilinearForm.Basic\n- Mathlib.Algebra.Polynomial.GroupRingAction\n- Mathlib.Algebra.Ring.Action.Field\n- Mathlib.Algebra.Ring.Action.Invariant\n- Mathlib.FieldTheory.IntermediateField.Adjoin.Defs\n- Mathlib.RingTheory.Adjoin.Singleton\n- Mathlib.Algebra.Group.Pointwise.Set.Card\n- Mathlib.RingTheory.TensorProduct.Finite\n- Mathlib.GroupTheory.Perm.ViaEmbedding\n- Mathlib.Data.Multiset.Fintype\n- Mathlib.Combinatorics.Matroid.Init\n- Mathlib.Algebra.MvPolynomial.Supported\n- Mathlib.CategoryTheory.LiftingProperties.Basic\n- Mathlib.RingTheory.ChainOfDivisors\n- Mathlib.RingTheory.AlgebraicIndependent.Defs\n- Mathlib.Algebra.MvPolynomial.Monad\n- Mathlib.Data.DFinsupp.Small\n- Mathlib.GroupTheory.GroupAction.FixedPoints\n- Mathlib.Algebra.CharP.IntermediateField\n- Mathlib.Data.Nat.Factorial.SuperFactorial\n- Mathlib.LinearAlgebra.Basis.Bilinear\n- Mathlib.RingTheory.Finiteness.Prod\n- Mathlib.RingTheory.TensorProduct.Free\n- Mathlib.Topology.Algebra.OpenSubgroup\n- Mathlib.Topology.Algebra.WithZeroTopology\n- Mathlib.Topology.Algebra.GroupCompletion\n- Mathlib.Topology.Algebra.Ring.Ideal\n- Mathlib.RingTheory.UniqueFactorizationDomain.Nat\n- Mathlib.RingTheory.Int.Basic\n- Mathlib.Topology.Algebra.UniformFilterBasis\n- Mathlib.RingTheory.Polynomial.Eisenstein.Criterion\n- Mathlib.Topology.Algebra.Group.ClosedSubgroup\n- Mathlib.Topology.Maps.Proper.CompactlyGenerated\n- Mathlib.NumberTheory.Padics.PadicVal.Basic\n- Mathlib.Analysis.Normed.Module.Ray\n- Mathlib.Analysis.InnerProductSpace.Defs\n- Mathlib.Algebra.Algebra.ZMod\n- Mathlib.Data.ZMod.Units\n- Mathlib.Tactic.NormNum.ModEq\n- Mathlib.Data.Nat.DvdSequence\n- Mathlib.Tactic.NormNum.NatLog\n- Mathlib.Tactic.NormNum.NatSqrt\n- Mathlib.Tactic.NormNum.Ordinal\n- Mathlib.Tactic.NormNum.Parity\n- Mathlib.Tactic.NormNum.PowMod\n- Mathlib.Tactic.NormNum.Prime\n- Mathlib.Algebra.BigOperators.Field\n- Mathlib.Tactic.NormNum.RealSqrt\n- Mathlib.Tactic.PNatToNat\n- Mathlib.Tactic.Polynomial.Basic\n- Mathlib.Tactic.Polyrith\n- Mathlib.Tactic.ProdAssoc\n- Mathlib.Tactic.Recall\n- Mathlib.Tactic.ReduceModChar.Ext\n- Mathlib.Tactic.Relation.Symm\n- Mathlib.Tactic.Replace\n- Mathlib.Tactic.RewriteSearch\n- Mathlib.Tactic.Ring.NamePolyVars\n- Mathlib.RingTheory.MvPowerSeries.Basic\n- Mathlib.Tactic.Sat.FromLRAT\n- Mathlib.Tactic.Simproc.Divisors\n- Mathlib.Tactic.Simproc.FinsetInterval\n- Mathlib.Tactic.Simproc.VecPerm\n- Mathlib.Tactic.StacksAttribute\n- Mathlib.Tactic.TypeCheck\n- ProofWidgets.Component.PenroseDiagram\n- ProofWidgets.Presentation.Expr\n- Mathlib.Tactic.WithoutCDot\nerror: build failed\n"
+}

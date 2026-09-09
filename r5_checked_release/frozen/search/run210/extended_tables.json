@@ -1,0 +1,773 @@
+{
+  "K3a": [
+    "ABV",
+    "AHN",
+    "AVH",
+    "BAB",
+    "BDD",
+    "BHA",
+    "BNB",
+    "DAH",
+    "DDN",
+    "DNH",
+    "HBA",
+    "HHH",
+    "HVN",
+    "NBV",
+    "NHN",
+    "NVH",
+    "VBD",
+    "VBN",
+    "VVA"
+  ],
+  "T2a": {
+    "A": [
+      "AN",
+      "ND"
+    ],
+    "B": [
+      "BB",
+      "HD",
+      "VA",
+      "DV",
+      "AH"
+    ],
+    "D": [
+      "DN",
+      "NA"
+    ],
+    "H": [
+      "HN",
+      "NV"
+    ],
+    "N": [
+      "NN",
+      "AA",
+      "AD",
+      "DA",
+      "DD"
+    ],
+    "O": [
+      "ON",
+      "NO"
+    ],
+    "V": [
+      "VN",
+      "NH"
+    ]
+  },
+  "T2b": {
+    "A": [
+      "AN",
+      "BD",
+      "DV",
+      "VH"
+    ],
+    "B": [
+      "AV",
+      "BB",
+      "DH"
+    ],
+    "D": [
+      "DN",
+      "NA"
+    ],
+    "H": [
+      "HB",
+      "NV"
+    ],
+    "N": [
+      "AA",
+      "NN"
+    ],
+    "O": [],
+    "V": [
+      "HA",
+      "NH",
+      "VD",
+      "VN"
+    ]
+  },
+  "T3c": {
+    "A": [
+      "ABN",
+      "AND",
+      "BNA",
+      "BVV",
+      "HDN",
+      "NAB",
+      "NDA",
+      "VNV",
+      "VVN"
+    ],
+    "B": [
+      "ABV",
+      "AHH",
+      "AVA",
+      "BBB",
+      "DAH",
+      "DHA",
+      "DNH",
+      "HAA",
+      "HAN",
+      "HHH",
+      "NHD",
+      "NVA",
+      "VAD",
+      "VDB"
+    ],
+    "D": [
+      "DNN",
+      "NDN",
+      "NND"
+    ],
+    "H": [
+      "BHN",
+      "HNB",
+      "NBH"
+    ],
+    "N": [
+      "AAD",
+      "ADA",
+      "BHD",
+      "DAB",
+      "DBH",
+      "HHA",
+      "HVH",
+      "NNN",
+      "VAA",
+      "VDH"
+    ],
+    "O": [],
+    "V": [
+      "AVN",
+      "DHN",
+      "HNA",
+      "NAH",
+      "NDV",
+      "NNV",
+      "NVN",
+      "VND",
+      "VNN"
+    ]
+  },
+  "T3mix": {
+    "A": [
+      "BNA",
+      "BDA",
+      "BVV",
+      "NAB",
+      "ABN",
+      "AND",
+      "HDN",
+      "VNV",
+      "VVN"
+    ],
+    "B": [
+      "BBB",
+      "NHD",
+      "NVA",
+      "ABV",
+      "AHH",
+      "AVA",
+      "DNH",
+      "DAH",
+      "DHA",
+      "HAN",
+      "HAA",
+      "HHH",
+      "VAD",
+      "VDB"
+    ],
+    "D": [
+      "NND",
+      "NDN",
+      "DNN"
+    ],
+    "H": [
+      "BHN",
+      "NBH",
+      "HNB"
+    ],
+    "N": [
+      "BHD",
+      "NNN",
+      "AAD",
+      "DBH",
+      "DAB",
+      "HVH",
+      "VAA",
+      "VDH",
+      "VHA"
+    ],
+    "O": [],
+    "V": [
+      "NNV",
+      "NAH",
+      "NDV",
+      "NVN",
+      "AVN",
+      "DHN",
+      "HNA",
+      "VNN",
+      "VND"
+    ]
+  },
+  "T3d": {
+    "A": [
+      "BNA",
+      "BDA",
+      "BVV",
+      "NAB",
+      "ABN",
+      "AND",
+      "HDN",
+      "VNV",
+      "VVN"
+    ],
+    "B": [
+      "ABV",
+      "BBB",
+      "BHD",
+      "BVA",
+      "DAH",
+      "DDV",
+      "DNH",
+      "HAA",
+      "HAN",
+      "VAD",
+      "VDN",
+      "VHA",
+      "VHH"
+    ],
+    "D": [
+      "NND",
+      "NDN",
+      "DNN"
+    ],
+    "H": [
+      "BHN",
+      "NBH",
+      "HNB"
+    ],
+    "N": [
+      "BHD",
+      "NNN",
+      "AAD",
+      "DBH",
+      "DAB",
+      "HVH",
+      "VAA",
+      "VDH",
+      "VHA"
+    ],
+    "O": [],
+    "V": [
+      "NNV",
+      "NAH",
+      "NDV",
+      "NVN",
+      "AVN",
+      "DHN",
+      "HNA",
+      "VNN",
+      "VND"
+    ]
+  },
+  "T3a": {
+    "B": [
+      "AHN",
+      "ANV",
+      "BAH",
+      "BBB",
+      "BDV",
+      "BHD",
+      "BVA",
+      "DNH",
+      "DVN",
+      "HDN",
+      "HNA",
+      "VAN",
+      "VND"
+    ],
+    "N": [
+      "AAN",
+      "ADN",
+      "ANA",
+      "AND",
+      "DAN",
+      "DDN",
+      "DNA",
+      "DND",
+      "NAA",
+      "NAD",
+      "NDA",
+      "NDD",
+      "NNN"
+    ],
+    "A": [
+      "AAA",
+      "AAD",
+      "ADA",
+      "ADD",
+      "ANN",
+      "NAN",
+      "NNA"
+    ],
+    "D": [
+      "DAA",
+      "DAD",
+      "DDA",
+      "DDD",
+      "DNN",
+      "NDN",
+      "NND"
+    ],
+    "O": [
+      "OAA",
+      "OAD",
+      "ODA",
+      "ODD"
+    ],
+    "H": [
+      "HAA",
+      "HAD",
+      "HDA",
+      "HDD",
+      "HNN",
+      "NHN",
+      "NNH"
+    ],
+    "V": [
+      "NNV",
+      "NVN",
+      "VAA",
+      "VAD",
+      "VDA",
+      "VDD",
+      "VNN"
+    ]
+  },
+  "T3b": {
+    "B": [
+      "BBB",
+      "BHA",
+      "NAV",
+      "NDH",
+      "NVD",
+      "ABH",
+      "AHN",
+      "AHD",
+      "DBV",
+      "DVN",
+      "DVD",
+      "HND",
+      "HDN",
+      "HDD",
+      "VNA",
+      "VAB",
+      "VDA"
+    ],
+    "N": [
+      "BVD",
+      "NNN",
+      "NVA",
+      "ANH",
+      "ADH",
+      "AHN",
+      "DNV",
+      "DDH",
+      "DHN",
+      "HVD"
+    ],
+    "A": [
+      "NBA",
+      "NAN",
+      "ABB",
+      "AAV",
+      "AHA"
+    ],
+    "D": [
+      "NBD",
+      "NDN",
+      "DBB",
+      "DAV",
+      "DHA"
+    ],
+    "O": [],
+    "H": [
+      "NNH",
+      "NHN",
+      "HNN",
+      "HVV"
+    ],
+    "V": [
+      "NNV",
+      "NVN",
+      "VNN",
+      "VVV"
+    ]
+  },
+  "T3e": {
+    "B": [
+      "AHN",
+      "BAH",
+      "BBB",
+      "BDV",
+      "BHD",
+      "BVA",
+      "DVN",
+      "HDN",
+      "HNA",
+      "VAN",
+      "VND"
+    ],
+    "N": [
+      "AAN",
+      "AHN",
+      "DAN",
+      "DDN",
+      "HNA",
+      "NAA",
+      "NAD",
+      "NDA",
+      "NDD",
+      "NNN"
+    ],
+    "A": [
+      "AAA",
+      "AAD",
+      "ADA",
+      "ADD",
+      "ANN",
+      "BNA",
+      "HND",
+      "NAN"
+    ],
+    "D": [
+      "AND",
+      "DAA",
+      "DAD",
+      "DDA",
+      "DDD",
+      "DNN",
+      "NDN",
+      "NND"
+    ],
+    "O": [],
+    "H": [
+      "BNH",
+      "HAA",
+      "HAD",
+      "HDD",
+      "HHA",
+      "HNN",
+      "NHN"
+    ],
+    "V": [
+      "ANV",
+      "DNH",
+      "NNV",
+      "NVN",
+      "VAA",
+      "VAD",
+      "VDA",
+      "VDD",
+      "VNN"
+    ]
+  },
+  "T3f": {
+    "B": [
+      "AHD",
+      "AHN",
+      "BAH",
+      "BBB",
+      "BDV",
+      "BVA",
+      "HDB",
+      "HHH",
+      "HNA",
+      "NHD",
+      "VND"
+    ],
+    "N": [
+      "AHB",
+      "BHH",
+      "DHA",
+      "HDD",
+      "HNA",
+      "NAA",
+      "NAH",
+      "NHA",
+      "NNN",
+      "VHV"
+    ],
+    "A": [
+      "AAA",
+      "AAH",
+      "ABN",
+      "BNA",
+      "HHN",
+      "HNH",
+      "NAN"
+    ],
+    "D": [
+      "AND",
+      "DAA",
+      "DAD",
+      "DBN",
+      "NDN",
+      "NND"
+    ],
+    "O": [],
+    "H": [
+      "BNH",
+      "HAB",
+      "HAV",
+      "HNN",
+      "NHN"
+    ],
+    "V": [
+      "ANV",
+      "DNH",
+      "DVN",
+      "NNV",
+      "NVN",
+      "VAB",
+      "VAV",
+      "VNN"
+    ]
+  },
+  "T3g": {
+    "B": [
+      "AHN",
+      "BAH",
+      "BBB",
+      "BDV",
+      "BHD",
+      "BVA",
+      "HDN",
+      "HNA",
+      "VHA",
+      "VHH",
+      "VND"
+    ],
+    "N": [
+      "AHB",
+      "BHH",
+      "DHA",
+      "HDD",
+      "HNA",
+      "NAA",
+      "NAH",
+      "NHA",
+      "NNN",
+      "VHV"
+    ],
+    "A": [
+      "AAA",
+      "AAH",
+      "ABN",
+      "BNA",
+      "HHN",
+      "HNH",
+      "NAN"
+    ],
+    "D": [
+      "AND",
+      "DAA",
+      "DAH",
+      "DBN",
+      "NDN",
+      "NND"
+    ],
+    "O": [],
+    "H": [
+      "BNH",
+      "HAB",
+      "HAV",
+      "HNN",
+      "NHN"
+    ],
+    "V": [
+      "ANV",
+      "DNH",
+      "DVN",
+      "NNV",
+      "NVN",
+      "VAB",
+      "VAV",
+      "VNN"
+    ]
+  },
+  "T3h": {
+    "B": [
+      "BBB",
+      "BHA",
+      "NAV",
+      "NDH",
+      "NVD",
+      "ABH",
+      "AHN",
+      "AHD",
+      "DBV",
+      "DVN",
+      "DVD",
+      "HND",
+      "HDN",
+      "HDD",
+      "VNA",
+      "VAB",
+      "VDA"
+    ],
+    "N": [
+      "BVD",
+      "NNN",
+      "NVA",
+      "ANH",
+      "ADH",
+      "AHN",
+      "DNV",
+      "DDH",
+      "DHN",
+      "HVD"
+    ],
+    "A": [
+      "NBD",
+      "NDN",
+      "DBB",
+      "DAV",
+      "DHA"
+    ],
+    "D": [
+      "NBA",
+      "NAN",
+      "ABB",
+      "AAV",
+      "AHA"
+    ],
+    "O": [],
+    "H": [
+      "NNV",
+      "NVN",
+      "VNN",
+      "VVV"
+    ],
+    "V": [
+      "NNH",
+      "NHN",
+      "HNN",
+      "HVV"
+    ]
+  },
+  "K4a": [
+    "BBBB",
+    "BNVB",
+    "BAHB",
+    "BDVB",
+    "BHNB",
+    "BHDB",
+    "BVAB",
+    "NBBV",
+    "NNVH",
+    "NAVH",
+    "NDHH",
+    "NHNH",
+    "NHAH",
+    "NVDV",
+    "ABBV",
+    "ANHH",
+    "AAVH",
+    "ADHH",
+    "AHAH",
+    "AVNH",
+    "AVDH",
+    "DBBH",
+    "DNVV",
+    "DAVV",
+    "DDHV",
+    "DHNV",
+    "DHAV",
+    "DVDV",
+    "HBBA",
+    "HNVD",
+    "HAHD",
+    "HAVN",
+    "HDHN",
+    "HDVD",
+    "HHNN",
+    "HHND",
+    "HHAN",
+    "HHDD",
+    "HVAD",
+    "HVDN",
+    "VBBN",
+    "VBBD",
+    "VNVN",
+    "VNVA",
+    "VAHA",
+    "VDVA",
+    "VHDA",
+    "VVNA",
+    "VVAA"
+  ],
+  "K4b": [
+    "AAAV",
+    "AANV",
+    "ABHA",
+    "AHAA",
+    "AHAN",
+    "AHNA",
+    "AHNN",
+    "ANAV",
+    "ANDH",
+    "ANHN",
+    "ANNH",
+    "AVDB",
+    "BADH",
+    "BAVN",
+    "BBBB",
+    "BBVD",
+    "BDBH",
+    "BDHN",
+    "BHHH",
+    "BVAD",
+    "BVND",
+    "DAVA",
+    "DHHA",
+    "DNBV",
+    "DNVA",
+    "DNVN",
+    "DVBA",
+    "DVBN",
+    "HABH",
+    "HBDB",
+    "HBVH",
+    "HDAB",
+    "HDNB",
+    "HNND",
+    "HVHD",
+    "HVHN",
+    "NAAV",
+    "NANV",
+    "NBHA",
+    "NHAN",
+    "NHBA",
+    "NNAV",
+    "NNDH",
+    "NNNV",
+    "NNVN",
+    "NVDN",
+    "NVHA",
+    "NVNN",
+    "VAAB",
+    "VANB",
+    "VDDH",
+    "VHAH",
+    "VHNH",
+    "VNAB",
+    "VNNA",
+    "VNNN",
+    "VVHV"
+  ]
+}

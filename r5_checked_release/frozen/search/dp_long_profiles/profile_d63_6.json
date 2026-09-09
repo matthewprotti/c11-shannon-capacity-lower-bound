@@ -1,0 +1,127 @@
+{
+  "schema": "C11_RECURSIVE_SEARCH_CERTIFICATE_V1",
+  "source_commit": "aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65",
+  "parent_r3_sha256": "9ac3006b54d5c449db357819d88ea507b66778923c61c54623d72d905517a357",
+  "frozen_input_sha256": "bc3f401480f2b9a878ad24faa1d98c1ad848755a0537ceff0043f12f67bf7c26",
+  "tables": {
+    "8c6f5cb6e3052917": {
+      "B": [
+        "AH",
+        "BB",
+        "DV",
+        "HD",
+        "VA"
+      ],
+      "N": [
+        "AA",
+        "AD",
+        "DA",
+        "DD",
+        "NN"
+      ],
+      "A": [
+        "AN",
+        "ND"
+      ],
+      "D": [
+        "DN",
+        "NA"
+      ],
+      "O": [
+        "NO",
+        "ON"
+      ],
+      "H": [
+        "HN",
+        "NV"
+      ],
+      "V": [
+        "NH",
+        "VN"
+      ]
+    },
+    "B_singleton": [
+      "B"
+    ]
+  },
+  "nodes": [
+    {
+      "name": "v",
+      "kind": "base"
+    },
+    {
+      "name": "n1",
+      "kind": "8c6f5cb6e3052917",
+      "children": [
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n2",
+      "kind": "8c6f5cb6e3052917",
+      "children": [
+        "v",
+        "n1"
+      ]
+    },
+    {
+      "name": "n3",
+      "kind": "8c6f5cb6e3052917",
+      "children": [
+        "n1",
+        "n2"
+      ]
+    },
+    {
+      "name": "n4",
+      "kind": "8c6f5cb6e3052917",
+      "children": [
+        "n3",
+        "n3"
+      ]
+    },
+    {
+      "name": "n5",
+      "kind": "8c6f5cb6e3052917",
+      "children": [
+        "n2",
+        "n2"
+      ]
+    },
+    {
+      "name": "n6",
+      "kind": "8c6f5cb6e3052917",
+      "children": [
+        "n3",
+        "n5"
+      ]
+    },
+    {
+      "name": "n7",
+      "kind": "8c6f5cb6e3052917",
+      "children": [
+        "n4",
+        "n6"
+      ]
+    },
+    {
+      "name": "out",
+      "kind": "B_singleton",
+      "children": [
+        "n7"
+      ]
+    }
+  ],
+  "root": "out",
+  "dimension": 63,
+  "N": "3163298472073458715019218013230997600641297825",
+  "target_N": "705692619930489413584189552943991443716392885026759451863953624242911159057444856108323516589876967077721069272782760798453832061060020786354479288616",
+  "target_dimension": 207,
+  "beats_R3": false,
+  "decimal_approximation": 5.275024088249685,
+  "metadata": {
+    "profile_only": true
+  },
+  "status": "FINITE_EXACT_CANDIDATE_NOT_LEAN_CHECKED"
+}

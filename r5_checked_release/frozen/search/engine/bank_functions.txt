@@ -1,0 +1,59 @@
+
+# Same-dimension subtree crossover bank. Exact output vectors index candidates;
+# replacement uses the actual recursively constructed family, not cardinalities alone.
+bank={};source_files=[]
+def clone(t):return Node(t.tab,[clone(k)for k in t.kids])
+def bank_add(t):
+ if isinstance(t.tab,list):return
+ entry=bank.setdefault(t.d,{})
+ if t.w not in entry:entry[t.w]=clone(t)
+ if t.tab:
+  for k in t.kids:bank_add(k)
+  rt=Node({a:t.tab[a.translate(REFLECT)]for a in ABC},t.kids);rt.evaluate()
+  if rt.w not in entry:entry[rt.w]=clone(rt)
+
+def importcert(path):
+ try:
+  data=json.loads(path.read_text());ndict={n['name']:n for n in data['nodes']};tt=data['tables'];rr=data['root']
+  def b(k):
+   n=ndict[k];return Node(None if n['kind']=='base'else tt[n['kind']],[b(x)for x in n.get('children',[])])
+  tr=b(rr);tr.evaluate()
+  if 'N' in data and tr.w!=int(data['N']):raise RuntimeError('bank source mismatch '+str(path))
+  for kid in tr.kids:bank_add(kid)
+  source_files.append(str(path))
+ except (KeyError,TypeError):return
+for path in sorted(ROOT.parent.rglob('*.json')):
+ if '/parent/' in str(path) and '/search/'not in str(path) and '/certificates/'not in str(path):continue
+ importcert(path)
+print('BANK',len(source_files),{d:len(v)for d,v in sorted(bank.items())},flush=True)
+def crossover_sweep():
+ global accepted,attempts
+ changes=0
+ for t in reversed(nodes()[1:]):
+  if t.tab is None or t.d not in bank:continue
+  oldpart=sum(g*w for g,w in zip(t.grad,t.w));best=oldpart;bestt=None
+  for w,tr in bank[t.d].items():
+   score=sum(g*x for g,x in zip(t.grad,w));attempts+=1
+   if score>best:best=score;bestt=tr
+  if bestt is not None:
+   old=root.w;cp=clone(bestt);t.tab,t.kids=cp.tab,cp.kids
+   if root.evaluate()!=old+best-oldpart:raise RuntimeError('crossover delta mismatch')
+   nodes();changes+=1;accepted+=1
+ return changes
+
+save('start')
+try:
+ for r in range(args.rounds):
+  if time.monotonic()-START>args.seconds:break
+  s=crossover_sweep();ss=sweep()
+  if s or ss:save(f'bank_sweep_{r}_{s}_{ss}')
+  for kid in root.kids:bank_add(kid)
+  win,best=restructure_round()
+  if win:
+   t,tab,kids,meta=win;t.tab,t.kids=tab,kids
+   if root.evaluate()!=best:raise RuntimeError('bank restructure delta mismatch')
+   accepted+=1;save(f'bank_reassembly_{r}_{meta}')
+   for kid in root.kids:bank_add(kid)
+  elif not s and not ss:break
+finally:
+ save('stopped');(OUT/'bank_sources.json').write_text(json.dumps({'sources':source_files,'profiles_by_dimension':{d:len(v)for d,v in bank.items()}},indent=2)+'\n')

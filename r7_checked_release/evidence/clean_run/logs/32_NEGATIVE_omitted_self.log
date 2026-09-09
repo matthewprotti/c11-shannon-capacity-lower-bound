@@ -1,0 +1,4 @@
+$ lake env lean NEGATIVE_omitted_self.lean
+NEGATIVE_omitted_self.lean:7:83: error: Tactic `decide` proved that the proposition
+  (oldTarget ∪ badAddition).card = oldTarget.card + badAddition.card
+is false

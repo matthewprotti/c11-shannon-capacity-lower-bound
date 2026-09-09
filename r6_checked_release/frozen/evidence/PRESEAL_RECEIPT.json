@@ -1,0 +1,35 @@
+{
+  "status": "PASS_PRESEAL",
+  "R5_archive_unchanged": true,
+  "base_and_three_parent_certificates_match_R5_archive": true,
+  "normal_optimized_replay_reports_identical": true,
+  "cases": [
+    {
+      "dimension": 186,
+      "three_replays_agree": true,
+      "ordinary_typed_internal_pairs": 867343,
+      "ordinary_typed_cross_pairs": 155434,
+      "coarse_whole_block_additions_all_forbidden": true,
+      "all_retained_selected_cells_nonempty": true
+    },
+    {
+      "dimension": 198,
+      "three_replays_agree": true,
+      "ordinary_typed_internal_pairs": 973126,
+      "ordinary_typed_cross_pairs": 170203,
+      "coarse_whole_block_additions_all_forbidden": true,
+      "all_retained_selected_cells_nonempty": true
+    },
+    {
+      "dimension": 213,
+      "three_replays_agree": true,
+      "ordinary_typed_internal_pairs": 983401,
+      "ordinary_typed_cross_pairs": 189466,
+      "coarse_whole_block_additions_all_forbidden": true,
+      "all_retained_selected_cells_nonempty": true
+    }
+  ],
+  "negative_controls": 28,
+  "fresh_Lean_build": false,
+  "new_external_review": false
+}

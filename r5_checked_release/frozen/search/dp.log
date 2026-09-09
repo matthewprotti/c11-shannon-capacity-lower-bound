@@ -1,0 +1,8 @@
+DP 2 3 input_combinations 1 elapsed 0.20647187899999153
+DP 3 8 input_combinations 4 elapsed 0.20867666999998846
+DP 4 11 input_combinations 20 elapsed 0.2119370510000067
+DP 5 10 input_combinations 52 elapsed 0.22033833599999753
+DP 6 11 input_combinations 169 elapsed 0.2429136210000138
+DP 7 12 input_combinations 308 elapsed 0.2991379520000237
+DP 8 13 input_combinations 666 elapsed 0.4304642590000185
+DP 9 12 input_combinations 1359 elapsed 0.7672503610000376

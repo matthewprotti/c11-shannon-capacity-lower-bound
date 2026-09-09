@@ -1,0 +1,7 @@
+$ lake env lean NEGATIVE_cardinality_213.lean
+NEGATIVE_cardinality_213.lean:4:2: error: Type mismatch
+  C11R5D213.card_code
+has type
+  C11R5D213.code.card = C11R5D213.N
+but is expected to have type
+  C11R5D213.code.card = C11R5D213.N + 1

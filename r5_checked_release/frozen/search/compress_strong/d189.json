@@ -1,0 +1,1539 @@
+{
+  "schema": "C11_RECURSIVE_SEARCH_CERTIFICATE_V1",
+  "source_commit": "aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65",
+  "parent_r3_sha256": "9ac3006b54d5c449db357819d88ea507b66778923c61c54623d72d905517a357",
+  "frozen_input_sha256": "bc3f401480f2b9a878ad24faa1d98c1ad848755a0537ceff0043f12f67bf7c26",
+  "tables": {
+    "0058d965adce02f4": {
+      "B": [
+        "ABV",
+        "AHH",
+        "AVA",
+        "BBB",
+        "DAH",
+        "DHA",
+        "DNH",
+        "HAA",
+        "HAN",
+        "HHH",
+        "NHD",
+        "NVA",
+        "VAD",
+        "VDB"
+      ],
+      "N": [
+        "AAD",
+        "BHD",
+        "DAB",
+        "DBH",
+        "HVH",
+        "NNN",
+        "VAA",
+        "VDH",
+        "VHA"
+      ],
+      "A": [
+        "ABN",
+        "AND",
+        "BDA",
+        "BNA",
+        "BVV",
+        "HDN",
+        "NAB",
+        "VNV",
+        "VVN"
+      ],
+      "D": [
+        "DNN",
+        "NDN",
+        "NND"
+      ],
+      "O": [],
+      "H": [
+        "BHN",
+        "HNB",
+        "NBH"
+      ],
+      "V": [
+        "AVN",
+        "DHN",
+        "HNA",
+        "NAH",
+        "NDV",
+        "NNV",
+        "NVN",
+        "VND",
+        "VNN"
+      ]
+    },
+    "02a439adb7983be3": {
+      "B": [
+        "AHA",
+        "AHN",
+        "AVD",
+        "BAV",
+        "BBB",
+        "BDH",
+        "DVB",
+        "HAH",
+        "HDA",
+        "HND",
+        "VAA",
+        "VDD",
+        "VNA"
+      ],
+      "N": [
+        "AAD",
+        "ADB",
+        "AVA",
+        "BDH",
+        "DAA",
+        "DVH",
+        "HBD",
+        "HHA",
+        "NNN",
+        "VHH"
+      ],
+      "A": [
+        "ANB",
+        "BAN",
+        "DHN",
+        "DNA",
+        "NAD",
+        "NBA",
+        "NVV",
+        "VBV",
+        "VVN"
+      ],
+      "D": [
+        "DNN",
+        "NDN",
+        "NND"
+      ],
+      "O": [],
+      "H": [
+        "BNH",
+        "HBN",
+        "NHB"
+      ],
+      "V": [
+        "ANH",
+        "DNV",
+        "HDN",
+        "NHA",
+        "NNV",
+        "NVD",
+        "NVN",
+        "VAN",
+        "VNN"
+      ]
+    },
+    "04339297651c9c49": {
+      "B": [
+        "AAH",
+        "AHA",
+        "AHN",
+        "BBB",
+        "DAV",
+        "DHH",
+        "DVB",
+        "HBD",
+        "HDA",
+        "NAV",
+        "NDH",
+        "VAA",
+        "VHH",
+        "VNA"
+      ],
+      "N": [
+        "ABA",
+        "AHB",
+        "BDH",
+        "DAD",
+        "DDA",
+        "HAA",
+        "HHD",
+        "NNN",
+        "VAH",
+        "VHV"
+      ],
+      "A": [
+        "BAN",
+        "BVV",
+        "DDN",
+        "DNB",
+        "HNV",
+        "HVN",
+        "NAD",
+        "NBA",
+        "VND"
+      ],
+      "D": [
+        "ANN",
+        "NDN",
+        "NND"
+      ],
+      "O": [],
+      "H": [
+        "BNH",
+        "NHB",
+        "VBN"
+      ],
+      "V": [
+        "ANH",
+        "DNV",
+        "HDN",
+        "HNN",
+        "NHA",
+        "NNV",
+        "NVD",
+        "NVN",
+        "VAN"
+      ]
+    },
+    "18277b0c484b4c41": {
+      "B": [
+        "AAH",
+        "AHD",
+        "AVA",
+        "AVN",
+        "BBB",
+        "BDV",
+        "DHB",
+        "HAA",
+        "HDH",
+        "HND",
+        "HVH",
+        "NAH",
+        "VDA",
+        "VNA"
+      ],
+      "N": [
+        "AAB",
+        "ADD",
+        "AHA",
+        "BAH",
+        "DDA",
+        "DHH",
+        "HBD",
+        "HVA",
+        "NNN",
+        "VVH"
+      ],
+      "A": [
+        "ANB",
+        "BDN",
+        "DNA",
+        "DVN",
+        "NBA",
+        "NDD",
+        "NHV",
+        "VBV",
+        "VHN"
+      ],
+      "D": [
+        "DNN",
+        "NAN",
+        "NND"
+      ],
+      "O": [],
+      "H": [
+        "BNH",
+        "HBN",
+        "NVB"
+      ],
+      "V": [
+        "ANH",
+        "DNV",
+        "HAN",
+        "NHD",
+        "NHN",
+        "NNV",
+        "NVA",
+        "VDN",
+        "VNN"
+      ]
+    },
+    "313b085cba4d0ce6": [
+      "AAHB",
+      "ABBH",
+      "ABVV",
+      "ADVB",
+      "ANHB",
+      "AVAB",
+      "AVNB",
+      "BBBA",
+      "BBBN",
+      "BHAV",
+      "BHDA",
+      "BHDN",
+      "BHHH",
+      "BHNV",
+      "DAAH",
+      "DADD",
+      "DAHV",
+      "DANH",
+      "DHAB",
+      "DHNB",
+      "DNBD",
+      "DNVB",
+      "HABA",
+      "HABN",
+      "HAVB",
+      "HDBH",
+      "HDVV",
+      "HHHB",
+      "HNAV",
+      "HNDA",
+      "HNDN",
+      "HNHH",
+      "HNNV",
+      "NABH",
+      "NAHB",
+      "NAVV",
+      "NDBD",
+      "NDVB",
+      "NNAH",
+      "NNDD",
+      "NNHV",
+      "NNNH",
+      "NNVB",
+      "NVAB",
+      "NVNB",
+      "VDBA",
+      "VDBN",
+      "VNAB",
+      "VNNB",
+      "VVBH",
+      "VVVV"
+    ],
+    "31d500a381a04d9a": {
+      "B": [
+        "ABV",
+        "AHH",
+        "AVA",
+        "BBB",
+        "DBH",
+        "DHA",
+        "DVD",
+        "HAA",
+        "HAN",
+        "NHD",
+        "NVA",
+        "VAD",
+        "VDB"
+      ],
+      "N": [
+        "AAD",
+        "ADA",
+        "BHD",
+        "DAB",
+        "DBH",
+        "HHA",
+        "HVH",
+        "NNN",
+        "VAA",
+        "VDH"
+      ],
+      "A": [
+        "ABN",
+        "AND",
+        "BNA",
+        "BVV",
+        "HDN",
+        "NAB",
+        "NDA",
+        "VNV",
+        "VVN"
+      ],
+      "D": [
+        "DNN",
+        "NDN",
+        "NND"
+      ],
+      "O": [],
+      "H": [
+        "BHN",
+        "HNB",
+        "NBH"
+      ],
+      "V": [
+        "AVN",
+        "DHN",
+        "HNA",
+        "NAH",
+        "NDV",
+        "NNV",
+        "NVN",
+        "VND",
+        "VNN"
+      ]
+    },
+    "36518f191584a644": {
+      "B": [
+        "AAV",
+        "AHD",
+        "ANV",
+        "BBB",
+        "DBH",
+        "DHV",
+        "DVD",
+        "HAA",
+        "HDB",
+        "NHA",
+        "NVD",
+        "VAD",
+        "VAN",
+        "VHV"
+      ],
+      "N": [
+        "AAB",
+        "ABV",
+        "BHA",
+        "DAA",
+        "DDD",
+        "HAD",
+        "HDV",
+        "NNN",
+        "VHD",
+        "VVV"
+      ],
+      "A": [
+        "BND",
+        "BVH",
+        "DBN",
+        "DNA",
+        "HNH",
+        "HVN",
+        "NAB",
+        "NDD",
+        "VDN"
+      ],
+      "D": [
+        "ANN",
+        "NDN",
+        "NNA"
+      ],
+      "O": [],
+      "H": [
+        "BHN",
+        "NBV",
+        "VNB"
+      ],
+      "V": [
+        "AHN",
+        "DVN",
+        "HNA",
+        "HNN",
+        "NAV",
+        "NDH",
+        "NNH",
+        "NVN",
+        "VND"
+      ]
+    },
+    "3daf90758a80fbb9": {
+      "B": [
+        "AAV",
+        "ADH",
+        "ANH",
+        "AVD",
+        "BBB",
+        "BHA",
+        "DBV",
+        "HAN",
+        "HDD",
+        "HVA",
+        "HVH",
+        "NVD",
+        "VDA",
+        "VDN"
+      ],
+      "N": [
+        "AAA",
+        "ABD",
+        "ADV",
+        "BVD",
+        "DDA",
+        "DVV",
+        "HAB",
+        "HDH",
+        "NNN",
+        "VVH"
+      ],
+      "A": [
+        "ABN",
+        "BNA",
+        "DDN",
+        "DNH",
+        "NAA",
+        "NDB",
+        "NHV",
+        "VHB",
+        "VNV"
+      ],
+      "D": [
+        "DNN",
+        "NAN",
+        "NND"
+      ],
+      "O": [],
+      "H": [
+        "BVN",
+        "HNB",
+        "NBH"
+      ],
+      "V": [
+        "AVN",
+        "DHN",
+        "HND",
+        "NAV",
+        "NDH",
+        "NHN",
+        "NNV",
+        "VNA",
+        "VNN"
+      ]
+    },
+    "3e8694d6a5bfe173": {
+      "B": [
+        "AAH",
+        "ADV",
+        "AHD",
+        "ANH",
+        "BBB",
+        "BVA",
+        "DBV",
+        "HAD",
+        "HDN",
+        "HHA",
+        "HHH",
+        "NHD",
+        "VAA",
+        "VAN"
+      ],
+      "N": [
+        "AAV",
+        "ABD",
+        "ADA",
+        "BHD",
+        "DAA",
+        "DHV",
+        "HAH",
+        "HDB",
+        "NNN",
+        "VHH"
+      ],
+      "A": [
+        "ABN",
+        "BNA",
+        "DAN",
+        "DNH",
+        "NAB",
+        "NDA",
+        "NVV",
+        "VNV",
+        "VVB"
+      ],
+      "D": [
+        "DNN",
+        "NDN",
+        "NND"
+      ],
+      "O": [],
+      "H": [
+        "BHN",
+        "HNB",
+        "NBH"
+      ],
+      "V": [
+        "AHN",
+        "DVN",
+        "HND",
+        "NAH",
+        "NDV",
+        "NNV",
+        "NVN",
+        "VNA",
+        "VNN"
+      ]
+    },
+    "59b3ea5954777333": {
+      "B": [
+        "AAV",
+        "AHH",
+        "AVB",
+        "BBB",
+        "DAH",
+        "DDV",
+        "DHB",
+        "HAA",
+        "HNA",
+        "NAV",
+        "NDH",
+        "VBD",
+        "VDA"
+      ],
+      "N": [
+        "AAD",
+        "ADA",
+        "BDH",
+        "DBA",
+        "DHB",
+        "HAH",
+        "HHV",
+        "NNN",
+        "VAA",
+        "VHD"
+      ],
+      "A": [
+        "DNN",
+        "NDN",
+        "NND"
+      ],
+      "D": [
+        "ADN",
+        "ANB",
+        "BAN",
+        "BVV",
+        "HND",
+        "NAD",
+        "NBA",
+        "VNV",
+        "VVN"
+      ],
+      "O": [],
+      "H": [
+        "ANV",
+        "DNH",
+        "HAN",
+        "NHA",
+        "NNV",
+        "NVD",
+        "NVN",
+        "VDN",
+        "VNN"
+      ],
+      "V": [
+        "BNH",
+        "HBN",
+        "NHB"
+      ]
+    },
+    "6356700cb05251b5": {
+      "B": [
+        "ADH",
+        "AHA",
+        "AHN",
+        "AVD",
+        "BAV",
+        "BBB",
+        "DDV",
+        "DHD",
+        "DVN",
+        "HBD",
+        "HVA",
+        "NDH",
+        "VBA"
+      ],
+      "N": [
+        "AAA",
+        "ADV",
+        "AVH",
+        "BDD",
+        "DDA",
+        "DVB",
+        "HAV",
+        "HBD",
+        "HHH",
+        "NNN"
+      ],
+      "A": [
+        "DNN",
+        "NAN",
+        "NND"
+      ],
+      "D": [
+        "AAN",
+        "ANB",
+        "BDN",
+        "DNA",
+        "NAH",
+        "NBA",
+        "NHV",
+        "VHB",
+        "VNV"
+      ],
+      "O": [],
+      "H": [
+        "ANH",
+        "DNV",
+        "HDN",
+        "NHA",
+        "NHN",
+        "NNV",
+        "NVD",
+        "VAN",
+        "VNN"
+      ],
+      "V": [
+        "BNH",
+        "HBN",
+        "NVB"
+      ]
+    },
+    "660b0244997e1b9c": {
+      "B": [
+        "AAH",
+        "ADV",
+        "AHD",
+        "ANH",
+        "BBB",
+        "BVA",
+        "DBV",
+        "HAD",
+        "HDN",
+        "HHA",
+        "HHH",
+        "NHD",
+        "VAA",
+        "VAN"
+      ],
+      "N": [
+        "AAV",
+        "ABD",
+        "ADA",
+        "BHD",
+        "DHV",
+        "HAV",
+        "HDB",
+        "NNN",
+        "VHH"
+      ],
+      "A": [
+        "ABN",
+        "BNA",
+        "DAB",
+        "DNH",
+        "NAB",
+        "NDA",
+        "NVV",
+        "VNV",
+        "VVB"
+      ],
+      "D": [
+        "DNN",
+        "NDN",
+        "NND"
+      ],
+      "O": [],
+      "H": [
+        "BHN",
+        "HNB",
+        "NBH"
+      ],
+      "V": [
+        "AHN",
+        "DVN",
+        "HND",
+        "NAH",
+        "NDV",
+        "NNV",
+        "NVN",
+        "VNA",
+        "VNN"
+      ]
+    },
+    "6859b0ec25991d42": {
+      "A": [
+        "ABN",
+        "AND",
+        "BNA",
+        "BVV",
+        "HDN",
+        "NAB",
+        "NDA",
+        "VNV",
+        "VVN"
+      ],
+      "B": [
+        "ABV",
+        "AHH",
+        "AVA",
+        "BBB",
+        "DAH",
+        "DHA",
+        "DNH",
+        "HAA",
+        "HAN",
+        "HHH",
+        "NHD",
+        "NVA",
+        "VAD",
+        "VDB"
+      ],
+      "D": [
+        "DNN",
+        "NDN",
+        "NND"
+      ],
+      "H": [
+        "BHN",
+        "HNB",
+        "NBH"
+      ],
+      "N": [
+        "AAD",
+        "ADA",
+        "BHD",
+        "DAB",
+        "DBH",
+        "HHA",
+        "HVH",
+        "NNN",
+        "VAA",
+        "VDH"
+      ],
+      "O": [],
+      "V": [
+        "AVN",
+        "DHN",
+        "HNA",
+        "NAH",
+        "NDV",
+        "NNV",
+        "NVN",
+        "VND",
+        "VNN"
+      ]
+    },
+    "7b6c163f0dc4b608": {
+      "B": [
+        "ADH",
+        "AHA",
+        "AHN",
+        "AVD",
+        "BAV",
+        "BBB",
+        "DVB",
+        "HAH",
+        "HDA",
+        "HHH",
+        "HND",
+        "NDH",
+        "VAA",
+        "VNA"
+      ],
+      "N": [
+        "AAD",
+        "ADB",
+        "AVA",
+        "BDH",
+        "DAA",
+        "DVH",
+        "HBD",
+        "HHA",
+        "NNN",
+        "VHH"
+      ],
+      "A": [
+        "ANB",
+        "BAN",
+        "DHN",
+        "DNA",
+        "NAD",
+        "NBA",
+        "NVV",
+        "VBV",
+        "VVN"
+      ],
+      "D": [
+        "DNN",
+        "NDN",
+        "NND"
+      ],
+      "O": [],
+      "H": [
+        "BNH",
+        "HBN",
+        "NHB"
+      ],
+      "V": [
+        "ANH",
+        "DNV",
+        "HDN",
+        "NHA",
+        "NNV",
+        "NVD",
+        "NVN",
+        "VAN",
+        "VNN"
+      ]
+    },
+    "a41106e52a48b9a6": {
+      "B": [
+        "AAV",
+        "ADH",
+        "AHA",
+        "ANV",
+        "BBB",
+        "BVD",
+        "DDV",
+        "DNH",
+        "DVA",
+        "HAH",
+        "HDB",
+        "NHA",
+        "VAB"
+      ],
+      "N": [
+        "AAD",
+        "AHH",
+        "AVA",
+        "BDA",
+        "DAA",
+        "DBH",
+        "HDB",
+        "HHV",
+        "HVD",
+        "NNN"
+      ],
+      "A": [
+        "ABN",
+        "AND",
+        "BNA",
+        "DAN",
+        "NAB",
+        "NHD",
+        "NVV",
+        "VBV",
+        "VVN"
+      ],
+      "D": [
+        "DNN",
+        "NDN",
+        "NND"
+      ],
+      "O": [],
+      "H": [
+        "BHN",
+        "HNB",
+        "NBH"
+      ],
+      "V": [
+        "AHN",
+        "DVN",
+        "HNA",
+        "NAV",
+        "NDH",
+        "NNV",
+        "NVN",
+        "VND",
+        "VNN"
+      ]
+    },
+    "b014d29111062762": {
+      "B": [
+        "BB",
+        "HD",
+        "VA"
+      ],
+      "N": [
+        "AA",
+        "NN"
+      ],
+      "A": [
+        "DB",
+        "HV",
+        "NA",
+        "VD"
+      ],
+      "D": [
+        "AN",
+        "ND"
+      ],
+      "O": [],
+      "H": [
+        "BH",
+        "VN"
+      ],
+      "V": [
+        "AH",
+        "DV",
+        "HN",
+        "NV"
+      ]
+    },
+    "cd41b86686c50a10": {
+      "B": [
+        "AV",
+        "BB",
+        "DH"
+      ],
+      "N": [
+        "AA",
+        "NN"
+      ],
+      "A": [
+        "DN",
+        "NA"
+      ],
+      "D": [
+        "AN",
+        "BD",
+        "DV",
+        "VH"
+      ],
+      "O": [],
+      "H": [
+        "HA",
+        "NH",
+        "VD",
+        "VN"
+      ],
+      "V": [
+        "HB",
+        "NV"
+      ]
+    },
+    "e620baced0654ce9": {
+      "B": [
+        "AAH",
+        "AHV",
+        "AVB",
+        "BBB",
+        "DAV",
+        "DHD",
+        "DHN",
+        "HAD",
+        "HHV",
+        "HND",
+        "NAH",
+        "NDV",
+        "VBA",
+        "VDD"
+      ],
+      "N": [
+        "AAA",
+        "ADD",
+        "BDV",
+        "DBD",
+        "DHB",
+        "HAV",
+        "HHH",
+        "NNN",
+        "VAD",
+        "VHA"
+      ],
+      "A": [
+        "ADN",
+        "ANB",
+        "BAN",
+        "BVH",
+        "HNA",
+        "NAA",
+        "NBD",
+        "VNH",
+        "VVN"
+      ],
+      "D": [
+        "DNN",
+        "NDN",
+        "NNA"
+      ],
+      "O": [],
+      "H": [
+        "BNV",
+        "HBN",
+        "NHB"
+      ],
+      "V": [
+        "ANH",
+        "DNV",
+        "HAN",
+        "NHD",
+        "NNH",
+        "NVA",
+        "NVN",
+        "VDN",
+        "VNN"
+      ]
+    },
+    "e788020168e26abb": {
+      "B": [
+        "AV",
+        "BB",
+        "DH"
+      ],
+      "N": [
+        "AA",
+        "NN"
+      ],
+      "A": [
+        "AN",
+        "BD",
+        "DV",
+        "VH"
+      ],
+      "D": [
+        "DN",
+        "NA"
+      ],
+      "O": [],
+      "H": [
+        "HB",
+        "NV"
+      ],
+      "V": [
+        "HA",
+        "NH",
+        "VD",
+        "VN"
+      ]
+    },
+    "e9ef2871c79d62be": {
+      "B": [
+        "AH",
+        "BB",
+        "DV"
+      ],
+      "N": [
+        "DA",
+        "NN"
+      ],
+      "A": [
+        "AV",
+        "BD",
+        "DN",
+        "HH"
+      ],
+      "D": [
+        "AN",
+        "NA"
+      ],
+      "O": [],
+      "H": [
+        "NV",
+        "VB"
+      ],
+      "V": [
+        "HD",
+        "HN",
+        "NH",
+        "VA"
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "name": "v",
+      "kind": "base"
+    },
+    {
+      "name": "n1",
+      "kind": "36518f191584a644",
+      "children": [
+        "v",
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n2",
+      "kind": "6859b0ec25991d42",
+      "children": [
+        "v",
+        "n1",
+        "v"
+      ]
+    },
+    {
+      "name": "n3",
+      "kind": "b014d29111062762",
+      "children": [
+        "v",
+        "n2"
+      ]
+    },
+    {
+      "name": "n4",
+      "kind": "b014d29111062762",
+      "children": [
+        "v",
+        "n3"
+      ]
+    },
+    {
+      "name": "n5",
+      "kind": "e788020168e26abb",
+      "children": [
+        "n4",
+        "v"
+      ]
+    },
+    {
+      "name": "n6",
+      "kind": "b014d29111062762",
+      "children": [
+        "v",
+        "n5"
+      ]
+    },
+    {
+      "name": "n7",
+      "kind": "18277b0c484b4c41",
+      "children": [
+        "v",
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n8",
+      "kind": "3daf90758a80fbb9",
+      "children": [
+        "n7",
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n9",
+      "kind": "e788020168e26abb",
+      "children": [
+        "n8",
+        "v"
+      ]
+    },
+    {
+      "name": "n10",
+      "kind": "e788020168e26abb",
+      "children": [
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n11",
+      "kind": "04339297651c9c49",
+      "children": [
+        "v",
+        "v",
+        "n10"
+      ]
+    },
+    {
+      "name": "n12",
+      "kind": "02a439adb7983be3",
+      "children": [
+        "n11",
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n13",
+      "kind": "6859b0ec25991d42",
+      "children": [
+        "v",
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n14",
+      "kind": "a41106e52a48b9a6",
+      "children": [
+        "v",
+        "v",
+        "n13"
+      ]
+    },
+    {
+      "name": "n15",
+      "kind": "3e8694d6a5bfe173",
+      "children": [
+        "n14",
+        "n10",
+        "n10"
+      ]
+    },
+    {
+      "name": "n16",
+      "kind": "cd41b86686c50a10",
+      "children": [
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n17",
+      "kind": "6356700cb05251b5",
+      "children": [
+        "v",
+        "n16",
+        "v"
+      ]
+    },
+    {
+      "name": "n18",
+      "kind": "e620baced0654ce9",
+      "children": [
+        "n10",
+        "n10",
+        "n17"
+      ]
+    },
+    {
+      "name": "n19",
+      "kind": "0058d965adce02f4",
+      "children": [
+        "n12",
+        "n15",
+        "n18"
+      ]
+    },
+    {
+      "name": "n20",
+      "kind": "59b3ea5954777333",
+      "children": [
+        "v",
+        "v",
+        "n8"
+      ]
+    },
+    {
+      "name": "n21",
+      "kind": "e9ef2871c79d62be",
+      "children": [
+        "n20",
+        "v"
+      ]
+    },
+    {
+      "name": "n22",
+      "kind": "e788020168e26abb",
+      "children": [
+        "n21",
+        "v"
+      ]
+    },
+    {
+      "name": "n23",
+      "kind": "e788020168e26abb",
+      "children": [
+        "n22",
+        "v"
+      ]
+    },
+    {
+      "name": "n24",
+      "kind": "e788020168e26abb",
+      "children": [
+        "n23",
+        "v"
+      ]
+    },
+    {
+      "name": "n25",
+      "kind": "04339297651c9c49",
+      "children": [
+        "v",
+        "v",
+        "n1"
+      ]
+    },
+    {
+      "name": "n26",
+      "kind": "7b6c163f0dc4b608",
+      "children": [
+        "n25",
+        "n10",
+        "n10"
+      ]
+    },
+    {
+      "name": "n27",
+      "kind": "e620baced0654ce9",
+      "children": [
+        "v",
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n28",
+      "kind": "31d500a381a04d9a",
+      "children": [
+        "v",
+        "n27",
+        "v"
+      ]
+    },
+    {
+      "name": "n29",
+      "kind": "660b0244997e1b9c",
+      "children": [
+        "n24",
+        "n26",
+        "n28"
+      ]
+    },
+    {
+      "name": "n30",
+      "kind": "313b085cba4d0ce6",
+      "children": [
+        "n6",
+        "n9",
+        "n19",
+        "n29"
+      ]
+    }
+  ],
+  "root": "n30",
+  "dimension": 189,
+  "N": "65833697073483574712528110058168585619531022134518015138187389009526625155929929107983674812013336307308047350330722899014632100273160304",
+  "target_N": "705692619930489413584189552943991443716392885026759451863953624242911159057444856108323516589876967077721069272782760798453832061060020786354479288616",
+  "target_dimension": 207,
+  "beats_R3": true,
+  "decimal_approximation": 5.295501965528043,
+  "metadata": {
+    "parent": "/mnt/data/c11_r5_work/broad210/d210.json",
+    "records": [
+      {
+        "N": "104884311905723074196912665440841866969181721001544814797642734289681694326805042545113091730105235397169361447371515094380440735233738368103244384737959",
+        "dimension": 210,
+        "root": 5.295514303092665,
+        "stage": "start",
+        "elapsed_seconds": 0.5419018889999734
+      },
+      {
+        "N": "706279485810383972480652323802808755115807367151808904441252585009756651469921156354803894764179260308406255386604682422733223069476548543520799686124",
+        "dimension": 207,
+        "root": 5.295513743198883,
+        "stage": "forced_one_block_contraction",
+        "elapsed_seconds": 7.611607407999941
+      },
+      {
+        "N": "706280210196204435377243420330486789235424999149856752813109786436013911474945425353055594835791559058959936257377671761752573858826692658475051845702",
+        "dimension": 207,
+        "root": 5.295513769436892,
+        "stage": "reassembly_1_{'frontier': 5, 'inner': 3, 'outer': 3}",
+        "elapsed_seconds": 13.941206251999915
+      },
+      {
+        "N": "706280334393054715688127336211538183076842623210537328672609013089572546507979138208649601796414998505703006474016312981451767311054632997529432046538",
+        "dimension": 207,
+        "root": 5.295513773935429,
+        "stage": "reassembly_2_{'frontier': 5, 'inner': 3, 'outer': 3}",
+        "elapsed_seconds": 19.702494824999917
+      },
+      {
+        "N": "706280533995872090182288340059317458558608660852391328665575573093486243895980179033520692122039847135760395860738673777766622338202208506242896729364",
+        "dimension": 207,
+        "root": 5.295513781165244,
+        "stage": "reassembly_3_{'frontier': 4, 'inner': 3, 'outer': 2}",
+        "elapsed_seconds": 25.632040314999927
+      },
+      {
+        "N": "706280653869446277346490762051213938844759014262861445718468407180437376638714423413692555536410374187309922242028777051812935509224513677659706518152",
+        "dimension": 207,
+        "root": 5.295513785507185,
+        "stage": "reassembly_4_{'frontier': 4, 'inner': 2, 'outer': 3}",
+        "elapsed_seconds": 31.214438027999904
+      },
+      {
+        "N": "706280805941607617428328351689938138389195450275327788365330106154361594270663052098580512708425840022292188759166332665723404082006932764477695324504",
+        "dimension": 207,
+        "root": 5.2955137910153915,
+        "stage": "reassembly_5_{'frontier': 4, 'inner': 2, 'outer': 3}",
+        "elapsed_seconds": 36.04243987899997
+      },
+      {
+        "N": "4755979266368674672661949964767676928751712493349099275171949365443121832688558074668484230052478211031530455744923585816247660127496041966798268052",
+        "dimension": 204,
+        "root": 5.29551300555505,
+        "stage": "forced_one_block_contraction",
+        "elapsed_seconds": 40.82345686299993
+      },
+      {
+        "N": "4755989231668817741597177550939096468175020364129269814148685792542404979966466455980638265833745462428860297565754712212140641847390877797655144732",
+        "dimension": 204,
+        "root": 5.295513059946152,
+        "stage": "reassembly_7_{'frontier': 5, 'inner': 2, 'outer': 4}",
+        "elapsed_seconds": 42.05789430099992
+      },
+      {
+        "N": "4755989679906582498463150298333532032444200006817884694880005474030171687681382208880860711052415297895044662722098757286087389474453514125926671440",
+        "dimension": 204,
+        "root": 5.2955130623926525,
+        "stage": "reassembly_8_{'frontier': 4, 'inner': 3, 'outer': 2}",
+        "elapsed_seconds": 42.94972859799998
+      },
+      {
+        "N": "32025259674408315900624329728991871777422733250111695734339440282451410805187811140920554764000098862643043223186324825514148296527321195526111150",
+        "dimension": 201,
+        "root": 5.295511599627991,
+        "stage": "forced_one_block_contraction",
+        "elapsed_seconds": 43.924746813999946
+      },
+      {
+        "N": "32025262162824873786291443986720769531671021910746514336413726676177407362501203911111931444608297773772914037833607609873376319189571322879203888",
+        "dimension": 201,
+        "root": 5.295511601675105,
+        "stage": "reassembly_10_{'frontier': 4, 'inner': 2, 'outer': 3}",
+        "elapsed_seconds": 44.60046171399995
+      },
+      {
+        "N": "215646025203694075415014296611174840028076861688611912916856697790845367627970332083178410710347603369571415985724081710988707987104465043809696",
+        "dimension": 198,
+        "root": 5.295509910341464,
+        "stage": "forced_one_block_contraction",
+        "elapsed_seconds": 45.31796358999998
+      },
+      {
+        "N": "215646077617148040128026346431486686326462366750589905085496150610357459553554247478557610913034709624033232066339351575726229370483361788641764",
+        "dimension": 198,
+        "root": 5.295509916841921,
+        "stage": "reassembly_12_{'frontier': 4, 'inner': 3, 'outer': 2}",
+        "elapsed_seconds": 46.047169833
+      },
+      {
+        "N": "215646095940880307358247576980823349483595594251592326034771350156505941167027753389393565833792562656142818333030435546482415612817144515859336",
+        "dimension": 198,
+        "root": 5.295509919114479,
+        "stage": "reassembly_13_{'frontier': 4, 'inner': 3, 'outer': 2}",
+        "elapsed_seconds": 46.74367830699998
+      },
+      {
+        "N": "1452058619116996715010457172650175319758671938730973703170842996366891193928227510800649386836710597571951847675322654675135249543247725561842",
+        "dimension": 195,
+        "root": 5.2955077872484315,
+        "stage": "forced_one_block_contraction",
+        "elapsed_seconds": 47.400065303999895
+      },
+      {
+        "N": "1452059464203001067195892213748699870781439374128713204671005000427461663906400324106812116242989913009475204428275311587057136872952878188032",
+        "dimension": 195,
+        "root": 5.295507803053256,
+        "stage": "reassembly_15_{'frontier': 5, 'inner': 3, 'outer': 3}",
+        "elapsed_seconds": 48.035198550999894
+      },
+      {
+        "N": "9777313735200492058881198018264647686361271946812958526001935499319843225685503191744279293269730415465796968974674126211882137898704217584",
+        "dimension": 192,
+        "root": 5.295505134883064,
+        "stage": "forced_one_block_contraction",
+        "elapsed_seconds": 48.70979641099996
+      },
+      {
+        "N": "65833697073483574712528110058168585619531022134518015138187389009526625155929929107983674812013336307308047350330722899014632100273160304",
+        "dimension": 189,
+        "root": 5.295501965528043,
+        "stage": "forced_one_block_contraction",
+        "elapsed_seconds": 49.345759025999996
+      }
+    ]
+  },
+  "status": "FINITE_EXACT_CANDIDATE_NOT_LEAN_CHECKED"
+}

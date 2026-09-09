@@ -1,0 +1,56 @@
+
+import random
+rng=np.random.default_rng(20260908)
+root.evaluate();oldroot=root.w;q=len(root.kids)
+entries,entryidx,fullcompat=candidate_space(q,True)
+weights_int=[math.prod(k.w[IDX[a]]for k,a in zip(root.kids,w))for _,w in entries]
+active=[i for i,w in enumerate(weights_int)if w>0]
+lookup={entries[i][1]:j for j,i in enumerate(active)}
+words=[entries[i][1]for i in active];weights_int=[weights_int[i]for i in active];sc=max(weights_int);weights=np.array([x/sc for x in weights_int]);compat=fullcompat[np.ix_(active,active)]
+initial=[lookup[w]for w in root.tab if w in lookup];bestsel=list(initial);bestN=sum(weights_int[i]for i in bestsel);num_iters=0
+if bestN!=oldroot:raise RuntimeError('terminal initial mismatch')
+def fill(sel,noise=0.0):
+ available=np.all(compat[:,sel],axis=1)if sel else np.ones(len(words),dtype=bool)
+ rank=weights*np.exp(rng.normal(0,noise,len(words)))
+ while available.any():
+  ids=np.flatnonzero(available);i=ids[np.argmax(rank[ids])];sel.append(i);available&=compat[:,i]
+ return sel
+
+def improve(sel):
+ for turn in range(12):
+  if len(sel)>63:return sel
+  occupied=np.zeros(len(words),bool);occupied[sel]=True;pool=np.flatnonzero(~occupied)
+  bad=~compat[np.ix_(pool,sel)];padded=np.zeros((len(pool),64),dtype=np.uint8);padded[:,:len(sel)]=bad
+  masks=np.packbits(padded,axis=1,bitorder='little').view(np.uint64).ravel()
+  costs=bad@weights[sel]
+  i,j,delta=best_pair_float(weights[pool],costs,masks,weights[sel],compat[np.ix_(pool,pool)])
+  if i<0 or delta<1e-14:return sel
+  inds=[i]if j<0 else[i,j];bm=0
+  for ix in inds:bm|=int(masks[ix])
+  nxt=[s for k,s in enumerate(sel)if not (bm>>k&1)]+[int(pool[ix])for ix in inds]
+  if sum(weights_int[i]for i in nxt)<=sum(weights_int[i]for i in sel):return sel
+  sel=nxt
+ return sel
+save('start')
+for it in range(600):
+ if time.monotonic()-START>args.seconds:break
+ sel=list(bestsel)
+ # Alternate a forced insertion with dropping a small random subset.
+ if it%2:
+  for kick in range(1+it%3):
+   blockers=(~compat[:,sel]).sum(axis=1)
+   choices=np.flatnonzero((blockers<=4)&(blockers>0))
+   if not len(choices):break
+   v=int(rng.choice(choices));sel=[s for s in sel if compat[v,s]]+[v]
+ else:
+  drop=set(int(x)for x in rng.choice(sel,size=min(len(sel)-1,2+it%10),replace=False));sel=[s for s in sel if s not in drop]
+ sel=fill(sel,noise=(it%5)*0.15);sel=improve(sel);num_iters+=1
+ N=sum(weights_int[i]for i in sel)
+ if N>bestN:
+  tab=sorted(words[i]for i in sel)
+  if not admissible(tab):raise RuntimeError('ILS inadmissible')
+  root.tab=tab
+  if root.evaluate()!=N:raise RuntimeError('ILS exact count mismatch')
+  bestN=N;bestsel=sel;save(f'ILS_improvement_iteration_{it}')
+print('ILS_ITERATIONS',num_iters,flush=True);save('stopped')
+(OUT/'ils_summary.json').write_text(json.dumps({'seed':20260908,'iterations':num_iters,'seconds':time.monotonic()-START,'candidate_space_size':len(words),'initial_N':str(oldroot),'final_N':str(bestN),'exhaustive':False},indent=2)+'\n')

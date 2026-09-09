@@ -1,12 +1,12 @@
 cff-version: 1.2.0
-message: "Please cite this repository and the underlying BPZ work when using this construction."
-title: "An improved lower bound for the Shannon capacity of C11"
+message: "Please cite the version used and the underlying BPZ work."
+title: "C11 capacity bounds and a uniform avoidance-profile compiler"
 type: software
 authors:
   - family-names: "Protti"
     given-names: "Matthew"
-date-released: 2026-09-08
-version: "v0.1.0"
+date-released: 2026-09-09
+version: "v0.4.0"
 license: Apache-2.0
 repository-code: "https://github.com/matthewprotti/c11-shannon-capacity-lower-bound"
-abstract: "An explicit independent set in the 207th strong power of C11 gives a Shannon capacity lower bound of 5.295492477500681, strictly improving the full pinned BPZ certificate. AI co-developed with OpenAI's Astra 6 Pro and Codex GPT-6 Astra Extra-High. Lean checked with disclosed native-evaluation trust."
+abstract: "R7 proves a uniform avoidance-profile compiler and preservation theorem for arbitrary finite separation alphabets and arities within the BPZ framework, with exact graph/set/count semantics, finite well-founded DAG closure, alphabet cardinality, and certified pruning. It adds no numerical C11 bound; R6 retains the lower bound 5.295515544509239. AI co-developed with OpenAI's Astra 6 Pro and Codex GPT-6 Astra Extra-High. R7 is Lean checked with only standard Lean axioms; the earlier numerical releases retain their disclosed native-evaluation dependencies."

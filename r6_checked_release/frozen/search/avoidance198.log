@@ -1,0 +1,7 @@
+0 n29 {'family': 'N', 'rectangles': ['BNH', 'BAB', 'BHB', 'BHV', 'VBB', 'VBV']} approxroot 5.295510233957196 relgain 1.1772090739033952e-05
+1 n19 {'family': 'N', 'rectangles': ['BBV', 'BNB', 'BAB', 'BHB', 'HBN', 'VBA', 'VBH', 'VVB']} approxroot 5.295510437575909 relgain 1.9385546397786728e-05
+2 n15 {'family': 'A', 'rectangles': ['BVB', 'ABB', 'HBN', 'HBA']} approxroot 5.295510439655633 relgain 1.9463309098494172e-05
+3 n26 {'family': 'A', 'rectangles': ['BBV', 'ABB', 'HNB', 'HAB']} approxroot 5.295510440724831 relgain 1.9503287388289855e-05
+4 n18 {'family': 'A', 'rectangles': ['BBD', 'BVB', 'NBV', 'ABV']} approxroot 5.29551044123719 relgain 1.952244494053118e-05
+5 n12 {'family': 'A', 'rectangles': ['BBV', 'BAB']} approxroot 5.295510441529958 relgain 1.9533391785207772e-05
+STOP no improvement 6 0

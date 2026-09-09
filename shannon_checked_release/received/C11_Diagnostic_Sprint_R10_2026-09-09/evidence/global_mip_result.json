@@ -1,0 +1,8 @@
+{
+  "nvars": 10987,
+  "ncliques": 66065,
+  "tail_threshold": 1e-05,
+  "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+  "elapsed": 180.25811529159546,
+  "solver_objective": null
+}

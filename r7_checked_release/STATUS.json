@@ -1,0 +1,32 @@
+{
+  "status": "PASS_R7_UNIFORM_COMPILER_PINNED_LEAN_GATE",
+  "prepared_at_utc": "2026-09-09T03:07:31.170424+00:00",
+  "general_compiler_formalized": true,
+  "finite_DAG_recursion_formalized": true,
+  "exact_graph_and_cardinality_semantics_formalized": true,
+  "support_pruning_formalized": true,
+  "terminal_expansion_formalized": true,
+  "alphabet_cardinality_formalized": true,
+  "BPZ_alphabet_specialization": 58,
+  "audited_declarations": 381,
+  "general_declarations": 346,
+  "example_declarations": 35,
+  "statement_types": 24,
+  "Lean_source_files": 12,
+  "compiled_artifacts": 12,
+  "completed_fresh_replays": 2,
+  "negative_compile_controls_per_run": 2,
+  "native_axioms": 0,
+  "new_logical_axioms": 0,
+  "standard_axiom_union": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "unsafe_declarations": 0,
+  "new_capacity_bound": false,
+  "independent_expert_review": false,
+  "worldwide_priority_review": false,
+  "remote_publication": false,
+  "original_R7_archive_sha256": "f6c16059de6509b5040becfaa565b19535298705935d23eae31924bc39728ac7"
+}

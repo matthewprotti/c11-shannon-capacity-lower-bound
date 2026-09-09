@@ -1,0 +1,43 @@
+{
+  "source_files_identical": 12,
+  "axiom_dependency_sets_identical": true,
+  "raw_statement_types_identical": true,
+  "compiled_artifacts_compared": 12,
+  "byte_identical_artifacts": 6,
+  "differing_artifacts": [
+    ".lake/build/lib/lean/ShannonBounds/ProfileCompiler/Core.olean",
+    ".lake/build/lib/lean/ShannonBounds/ProfileCompiler/DAG.olean",
+    ".lake/build/lib/lean/ShannonBounds/ProfileCompiler/Products.olean",
+    ".lake/build/lib/lean/ShannonBounds/ProfileCompiler/Profiles.olean",
+    ".lake/build/lib/lean/ShannonBounds/ProfileCompiler/Pruning.olean",
+    ".lake/build/lib/lean/ShannonBounds/ProfileCompiler/Semantics.olean"
+  ],
+  "all_R7_mathematical_modules_explicitly_rebuilt_in_both_runs": true,
+  "differing_artifact_sizes": {
+    ".lake/build/lib/lean/ShannonBounds/ProfileCompiler/Core.olean": {
+      "first": 578576,
+      "second": 578584
+    },
+    ".lake/build/lib/lean/ShannonBounds/ProfileCompiler/DAG.olean": {
+      "first": 739232,
+      "second": 739232
+    },
+    ".lake/build/lib/lean/ShannonBounds/ProfileCompiler/Products.olean": {
+      "first": 262848,
+      "second": 262856
+    },
+    ".lake/build/lib/lean/ShannonBounds/ProfileCompiler/Profiles.olean": {
+      "first": 515584,
+      "second": 515592
+    },
+    ".lake/build/lib/lean/ShannonBounds/ProfileCompiler/Pruning.olean": {
+      "first": 250456,
+      "second": 250464
+    },
+    ".lake/build/lib/lean/ShannonBounds/ProfileCompiler/Semantics.olean": {
+      "first": 580816,
+      "second": 580824
+    }
+  },
+  "difference_cause": "Not established; no claim of bit-for-bit reproducible compiled files. Both builds passed and source, statement types and axiom dependencies agree."
+}

@@ -1,0 +1,11 @@
+{
+  "mathematics": "EXACT_FINITE_C13_TRANSFER_WITH_WRITTEN_PRODUCT_LIFTING_PROOF",
+  "baseline": "full pinned BPZ C13 cardinality",
+  "best_lower_bound": "6.302927046770772",
+  "dimension": 522,
+  "new_Lean_checked": false,
+  "external_review": false,
+  "worldwide_priority_cleared": false,
+  "new_general_theorem": false,
+  "published_by_this_run": false
+}

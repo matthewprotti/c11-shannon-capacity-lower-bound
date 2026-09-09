@@ -1,0 +1,117 @@
+{
+  "status": "PASS_SAMPLED_VALID_CONSTRUCTIONS_NOT_OPTIMALITY",
+  "cases": [
+    {
+      "dimension": 168,
+      "source": "compress/d168.json",
+      "exact_cardinality_replayed": true,
+      "beats_R3": false,
+      "beats_R4_best": false
+    },
+    {
+      "dimension": 171,
+      "source": "compress/d171.json",
+      "exact_cardinality_replayed": true,
+      "beats_R3": false,
+      "beats_R4_best": false
+    },
+    {
+      "dimension": 174,
+      "source": "compress/d174.json",
+      "exact_cardinality_replayed": true,
+      "beats_R3": false,
+      "beats_R4_best": false
+    },
+    {
+      "dimension": 177,
+      "source": "compress/d177.json",
+      "exact_cardinality_replayed": true,
+      "beats_R3": false,
+      "beats_R4_best": false
+    },
+    {
+      "dimension": 180,
+      "source": "compress/d180.json",
+      "exact_cardinality_replayed": true,
+      "beats_R3": false,
+      "beats_R4_best": false
+    },
+    {
+      "dimension": 183,
+      "source": "cheap_bank183/d183.json",
+      "exact_cardinality_replayed": true,
+      "beats_R3": true,
+      "beats_R4_best": false
+    },
+    {
+      "dimension": 186,
+      "source": "compress/d186.json",
+      "exact_cardinality_replayed": true,
+      "beats_R3": true,
+      "beats_R4_best": true
+    },
+    {
+      "dimension": 189,
+      "source": "compress_strong/d189.json",
+      "exact_cardinality_replayed": true,
+      "beats_R3": true,
+      "beats_R4_best": true
+    },
+    {
+      "dimension": 192,
+      "source": "compress_strong/d192.json",
+      "exact_cardinality_replayed": true,
+      "beats_R3": true,
+      "beats_R4_best": true
+    },
+    {
+      "dimension": 195,
+      "source": "compress_strong/d195.json",
+      "exact_cardinality_replayed": true,
+      "beats_R3": true,
+      "beats_R4_best": true
+    },
+    {
+      "dimension": 198,
+      "source": "compress_strong/d198.json",
+      "exact_cardinality_replayed": true,
+      "beats_R3": true,
+      "beats_R4_best": true
+    },
+    {
+      "dimension": 201,
+      "source": "compress_strong/d201.json",
+      "exact_cardinality_replayed": true,
+      "beats_R3": true,
+      "beats_R4_best": true
+    },
+    {
+      "dimension": 204,
+      "source": "compress_strong/d204.json",
+      "exact_cardinality_replayed": true,
+      "beats_R3": true,
+      "beats_R4_best": true
+    },
+    {
+      "dimension": 207,
+      "source": "compress_strong/d207.json",
+      "exact_cardinality_replayed": true,
+      "beats_R3": true,
+      "beats_R4_best": true
+    },
+    {
+      "dimension": 210,
+      "source": "broad210/d210.json",
+      "exact_cardinality_replayed": true,
+      "beats_R3": true,
+      "beats_R4_best": true
+    },
+    {
+      "dimension": 213,
+      "source": "grow_strong/d213.json",
+      "exact_cardinality_replayed": true,
+      "beats_R3": true,
+      "beats_R4_best": true
+    }
+  ]
+}

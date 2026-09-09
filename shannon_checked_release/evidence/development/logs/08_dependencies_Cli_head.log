@@ -1,0 +1,2 @@
+$ git -C /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/bpz/.lake/packages/Cli rev-parse HEAD
+88679d088c9720c27ebdf2ba4dafe17341747f94

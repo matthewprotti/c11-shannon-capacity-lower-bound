@@ -1,0 +1,6 @@
+$ /opt/homebrew/opt/python@3.14/bin/python3.14 -B /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/tools/NEGATIVES.py /Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay --toolchain-bin /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin
+C11R9D198 two mathematical negatives rejected
+C11R9D213 two mathematical negatives rejected
+C11R10D213 two mathematical negatives rejected
+C13R8D522 two mathematical negatives rejected
+PASS_NINE_MATHEMATICAL_NEGATIVE_COMPILATIONS

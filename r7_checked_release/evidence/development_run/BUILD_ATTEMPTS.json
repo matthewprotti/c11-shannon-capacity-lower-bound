@@ -1,0 +1,294 @@
+[
+  {
+    "command": [
+      "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lake",
+      "--no-ansi",
+      "build",
+      "ShannonBounds.ProfileCompiler.Profiles"
+    ],
+    "started_at_utc": "2026-09-09T02:09:39.421295+00:00",
+    "seconds": 17.377885750029236,
+    "returncode": 0,
+    "log": "build_attempts/001.log",
+    "source_hashes": {
+      "ShannonBounds/ProfileCompiler/Core.lean": "68987a26bdfec8147b3840165d59cbcb2b25fe3ff7d28f5b90b4c74023e8e88e",
+      "ShannonBounds/ProfileCompiler/Profiles.lean": "b3c93242515b81bc3f3c12c3bca5556cce26dab3d89b145b652038e97bf8e168"
+    }
+  },
+  {
+    "command": [
+      "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lake",
+      "--no-ansi",
+      "build",
+      "ShannonBounds.ProfileCompiler.Products"
+    ],
+    "started_at_utc": "2026-09-09T02:11:53.597145+00:00",
+    "seconds": 17.14863087492995,
+    "returncode": 1,
+    "log": "build_attempts/002.log",
+    "source_hashes": {
+      "ShannonBounds/ProfileCompiler/Core.lean": "68987a26bdfec8147b3840165d59cbcb2b25fe3ff7d28f5b90b4c74023e8e88e",
+      "ShannonBounds/ProfileCompiler/Products.lean": "740c473446f4fd0ca1626132bbdafa989a1b4d3426cfe8ad245d5479ddbffe74",
+      "ShannonBounds/ProfileCompiler/Profiles.lean": "b3c93242515b81bc3f3c12c3bca5556cce26dab3d89b145b652038e97bf8e168"
+    }
+  },
+  {
+    "command": [
+      "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lake",
+      "--no-ansi",
+      "build",
+      "ShannonBounds.ProfileCompiler.Semantics"
+    ],
+    "started_at_utc": "2026-09-09T02:14:56.331666+00:00",
+    "seconds": 27.559691542061046,
+    "returncode": 1,
+    "log": "build_attempts/003.log",
+    "source_hashes": {
+      "ShannonBounds/ProfileCompiler/Core.lean": "68987a26bdfec8147b3840165d59cbcb2b25fe3ff7d28f5b90b4c74023e8e88e",
+      "ShannonBounds/ProfileCompiler/Semantics.lean": "a029d3fdd68b6e1067a00b5e895555c3641ea6edb7e10fe04f01cb745d8e2fcf",
+      "ShannonBounds/ProfileCompiler/Products.lean": "856daaad42ca0bc93ef2777c53c2836bc92f1095fd4ae58088c2c58b5a3d6e29",
+      "ShannonBounds/ProfileCompiler/Profiles.lean": "b3c93242515b81bc3f3c12c3bca5556cce26dab3d89b145b652038e97bf8e168"
+    }
+  },
+  {
+    "command": [
+      "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lake",
+      "--no-ansi",
+      "build",
+      "ShannonBounds.ProfileCompiler.Semantics"
+    ],
+    "started_at_utc": "2026-09-09T02:17:16.021565+00:00",
+    "seconds": 17.325601958902553,
+    "returncode": 0,
+    "log": "build_attempts/004.log",
+    "source_hashes": {
+      "ShannonBounds/ProfileCompiler/Core.lean": "68987a26bdfec8147b3840165d59cbcb2b25fe3ff7d28f5b90b4c74023e8e88e",
+      "ShannonBounds/ProfileCompiler/Semantics.lean": "e415589fa3ce2239db3a04a6148569a1e3c4a4e806f7995c22bffeb81f7e9330",
+      "ShannonBounds/ProfileCompiler/Products.lean": "856daaad42ca0bc93ef2777c53c2836bc92f1095fd4ae58088c2c58b5a3d6e29",
+      "ShannonBounds/ProfileCompiler/Profiles.lean": "b3c93242515b81bc3f3c12c3bca5556cce26dab3d89b145b652038e97bf8e168"
+    }
+  },
+  {
+    "command": [
+      "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lake",
+      "--no-ansi",
+      "build",
+      "ShannonBounds.ProfileCompiler.Cardinality"
+    ],
+    "started_at_utc": "2026-09-09T02:19:04.448103+00:00",
+    "seconds": 15.86368141695857,
+    "returncode": 1,
+    "log": "build_attempts/005.log",
+    "source_hashes": {
+      "ShannonBounds/ProfileCompiler/Core.lean": "68987a26bdfec8147b3840165d59cbcb2b25fe3ff7d28f5b90b4c74023e8e88e",
+      "ShannonBounds/ProfileCompiler/Semantics.lean": "e415589fa3ce2239db3a04a6148569a1e3c4a4e806f7995c22bffeb81f7e9330",
+      "ShannonBounds/ProfileCompiler/Products.lean": "856daaad42ca0bc93ef2777c53c2836bc92f1095fd4ae58088c2c58b5a3d6e29",
+      "ShannonBounds/ProfileCompiler/Cardinality.lean": "637cc36654ab02a9aad34947a1614cf12f2fce51b044685b0d6af8007217f502",
+      "ShannonBounds/ProfileCompiler/Profiles.lean": "b3c93242515b81bc3f3c12c3bca5556cce26dab3d89b145b652038e97bf8e168"
+    }
+  },
+  {
+    "command": [
+      "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lake",
+      "--no-ansi",
+      "build",
+      "ShannonBounds.ProfileCompiler.Pruning"
+    ],
+    "started_at_utc": "2026-09-09T02:21:08.734265+00:00",
+    "seconds": 15.59715749998577,
+    "returncode": 1,
+    "log": "build_attempts/006.log",
+    "source_hashes": {
+      "ShannonBounds/ProfileCompiler/Core.lean": "68987a26bdfec8147b3840165d59cbcb2b25fe3ff7d28f5b90b4c74023e8e88e",
+      "ShannonBounds/ProfileCompiler/Semantics.lean": "e415589fa3ce2239db3a04a6148569a1e3c4a4e806f7995c22bffeb81f7e9330",
+      "ShannonBounds/ProfileCompiler/Products.lean": "856daaad42ca0bc93ef2777c53c2836bc92f1095fd4ae58088c2c58b5a3d6e29",
+      "ShannonBounds/ProfileCompiler/Pruning.lean": "803dbefed73b8c3fffb14cdbecdfeef7e2a27b44c59570a08d5e043228f26af3",
+      "ShannonBounds/ProfileCompiler/Cardinality.lean": "637cc36654ab02a9aad34947a1614cf12f2fce51b044685b0d6af8007217f502",
+      "ShannonBounds/ProfileCompiler/Profiles.lean": "b3c93242515b81bc3f3c12c3bca5556cce26dab3d89b145b652038e97bf8e168"
+    }
+  },
+  {
+    "command": [
+      "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lake",
+      "--no-ansi",
+      "build",
+      "ShannonBounds.ProfileCompiler.Cardinality"
+    ],
+    "started_at_utc": "2026-09-09T02:23:16.522318+00:00",
+    "seconds": 17.456111499806866,
+    "returncode": 1,
+    "log": "build_attempts/007.log",
+    "source_hashes": {
+      "ShannonBounds/ProfileCompiler/Core.lean": "68987a26bdfec8147b3840165d59cbcb2b25fe3ff7d28f5b90b4c74023e8e88e",
+      "ShannonBounds/ProfileCompiler/Semantics.lean": "e415589fa3ce2239db3a04a6148569a1e3c4a4e806f7995c22bffeb81f7e9330",
+      "ShannonBounds/ProfileCompiler/Products.lean": "856daaad42ca0bc93ef2777c53c2836bc92f1095fd4ae58088c2c58b5a3d6e29",
+      "ShannonBounds/ProfileCompiler/Pruning.lean": "803dbefed73b8c3fffb14cdbecdfeef7e2a27b44c59570a08d5e043228f26af3",
+      "ShannonBounds/ProfileCompiler/Cardinality.lean": "5252c9b78bef9949b422c6f08dbd8e85023258908330804b3b87318ccb81b406",
+      "ShannonBounds/ProfileCompiler/Profiles.lean": "b3c93242515b81bc3f3c12c3bca5556cce26dab3d89b145b652038e97bf8e168"
+    }
+  },
+  {
+    "command": [
+      "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lake",
+      "--no-ansi",
+      "build",
+      "ShannonBounds.ProfileCompiler.Pruning"
+    ],
+    "started_at_utc": "2026-09-09T02:24:56.721172+00:00",
+    "seconds": 14.044433207949623,
+    "returncode": 1,
+    "log": "build_attempts/008.log",
+    "source_hashes": {
+      "ShannonBounds/ProfileCompiler/Core.lean": "68987a26bdfec8147b3840165d59cbcb2b25fe3ff7d28f5b90b4c74023e8e88e",
+      "ShannonBounds/ProfileCompiler/Semantics.lean": "e415589fa3ce2239db3a04a6148569a1e3c4a4e806f7995c22bffeb81f7e9330",
+      "ShannonBounds/ProfileCompiler/Products.lean": "856daaad42ca0bc93ef2777c53c2836bc92f1095fd4ae58088c2c58b5a3d6e29",
+      "ShannonBounds/ProfileCompiler/Pruning.lean": "f74d24f36c71115b483a1bcab355656be972080f0382e767874123ac0687ac93",
+      "ShannonBounds/ProfileCompiler/Cardinality.lean": "5252c9b78bef9949b422c6f08dbd8e85023258908330804b3b87318ccb81b406",
+      "ShannonBounds/ProfileCompiler/Profiles.lean": "b3c93242515b81bc3f3c12c3bca5556cce26dab3d89b145b652038e97bf8e168"
+    }
+  },
+  {
+    "command": [
+      "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lake",
+      "--no-ansi",
+      "build",
+      "ShannonBounds.ProfileCompiler.Recursion",
+      "ShannonBounds.ProfileCompiler.Cardinality"
+    ],
+    "started_at_utc": "2026-09-09T02:26:20.237912+00:00",
+    "seconds": 18.517874292097986,
+    "returncode": 1,
+    "log": "build_attempts/009.log",
+    "source_hashes": {
+      "ShannonBounds/ProfileCompiler/Core.lean": "68987a26bdfec8147b3840165d59cbcb2b25fe3ff7d28f5b90b4c74023e8e88e",
+      "ShannonBounds/ProfileCompiler/Semantics.lean": "e415589fa3ce2239db3a04a6148569a1e3c4a4e806f7995c22bffeb81f7e9330",
+      "ShannonBounds/ProfileCompiler/Products.lean": "856daaad42ca0bc93ef2777c53c2836bc92f1095fd4ae58088c2c58b5a3d6e29",
+      "ShannonBounds/ProfileCompiler/Pruning.lean": "0d80777f5c02a35cbad3fad4f7aa92dbf1b53fe0f415ee7de290b3d499b0de68",
+      "ShannonBounds/ProfileCompiler/Cardinality.lean": "b057a6e9e5d18bf4a6f66a0acfa0d5056acb5534b9123fd7bfc2d5fe5ee82826",
+      "ShannonBounds/ProfileCompiler/Recursion.lean": "7f6ae8292e39819c53099082224a8d325a7d79c3dee2290c159c975f6e0f954b",
+      "ShannonBounds/ProfileCompiler/Profiles.lean": "b3c93242515b81bc3f3c12c3bca5556cce26dab3d89b145b652038e97bf8e168"
+    }
+  },
+  {
+    "command": [
+      "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lake",
+      "--no-ansi",
+      "build",
+      "ShannonBounds.ProfileCompiler.DAG",
+      "ShannonBounds.ProfileCompiler.Cardinality"
+    ],
+    "started_at_utc": "2026-09-09T02:30:05.320185+00:00",
+    "seconds": 19.926800499903038,
+    "returncode": 1,
+    "log": "build_attempts/010.log",
+    "source_hashes": {
+      "ShannonBounds/ProfileCompiler/Core.lean": "68987a26bdfec8147b3840165d59cbcb2b25fe3ff7d28f5b90b4c74023e8e88e",
+      "ShannonBounds/ProfileCompiler/Semantics.lean": "e415589fa3ce2239db3a04a6148569a1e3c4a4e806f7995c22bffeb81f7e9330",
+      "ShannonBounds/ProfileCompiler/Products.lean": "856daaad42ca0bc93ef2777c53c2836bc92f1095fd4ae58088c2c58b5a3d6e29",
+      "ShannonBounds/ProfileCompiler/DAG.lean": "a7ef0b8490578b5b631f0652dbe91b89f24ba5ae61d5947398795c19b0621052",
+      "ShannonBounds/ProfileCompiler/Pruning.lean": "0d80777f5c02a35cbad3fad4f7aa92dbf1b53fe0f415ee7de290b3d499b0de68",
+      "ShannonBounds/ProfileCompiler/Cardinality.lean": "b057a6e9e5d18bf4a6f66a0acfa0d5056acb5534b9123fd7bfc2d5fe5ee82826",
+      "ShannonBounds/ProfileCompiler/Recursion.lean": "3e3d53276ebddd20ac11c551fc1f6807080d24c85b13ac9255a472a4a539073a",
+      "ShannonBounds/ProfileCompiler/Profiles.lean": "b3c93242515b81bc3f3c12c3bca5556cce26dab3d89b145b652038e97bf8e168"
+    }
+  },
+  {
+    "command": [
+      "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lake",
+      "--no-ansi",
+      "build",
+      "ShannonBounds.ProfileCompiler.Examples"
+    ],
+    "started_at_utc": "2026-09-09T02:32:22.339041+00:00",
+    "seconds": 18.574156708084047,
+    "returncode": 1,
+    "log": "build_attempts/011.log",
+    "source_hashes": {
+      "ShannonBounds/ProfileCompiler/Core.lean": "68987a26bdfec8147b3840165d59cbcb2b25fe3ff7d28f5b90b4c74023e8e88e",
+      "ShannonBounds/ProfileCompiler/Semantics.lean": "e415589fa3ce2239db3a04a6148569a1e3c4a4e806f7995c22bffeb81f7e9330",
+      "ShannonBounds/ProfileCompiler/Products.lean": "856daaad42ca0bc93ef2777c53c2836bc92f1095fd4ae58088c2c58b5a3d6e29",
+      "ShannonBounds/ProfileCompiler/DAG.lean": "a7ef0b8490578b5b631f0652dbe91b89f24ba5ae61d5947398795c19b0621052",
+      "ShannonBounds/ProfileCompiler/Pruning.lean": "0d80777f5c02a35cbad3fad4f7aa92dbf1b53fe0f415ee7de290b3d499b0de68",
+      "ShannonBounds/ProfileCompiler/Cardinality.lean": "b057a6e9e5d18bf4a6f66a0acfa0d5056acb5534b9123fd7bfc2d5fe5ee82826",
+      "ShannonBounds/ProfileCompiler/Recursion.lean": "3e3d53276ebddd20ac11c551fc1f6807080d24c85b13ac9255a472a4a539073a",
+      "ShannonBounds/ProfileCompiler/Examples.lean": "3a572f78f2ba4193fdf53436fb7ebdc42a50c8d43d4d71efb2c9542d59cb7729",
+      "ShannonBounds/ProfileCompiler/Profiles.lean": "b3c93242515b81bc3f3c12c3bca5556cce26dab3d89b145b652038e97bf8e168"
+    }
+  },
+  {
+    "command": [
+      "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lake",
+      "--no-ansi",
+      "build",
+      "ShannonBounds.ProfileCompiler.DAG"
+    ],
+    "started_at_utc": "2026-09-09T02:33:34.439876+00:00",
+    "seconds": 16.15558775002137,
+    "returncode": 1,
+    "log": "build_attempts/012.log",
+    "source_hashes": {
+      "ShannonBounds/ProfileCompiler/Core.lean": "68987a26bdfec8147b3840165d59cbcb2b25fe3ff7d28f5b90b4c74023e8e88e",
+      "ShannonBounds/ProfileCompiler/Semantics.lean": "e415589fa3ce2239db3a04a6148569a1e3c4a4e806f7995c22bffeb81f7e9330",
+      "ShannonBounds/ProfileCompiler/Products.lean": "856daaad42ca0bc93ef2777c53c2836bc92f1095fd4ae58088c2c58b5a3d6e29",
+      "ShannonBounds/ProfileCompiler/DAG.lean": "1b004c5ba3822c33228476c86450b369a2c2417c05a49c1b21b1a8331db9f668",
+      "ShannonBounds/ProfileCompiler/Pruning.lean": "0d80777f5c02a35cbad3fad4f7aa92dbf1b53fe0f415ee7de290b3d499b0de68",
+      "ShannonBounds/ProfileCompiler/Cardinality.lean": "b057a6e9e5d18bf4a6f66a0acfa0d5056acb5534b9123fd7bfc2d5fe5ee82826",
+      "ShannonBounds/ProfileCompiler/Recursion.lean": "3e3d53276ebddd20ac11c551fc1f6807080d24c85b13ac9255a472a4a539073a",
+      "ShannonBounds/ProfileCompiler/Examples.lean": "3a572f78f2ba4193fdf53436fb7ebdc42a50c8d43d4d71efb2c9542d59cb7729",
+      "ShannonBounds/ProfileCompiler/Profiles.lean": "b3c93242515b81bc3f3c12c3bca5556cce26dab3d89b145b652038e97bf8e168"
+    }
+  },
+  {
+    "command": [
+      "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lake",
+      "--no-ansi",
+      "build",
+      "ShannonBounds.ProfileCompiler",
+      "ShannonBounds.ProfileCompiler.Examples"
+    ],
+    "started_at_utc": "2026-09-09T02:36:13.139388+00:00",
+    "seconds": 38.32830058387481,
+    "returncode": 0,
+    "log": "build_attempts/013.log",
+    "source_hashes": {
+      "ShannonBounds/ProfileCompiler.lean": "97bb8d1693b0abb0caf5eb371a3bc11ea3a52e36e397ef81799883f89a5fd104",
+      "ShannonBounds/ProfileCompiler/Core.lean": "68987a26bdfec8147b3840165d59cbcb2b25fe3ff7d28f5b90b4c74023e8e88e",
+      "ShannonBounds/ProfileCompiler/Semantics.lean": "e415589fa3ce2239db3a04a6148569a1e3c4a4e806f7995c22bffeb81f7e9330",
+      "ShannonBounds/ProfileCompiler/Products.lean": "856daaad42ca0bc93ef2777c53c2836bc92f1095fd4ae58088c2c58b5a3d6e29",
+      "ShannonBounds/ProfileCompiler/DAG.lean": "9f3b2b70764361d455fd4736f9f32281eccbe6aec0cfe08a81d030f1f3a9ad3b",
+      "ShannonBounds/ProfileCompiler/Pruning.lean": "1df8657f1e615faf581a1614e21405c52ff7e34d8b1fd67b302ffa9effcffc15",
+      "ShannonBounds/ProfileCompiler/Cardinality.lean": "b057a6e9e5d18bf4a6f66a0acfa0d5056acb5534b9123fd7bfc2d5fe5ee82826",
+      "ShannonBounds/ProfileCompiler/Powers.lean": "00cce75797e2c5117f7366c74acc5fecadbba0a4459d4d056e64367cc866c0e6",
+      "ShannonBounds/ProfileCompiler/Recursion.lean": "3e3d53276ebddd20ac11c551fc1f6807080d24c85b13ac9255a472a4a539073a",
+      "ShannonBounds/ProfileCompiler/Examples.lean": "f566965836304574d02713b8806ac2cc1f81a0dc87157cf5a036a1b929dce749",
+      "ShannonBounds/ProfileCompiler/Profiles.lean": "7aa4f9425180f914d03022bae753c22645a9f8fd731272c2c48acaed900c4d59"
+    }
+  },
+  {
+    "command": [
+      "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lake",
+      "--no-ansi",
+      "build",
+      "ShannonBounds.ProfileCompiler",
+      "ShannonBounds.ProfileCompiler.Examples"
+    ],
+    "started_at_utc": "2026-09-09T02:41:43.797542+00:00",
+    "seconds": 38.73508375021629,
+    "returncode": 0,
+    "log": "build_attempts/014.log",
+    "source_hashes": {
+      "R7_AxiomAudit.lean": "88260bea1fecb2d051a78b99f980d92806675e48e2bc5ed4a89bdace9fec8664",
+      "ShannonBounds/ProfileCompiler.lean": "97bb8d1693b0abb0caf5eb371a3bc11ea3a52e36e397ef81799883f89a5fd104",
+      "ShannonBounds/ProfileCompiler/Core.lean": "3e26fb9f03212c40758f0b9d152c343eda624e9bff74ca660d895cc3b66e85ac",
+      "ShannonBounds/ProfileCompiler/Semantics.lean": "e415589fa3ce2239db3a04a6148569a1e3c4a4e806f7995c22bffeb81f7e9330",
+      "ShannonBounds/ProfileCompiler/Products.lean": "856daaad42ca0bc93ef2777c53c2836bc92f1095fd4ae58088c2c58b5a3d6e29",
+      "ShannonBounds/ProfileCompiler/DAG.lean": "9f3b2b70764361d455fd4736f9f32281eccbe6aec0cfe08a81d030f1f3a9ad3b",
+      "ShannonBounds/ProfileCompiler/Pruning.lean": "1df8657f1e615faf581a1614e21405c52ff7e34d8b1fd67b302ffa9effcffc15",
+      "ShannonBounds/ProfileCompiler/Cardinality.lean": "b057a6e9e5d18bf4a6f66a0acfa0d5056acb5534b9123fd7bfc2d5fe5ee82826",
+      "ShannonBounds/ProfileCompiler/Powers.lean": "00cce75797e2c5117f7366c74acc5fecadbba0a4459d4d056e64367cc866c0e6",
+      "ShannonBounds/ProfileCompiler/Recursion.lean": "3e3d53276ebddd20ac11c551fc1f6807080d24c85b13ac9255a472a4a539073a",
+      "ShannonBounds/ProfileCompiler/Examples.lean": "f566965836304574d02713b8806ac2cc1f81a0dc87157cf5a036a1b929dce749",
+      "ShannonBounds/ProfileCompiler/Profiles.lean": "7aa4f9425180f914d03022bae753c22645a9f8fd731272c2c48acaed900c4d59"
+    }
+  }
+]

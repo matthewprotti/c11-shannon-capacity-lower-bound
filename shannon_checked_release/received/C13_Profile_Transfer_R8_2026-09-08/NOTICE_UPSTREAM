@@ -1,0 +1,9 @@
+The C13 seed cosets, syndrome/kernel representation, base families, coarse
+separation framework and original substitution/terminal tables are adapted from
+the Apache-2.0 BPZ ShannonBounds repository.
+Copyright (c) 2026 Pjotr Buys, Sven Polak, Jeroen Zuiddam.
+Earlier seed authors retain the attribution supplied by BPZ.
+This R8 transfer, its new finite certificate, code adaptations and notes were
+AI co-developed under Matthew Protti's direction. Existing R6/R7 code and proofs
+retain their project provenance. No claim of a new general product theorem or
+new quotient construction is made here.

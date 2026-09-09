@@ -1,0 +1,55 @@
+[
+  {
+    "dimension": 186,
+    "node": "n17",
+    "empty_words_removed": [
+      "BAV",
+      "NBN",
+      "NBD",
+      "VBH"
+    ]
+  },
+  {
+    "dimension": 186,
+    "node": "n26",
+    "empty_words_removed": [
+      "NNB",
+      "ANB",
+      "VVB"
+    ]
+  },
+  {
+    "dimension": 198,
+    "node": "n19",
+    "empty_words_removed": [
+      "BNB",
+      "VBA",
+      "VVB"
+    ]
+  },
+  {
+    "dimension": 198,
+    "node": "n29",
+    "empty_words_removed": [
+      "VBV"
+    ]
+  },
+  {
+    "dimension": 213,
+    "node": "n10",
+    "empty_words_removed": [
+      "BNB",
+      "VBA",
+      "VVB"
+    ]
+  },
+  {
+    "dimension": 213,
+    "node": "n30",
+    "empty_words_removed": [
+      "NBN",
+      "NBA",
+      "VBV"
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "release": "C11_R5",
+  "date": "2026-09-08",
+  "claim_status": "EXACT_FINITE_CONSTRUCTIONS_TWO_REPLAYS",
+  "dimensions": [
+    186,
+    198,
+    213
+  ],
+  "lower_bounds": {
+    "186": "5.295498140339058",
+    "198": "5.295509919114478",
+    "213": "5.295514953483263"
+  },
+  "parent_R4_sha256": "d5ea7d939e0e28261fb87aceed1e46353ee3c31c549056f8c49e0e6c4f5ac76c",
+  "new_Lean_build": false,
+  "new_external_adversarial_review": false,
+  "priority_cleared": false,
+  "optimality_proved": false,
+  "minimum_exponent_proved": false,
+  "public_submission_performed": false,
+  "parent_archives_unchanged": true
+}

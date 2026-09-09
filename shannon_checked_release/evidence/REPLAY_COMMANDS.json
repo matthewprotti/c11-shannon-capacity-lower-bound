@@ -1,0 +1,60 @@
+[
+  {
+    "package": "r9",
+    "mode": "normal",
+    "command": [
+      "/opt/homebrew/opt/python@3.14/bin/python3.14",
+      "-B",
+      "VERIFY.py",
+      "--self-test",
+      "--manifest"
+    ],
+    "started_at_utc": "2026-09-09T16:41:05.054411+00:00",
+    "seconds": 4.051707333885133,
+    "returncode": 0
+  },
+  {
+    "package": "r9",
+    "mode": "optimized",
+    "command": [
+      "/opt/homebrew/opt/python@3.14/bin/python3.14",
+      "-O",
+      "-B",
+      "VERIFY.py",
+      "--self-test",
+      "--manifest"
+    ],
+    "started_at_utc": "2026-09-09T16:41:09.107101+00:00",
+    "seconds": 3.8882418328430504,
+    "returncode": 0
+  },
+  {
+    "package": "r10",
+    "mode": "normal",
+    "command": [
+      "/opt/homebrew/opt/python@3.14/bin/python3.14",
+      "-B",
+      "VERIFY.py",
+      "--self-test",
+      "--manifest"
+    ],
+    "started_at_utc": "2026-09-09T16:41:12.995583+00:00",
+    "seconds": 4.984336041845381,
+    "returncode": 0
+  },
+  {
+    "package": "r10",
+    "mode": "optimized",
+    "command": [
+      "/opt/homebrew/opt/python@3.14/bin/python3.14",
+      "-O",
+      "-B",
+      "VERIFY.py",
+      "--self-test",
+      "--manifest"
+    ],
+    "started_at_utc": "2026-09-09T16:41:17.980096+00:00",
+    "seconds": 4.772627416998148,
+    "returncode": 0
+  }
+]

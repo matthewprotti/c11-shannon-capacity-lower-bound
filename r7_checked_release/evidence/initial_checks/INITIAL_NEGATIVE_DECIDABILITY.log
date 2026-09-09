@@ -1,0 +1,6 @@
+$ lake env lean NEGATIVE_stale_masks.lean
+NEGATIVE_stale_masks.lean:10:15: error: failed to synthesize
+  Decidable
+    (∀ (a b : Ty noSeparation), apart a b = true → ∀ x ∈ staleRows a, ∀ y ∈ staleRows b, ∃ i, apart (x i) (y i) = true)
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.

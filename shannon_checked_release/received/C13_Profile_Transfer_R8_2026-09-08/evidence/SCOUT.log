@@ -1,0 +1,33 @@
+base 0.27500823399998353 147444
+h0 [{3: 58136, 11: 1521, 7: 1859}, {3: 60502}, {85: 1014}, {41: 1014}, {116: 1014}, {120: 1014}, {116: 1014}]
+BASELINE REPRODUCED 418 0.29919141799996396
+a3 18 54 seconds 0.007
+a4 24 12 seconds 0.002
+a5 30 12 seconds 0.001
+a6 36 12 seconds 0.001
+a7 42 12 seconds 0.002
+a8 48 12 seconds 0.001
+a9 54 12 seconds 0.001
+b2 12 15 seconds 0.001
+b3 18 12 seconds 0.001
+b4 24 12 seconds 0.001
+b5 30 12 seconds 0.001
+b6 36 12 seconds 0.001
+b7 42 12 seconds 0.001
+b8 48 12 seconds 0.001
+b9 54 12 seconds 0.001
+b10 60 12 seconds 0.001
+b11 66 12 seconds 0.001
+b12 72 12 seconds 0.001
+b13 78 12 seconds 0.002
+b14 84 12 seconds 0.001
+b15 90 12 seconds 0.001
+b16 96 12 seconds 0.001
+b17 102 12 seconds 0.001
+c12 72 59 seconds 0.017
+BEST c12 N BBA root 6.302926730599594
+x34 204 248 seconds 0.015
+BEST x34 N BAB root 6.3029267933275825
+x36 216 248 seconds 0.015
+BEST x36 N BBA root 6.302926831773009
+DONE 409 25.660468667999965

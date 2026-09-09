@@ -1,0 +1,235 @@
+{
+  "schema": "C11_RECURSIVE_SEARCH_CERTIFICATE_V1",
+  "source_commit": "aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65",
+  "parent_r3_sha256": "9ac3006b54d5c449db357819d88ea507b66778923c61c54623d72d905517a357",
+  "frozen_input_sha256": "bc3f401480f2b9a878ad24faa1d98c1ad848755a0537ceff0043f12f67bf7c26",
+  "tables": {
+    "0b1232367c64e1dc": {
+      "B": [
+        "AH",
+        "BB",
+        "DV"
+      ],
+      "N": [
+        "DA",
+        "NN"
+      ],
+      "A": [
+        "AN",
+        "NA"
+      ],
+      "D": [
+        "AV",
+        "BD",
+        "DN",
+        "HH"
+      ],
+      "O": [],
+      "H": [
+        "HD",
+        "HN",
+        "NH",
+        "VA"
+      ],
+      "V": [
+        "NV",
+        "VB"
+      ]
+    },
+    "8cc0be37702a5805": {
+      "B": [
+        "BB",
+        "HD",
+        "VA"
+      ],
+      "N": [
+        "DD",
+        "NN"
+      ],
+      "A": [
+        "DN",
+        "NA"
+      ],
+      "D": [
+        "AB",
+        "HA",
+        "ND",
+        "VH"
+      ],
+      "O": [],
+      "H": [
+        "AH",
+        "DV",
+        "NH",
+        "VN"
+      ],
+      "V": [
+        "BV",
+        "HN"
+      ]
+    },
+    "B_singleton": [
+      "B"
+    ],
+    "be0ccdd957593f18": {
+      "B": [
+        "BB",
+        "HD",
+        "VA"
+      ],
+      "N": [
+        "AA",
+        "NN"
+      ],
+      "A": [
+        "AN",
+        "ND"
+      ],
+      "D": [
+        "DB",
+        "HV",
+        "NA",
+        "VD"
+      ],
+      "O": [],
+      "H": [
+        "AH",
+        "DV",
+        "HN",
+        "NV"
+      ],
+      "V": [
+        "BH",
+        "VN"
+      ]
+    },
+    "e788020168e26abb": {
+      "B": [
+        "AV",
+        "BB",
+        "DH"
+      ],
+      "N": [
+        "AA",
+        "NN"
+      ],
+      "A": [
+        "AN",
+        "BD",
+        "DV",
+        "VH"
+      ],
+      "D": [
+        "DN",
+        "NA"
+      ],
+      "O": [],
+      "H": [
+        "HB",
+        "NV"
+      ],
+      "V": [
+        "HA",
+        "NH",
+        "VD",
+        "VN"
+      ]
+    },
+    "e9ef2871c79d62be": {
+      "B": [
+        "AH",
+        "BB",
+        "DV"
+      ],
+      "N": [
+        "DA",
+        "NN"
+      ],
+      "A": [
+        "AV",
+        "BD",
+        "DN",
+        "HH"
+      ],
+      "D": [
+        "AN",
+        "NA"
+      ],
+      "O": [],
+      "H": [
+        "NV",
+        "VB"
+      ],
+      "V": [
+        "HD",
+        "HN",
+        "NH",
+        "VA"
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "name": "v",
+      "kind": "base"
+    },
+    {
+      "name": "n1",
+      "kind": "e788020168e26abb",
+      "children": [
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n2",
+      "kind": "be0ccdd957593f18",
+      "children": [
+        "v",
+        "n1"
+      ]
+    },
+    {
+      "name": "n3",
+      "kind": "8cc0be37702a5805",
+      "children": [
+        "n1",
+        "n2"
+      ]
+    },
+    {
+      "name": "n4",
+      "kind": "0b1232367c64e1dc",
+      "children": [
+        "n2",
+        "n2"
+      ]
+    },
+    {
+      "name": "n5",
+      "kind": "e9ef2871c79d62be",
+      "children": [
+        "n3",
+        "n4"
+      ]
+    },
+    {
+      "name": "out",
+      "kind": "B_singleton",
+      "children": [
+        "n5"
+      ]
+    }
+  ],
+  "root": "out",
+  "dimension": 33,
+  "N": "623023732752163528679560",
+  "target_N": "705692619930489413584189552943991443716392885026759451863953624242911159057444856108323516589876967077721069272782760798453832061060020786354479288616",
+  "target_dimension": 207,
+  "beats_R3": false,
+  "decimal_approximation": 5.260724922978681,
+  "metadata": {
+    "profile_only": true
+  },
+  "status": "FINITE_EXACT_CANDIDATE_NOT_LEAN_CHECKED"
+}

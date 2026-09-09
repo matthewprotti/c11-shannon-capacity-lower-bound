@@ -1,0 +1,6 @@
+/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/01_development/negative_controls/bad_cardinality_C11R9D198.lean:4:2: error: Type mismatch
+  C11R9D198.card_code
+has type
+  C11R9D198.code.card = C11R9D198.N
+but is expected to have type
+  C11R9D198.code.card = C11R9D198.N + 1

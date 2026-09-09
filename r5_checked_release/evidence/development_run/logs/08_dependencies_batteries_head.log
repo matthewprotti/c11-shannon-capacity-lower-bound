@@ -1,0 +1,2 @@
+$ git -C /Users/matthew/Documents/Codex/2026-09-08/c11-r5-lean/runs/01_development/bpz/.lake/packages/batteries rev-parse HEAD
+023ce7d62a0531e22a5331e20b587817a80d49ff

@@ -1,0 +1,32 @@
+{
+  "186": {
+    "profile_certificate": "frozen/certificates/C11_AP_d186.json",
+    "typed_certificate": "frozen/compiled/C11_TYPED_d186.json",
+    "N": "443276324003031783611356421181113884309761038339701682272503913637018224991280684849272770480887399420629190490478636970970895319532912",
+    "matching_R5_N": "443270157200265347115284826329865904474755713155493374073233878851201668185355198338517321290509706352279222882837542619589988350408464",
+    "source": "source/ShannonBounds/C11R6D186.lean",
+    "exists_theorem": "ShannonBounds.C11R6D186.exists_code",
+    "capacity_theorem": "ShannonBounds.C11R6D186.capacity_lower",
+    "matching_R5_root_comparison": "ShannonBounds.C11R6D186.strict_root_R5"
+  },
+  "198": {
+    "profile_certificate": "frozen/certificates/C11_AP_d198.json",
+    "typed_certificate": "frozen/compiled/C11_TYPED_d198.json",
+    "N": "215650308240559271076661927763289270756233042340399408085079498236580156319151638131903708724387292184834844476542038069560746092535997639387752",
+    "matching_R5_N": "215646095940880307358247576980823349483595594251592326034771350156505941167027753389393565833792562656142818333030435546482415612817144515859336",
+    "source": "source/ShannonBounds/C11R6D198.lean",
+    "exists_theorem": "ShannonBounds.C11R6D198.exists_code",
+    "capacity_theorem": "ShannonBounds.C11R6D198.capacity_lower",
+    "matching_R5_root_comparison": "ShannonBounds.C11R6D198.strict_root_R5"
+  },
+  "213": {
+    "profile_certificate": "frozen/certificates/C11_AP_d213.json",
+    "typed_certificate": "frozen/compiled/C11_TYPED_d213.json",
+    "N": "15576025705482926919349953542643365905237782337909670850715691763072207372542781005458638810301625659402522397392173748140017563747809127752382797850207774",
+    "matching_R5_N": "15575655426175670262980356243306221873167074980689569793363838130479999529429857666850517103134244772329978664731663687319144867678577766570404657587474324",
+    "source": "source/ShannonBounds/C11R6D213.lean",
+    "exists_theorem": "ShannonBounds.C11R6D213.exists_code",
+    "capacity_theorem": "ShannonBounds.C11R6D213.capacity_lower",
+    "matching_R5_root_comparison": "ShannonBounds.C11R6D213.strict_root_R5"
+  }
+}

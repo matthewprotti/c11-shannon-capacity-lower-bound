@@ -1,0 +1,13 @@
+C11 R5 Lean formalization
+Copyright 2026 Matthew Protti for the new formalization, generator,
+verification harness, and release documentation.
+
+Released under the Apache License, Version 2.0.
+
+Based on the Apache-2.0 work of Pjotr Buys, Sven Polak, and Jeroen Zuiddam
+at commit aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65. Their framework,
+base construction, and prior certificate are retained unchanged in the
+build inputs; their source and seed attributions remain applicable.
+
+The received R5 package and all nested ancestry are preserved unchanged.
+Its original NOTICE and license are retained in frozen/ and in the archive.

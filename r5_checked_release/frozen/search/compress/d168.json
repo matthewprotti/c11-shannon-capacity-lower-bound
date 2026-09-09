@@ -1,0 +1,1264 @@
+{
+  "schema": "C11_RECURSIVE_SEARCH_CERTIFICATE_V1",
+  "source_commit": "aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65",
+  "parent_r3_sha256": "9ac3006b54d5c449db357819d88ea507b66778923c61c54623d72d905517a357",
+  "frozen_input_sha256": "bc3f401480f2b9a878ad24faa1d98c1ad848755a0537ceff0043f12f67bf7c26",
+  "tables": {
+    "0058d965adce02f4": {
+      "B": [
+        "ABV",
+        "AHH",
+        "AVA",
+        "BBB",
+        "DAH",
+        "DHA",
+        "DNH",
+        "HAA",
+        "HAN",
+        "HHH",
+        "NHD",
+        "NVA",
+        "VAD",
+        "VDB"
+      ],
+      "N": [
+        "AAD",
+        "BHD",
+        "DAB",
+        "DBH",
+        "HVH",
+        "NNN",
+        "VAA",
+        "VDH",
+        "VHA"
+      ],
+      "A": [
+        "ABN",
+        "AND",
+        "BDA",
+        "BNA",
+        "BVV",
+        "HDN",
+        "NAB",
+        "VNV",
+        "VVN"
+      ],
+      "D": [
+        "DNN",
+        "NDN",
+        "NND"
+      ],
+      "O": [],
+      "H": [
+        "BHN",
+        "HNB",
+        "NBH"
+      ],
+      "V": [
+        "AVN",
+        "DHN",
+        "HNA",
+        "NAH",
+        "NDV",
+        "NNV",
+        "NVN",
+        "VND",
+        "VNN"
+      ]
+    },
+    "01f11d8929277edb": {
+      "B": [
+        "ADH",
+        "AHA",
+        "AHN",
+        "AVD",
+        "BAV",
+        "BBB",
+        "DVB",
+        "HAH",
+        "HDA",
+        "HHH",
+        "HND",
+        "NDH",
+        "VAA",
+        "VNA"
+      ],
+      "N": [
+        "AAD",
+        "ADB",
+        "AVA",
+        "BDH",
+        "DAA",
+        "DVH",
+        "HBD",
+        "HHA",
+        "NNN",
+        "VHH"
+      ],
+      "A": [
+        "DNN",
+        "NDN",
+        "NND"
+      ],
+      "D": [
+        "ANB",
+        "BAN",
+        "DHN",
+        "DNA",
+        "NAD",
+        "NBA",
+        "NVV",
+        "VBV",
+        "VVN"
+      ],
+      "O": [],
+      "H": [
+        "ANH",
+        "DNV",
+        "HDN",
+        "NHA",
+        "NNV",
+        "NVD",
+        "NVN",
+        "VAN",
+        "VNN"
+      ],
+      "V": [
+        "BNH",
+        "HBN",
+        "NHB"
+      ]
+    },
+    "04339297651c9c49": {
+      "B": [
+        "AAH",
+        "AHA",
+        "AHN",
+        "BBB",
+        "DAV",
+        "DHH",
+        "DVB",
+        "HBD",
+        "HDA",
+        "NAV",
+        "NDH",
+        "VAA",
+        "VHH",
+        "VNA"
+      ],
+      "N": [
+        "ABA",
+        "AHB",
+        "BDH",
+        "DAD",
+        "DDA",
+        "HAA",
+        "HHD",
+        "NNN",
+        "VAH",
+        "VHV"
+      ],
+      "A": [
+        "BAN",
+        "BVV",
+        "DDN",
+        "DNB",
+        "HNV",
+        "HVN",
+        "NAD",
+        "NBA",
+        "VND"
+      ],
+      "D": [
+        "ANN",
+        "NDN",
+        "NND"
+      ],
+      "O": [],
+      "H": [
+        "BNH",
+        "NHB",
+        "VBN"
+      ],
+      "V": [
+        "ANH",
+        "DNV",
+        "HDN",
+        "HNN",
+        "NHA",
+        "NNV",
+        "NVD",
+        "NVN",
+        "VAN"
+      ]
+    },
+    "0ac0bf4804630912": {
+      "B": [
+        "AVB",
+        "BAH",
+        "BBB",
+        "DDV",
+        "DHD",
+        "DHN",
+        "DVA",
+        "HAD",
+        "HND",
+        "NDV",
+        "VAV",
+        "VDD",
+        "VHV",
+        "VNA"
+      ],
+      "N": [
+        "AAD",
+        "AVV",
+        "BDV",
+        "DAA",
+        "DDB",
+        "DVD",
+        "HHV",
+        "NNN",
+        "VBA",
+        "VHD"
+      ],
+      "A": [
+        "AHN",
+        "AND",
+        "BAN",
+        "DNB",
+        "HBH",
+        "HVN",
+        "NAA",
+        "NBD",
+        "NVH"
+      ],
+      "D": [
+        "ANN",
+        "NDN",
+        "NNA"
+      ],
+      "O": [],
+      "H": [
+        "BNV",
+        "NHB",
+        "VBN"
+      ],
+      "V": [
+        "ANH",
+        "DNV",
+        "HAN",
+        "HNN",
+        "NHD",
+        "NNH",
+        "NVA",
+        "NVN",
+        "VDN"
+      ]
+    },
+    "0c7cb632d1153343": {
+      "B": [
+        "AAH",
+        "AHA",
+        "AHN",
+        "BBB",
+        "DAV",
+        "DHH",
+        "DVB",
+        "HBD",
+        "HDA",
+        "NAV",
+        "NDH",
+        "VAA",
+        "VHH",
+        "VNA"
+      ],
+      "N": [
+        "ABA",
+        "AHB",
+        "BDH",
+        "DAD",
+        "DDA",
+        "HAA",
+        "HHD",
+        "NNN",
+        "VAH",
+        "VHV"
+      ],
+      "A": [
+        "ANN",
+        "NDN",
+        "NND"
+      ],
+      "D": [
+        "BAN",
+        "BVV",
+        "DDN",
+        "DNB",
+        "HNV",
+        "HVN",
+        "NAD",
+        "NBA",
+        "VND"
+      ],
+      "O": [],
+      "H": [
+        "ANH",
+        "DNV",
+        "HDN",
+        "HNN",
+        "NHA",
+        "NNV",
+        "NVD",
+        "NVN",
+        "VAN"
+      ],
+      "V": [
+        "BNH",
+        "NHB",
+        "VBN"
+      ]
+    },
+    "18277b0c484b4c41": {
+      "B": [
+        "AAH",
+        "AHD",
+        "AVA",
+        "AVN",
+        "BBB",
+        "BDV",
+        "DHB",
+        "HAA",
+        "HDH",
+        "HND",
+        "HVH",
+        "NAH",
+        "VDA",
+        "VNA"
+      ],
+      "N": [
+        "AAB",
+        "ADD",
+        "AHA",
+        "BAH",
+        "DDA",
+        "DHH",
+        "HBD",
+        "HVA",
+        "NNN",
+        "VVH"
+      ],
+      "A": [
+        "ANB",
+        "BDN",
+        "DNA",
+        "DVN",
+        "NBA",
+        "NDD",
+        "NHV",
+        "VBV",
+        "VHN"
+      ],
+      "D": [
+        "DNN",
+        "NAN",
+        "NND"
+      ],
+      "O": [],
+      "H": [
+        "BNH",
+        "HBN",
+        "NVB"
+      ],
+      "V": [
+        "ANH",
+        "DNV",
+        "HAN",
+        "NHD",
+        "NHN",
+        "NNV",
+        "NVA",
+        "VDN",
+        "VNN"
+      ]
+    },
+    "3daf90758a80fbb9": {
+      "B": [
+        "AAV",
+        "ADH",
+        "ANH",
+        "AVD",
+        "BBB",
+        "BHA",
+        "DBV",
+        "HAN",
+        "HDD",
+        "HVA",
+        "HVH",
+        "NVD",
+        "VDA",
+        "VDN"
+      ],
+      "N": [
+        "AAA",
+        "ABD",
+        "ADV",
+        "BVD",
+        "DDA",
+        "DVV",
+        "HAB",
+        "HDH",
+        "NNN",
+        "VVH"
+      ],
+      "A": [
+        "ABN",
+        "BNA",
+        "DDN",
+        "DNH",
+        "NAA",
+        "NDB",
+        "NHV",
+        "VHB",
+        "VNV"
+      ],
+      "D": [
+        "DNN",
+        "NAN",
+        "NND"
+      ],
+      "O": [],
+      "H": [
+        "BVN",
+        "HNB",
+        "NBH"
+      ],
+      "V": [
+        "AVN",
+        "DHN",
+        "HND",
+        "NAV",
+        "NDH",
+        "NHN",
+        "NNV",
+        "VNA",
+        "VNN"
+      ]
+    },
+    "3e8694d6a5bfe173": {
+      "B": [
+        "AAH",
+        "ADV",
+        "AHD",
+        "ANH",
+        "BBB",
+        "BVA",
+        "DBV",
+        "HAD",
+        "HDN",
+        "HHA",
+        "HHH",
+        "NHD",
+        "VAA",
+        "VAN"
+      ],
+      "N": [
+        "AAV",
+        "ABD",
+        "ADA",
+        "BHD",
+        "DAA",
+        "DHV",
+        "HAH",
+        "HDB",
+        "NNN",
+        "VHH"
+      ],
+      "A": [
+        "ABN",
+        "BNA",
+        "DAN",
+        "DNH",
+        "NAB",
+        "NDA",
+        "NVV",
+        "VNV",
+        "VVB"
+      ],
+      "D": [
+        "DNN",
+        "NDN",
+        "NND"
+      ],
+      "O": [],
+      "H": [
+        "BHN",
+        "HNB",
+        "NBH"
+      ],
+      "V": [
+        "AHN",
+        "DVN",
+        "HND",
+        "NAH",
+        "NDV",
+        "NNV",
+        "NVN",
+        "VNA",
+        "VNN"
+      ]
+    },
+    "6859b0ec25991d42": {
+      "A": [
+        "ABN",
+        "AND",
+        "BNA",
+        "BVV",
+        "HDN",
+        "NAB",
+        "NDA",
+        "VNV",
+        "VVN"
+      ],
+      "B": [
+        "ABV",
+        "AHH",
+        "AVA",
+        "BBB",
+        "DAH",
+        "DHA",
+        "DNH",
+        "HAA",
+        "HAN",
+        "HHH",
+        "NHD",
+        "NVA",
+        "VAD",
+        "VDB"
+      ],
+      "D": [
+        "DNN",
+        "NDN",
+        "NND"
+      ],
+      "H": [
+        "BHN",
+        "HNB",
+        "NBH"
+      ],
+      "N": [
+        "AAD",
+        "ADA",
+        "BHD",
+        "DAB",
+        "DBH",
+        "HHA",
+        "HVH",
+        "NNN",
+        "VAA",
+        "VDH"
+      ],
+      "O": [],
+      "V": [
+        "AVN",
+        "DHN",
+        "HNA",
+        "NAH",
+        "NDV",
+        "NNV",
+        "NVN",
+        "VND",
+        "VNN"
+      ]
+    },
+    "787c56f586779bfd": {
+      "B": [
+        "AAV",
+        "ADH",
+        "AHA",
+        "ANV",
+        "BBB",
+        "BVD",
+        "DBH",
+        "HAA",
+        "HDN",
+        "HHD",
+        "HHV",
+        "NHA",
+        "VAD",
+        "VAN"
+      ],
+      "N": [
+        "AAH",
+        "ABA",
+        "ADD",
+        "BHA",
+        "DHH",
+        "HAH",
+        "HDB",
+        "NNN",
+        "VHV"
+      ],
+      "A": [
+        "ABN",
+        "BND",
+        "DAB",
+        "DNV",
+        "NAB",
+        "NDD",
+        "NVH",
+        "VNH",
+        "VVB"
+      ],
+      "D": [
+        "DNN",
+        "NDN",
+        "NNA"
+      ],
+      "O": [],
+      "H": [
+        "BHN",
+        "HNB",
+        "NBV"
+      ],
+      "V": [
+        "AHN",
+        "DVN",
+        "HNA",
+        "NAV",
+        "NDH",
+        "NNH",
+        "NVN",
+        "VND",
+        "VNN"
+      ]
+    },
+    "7b6c163f0dc4b608": {
+      "B": [
+        "ADH",
+        "AHA",
+        "AHN",
+        "AVD",
+        "BAV",
+        "BBB",
+        "DVB",
+        "HAH",
+        "HDA",
+        "HHH",
+        "HND",
+        "NDH",
+        "VAA",
+        "VNA"
+      ],
+      "N": [
+        "AAD",
+        "ADB",
+        "AVA",
+        "BDH",
+        "DAA",
+        "DVH",
+        "HBD",
+        "HHA",
+        "NNN",
+        "VHH"
+      ],
+      "A": [
+        "ANB",
+        "BAN",
+        "DHN",
+        "DNA",
+        "NAD",
+        "NBA",
+        "NVV",
+        "VBV",
+        "VVN"
+      ],
+      "D": [
+        "DNN",
+        "NDN",
+        "NND"
+      ],
+      "O": [],
+      "H": [
+        "BNH",
+        "HBN",
+        "NHB"
+      ],
+      "V": [
+        "ANH",
+        "DNV",
+        "HDN",
+        "NHA",
+        "NNV",
+        "NVD",
+        "NVN",
+        "VAN",
+        "VNN"
+      ]
+    },
+    "adfa0199080b0c49": [
+      "ADAH",
+      "ADDD",
+      "ADHV",
+      "ADNH",
+      "ADVB",
+      "AHBA",
+      "AHBN",
+      "ANBH",
+      "ANHB",
+      "ANVV",
+      "BABH",
+      "BAHB",
+      "BAVV",
+      "BBBA",
+      "BBBN",
+      "DHBV",
+      "DHDD",
+      "DHHA",
+      "DHHN",
+      "DHVH",
+      "DNBD",
+      "DNVB",
+      "DVAB",
+      "DVNB",
+      "HBAV",
+      "HBDA",
+      "HBDN",
+      "HBHH",
+      "HBNV",
+      "HDAB",
+      "HDNB",
+      "NDBD",
+      "NDVB",
+      "NHAV",
+      "NHDA",
+      "NHDN",
+      "NHHH",
+      "NHNV",
+      "NNAH",
+      "NNDD",
+      "NNHV",
+      "NNNH",
+      "NNVB",
+      "NVAB",
+      "NVNB",
+      "VAAB",
+      "VANB",
+      "VNAB",
+      "VNNB",
+      "VVBH",
+      "VVHB",
+      "VVVV"
+    ],
+    "e788020168e26abb": {
+      "A": [
+        "AN",
+        "BD",
+        "DV",
+        "VH"
+      ],
+      "B": [
+        "AV",
+        "BB",
+        "DH"
+      ],
+      "D": [
+        "DN",
+        "NA"
+      ],
+      "H": [
+        "HB",
+        "NV"
+      ],
+      "N": [
+        "AA",
+        "NN"
+      ],
+      "O": [],
+      "V": [
+        "HA",
+        "NH",
+        "VD",
+        "VN"
+      ]
+    },
+    "e9ef2871c79d62be": {
+      "B": [
+        "AH",
+        "BB",
+        "DV"
+      ],
+      "N": [
+        "DA",
+        "NN"
+      ],
+      "A": [
+        "AV",
+        "BD",
+        "DN",
+        "HH"
+      ],
+      "D": [
+        "AN",
+        "NA"
+      ],
+      "O": [],
+      "H": [
+        "NV",
+        "VB"
+      ],
+      "V": [
+        "HD",
+        "HN",
+        "NH",
+        "VA"
+      ]
+    },
+    "f621e9dcab9f974c": {
+      "B": [
+        "AAV",
+        "AHH",
+        "AVB",
+        "BBB",
+        "DAH",
+        "DHA",
+        "DHN",
+        "HAA",
+        "HHH",
+        "HNA",
+        "NAV",
+        "NDH",
+        "VBD",
+        "VDA"
+      ],
+      "N": [
+        "AAD",
+        "ADA",
+        "BDH",
+        "DBA",
+        "DHB",
+        "HAH",
+        "HHV",
+        "NNN",
+        "VAA",
+        "VHD"
+      ],
+      "A": [
+        "ADN",
+        "ANB",
+        "BAN",
+        "BVV",
+        "HND",
+        "NAD",
+        "NBA",
+        "VNV",
+        "VVN"
+      ],
+      "D": [
+        "DNN",
+        "NDN",
+        "NND"
+      ],
+      "O": [],
+      "H": [
+        "BNH",
+        "HBN",
+        "NHB"
+      ],
+      "V": [
+        "ANV",
+        "DNH",
+        "HAN",
+        "NHA",
+        "NNV",
+        "NVD",
+        "NVN",
+        "VDN",
+        "VNN"
+      ]
+    },
+    "f97d79adc1a9e27c": {
+      "B": [
+        "AAV",
+        "ADH",
+        "AHA",
+        "ANV",
+        "BBB",
+        "BVD",
+        "DBH",
+        "HAA",
+        "HDN",
+        "HHD",
+        "HHV",
+        "NHA",
+        "VAD",
+        "VAN"
+      ],
+      "N": [
+        "AAH",
+        "ABA",
+        "ADD",
+        "BHA",
+        "DAD",
+        "DHH",
+        "HAV",
+        "HDB",
+        "NNN",
+        "VHV"
+      ],
+      "A": [
+        "ABN",
+        "BND",
+        "DAN",
+        "DNV",
+        "NAB",
+        "NDD",
+        "NVH",
+        "VNH",
+        "VVB"
+      ],
+      "D": [
+        "DNN",
+        "NDN",
+        "NNA"
+      ],
+      "O": [],
+      "H": [
+        "BHN",
+        "HNB",
+        "NBV"
+      ],
+      "V": [
+        "AHN",
+        "DVN",
+        "HNA",
+        "NAV",
+        "NDH",
+        "NNH",
+        "NVN",
+        "VND",
+        "VNN"
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "name": "v",
+      "kind": "base"
+    },
+    {
+      "name": "n1",
+      "kind": "0ac0bf4804630912",
+      "children": [
+        "v",
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n2",
+      "kind": "0c7cb632d1153343",
+      "children": [
+        "v",
+        "v",
+        "n1"
+      ]
+    },
+    {
+      "name": "n3",
+      "kind": "e9ef2871c79d62be",
+      "children": [
+        "n2",
+        "v"
+      ]
+    },
+    {
+      "name": "n4",
+      "kind": "e788020168e26abb",
+      "children": [
+        "n3",
+        "v"
+      ]
+    },
+    {
+      "name": "n5",
+      "kind": "18277b0c484b4c41",
+      "children": [
+        "v",
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n6",
+      "kind": "3daf90758a80fbb9",
+      "children": [
+        "n5",
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n7",
+      "kind": "6859b0ec25991d42",
+      "children": [
+        "v",
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n8",
+      "kind": "f621e9dcab9f974c",
+      "children": [
+        "v",
+        "v",
+        "n7"
+      ]
+    },
+    {
+      "name": "n9",
+      "kind": "e788020168e26abb",
+      "children": [
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n10",
+      "kind": "3e8694d6a5bfe173",
+      "children": [
+        "n8",
+        "v",
+        "n9"
+      ]
+    },
+    {
+      "name": "n11",
+      "kind": "04339297651c9c49",
+      "children": [
+        "v",
+        "v",
+        "n9"
+      ]
+    },
+    {
+      "name": "n12",
+      "kind": "e9ef2871c79d62be",
+      "children": [
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n13",
+      "kind": "7b6c163f0dc4b608",
+      "children": [
+        "n11",
+        "n12",
+        "n9"
+      ]
+    },
+    {
+      "name": "n14",
+      "kind": "04339297651c9c49",
+      "children": [
+        "v",
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n15",
+      "kind": "01f11d8929277edb",
+      "children": [
+        "n14",
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n16",
+      "kind": "787c56f586779bfd",
+      "children": [
+        "n10",
+        "n13",
+        "n15"
+      ]
+    },
+    {
+      "name": "n17",
+      "kind": "f97d79adc1a9e27c",
+      "children": [
+        "n7",
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n18",
+      "kind": "7b6c163f0dc4b608",
+      "children": [
+        "n6",
+        "v",
+        "v"
+      ]
+    },
+    {
+      "name": "n19",
+      "kind": "e788020168e26abb",
+      "children": [
+        "n18",
+        "v"
+      ]
+    },
+    {
+      "name": "n20",
+      "kind": "e788020168e26abb",
+      "children": [
+        "n19",
+        "v"
+      ]
+    },
+    {
+      "name": "n21",
+      "kind": "e788020168e26abb",
+      "children": [
+        "n20",
+        "v"
+      ]
+    },
+    {
+      "name": "n22",
+      "kind": "e788020168e26abb",
+      "children": [
+        "n21",
+        "v"
+      ]
+    },
+    {
+      "name": "n23",
+      "kind": "7b6c163f0dc4b608",
+      "children": [
+        "n14",
+        "n12",
+        "n9"
+      ]
+    },
+    {
+      "name": "n24",
+      "kind": "0058d965adce02f4",
+      "children": [
+        "n17",
+        "n22",
+        "n23"
+      ]
+    },
+    {
+      "name": "n25",
+      "kind": "adfa0199080b0c49",
+      "children": [
+        "n4",
+        "n6",
+        "n16",
+        "n24"
+      ]
+    }
+  ],
+  "root": "n25",
+  "dimension": 168,
+  "N": "41292550245949314847628449793988632090818017594205105050762593774271073066052570031533170033347514679778329694482614797742",
+  "target_N": "705692619930489413584189552943991443716392885026759451863953624242911159057444856108323516589876967077721069272782760798453832061060020786354479288616",
+  "target_dimension": 207,
+  "beats_R3": false,
+  "decimal_approximation": 5.295463735621692,
+  "metadata": {
+    "parent": "/mnt/data/c11_r5_work/postils198/d198.json",
+    "records": [
+      {
+        "N": "215634399623031452567655560093000975121599960432330178941159556059135389971446814957217037877387223640293689503853727063375856663872206331679920",
+        "dimension": 198,
+        "root": 5.295508468467039,
+        "stage": "start",
+        "elapsed_seconds": 0.3266653040000165
+      },
+      {
+        "N": "1452002873188579313112572981440169151982044557782356557182511283391338630294015956376070735217513156301198580502485576416523196304383323816048",
+        "dimension": 195,
+        "root": 5.2955067446662545,
+        "stage": "forced_one_block_contraction",
+        "elapsed_seconds": 5.6335863890000155
+      },
+      {
+        "N": "1452002947112600288734288210897398468698990371632373718606013535828775378631887901681021090203019634565406904020359902094783055310183606245856",
+        "dimension": 195,
+        "root": 5.295506746048836,
+        "stage": "reassembly_1_{'direct_fusion': 3}",
+        "elapsed_seconds": 10.405257697000025
+      },
+      {
+        "N": "9777047175477353547653650042129640330336042461380231958498872219469752296471369353317614679483815588166661973583822260698795953665053448800",
+        "dimension": 192,
+        "root": 5.295504382936409,
+        "stage": "forced_one_block_contraction",
+        "elapsed_seconds": 14.734291462999977
+      },
+      {
+        "N": "65832564501878524187772808629433359250153886502080886739064407316070053977829600827561665369802071071075208281376372864270924930419432368",
+        "dimension": 189,
+        "root": 5.295501483506476,
+        "stage": "forced_one_block_contraction",
+        "elapsed_seconds": 18.920659316999945
+      },
+      {
+        "N": "443270157200265347115284826329865904474755713155493374073233878851201668185355198338517321290509706352279222882837542619589988350408464",
+        "dimension": 186,
+        "root": 5.295498140339059,
+        "stage": "forced_one_block_contraction",
+        "elapsed_seconds": 21.25728501100002
+      },
+      {
+        "N": "2984609005592947012523447567356268240653758847565387161725500972045907025410439031299878925920911947685830277110130651296711080312880",
+        "dimension": 183,
+        "root": 5.295494103272691,
+        "stage": "forced_one_block_contraction",
+        "elapsed_seconds": 21.653415722999966
+      },
+      {
+        "N": "20095620494814469468522744027055968959550888740041796228544954198799174187960510550444843090577762208665750334207193498749385934632",
+        "dimension": 180,
+        "root": 5.295489594571621,
+        "stage": "forced_one_block_contraction",
+        "elapsed_seconds": 22.153721517999998
+      },
+      {
+        "N": "135302003187008997457708119116120981328872431842654167832337285735229282352295238880831233621266559837125984310753824235317109164",
+        "dimension": 177,
+        "root": 5.295484163590302,
+        "stage": "forced_one_block_contraction",
+        "elapsed_seconds": 22.695090843000003
+      },
+      {
+        "N": "910963085245788238323952433971944755076255779410056779145629238213495725956960164581636059495262544355278452214103149394523470",
+        "dimension": 174,
+        "root": 5.295478107081627,
+        "stage": "forced_one_block_contraction",
+        "elapsed_seconds": 23.208788680999987
+      },
+      {
+        "N": "6133254977462963799154600707014700027757596813308521336141360032535250983458053121822773966971318355042633678322909641233078",
+        "dimension": 171,
+        "root": 5.295471388092793,
+        "stage": "forced_one_block_contraction",
+        "elapsed_seconds": 23.842838368999992
+      },
+      {
+        "N": "41292550245949314847628449793988632090818017594205105050762593774271073066052570031533170033347514679778329694482614797742",
+        "dimension": 168,
+        "root": 5.295463735621692,
+        "stage": "forced_one_block_contraction",
+        "elapsed_seconds": 24.38708365100001
+      }
+    ]
+  },
+  "status": "FINITE_EXACT_CANDIDATE_NOT_LEAN_CHECKED"
+}

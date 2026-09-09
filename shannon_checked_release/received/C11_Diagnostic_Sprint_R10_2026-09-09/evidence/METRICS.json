@@ -1,0 +1,27 @@
+{
+  "dimension": 213,
+  "old_root_approx": "5.29552414909871184096291490494665019609104264646421928110342379553123324183",
+  "new_root_approx": "5.29552601363234366285175559926650313878546956587651915731938010585795718884",
+  "root_gain_approx": "0.00000186453363182188884069431985294269442691941229987621595631032672394701",
+  "additional_codeword_percent_approx": "0.00749992777125056825616061278509662836289092626039942659304574388087433700",
+  "numeric_target": "0.0001",
+  "fraction_of_target_achieved_approx": "0.0186453363182188884069431985294269442691941229987621595631032672394701",
+  "large_gain_threshold_met": false,
+  "smaller_exponent_searched": false,
+  "fixed_model_upper_root_approx": "5.29635230802832482969191583258822821817661526611473704193018155370717765147",
+  "remaining_upper_minus_feasible_approx": "0.00082629439598116684016023332172507939114570023821788461080144784922046263",
+  "upper_bound_is_not_capacity_upper": true,
+  "old_terminal_words": 1591,
+  "new_terminal_words": 1568,
+  "removed_from_R9": 762,
+  "added_to_R9": 739,
+  "matrix_orders": [
+    11,
+    14,
+    14,
+    14
+  ],
+  "universe_vertices": 30184,
+  "exact_relation_removed_edges": 194688,
+  "exact_relation_maximum_optimum_root_gain_strictly_below": "0.00000021"
+}

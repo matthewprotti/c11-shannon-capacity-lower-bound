@@ -1,0 +1,17 @@
+{
+  "status": "PASS_LOCAL_LEAN_CONSOLIDATION",
+  "local_lean_compilation_completed": true,
+  "numerical_theorems_audited": 184,
+  "symbolic_declarations_audited": 261,
+  "numerical_native_axioms": 246,
+  "symbolic_native_axioms": 0,
+  "mathematical_negative_compilations_per_run": 9,
+  "new_mathematical_modules": 12,
+  "unchanged_parent_modules": 20,
+  "R10_upper_diagnostics_Lean_formalized": false,
+  "python_compiler_Lean_formalized": false,
+  "independent_human_review": false,
+  "worldwide_priority_clearance": false,
+  "sealed_at_utc": "2026-09-09T17:44:28.604535+00:00",
+  "publication_state": "PREPUBLICATION_CHECKED_PACKAGE"
+}

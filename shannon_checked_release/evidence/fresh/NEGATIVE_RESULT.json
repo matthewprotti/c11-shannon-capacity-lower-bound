@@ -1,0 +1,187 @@
+{
+  "status": "PASS_NINE_MATHEMATICAL_NEGATIVE_COMPILATIONS",
+  "started_at_utc": "2026-09-09T17:43:26.471642+00:00",
+  "cases": [
+    {
+      "name": "bad_cardinality_C11R9D198",
+      "kind": "cardinality",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/negative_controls/bad_cardinality_C11R9D198.lean"
+      ],
+      "returncode": 1,
+      "seconds": 2.632858500117436,
+      "source": "negative_controls/bad_cardinality_C11R9D198.lean",
+      "log": "negative_controls/bad_cardinality_C11R9D198.log"
+    },
+    {
+      "name": "bad_terminal_C11R9D198",
+      "kind": "terminal",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/negative_controls/bad_terminal_C11R9D198.lean"
+      ],
+      "returncode": 1,
+      "seconds": 2.652643874986097,
+      "source": "negative_controls/bad_terminal_C11R9D198.lean",
+      "log": "negative_controls/bad_terminal_C11R9D198.log",
+      "added_word": [
+        9,
+        1,
+        1,
+        8
+      ],
+      "conflicting_listed_word": [
+        1,
+        1,
+        1,
+        8
+      ],
+      "all_coordinate_symbols_occur_in_positive_weight_parent_terminal": true,
+      "separation_scope": "fixed typed predicate; no assertion that every symbolically conflicting pair conflicts in actual vertices"
+    },
+    {
+      "name": "bad_cardinality_C11R9D213",
+      "kind": "cardinality",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/negative_controls/bad_cardinality_C11R9D213.lean"
+      ],
+      "returncode": 1,
+      "seconds": 2.5150588750839233,
+      "source": "negative_controls/bad_cardinality_C11R9D213.lean",
+      "log": "negative_controls/bad_cardinality_C11R9D213.log"
+    },
+    {
+      "name": "bad_terminal_C11R9D213",
+      "kind": "terminal",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/negative_controls/bad_terminal_C11R9D213.lean"
+      ],
+      "returncode": 1,
+      "seconds": 2.643463166896254,
+      "source": "negative_controls/bad_terminal_C11R9D213.lean",
+      "log": "negative_controls/bad_terminal_C11R9D213.log",
+      "added_word": [
+        9,
+        1,
+        1,
+        8
+      ],
+      "conflicting_listed_word": [
+        1,
+        1,
+        1,
+        8
+      ],
+      "all_coordinate_symbols_occur_in_positive_weight_parent_terminal": true,
+      "separation_scope": "fixed typed predicate; no assertion that every symbolically conflicting pair conflicts in actual vertices"
+    },
+    {
+      "name": "bad_cardinality_C11R10D213",
+      "kind": "cardinality",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/negative_controls/bad_cardinality_C11R10D213.lean"
+      ],
+      "returncode": 1,
+      "seconds": 2.463332749903202,
+      "source": "negative_controls/bad_cardinality_C11R10D213.lean",
+      "log": "negative_controls/bad_cardinality_C11R10D213.log"
+    },
+    {
+      "name": "bad_terminal_C11R10D213",
+      "kind": "terminal",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/negative_controls/bad_terminal_C11R10D213.lean"
+      ],
+      "returncode": 1,
+      "seconds": 2.742285457905382,
+      "source": "negative_controls/bad_terminal_C11R10D213.lean",
+      "log": "negative_controls/bad_terminal_C11R10D213.log",
+      "added_word": [
+        9,
+        1,
+        1,
+        9
+      ],
+      "conflicting_listed_word": [
+        1,
+        1,
+        1,
+        9
+      ],
+      "all_coordinate_symbols_occur_in_positive_weight_parent_terminal": true,
+      "separation_scope": "fixed typed predicate; no assertion that every symbolically conflicting pair conflicts in actual vertices"
+    },
+    {
+      "name": "bad_cardinality_C13R8D522",
+      "kind": "cardinality",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/negative_controls/bad_cardinality_C13R8D522.lean"
+      ],
+      "returncode": 1,
+      "seconds": 2.576936291065067,
+      "source": "negative_controls/bad_cardinality_C13R8D522.lean",
+      "log": "negative_controls/bad_cardinality_C13R8D522.log"
+    },
+    {
+      "name": "bad_terminal_C13R8D522",
+      "kind": "terminal",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/negative_controls/bad_terminal_C13R8D522.lean"
+      ],
+      "returncode": 1,
+      "seconds": 2.5595409169327468,
+      "source": "negative_controls/bad_terminal_C13R8D522.lean",
+      "log": "negative_controls/bad_terminal_C13R8D522.log",
+      "added_word": [
+        9,
+        9,
+        1
+      ],
+      "conflicting_listed_word": [
+        1,
+        9,
+        1
+      ],
+      "all_coordinate_symbols_occur_in_positive_weight_parent_terminal": true,
+      "separation_scope": "fixed typed predicate; no assertion that every symbolically conflicting pair conflicts in actual vertices"
+    },
+    {
+      "name": "bad_missing_witness_bit",
+      "kind": "symbolic",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/runs/02_fresh_replay/negative_controls/bad_missing_witness_bit.lean"
+      ],
+      "returncode": 1,
+      "seconds": 5.237954874988645,
+      "source": "negative_controls/bad_missing_witness_bit.lean",
+      "log": "negative_controls/bad_missing_witness_bit.log"
+    }
+  ],
+  "completed_at_utc": "2026-09-09T17:43:52.511167+00:00"
+}

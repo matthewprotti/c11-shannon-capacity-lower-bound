@@ -1,0 +1,511 @@
+ShannonBounds.C11R9D198.exists_code : ∃ S,
+  SimpleGraph.IsIndepSet.{0} (SimpleGraph.strongPower.{0} (SimpleGraph.cycleGraph 11) 198) ↑S ∧
+    Eq.{1} (Finset.card.{0} S) ShannonBounds.C11R9D198.N
+ShannonBounds.C11R9D198.card_code : Eq.{1} (Finset.card.{0} ShannonBounds.C11R9D198.code) ShannonBounds.C11R9D198.N
+ShannonBounds.C11R9D198.independent_code : SimpleGraph.IsIndepSet.{0}
+  (SimpleGraph.strongPower.{0} (SimpleGraph.cycleGraph 11) 198) ↑ShannonBounds.C11R9D198.code
+ShannonBounds.C11R9D198.capacity_root : LE.le.{0}
+  (HPow.hPow.{0, 0, 0} (↑ShannonBounds.C11R9D198.N) (HDiv.hDiv.{0, 0, 0} 1 ↑198))
+  (ShannonBounds.shannonCapacity.{0} (SimpleGraph.cycleGraph 11))
+ShannonBounds.C11R9D198.root_bracket : LE.le.{0} (5295515084805001 / 1000000000000000)
+    (HPow.hPow.{0, 0, 0} (↑ShannonBounds.C11R9D198.N) (HDiv.hDiv.{0, 0, 0} 1 ↑198)) ∧
+  LT.lt.{0} (HPow.hPow.{0, 0, 0} (↑ShannonBounds.C11R9D198.N) (HDiv.hDiv.{0, 0, 0} 1 ↑198))
+    (5295515084805002 / 1000000000000000)
+ShannonBounds.C11R9D198.capacity_lower : LE.le.{0} 5.295515084805001
+  (ShannonBounds.shannonCapacity.{0} (SimpleGraph.cycleGraph 11))
+ShannonBounds.C11R9D213.exists_code : ∃ S,
+  SimpleGraph.IsIndepSet.{0} (SimpleGraph.strongPower.{0} (SimpleGraph.cycleGraph 11) 213) ↑S ∧
+    Eq.{1} (Finset.card.{0} S) ShannonBounds.C11R9D213.N
+ShannonBounds.C11R9D213.card_code : Eq.{1} (Finset.card.{0} ShannonBounds.C11R9D213.code) ShannonBounds.C11R9D213.N
+ShannonBounds.C11R9D213.independent_code : SimpleGraph.IsIndepSet.{0}
+  (SimpleGraph.strongPower.{0} (SimpleGraph.cycleGraph 11) 213) ↑ShannonBounds.C11R9D213.code
+ShannonBounds.C11R9D213.capacity_root : LE.le.{0}
+  (HPow.hPow.{0, 0, 0} (↑ShannonBounds.C11R9D213.N) (HDiv.hDiv.{0, 0, 0} 1 ↑213))
+  (ShannonBounds.shannonCapacity.{0} (SimpleGraph.cycleGraph 11))
+ShannonBounds.C11R9D213.root_bracket : LE.le.{0} (5295524149098711 / 1000000000000000)
+    (HPow.hPow.{0, 0, 0} (↑ShannonBounds.C11R9D213.N) (HDiv.hDiv.{0, 0, 0} 1 ↑213)) ∧
+  LT.lt.{0} (HPow.hPow.{0, 0, 0} (↑ShannonBounds.C11R9D213.N) (HDiv.hDiv.{0, 0, 0} 1 ↑213))
+    (5295524149098712 / 1000000000000000)
+ShannonBounds.C11R9D213.capacity_lower : LE.le.{0} 5.295524149098711
+  (ShannonBounds.shannonCapacity.{0} (SimpleGraph.cycleGraph 11))
+ShannonBounds.C11R10D213.exists_code : ∃ S,
+  SimpleGraph.IsIndepSet.{0} (SimpleGraph.strongPower.{0} (SimpleGraph.cycleGraph 11) 213) ↑S ∧
+    Eq.{1} (Finset.card.{0} S) ShannonBounds.C11R10D213.N
+ShannonBounds.C11R10D213.card_code : Eq.{1} (Finset.card.{0} ShannonBounds.C11R10D213.code) ShannonBounds.C11R10D213.N
+ShannonBounds.C11R10D213.independent_code : SimpleGraph.IsIndepSet.{0}
+  (SimpleGraph.strongPower.{0} (SimpleGraph.cycleGraph 11) 213) ↑ShannonBounds.C11R10D213.code
+ShannonBounds.C11R10D213.capacity_root : LE.le.{0}
+  (HPow.hPow.{0, 0, 0} (↑ShannonBounds.C11R10D213.N) (HDiv.hDiv.{0, 0, 0} 1 ↑213))
+  (ShannonBounds.shannonCapacity.{0} (SimpleGraph.cycleGraph 11))
+ShannonBounds.C11R10D213.root_bracket : LE.le.{0} (5295526013632343 / 1000000000000000)
+    (HPow.hPow.{0, 0, 0} (↑ShannonBounds.C11R10D213.N) (HDiv.hDiv.{0, 0, 0} 1 ↑213)) ∧
+  LT.lt.{0} (HPow.hPow.{0, 0, 0} (↑ShannonBounds.C11R10D213.N) (HDiv.hDiv.{0, 0, 0} 1 ↑213))
+    (5295526013632344 / 1000000000000000)
+ShannonBounds.C11R10D213.capacity_lower : LE.le.{0} 5.295526013632343
+  (ShannonBounds.shannonCapacity.{0} (SimpleGraph.cycleGraph 11))
+ShannonBounds.C13R8D522.exists_code : ∃ S,
+  SimpleGraph.IsIndepSet.{0} (SimpleGraph.strongPower.{0} (SimpleGraph.cycleGraph 13) 522) ↑S ∧
+    Eq.{1} (Finset.card.{0} S) ShannonBounds.C13R8D522.N
+ShannonBounds.C13R8D522.card_code : Eq.{1} (Finset.card.{0} ShannonBounds.C13R8D522.code) ShannonBounds.C13R8D522.N
+ShannonBounds.C13R8D522.independent_code : SimpleGraph.IsIndepSet.{0}
+  (SimpleGraph.strongPower.{0} (SimpleGraph.cycleGraph 13) 522) ↑ShannonBounds.C13R8D522.code
+ShannonBounds.C13R8D522.capacity_root : LE.le.{0}
+  (HPow.hPow.{0, 0, 0} (↑ShannonBounds.C13R8D522.N) (HDiv.hDiv.{0, 0, 0} 1 ↑522))
+  (ShannonBounds.shannonCapacity.{0} (SimpleGraph.cycleGraph 13))
+ShannonBounds.C13R8D522.root_bracket : LE.le.{0} (6302927046770772 / 1000000000000000)
+    (HPow.hPow.{0, 0, 0} (↑ShannonBounds.C13R8D522.N) (HDiv.hDiv.{0, 0, 0} 1 ↑522)) ∧
+  LT.lt.{0} (HPow.hPow.{0, 0, 0} (↑ShannonBounds.C13R8D522.N) (HDiv.hDiv.{0, 0, 0} 1 ↑522))
+    (6302927046770773 / 1000000000000000)
+ShannonBounds.C13R8D522.capacity_lower : LE.le.{0} 6.302927046770772
+  (ShannonBounds.shannonCapacity.{0} (SimpleGraph.cycleGraph 13))
+@ShannonBounds.CellRetyping.canonical.{u_1, u_2,
+    u_3} : {A : Type u_1} →
+  [Fintype.{u_1} A] →
+    [inst : DecidableEq.{u_1 + 1} A] →
+      {s : A → A → Bool} →
+        {J : Type u_2} →
+          [Fintype.{u_2} J] →
+            [DecidableEq.{u_2 + 1} J] →
+              {K : J → Type u_3} →
+                [(i : J) → Fintype.{u_3} (K i)] →
+                  [(i : J) → DecidableEq.{u_3 + 1} (K i)] →
+                    {t : (i : J) → K i → K i → Bool} →
+                      (∀ (i : J) (a b : K i), Eq.{1} (t i a b) (t i b a)) →
+                        ShannonBounds.CellRetyping.Table.{u_1, u_2, u_3} s t →
+                          ShannonBounds.CellRetyping.Table.{u_1, u_2, u_3} ShannonBounds.ProfileCompiler.apart.{u_1} t
+@ShannonBounds.CellRetyping.canonical_complete.{u_1, u_2,
+    u_3} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool}
+  {J : Type u_2} [inst_2 : Fintype.{u_2} J] [DecidableEq.{u_2 + 1} J] {K : J → Type u_3} [(i : J) → Fintype.{u_3} (K i)]
+  [(i : J) → DecidableEq.{u_3 + 1} (K i)] {t : (i : J) → K i → K i → Bool},
+  (∀ (i : J) (a : K i), Eq.{1} (t i a a) Bool.false) →
+    ∀ (U : ShannonBounds.CellRetyping.Table.{u_1, u_2, u_3} s t) (a : A) (u : (i : J) → K i),
+      Membership.mem.{max u_2 u_3, max u_2 u_3} (ShannonBounds.CellRetyping.Table.rows.{u_1, u_2, u_3} U a) u →
+        ExistsUnique.{u_1 + 1} fun p =>
+          Eq.{u_1 + 1} (ShannonBounds.ProfileCompiler.label.{u_1} p) a ∧
+            Membership.mem.{max u_2 u_3, max u_3 u_2} (ShannonBounds.CellRetyping.canonicalRows.{u_1, u_2, u_3} U p) u
+@ShannonBounds.CellRetyping.forget_canonical.{u_1, u_2,
+    u_3} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool}
+  {J : Type u_2} [inst_2 : Fintype.{u_2} J] [inst_3 : DecidableEq.{u_2 + 1} J] {K : J → Type u_3}
+  [inst_4 : (i : J) → Fintype.{u_3} (K i)] [inst_5 : (i : J) → DecidableEq.{u_3 + 1} (K i)]
+  {t : (i : J) → K i → K i → Bool} (hs : ∀ (i : J) (a b : K i), Eq.{1} (t i a b) (t i b a)),
+  (∀ (i : J) (a : K i), Eq.{1} (t i a a) Bool.false) →
+    ∀ (U : ShannonBounds.CellRetyping.Table.{u_1, u_2, u_3} s t),
+      Eq.{max (max (u_1 + 1) (u_2 + 1)) (u_3 + 1)}
+        (ShannonBounds.CellRetyping.forget.{u_1, u_2, u_3} (ShannonBounds.CellRetyping.canonical.{u_1, u_2, u_3} hs U))
+        U
+@ShannonBounds.CellRetyping.precision.{u_1, u_2,
+    u_3} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool}
+  {J : Type u_2} [inst_2 : Fintype.{u_2} J] [inst_3 : DecidableEq.{u_2 + 1} J] {K : J → Type u_3}
+  [inst_4 : (i : J) → Fintype.{u_3} (K i)] [inst_5 : (i : J) → DecidableEq.{u_3 + 1} (K i)]
+  {t : (i : J) → K i → K i → Bool}
+  (S : ShannonBounds.CellRetyping.Table.{u_1, u_2, u_3} ShannonBounds.ProfileCompiler.apart.{u_1} t)
+  (p : ShannonBounds.ProfileCompiler.Ty.{u_1} s) (u : (i : J) → K i),
+  Membership.mem.{max u_2 u_3, max u_2 u_3} (ShannonBounds.CellRetyping.Table.rows.{u_1, u_2, u_3} S p) u →
+    ShannonBounds.CellRetyping.touchMask.{u_1, u_2, u_3} (ShannonBounds.CellRetyping.forget.{u_1, u_2, u_3} S) u ⊆
+      ShannonBounds.ProfileCompiler.mask.{u_1} p
+@ShannonBounds.CellRetyping.tighten_idempotent.{u_1, u_2,
+    u_3} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool}
+  {J : Type u_2} [inst_2 : Fintype.{u_2} J] [inst_3 : DecidableEq.{u_2 + 1} J] {K : J → Type u_3}
+  [inst_4 : (i : J) → Fintype.{u_3} (K i)] [inst_5 : (i : J) → DecidableEq.{u_3 + 1} (K i)]
+  {t : (i : J) → K i → K i → Bool} (hs : ∀ (i : J) (a b : K i), Eq.{1} (t i a b) (t i b a)),
+  (∀ (i : J) (a : K i), Eq.{1} (t i a a) Bool.false) →
+    ∀ (S : ShannonBounds.CellRetyping.Table.{u_1, u_2, u_3} ShannonBounds.ProfileCompiler.apart.{u_1} t),
+      Eq.{max (max (u_1 + 1) (u_2 + 1)) (u_3 + 1)}
+        (ShannonBounds.CellRetyping.tighten.{u_1, u_2, u_3} hs
+          (ShannonBounds.CellRetyping.tighten.{u_1, u_2, u_3} hs S))
+        (ShannonBounds.CellRetyping.tighten.{u_1, u_2, u_3} hs S)
+@ShannonBounds.CellRetyping.realize_weights.{u_1, u_2, u_3,
+    u_4} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool}
+  {J : Type u_2} [inst_2 : Fintype.{u_2} J] [inst_3 : DecidableEq.{u_2 + 1} J] {K : J → Type u_3}
+  [inst_4 : (i : J) → Fintype.{u_3} (K i)] [inst_5 : (i : J) → DecidableEq.{u_3 + 1} (K i)]
+  {t : (i : J) → K i → K i → Bool} {V : J → Type u_4} [inst_6 : (i : J) → Fintype.{u_4} (V i)]
+  [inst_7 : (i : J) → DecidableEq.{u_4 + 1} (V i)] {Gs : (i : J) → SimpleGraph.{u_4} (V i)}
+  [inst_8 : (i : J) → DecidableRel.{u_4 + 1, u_4 + 1} (SimpleGraph.Adj.{u_4} (Gs i))]
+  (R : (i : J) → ShannonBounds.Realisation.{u_4, u_3} (K i) (t i) (Gs i))
+  (U : ShannonBounds.CellRetyping.Table.{u_1, u_2, u_3} s t) (a : A),
+  Eq.{1}
+    (ShannonBounds.Realisation.w.{max u_2 u_4, u_1} (ShannonBounds.CellRetyping.realize.{u_1, u_2, u_3, u_4} R U) a)
+    (∑ u ∈ ShannonBounds.CellRetyping.Table.rows.{u_1, u_2, u_3} U a,
+      ∏ i, ShannonBounds.Realisation.w.{u_4, u_3} (R i) (u i))
+@ShannonBounds.CellRetyping.canonical_sets.{u_1, u_2, u_3,
+    u_4} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool}
+  {J : Type u_2} [inst_2 : Fintype.{u_2} J] [inst_3 : DecidableEq.{u_2 + 1} J] {K : J → Type u_3}
+  [inst_4 : (i : J) → Fintype.{u_3} (K i)] [inst_5 : (i : J) → DecidableEq.{u_3 + 1} (K i)]
+  {t : (i : J) → K i → K i → Bool} {V : J → Type u_4} [inst_6 : (i : J) → Fintype.{u_4} (V i)]
+  [inst_7 : (i : J) → DecidableEq.{u_4 + 1} (V i)] {Gs : (i : J) → SimpleGraph.{u_4} (V i)}
+  [inst_8 : (i : J) → DecidableRel.{u_4 + 1, u_4 + 1} (SimpleGraph.Adj.{u_4} (Gs i))]
+  (hs : ∀ (i : J) (a b : K i), Eq.{1} (t i a b) (t i b a)),
+  (∀ (i : J) (a : K i), Eq.{1} (t i a a) Bool.false) →
+    ∀ (R : (i : J) → ShannonBounds.Realisation.{u_4, u_3} (K i) (t i) (Gs i))
+      (U : ShannonBounds.CellRetyping.Table.{u_1, u_2, u_3} s t) (a : A),
+      Eq.{max (u_2 + 1) (u_4 + 1)}
+        (ShannonBounds.Realisation.P.{max u_2 u_4, u_1}
+          (ShannonBounds.ProfileCompiler.coarsen.{u_1, max u_4 u_2}
+            (ShannonBounds.CellRetyping.realize.{u_1, u_2, u_3, u_4} R
+              (ShannonBounds.CellRetyping.canonical.{u_1, u_2, u_3} hs U)))
+          a)
+        (ShannonBounds.Realisation.P.{max u_2 u_4, u_1} (ShannonBounds.CellRetyping.realize.{u_1, u_2, u_3, u_4} R U) a)
+@ShannonBounds.CellRetyping.canonical_counts.{u_1, u_2, u_3,
+    u_4} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool}
+  {J : Type u_2} [inst_2 : Fintype.{u_2} J] [inst_3 : DecidableEq.{u_2 + 1} J] {K : J → Type u_3}
+  [inst_4 : (i : J) → Fintype.{u_3} (K i)] [inst_5 : (i : J) → DecidableEq.{u_3 + 1} (K i)]
+  {t : (i : J) → K i → K i → Bool} {V : J → Type u_4} [inst_6 : (i : J) → Fintype.{u_4} (V i)]
+  [inst_7 : (i : J) → DecidableEq.{u_4 + 1} (V i)] {Gs : (i : J) → SimpleGraph.{u_4} (V i)}
+  [inst_8 : (i : J) → DecidableRel.{u_4 + 1, u_4 + 1} (SimpleGraph.Adj.{u_4} (Gs i))]
+  (hs : ∀ (i : J) (a b : K i), Eq.{1} (t i a b) (t i b a)),
+  (∀ (i : J) (a : K i), Eq.{1} (t i a a) Bool.false) →
+    ∀ (R : (i : J) → ShannonBounds.Realisation.{u_4, u_3} (K i) (t i) (Gs i))
+      (U : ShannonBounds.CellRetyping.Table.{u_1, u_2, u_3} s t) (a : A),
+      Eq.{1}
+        (ShannonBounds.Realisation.w.{max u_2 u_4, u_1}
+          (ShannonBounds.ProfileCompiler.coarsen.{u_1, max u_4 u_2}
+            (ShannonBounds.CellRetyping.realize.{u_1, u_2, u_3, u_4} R
+              (ShannonBounds.CellRetyping.canonical.{u_1, u_2, u_3} hs U)))
+          a)
+        (∑ u ∈ ShannonBounds.CellRetyping.Table.rows.{u_1, u_2, u_3} U a,
+          ∏ i, ShannonBounds.Realisation.w.{u_4, u_3} (R i) (u i))
+@ShannonBounds.CellRetyping.tighten_sets.{u_1, u_2, u_3,
+    u_4} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool}
+  {J : Type u_2} [inst_2 : Fintype.{u_2} J] [inst_3 : DecidableEq.{u_2 + 1} J] {K : J → Type u_3}
+  [inst_4 : (i : J) → Fintype.{u_3} (K i)] [inst_5 : (i : J) → DecidableEq.{u_3 + 1} (K i)]
+  {t : (i : J) → K i → K i → Bool} {V : J → Type u_4} [inst_6 : (i : J) → Fintype.{u_4} (V i)]
+  [inst_7 : (i : J) → DecidableEq.{u_4 + 1} (V i)] {Gs : (i : J) → SimpleGraph.{u_4} (V i)}
+  [inst_8 : (i : J) → DecidableRel.{u_4 + 1, u_4 + 1} (SimpleGraph.Adj.{u_4} (Gs i))]
+  (hs : ∀ (i : J) (a b : K i), Eq.{1} (t i a b) (t i b a)),
+  (∀ (i : J) (a : K i), Eq.{1} (t i a a) Bool.false) →
+    ∀ (R : (i : J) → ShannonBounds.Realisation.{u_4, u_3} (K i) (t i) (Gs i))
+      (S : ShannonBounds.CellRetyping.Table.{u_1, u_2, u_3} ShannonBounds.ProfileCompiler.apart.{u_1} t) (a : A),
+      Eq.{max (u_2 + 1) (u_4 + 1)}
+        (ShannonBounds.Realisation.P.{max u_2 u_4, u_1}
+          (ShannonBounds.ProfileCompiler.coarsen.{u_1, max u_4 u_2}
+            (ShannonBounds.CellRetyping.realize.{u_1, u_2, u_3, u_4} R
+              (ShannonBounds.CellRetyping.tighten.{u_1, u_2, u_3} hs S)))
+          a)
+        (ShannonBounds.Realisation.P.{max u_2 u_4, u_1}
+          (ShannonBounds.ProfileCompiler.coarsen.{u_1, max u_4 u_2}
+            (ShannonBounds.CellRetyping.realize.{u_1, u_2, u_3, u_4} R S))
+          a)
+@ShannonBounds.CellRetyping.tighten_counts.{u_1, u_2, u_3,
+    u_4} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool}
+  {J : Type u_2} [inst_2 : Fintype.{u_2} J] [inst_3 : DecidableEq.{u_2 + 1} J] {K : J → Type u_3}
+  [inst_4 : (i : J) → Fintype.{u_3} (K i)] [inst_5 : (i : J) → DecidableEq.{u_3 + 1} (K i)]
+  {t : (i : J) → K i → K i → Bool} {V : J → Type u_4} [inst_6 : (i : J) → Fintype.{u_4} (V i)]
+  [inst_7 : (i : J) → DecidableEq.{u_4 + 1} (V i)] {Gs : (i : J) → SimpleGraph.{u_4} (V i)}
+  [inst_8 : (i : J) → DecidableRel.{u_4 + 1, u_4 + 1} (SimpleGraph.Adj.{u_4} (Gs i))]
+  (hs : ∀ (i : J) (a b : K i), Eq.{1} (t i a b) (t i b a)),
+  (∀ (i : J) (a : K i), Eq.{1} (t i a a) Bool.false) →
+    ∀ (R : (i : J) → ShannonBounds.Realisation.{u_4, u_3} (K i) (t i) (Gs i))
+      (S : ShannonBounds.CellRetyping.Table.{u_1, u_2, u_3} ShannonBounds.ProfileCompiler.apart.{u_1} t) (a : A),
+      Eq.{1}
+        (ShannonBounds.Realisation.w.{max u_2 u_4, u_1}
+          (ShannonBounds.ProfileCompiler.coarsen.{u_1, max u_4 u_2}
+            (ShannonBounds.CellRetyping.realize.{u_1, u_2, u_3, u_4} R
+              (ShannonBounds.CellRetyping.tighten.{u_1, u_2, u_3} hs S)))
+          a)
+        (ShannonBounds.Realisation.w.{max u_2 u_4, u_1}
+          (ShannonBounds.ProfileCompiler.coarsen.{u_1, max u_4 u_2}
+            (ShannonBounds.CellRetyping.realize.{u_1, u_2, u_3, u_4} R S))
+          a)
+@ShannonBounds.CellRetyping.missing_sound.{u_1, u_2, u_3,
+    u_4} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {J : Type u_2}
+  [inst_2 : Fintype.{u_2} J] [inst_3 : DecidableEq.{u_2 + 1} J] {K : J → Type u_3}
+  [inst_4 : (i : J) → Fintype.{u_3} (K i)] [(i : J) → DecidableEq.{u_3 + 1} (K i)] {t : (i : J) → K i → K i → Bool}
+  {V : J → Type u_4} [(i : J) → Fintype.{u_4} (V i)] [inst_7 : (i : J) → DecidableEq.{u_4 + 1} (V i)]
+  {Gs : (i : J) → SimpleGraph.{u_4} (V i)}
+  [inst_8 : (i : J) → DecidableRel.{u_4 + 1, u_4 + 1} (SimpleGraph.Adj.{u_4} (Gs i))]
+  (R : (i : J) → ShannonBounds.Realisation.{u_4, u_3} (K i) (t i) (Gs i))
+  (U : ShannonBounds.CellRetyping.Table.{u_1, u_2, u_3} s t) (u : (i : J) → K i),
+  ∀ b ∉ ShannonBounds.CellRetyping.touchMask.{u_1, u_2, u_3} U u,
+    ShannonBounds.Sep.{max u_4 u_2} (ShannonBounds.CellRetyping.productGraph.{u_2, u_4} Gs)
+      (ShannonBounds.CellRetyping.rectangle.{u_2, u_3, u_4} R u)
+      (ShannonBounds.CellRetyping.realizedRows.{u_1, u_2, u_3, u_4} R U b)
+@ShannonBounds.CellRetyping.exact_touch_witness.{u_1, u_2,
+    u_3} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {J : Type u_2}
+  [inst_2 : Fintype.{u_2} J] [inst_3 : DecidableEq.{u_2 + 1} J] {K : J → Type u_3}
+  [inst_4 : (i : J) → Fintype.{u_3} (K i)] [inst_5 : (i : J) → DecidableEq.{u_3 + 1} (K i)]
+  {t : (i : J) → K i → K i → Bool} (hs : ∀ (i : J) (a b : K i), Eq.{1} (t i a b) (t i b a))
+  (hi : ∀ (i : J) (a : K i), Eq.{1} (t i a a) Bool.false) (U : ShannonBounds.CellRetyping.Table.{u_1, u_2, u_3} s t)
+  (u : (i : J) → K i) (b : A),
+  Membership.mem.{u_1, u_1} (ShannonBounds.CellRetyping.touchMask.{u_1, u_2, u_3} U u) b ↔
+    ∃ v,
+      Membership.mem.{max u_2 u_3, max u_3 u_2}
+          (ShannonBounds.CellRetyping.realizedRows.{u_1, u_2, u_3, u_3}
+            (ShannonBounds.CellRetyping.singletons.{u_2, u_3} hs hi) U b)
+          v ∧
+        ShannonBounds.conflict.{max u_3 u_2}
+          (ShannonBounds.CellRetyping.productGraph.{u_2, u_3} (ShannonBounds.CellRetyping.witnessGraph.{u_2, u_3} hs)) u
+          v
+@ShannonBounds.CellRetyping.least_sound_mask.{u_1, u_2,
+    u_3} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {J : Type u_2}
+  [inst_2 : Fintype.{u_2} J] [inst_3 : DecidableEq.{u_2 + 1} J] {K : J → Type u_3}
+  [inst_4 : (i : J) → Fintype.{u_3} (K i)] [inst_5 : (i : J) → DecidableEq.{u_3 + 1} (K i)]
+  {t : (i : J) → K i → K i → Bool} (hs : ∀ (i : J) (a b : K i), Eq.{1} (t i a b) (t i b a))
+  (hi : ∀ (i : J) (a : K i), Eq.{1} (t i a a) Bool.false) (U : ShannonBounds.CellRetyping.Table.{u_1, u_2, u_3} s t)
+  (u : (i : J) → K i) (m : Finset.{u_1} A),
+  (∀ b ∉ m,
+      ShannonBounds.Sep.{max u_3 u_2}
+        (ShannonBounds.CellRetyping.productGraph.{u_2, u_3} (ShannonBounds.CellRetyping.witnessGraph.{u_2, u_3} hs))
+        (ShannonBounds.CellRetyping.rectangle.{u_2, u_3, u_3} (ShannonBounds.CellRetyping.singletons.{u_2, u_3} hs hi)
+          u)
+        (ShannonBounds.CellRetyping.realizedRows.{u_1, u_2, u_3, u_3}
+          (ShannonBounds.CellRetyping.singletons.{u_2, u_3} hs hi) U b)) →
+    ShannonBounds.CellRetyping.touchMask.{u_1, u_2, u_3} U u ⊆ m
+@ShannonBounds.CellRetyping.containing_masks_sound.{u_1, u_2, u_3,
+    u_4} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {J : Type u_2}
+  [inst_2 : Fintype.{u_2} J] [inst_3 : DecidableEq.{u_2 + 1} J] {K : J → Type u_3}
+  [inst_4 : (i : J) → Fintype.{u_3} (K i)] [(i : J) → DecidableEq.{u_3 + 1} (K i)] {t : (i : J) → K i → K i → Bool}
+  {V : J → Type u_4} [(i : J) → Fintype.{u_4} (V i)] [inst_7 : (i : J) → DecidableEq.{u_4 + 1} (V i)]
+  {Gs : (i : J) → SimpleGraph.{u_4} (V i)}
+  [inst_8 : (i : J) → DecidableRel.{u_4 + 1, u_4 + 1} (SimpleGraph.Adj.{u_4} (Gs i))]
+  (R : (i : J) → ShannonBounds.Realisation.{u_4, u_3} (K i) (t i) (Gs i))
+  (U : ShannonBounds.CellRetyping.Table.{u_1, u_2, u_3} s t) (u : (i : J) → K i) (m : Finset.{u_1} A),
+  ShannonBounds.CellRetyping.touchMask.{u_1, u_2, u_3} U u ⊆ m →
+    ∀ b ∉ m,
+      ShannonBounds.Sep.{max u_4 u_2} (ShannonBounds.CellRetyping.productGraph.{u_2, u_4} Gs)
+        (ShannonBounds.CellRetyping.rectangle.{u_2, u_3, u_4} R u)
+        (ShannonBounds.CellRetyping.realizedRows.{u_1, u_2, u_3, u_4} R U b)
+@ShannonBounds.CellRetyping.witness_sound_iff_contains.{u_1, u_2,
+    u_3} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {J : Type u_2}
+  [inst_2 : Fintype.{u_2} J] [inst_3 : DecidableEq.{u_2 + 1} J] {K : J → Type u_3}
+  [inst_4 : (i : J) → Fintype.{u_3} (K i)] [inst_5 : (i : J) → DecidableEq.{u_3 + 1} (K i)]
+  {t : (i : J) → K i → K i → Bool} (hs : ∀ (i : J) (a b : K i), Eq.{1} (t i a b) (t i b a))
+  (hi : ∀ (i : J) (a : K i), Eq.{1} (t i a a) Bool.false) (U : ShannonBounds.CellRetyping.Table.{u_1, u_2, u_3} s t)
+  (u : (i : J) → K i) (m : Finset.{u_1} A),
+  (∀ b ∉ m,
+      ShannonBounds.Sep.{max u_3 u_2}
+        (ShannonBounds.CellRetyping.productGraph.{u_2, u_3} (ShannonBounds.CellRetyping.witnessGraph.{u_2, u_3} hs))
+        (ShannonBounds.CellRetyping.rectangle.{u_2, u_3, u_3} (ShannonBounds.CellRetyping.singletons.{u_2, u_3} hs hi)
+          u)
+        (ShannonBounds.CellRetyping.realizedRows.{u_1, u_2, u_3, u_3}
+          (ShannonBounds.CellRetyping.singletons.{u_2, u_3} hs hi) U b)) ↔
+    ShannonBounds.CellRetyping.touchMask.{u_1, u_2, u_3} U u ⊆ m
+@ShannonBounds.CellRetyping.add.{u_1, u_2,
+    u_3} : {A : Type u_1} →
+  [Fintype.{u_1} A] →
+    [DecidableEq.{u_1 + 1} A] →
+      {s : A → A → Bool} →
+        {J : Type u_2} →
+          [Fintype.{u_2} J] →
+            [DecidableEq.{u_2 + 1} J] →
+              {K : J → Type u_3} →
+                [(i : J) → Fintype.{u_3} (K i)] →
+                  [(i : J) → DecidableEq.{u_3 + 1} (K i)] →
+                    {t : (i : J) → K i → K i → Bool} →
+                      (∀ (a b : A), Eq.{1} (s a b) (s b a)) →
+                        (∀ (a : A), Eq.{1} (s a a) Bool.false) →
+                          (∀ (i : J) (a b : K i), Eq.{1} (t i a b) (t i b a)) →
+                            ShannonBounds.CellRetyping.Table.{u_1, u_2, u_3} s t →
+                              A →
+                                (E : Finset.{max u_2 u_3} ((i : J) → K i)) →
+                                  (∀ (u : (i : J) → K i),
+                                      Membership.mem.{max u_2 u_3, max u_2 u_3} E u →
+                                        ∀ (v : (i : J) → K i),
+                                          Membership.mem.{max u_2 u_3, max u_2 u_3} E v →
+                                            Ne.{max (u_2 + 1) (u_3 + 1)} u v →
+                                              ShannonBounds.CellRetyping.WordSep.{u_2, u_3} t u v) →
+                                    ShannonBounds.CellRetyping.Table.{u_1, u_2, u_3} s t
+@ShannonBounds.CellRetyping.exact_addition_gain.{u_1, u_2, u_3,
+    u_4} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool}
+  {J : Type u_2} [inst_2 : Fintype.{u_2} J] [inst_3 : DecidableEq.{u_2 + 1} J] {K : J → Type u_3}
+  [inst_4 : (i : J) → Fintype.{u_3} (K i)] [inst_5 : (i : J) → DecidableEq.{u_3 + 1} (K i)]
+  {t : (i : J) → K i → K i → Bool} {V : J → Type u_4} [inst_6 : (i : J) → Fintype.{u_4} (V i)]
+  [inst_7 : (i : J) → DecidableEq.{u_4 + 1} (V i)] {Gs : (i : J) → SimpleGraph.{u_4} (V i)}
+  [inst_8 : (i : J) → DecidableRel.{u_4 + 1, u_4 + 1} (SimpleGraph.Adj.{u_4} (Gs i))]
+  (hs : ∀ (a b : A), Eq.{1} (s a b) (s b a)) (hi : ∀ (a : A), Eq.{1} (s a a) Bool.false)
+  (ht : ∀ (i : J) (a b : K i), Eq.{1} (t i a b) (t i b a)),
+  (∀ (i : J) (a : K i), Eq.{1} (t i a a) Bool.false) →
+    ∀ (R : (i : J) → ShannonBounds.Realisation.{u_4, u_3} (K i) (t i) (Gs i))
+      (U : ShannonBounds.CellRetyping.Table.{u_1, u_2, u_3} s t) (a : A) (E : Finset.{max u_2 u_3} ((i : J) → K i))
+      (hE :
+        ∀ (u : (i : J) → K i),
+          Membership.mem.{max u_2 u_3, max u_2 u_3} E u →
+            ∀ (v : (i : J) → K i),
+              Membership.mem.{max u_2 u_3, max u_2 u_3} E v →
+                Ne.{max (u_2 + 1) (u_3 + 1)} u v → ShannonBounds.CellRetyping.WordSep.{u_2, u_3} t u v),
+      Eq.{1}
+        (ShannonBounds.Realisation.w.{max u_2 u_4, u_1}
+          (ShannonBounds.CellRetyping.realize.{u_1, u_2, u_3, u_4} R
+            (ShannonBounds.CellRetyping.add.{u_1, u_2, u_3} hs hi ht U a E hE))
+          a)
+        (HAdd.hAdd.{0, 0, 0}
+          (ShannonBounds.Realisation.w.{max u_2 u_4, u_1} (ShannonBounds.CellRetyping.realize.{u_1, u_2, u_3, u_4} R U)
+            a)
+          (∑ u ∈ ShannonBounds.CellRetyping.selected.{u_1, u_2, u_3} U a E,
+            ∏ i, ShannonBounds.Realisation.w.{u_4, u_3} (R i) (u i)))
+@ShannonBounds.CellRetyping.pruning_sets.{u_1, u_2, u_3,
+    u_4} : ∀ {A : Type u_1} [Fintype.{u_1} A] [DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {J : Type u_2}
+  [inst : Fintype.{u_2} J] [inst_1 : DecidableEq.{u_2 + 1} J] {K : J → Type u_3}
+  [inst_2 : (i : J) → Fintype.{u_3} (K i)] [(i : J) → DecidableEq.{u_3 + 1} (K i)] {t : (i : J) → K i → K i → Bool}
+  {V : J → Type u_4} [(i : J) → Fintype.{u_4} (V i)] [inst_5 : (i : J) → DecidableEq.{u_4 + 1} (V i)]
+  {Gs : (i : J) → SimpleGraph.{u_4} (V i)}
+  [inst_6 : (i : J) → DecidableRel.{u_4 + 1, u_4 + 1} (SimpleGraph.Adj.{u_4} (Gs i))]
+  (R : (i : J) → ShannonBounds.Realisation.{u_4, u_3} (K i) (t i) (Gs i))
+  (U : ShannonBounds.CellRetyping.Table.{u_1, u_2, u_3} s t) (F : A → Finset.{max u_2 u_3} ((i : J) → K i))
+  (hF : ∀ (a : A), F a ⊆ ShannonBounds.CellRetyping.Table.rows.{u_1, u_2, u_3} U a),
+  (∀ (a : A) (u : (i : J) → K i),
+      Membership.mem.{max u_2 u_3, max u_2 u_3} (ShannonBounds.CellRetyping.Table.rows.{u_1, u_2, u_3} U a) u →
+        u ∉ F a → ∃ i, Eq.{1} (ShannonBounds.Realisation.w.{u_4, u_3} (R i) (u i)) 0) →
+    ∀ (a : A),
+      Eq.{max (u_2 + 1) (u_4 + 1)}
+        (ShannonBounds.CellRetyping.realizedRows.{u_1, u_2, u_3, u_4} R
+          (ShannonBounds.CellRetyping.restrict.{u_1, u_2, u_3} U F hF) a)
+        (ShannonBounds.CellRetyping.realizedRows.{u_1, u_2, u_3, u_4} R U a)
+@ShannonBounds.CellRetyping.pruning_counts.{u_1, u_2, u_3,
+    u_4} : ∀ {A : Type u_1} [Fintype.{u_1} A] [DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {J : Type u_2}
+  [inst : Fintype.{u_2} J] [DecidableEq.{u_2 + 1} J] {K : J → Type u_3} [inst_2 : (i : J) → Fintype.{u_3} (K i)]
+  [(i : J) → DecidableEq.{u_3 + 1} (K i)] {t : (i : J) → K i → K i → Bool} {V : J → Type u_4}
+  [(i : J) → Fintype.{u_4} (V i)] [(i : J) → DecidableEq.{u_4 + 1} (V i)] {Gs : (i : J) → SimpleGraph.{u_4} (V i)}
+  [inst_6 : (i : J) → DecidableRel.{u_4 + 1, u_4 + 1} (SimpleGraph.Adj.{u_4} (Gs i))]
+  (R : (i : J) → ShannonBounds.Realisation.{u_4, u_3} (K i) (t i) (Gs i))
+  (U : ShannonBounds.CellRetyping.Table.{u_1, u_2, u_3} s t) (F : A → Finset.{max u_2 u_3} ((i : J) → K i)),
+  (∀ (a : A), F a ⊆ ShannonBounds.CellRetyping.Table.rows.{u_1, u_2, u_3} U a) →
+    (∀ (a : A) (u : (i : J) → K i),
+        Membership.mem.{max u_2 u_3, max u_2 u_3} (ShannonBounds.CellRetyping.Table.rows.{u_1, u_2, u_3} U a) u →
+          u ∉ F a → ∃ i, Eq.{1} (ShannonBounds.Realisation.w.{u_4, u_3} (R i) (u i)) 0) →
+      ∀ (a : A),
+        Eq.{1} (∑ u ∈ F a, ∏ i, ShannonBounds.Realisation.w.{u_4, u_3} (R i) (u i))
+          (∑ u ∈ ShannonBounds.CellRetyping.Table.rows.{u_1, u_2, u_3} U a,
+            ∏ i, ShannonBounds.Realisation.w.{u_4, u_3} (R i) (u i))
+@ShannonBounds.CellRetyping.prune_retype_sets.{u_1, u_2, u_3,
+    u_4} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool}
+  {J : Type u_2} [inst_2 : Fintype.{u_2} J] [inst_3 : DecidableEq.{u_2 + 1} J] {K : J → Type u_3}
+  [inst_4 : (i : J) → Fintype.{u_3} (K i)] [inst_5 : (i : J) → DecidableEq.{u_3 + 1} (K i)]
+  {t : (i : J) → K i → K i → Bool} {V : J → Type u_4} [inst_6 : (i : J) → Fintype.{u_4} (V i)]
+  [inst_7 : (i : J) → DecidableEq.{u_4 + 1} (V i)] {Gs : (i : J) → SimpleGraph.{u_4} (V i)}
+  [inst_8 : (i : J) → DecidableRel.{u_4 + 1, u_4 + 1} (SimpleGraph.Adj.{u_4} (Gs i))]
+  (ht : ∀ (i : J) (a b : K i), Eq.{1} (t i a b) (t i b a)),
+  (∀ (i : J) (a : K i), Eq.{1} (t i a a) Bool.false) →
+    ∀ (R : (i : J) → ShannonBounds.Realisation.{u_4, u_3} (K i) (t i) (Gs i))
+      (U : ShannonBounds.CellRetyping.Table.{u_1, u_2, u_3} s t) (F : A → Finset.{max u_2 u_3} ((i : J) → K i))
+      (hF : ∀ (a : A), F a ⊆ ShannonBounds.CellRetyping.Table.rows.{u_1, u_2, u_3} U a),
+      (∀ (a : A) (u : (i : J) → K i),
+          Membership.mem.{max u_2 u_3, max u_2 u_3} (ShannonBounds.CellRetyping.Table.rows.{u_1, u_2, u_3} U a) u →
+            u ∉ F a → ∃ i, Eq.{1} (ShannonBounds.Realisation.w.{u_4, u_3} (R i) (u i)) 0) →
+        ∀ (a : A),
+          Eq.{max (u_2 + 1) (u_4 + 1)}
+            (ShannonBounds.Realisation.P.{max u_2 u_4, u_1}
+              (ShannonBounds.ProfileCompiler.coarsen.{u_1, max u_4 u_2}
+                (ShannonBounds.CellRetyping.realize.{u_1, u_2, u_3, u_4} R
+                  (ShannonBounds.CellRetyping.canonical.{u_1, u_2, u_3} ht
+                    (ShannonBounds.CellRetyping.restrict.{u_1, u_2, u_3} U F hF))))
+              a)
+            (ShannonBounds.CellRetyping.realizedRows.{u_1, u_2, u_3, u_4} R U a)
+@ShannonBounds.CellRetyping.canonicalBPZ.{u_1} : {A : Type u_1} →
+  [inst : Fintype.{u_1} A] →
+    [inst_1 : DecidableEq.{u_1 + 1} A] →
+      {s : A → A → Bool} →
+        {q : ℕ} →
+          (ShannonBounds.CellRetyping.Table.{u_1, 0, u_1} s fun x => ShannonBounds.ProfileCompiler.apart.{u_1}) →
+            ShannonBounds.Subst.{u_1} (ShannonBounds.ProfileCompiler.Ty.{u_1} s)
+              ShannonBounds.ProfileCompiler.apart.{u_1} q
+@ShannonBounds.CellRetyping.tightenBPZ.{u_1} : {A : Type u_1} →
+  [inst : Fintype.{u_1} A] →
+    [inst_1 : DecidableEq.{u_1 + 1} A] →
+      {s : A → A → Bool} →
+        {q : ℕ} →
+          ShannonBounds.Subst.{u_1} (ShannonBounds.ProfileCompiler.Ty.{u_1} s) ShannonBounds.ProfileCompiler.apart.{u_1}
+              q →
+            ShannonBounds.Subst.{u_1} (ShannonBounds.ProfileCompiler.Ty.{u_1} s)
+              ShannonBounds.ProfileCompiler.apart.{u_1} q
+@ShannonBounds.CellRetyping.bpz_canonical_sets.{u_1,
+    u_2} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {q : ℕ}
+  {V : Type u_2} [inst_2 : Fintype.{u_2} V] [inst_3 : DecidableEq.{u_2 + 1} V] {G : SimpleGraph.{u_2} V}
+  [inst_4 : DecidableRel.{u_2 + 1, u_2 + 1} (SimpleGraph.Adj.{u_2} G)] (e : Fin q → ℕ)
+  (R :
+    (i : Fin q) →
+      ShannonBounds.Realisation.{u_2, u_1} (ShannonBounds.ProfileCompiler.Ty.{u_1} s)
+        ShannonBounds.ProfileCompiler.apart.{u_1} (SimpleGraph.strongPower.{u_2} G (e i)))
+  (U : ShannonBounds.CellRetyping.Table.{u_1, 0, u_1} s fun x => ShannonBounds.ProfileCompiler.apart.{u_1})
+  (p : ShannonBounds.ProfileCompiler.Ty.{u_1} s),
+  Eq.{u_2 + 1}
+    (ShannonBounds.Realisation.P.{u_2, u_1}
+      (ShannonBounds.Realisation.multiSubst.{u_2, u_1} e R (ShannonBounds.CellRetyping.canonicalBPZ.{u_1} U)) p)
+    (Finset.image.{u_2, u_2} (⇑(ShannonBounds.flattenSumEquiv.{u_2} e V))
+      (ShannonBounds.CellRetyping.realizedRows.{u_1, 0, u_1, u_2} R
+        (ShannonBounds.CellRetyping.canonical.{u_1, 0, u_1} ⋯ U) p))
+@ShannonBounds.CellRetyping.bpz_canonical_weights.{u_1,
+    u_2} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {q : ℕ}
+  {V : Type u_2} [inst_2 : Fintype.{u_2} V] [inst_3 : DecidableEq.{u_2 + 1} V] {G : SimpleGraph.{u_2} V}
+  [inst_4 : DecidableRel.{u_2 + 1, u_2 + 1} (SimpleGraph.Adj.{u_2} G)] (e : Fin q → ℕ)
+  (R :
+    (i : Fin q) →
+      ShannonBounds.Realisation.{u_2, u_1} (ShannonBounds.ProfileCompiler.Ty.{u_1} s)
+        ShannonBounds.ProfileCompiler.apart.{u_1} (SimpleGraph.strongPower.{u_2} G (e i)))
+  (U : ShannonBounds.CellRetyping.Table.{u_1, 0, u_1} s fun x => ShannonBounds.ProfileCompiler.apart.{u_1})
+  (p : ShannonBounds.ProfileCompiler.Ty.{u_1} s),
+  Eq.{1}
+    (ShannonBounds.Realisation.w.{u_2, u_1}
+      (ShannonBounds.Realisation.multiSubst.{u_2, u_1} e R (ShannonBounds.CellRetyping.canonicalBPZ.{u_1} U)) p)
+    (∑ u ∈ ShannonBounds.CellRetyping.canonicalRows.{u_1, 0, u_1} U p,
+      ∏ i, ShannonBounds.Realisation.w.{u_2, u_1} (R i) (u i))
+@ShannonBounds.CellRetyping.Recipe.exact_weights.{u_1, u_2,
+    u_3} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool}
+  {V : Type u_2} [inst_2 : Fintype.{u_2} V] [inst_3 : DecidableEq.{u_2 + 1} V] {G : SimpleGraph.{u_2} V}
+  [inst_4 : DecidableRel.{u_2 + 1, u_2 + 1} (SimpleGraph.Adj.{u_2} G)] {B : Type u_3} {d : B → ℕ}
+  (base : (b : B) → ShannonBounds.Realisation.{u_2, u_1} A s (SimpleGraph.strongPower.{u_2} G (d b)))
+  (r : ShannonBounds.CellRetyping.Recipe.{u_1, u_3} A s B) (a : A),
+  Eq.{1} (ShannonBounds.Realisation.w.{u_2, u_1} (ShannonBounds.CellRetyping.Recipe.evaluate.{u_1, u_2, u_3} base r) a)
+    (ShannonBounds.CellRetyping.Recipe.weights.{u_1, u_3} (fun b => ShannonBounds.Realisation.w.{u_2, u_1} (base b)) r
+      a)
+@ShannonBounds.CellRetyping.Recipe.independent.{u_1, u_2,
+    u_3} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool}
+  {V : Type u_2} [inst_2 : Fintype.{u_2} V] [inst_3 : DecidableEq.{u_2 + 1} V] {G : SimpleGraph.{u_2} V}
+  [inst_4 : DecidableRel.{u_2 + 1, u_2 + 1} (SimpleGraph.Adj.{u_2} G)] {B : Type u_3} {d : B → ℕ}
+  (base : (b : B) → ShannonBounds.Realisation.{u_2, u_1} A s (SimpleGraph.strongPower.{u_2} G (d b)))
+  (r : ShannonBounds.CellRetyping.Recipe.{u_1, u_3} A s B) (a : A),
+  SimpleGraph.IsIndepSet.{u_2}
+    (SimpleGraph.strongPower.{u_2} G (ShannonBounds.CellRetyping.Recipe.dimension.{u_1, u_3} d r))
+    ↑(ShannonBounds.Realisation.P.{u_2, u_1} (ShannonBounds.CellRetyping.Recipe.evaluate.{u_1, u_2, u_3} base r) a)
+@ShannonBounds.CellRetyping.DAG.exact_weights.{u_1, u_2, u_3,
+    u_4} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool}
+  {B : Type u_2} {I : Type u_3} [inst_2 : Fintype.{u_3} I] {V : Type u_4} [inst_3 : Fintype.{u_4} V]
+  [inst_4 : DecidableEq.{u_4 + 1} V] {G : SimpleGraph.{u_4} V}
+  [inst_5 : DecidableRel.{u_4 + 1, u_4 + 1} (SimpleGraph.Adj.{u_4} G)] {d : B → ℕ}
+  (D : ShannonBounds.CellRetyping.DAG.{u_1, u_2, u_3} A s B I)
+  (base : (b : B) → ShannonBounds.Realisation.{u_4, u_1} A s (SimpleGraph.strongPower.{u_4} G (d b))) (i : I) (a : A),
+  Eq.{1}
+    (ShannonBounds.Realisation.w.{u_4, u_1} (ShannonBounds.CellRetyping.DAG.evaluate.{u_1, u_2, u_3, u_4} D base i) a)
+    (ShannonBounds.CellRetyping.Recipe.weights.{u_1, u_2} (fun b => ShannonBounds.Realisation.w.{u_4, u_1} (base b))
+      (ShannonBounds.CellRetyping.DAG.unfold.{u_1, u_2, u_3} D i) a)
+@ShannonBounds.CellRetyping.DAG.independent.{u_1, u_2, u_3,
+    u_4} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool}
+  {B : Type u_2} {I : Type u_3} [inst_2 : Fintype.{u_3} I] {V : Type u_4} [inst_3 : Fintype.{u_4} V]
+  [inst_4 : DecidableEq.{u_4 + 1} V] {G : SimpleGraph.{u_4} V}
+  [inst_5 : DecidableRel.{u_4 + 1, u_4 + 1} (SimpleGraph.Adj.{u_4} G)] {d : B → ℕ}
+  (D : ShannonBounds.CellRetyping.DAG.{u_1, u_2, u_3} A s B I)
+  (base : (b : B) → ShannonBounds.Realisation.{u_4, u_1} A s (SimpleGraph.strongPower.{u_4} G (d b))) (i : I) (a : A),
+  SimpleGraph.IsIndepSet.{u_4}
+    (SimpleGraph.strongPower.{u_4} G (ShannonBounds.CellRetyping.DAG.dimension.{u_1, u_2, u_3} D d i))
+    ↑(ShannonBounds.Realisation.P.{u_4, u_1} (ShannonBounds.CellRetyping.DAG.evaluate.{u_1, u_2, u_3, u_4} D base i) a)
+@ShannonBounds.CellRetyping.DAG.repeated_child_dimension.{u_1, u_2,
+    u_3} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {B : Type u_2}
+  {I : Type u_3} [inst_2 : Fintype.{u_3} I] (D : ShannonBounds.CellRetyping.DAG.{u_1, u_2, u_3} A s B I) (d : B → ℕ)
+  (i j : I) (S : ShannonBounds.Subst.{u_1} A s 2),
+  Eq.{max (max (u_1 + 1) (u_2 + 1)) (u_3 + 1)} (ShannonBounds.CellRetyping.DAG.node.{u_1, u_2, u_3} D i)
+      (ShannonBounds.CellRetyping.Node.node.{u_1, u_2, u_3} S fun x => j) →
+    Eq.{1} (ShannonBounds.CellRetyping.DAG.dimension.{u_1, u_2, u_3} D d i)
+      (HMul.hMul.{0, 0, 0} 2 (ShannonBounds.CellRetyping.DAG.dimension.{u_1, u_2, u_3} D d j))
+@ShannonBounds.CellRetyping.DAG.profile.{u_1, u_2, u_3,
+    u_4} : {A : Type u_1} →
+  [inst : Fintype.{u_1} A] →
+    [inst_1 : DecidableEq.{u_1 + 1} A] →
+      {s : A → A → Bool} →
+        {B : Type u_2} →
+          {I : Type u_3} →
+            [inst_2 : Fintype.{u_3} I] →
+              {V : Type u_4} →
+                [Fintype.{u_4} V] →
+                  [inst_4 : DecidableEq.{u_4 + 1} V] →
+                    {G : SimpleGraph.{u_4} V} →
+                      [inst_5 : DecidableRel.{u_4 + 1, u_4 + 1} (SimpleGraph.Adj.{u_4} G)] →
+                        {d : B → ℕ} →
+                          (D :
+                              ShannonBounds.CellRetyping.DAG.{u_1, u_2, u_3} (ShannonBounds.ProfileCompiler.Ty.{u_1} s)
+                                ShannonBounds.ProfileCompiler.apart.{u_1} B I) →
+                            ((b : B) →
+                                ShannonBounds.Realisation.{u_4, u_1} (ShannonBounds.ProfileCompiler.Ty.{u_1} s)
+                                  ShannonBounds.ProfileCompiler.apart.{u_1} (SimpleGraph.strongPower.{u_4} G (d b))) →
+                              (i : I) →
+                                ShannonBounds.ProfileCompiler.Profile.{u_4, u_1} A s
+                                  (SimpleGraph.strongPower.{u_4} G
+                                    (ShannonBounds.CellRetyping.DAG.dimension.{u_1, u_2, u_3} D d i))

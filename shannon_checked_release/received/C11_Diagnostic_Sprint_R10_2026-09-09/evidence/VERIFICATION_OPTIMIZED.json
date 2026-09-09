@@ -1,0 +1,380 @@
+{
+  "exact_relation_diagnostic": {
+    "exception_total_weight": "130733448740482067495864706649431879479565892580622177639759430796384300413232779331535551387177854215370737248261847222837310185145833350108813213370",
+    "exception_vertices": 4158,
+    "full_realized_model_root_ceiling": {
+      "denominator": "1000000000000000",
+      "lower": "5.296352509823008",
+      "lower_numerator": "5296352509823008",
+      "upper_exclusive": "5.296352509823009"
+    },
+    "new_terminal_child_separations": [
+      {
+        "child": "n19",
+        "coordinate": 2,
+        "types": [
+          47,
+          54
+        ]
+      },
+      {
+        "child": "n30",
+        "coordinate": 3,
+        "types": [
+          14,
+          51
+        ]
+      }
+    ],
+    "optimum_root_gain_less_than": "21/100000000",
+    "removed_terminal_edges": 194688,
+    "scope": "difference between two fixed whole-cell terminal optima; not changes to internal sets or splitting cells"
+  },
+  "fixed_model_upper": {
+    "factors": [
+      {
+        "LDL_positive_pivots": 11,
+        "Sylvester_positive_minors": 11,
+        "child": "n10",
+        "dimension": 78,
+        "matrix_order": 11
+      },
+      {
+        "LDL_positive_pivots": 14,
+        "Sylvester_positive_minors": 14,
+        "child": "n15",
+        "dimension": 30,
+        "matrix_order": 14
+      },
+      {
+        "LDL_positive_pivots": 14,
+        "Sylvester_positive_minors": 14,
+        "child": "n19",
+        "dimension": 21,
+        "matrix_order": 14
+      },
+      {
+        "LDL_positive_pivots": 14,
+        "Sylvester_positive_minors": 14,
+        "child": "n30",
+        "dimension": 84,
+        "matrix_order": 14
+      }
+    ],
+    "root": {
+      "denominator": "1000000000000000",
+      "lower": "5.296352308028324",
+      "lower_numerator": "5296352308028324",
+      "upper_exclusive": "5.296352308028325"
+    },
+    "scope": "fixed pairwise-separated whole-cell terminal model only; NOT a Shannon capacity upper bound",
+    "upper_denominator": "244140625000000000000000000000000000",
+    "upper_numerator": "3932896866039784351521981987972516054839656939318600040806800392535722636037470825475547754074727774103010519250817960827918980294755922605226546544545785834293079824617851050225523752338833"
+  },
+  "initial_clique_cover": {
+    "root": {
+      "denominator": "1000000000000000",
+      "lower": "5.301135843940013",
+      "lower_numerator": "5301135843940013",
+      "upper_exclusive": "5.301135843940014"
+    },
+    "upper_denominator": "976562500000000000000000000000000000000000",
+    "upper_numerator": "19067021147898197769585331330451223724622117960159411900024499504989002798280724243874805216170814562750431362591876591183595295984595854138705597559685945925234395178377520570267994151698627493799"
+  },
+  "manifest_entries": null,
+  "negative_controls_rejected": [
+    "wrong PSD child",
+    "wrong bound dimension",
+    "wrong PSD weight",
+    "nonpositive PSD budget",
+    "positive but false PSD budget",
+    "bad PSD total budget",
+    "PSD nonzero at separated pair",
+    "wrong terminal cardinality",
+    "wrong terminal graph",
+    "wrong terminal dimension",
+    "duplicate terminal word",
+    "conflicting terminal word",
+    "omitted exception rule",
+    "understated exception budget",
+    "impossible refinement gain bound",
+    "spurious realized separation"
+  ],
+  "new_finite_construction": {
+    "N": "15582586090557143524934051605443136904729933830494234387625652511238161574916839372123149750083049477381054551299577047578167518160385837117810087560279395",
+    "both_replays_agree": true,
+    "dimension": 213,
+    "new_Lean_build": false,
+    "node_count": 32,
+    "old_N": "15581417495499244082365919592642781336557169190184505729531184988512265817617037617125618829671532871759899754343522415371430987488600093437366857505800109",
+    "root": {
+      "denominator": "1000000000000000",
+      "lower": "5.295526013632343",
+      "lower_numerator": "5295526013632343",
+      "upper_exclusive": "5.295526013632344"
+    },
+    "table_pair_obligations": 1463630,
+    "terminal_words": 1568
+  },
+  "node_relation_refinements": [
+    {
+      "active": 9,
+      "extra_separations": [],
+      "node": "v",
+      "unique_conflict_edges": 11
+    },
+    {
+      "active": 10,
+      "extra_separations": [],
+      "node": "n1",
+      "unique_conflict_edges": 12
+    },
+    {
+      "active": 10,
+      "extra_separations": [],
+      "node": "n2",
+      "unique_conflict_edges": 12
+    },
+    {
+      "active": 10,
+      "extra_separations": [
+        [
+          7,
+          11
+        ]
+      ],
+      "node": "n3",
+      "unique_conflict_edges": 12
+    },
+    {
+      "active": 10,
+      "extra_separations": [],
+      "node": "n4",
+      "unique_conflict_edges": 12
+    },
+    {
+      "active": 12,
+      "extra_separations": [
+        [
+          7,
+          11
+        ]
+      ],
+      "node": "n5",
+      "unique_conflict_edges": 15
+    },
+    {
+      "active": 10,
+      "extra_separations": [],
+      "node": "n6",
+      "unique_conflict_edges": 13
+    },
+    {
+      "active": 12,
+      "extra_separations": [
+        [
+          7,
+          19
+        ]
+      ],
+      "node": "n7",
+      "unique_conflict_edges": 15
+    },
+    {
+      "active": 10,
+      "extra_separations": [],
+      "node": "n8",
+      "unique_conflict_edges": 12
+    },
+    {
+      "active": 10,
+      "extra_separations": [],
+      "node": "n9",
+      "unique_conflict_edges": 13
+    },
+    {
+      "active": 11,
+      "extra_separations": [],
+      "node": "n10",
+      "unique_conflict_edges": 14
+    },
+    {
+      "active": 10,
+      "extra_separations": [],
+      "node": "n11",
+      "unique_conflict_edges": 12
+    },
+    {
+      "active": 12,
+      "extra_separations": [
+        [
+          7,
+          11
+        ]
+      ],
+      "node": "n12",
+      "unique_conflict_edges": 15
+    },
+    {
+      "active": 13,
+      "extra_separations": [],
+      "node": "n13",
+      "unique_conflict_edges": 18
+    },
+    {
+      "active": 14,
+      "extra_separations": [],
+      "node": "n14",
+      "unique_conflict_edges": 19
+    },
+    {
+      "active": 14,
+      "extra_separations": [],
+      "node": "n15",
+      "unique_conflict_edges": 19
+    },
+    {
+      "active": 10,
+      "extra_separations": [],
+      "node": "n16",
+      "unique_conflict_edges": 12
+    },
+    {
+      "active": 12,
+      "extra_separations": [
+        [
+          7,
+          11
+        ]
+      ],
+      "node": "n17",
+      "unique_conflict_edges": 15
+    },
+    {
+      "active": 13,
+      "extra_separations": [
+        [
+          47,
+          54
+        ]
+      ],
+      "node": "n18",
+      "unique_conflict_edges": 17
+    },
+    {
+      "active": 14,
+      "extra_separations": [
+        [
+          47,
+          54
+        ]
+      ],
+      "node": "n19",
+      "unique_conflict_edges": 18
+    },
+    {
+      "active": 10,
+      "extra_separations": [],
+      "node": "n20",
+      "unique_conflict_edges": 13
+    },
+    {
+      "active": 12,
+      "extra_separations": [
+        [
+          47,
+          54
+        ]
+      ],
+      "node": "n21",
+      "unique_conflict_edges": 15
+    },
+    {
+      "active": 14,
+      "extra_separations": [
+        [
+          47,
+          54
+        ]
+      ],
+      "node": "n22",
+      "unique_conflict_edges": 18
+    },
+    {
+      "active": 14,
+      "extra_separations": [
+        [
+          47,
+          54
+        ]
+      ],
+      "node": "n23",
+      "unique_conflict_edges": 18
+    },
+    {
+      "active": 14,
+      "extra_separations": [
+        [
+          47,
+          54
+        ]
+      ],
+      "node": "n24",
+      "unique_conflict_edges": 18
+    },
+    {
+      "active": 12,
+      "extra_separations": [
+        [
+          7,
+          11
+        ]
+      ],
+      "node": "n25",
+      "unique_conflict_edges": 15
+    },
+    {
+      "active": 10,
+      "extra_separations": [],
+      "node": "n26",
+      "unique_conflict_edges": 13
+    },
+    {
+      "active": 10,
+      "extra_separations": [],
+      "node": "n27",
+      "unique_conflict_edges": 12
+    },
+    {
+      "active": 12,
+      "extra_separations": [
+        [
+          7,
+          11
+        ]
+      ],
+      "node": "n28",
+      "unique_conflict_edges": 15
+    },
+    {
+      "active": 13,
+      "extra_separations": [],
+      "node": "n29",
+      "unique_conflict_edges": 18
+    },
+    {
+      "active": 14,
+      "extra_separations": [
+        [
+          14,
+          51
+        ]
+      ],
+      "node": "n30",
+      "unique_conflict_edges": 15
+    }
+  ],
+  "parent_R9_sha256": "d74fab6f4dd44a5c04124bd53e8dcf2e1ecaa6d48a95dc54f7a87a24d491025f",
+  "status": "PASS_C11_R10_FINITE_DIAGNOSTIC_CERTIFICATES",
+  "trust": "standard-library integer/rational replay; neither a new Lean run nor external review; no solver output is an acceptance premise"
+}

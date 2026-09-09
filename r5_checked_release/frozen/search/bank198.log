@@ -1,0 +1,10 @@
+BANK 39 {3: 1, 6: 2, 9: 4, 12: 6, 15: 10, 18: 14, 21: 12, 24: 10, 27: 18, 30: 26, 33: 10, 36: 6, 39: 6, 42: 4, 45: 2, 57: 2, 60: 2, 72: 2, 75: 6, 78: 16, 81: 18, 84: 10, 87: 12}
+{"N": "215500335059456204763178503364727248410729017623740043390849948794582194185020444926711080320654805099859771219448938763690724795166541071654152", "dimension": 198, "root": 5.295491835382706, "stage": "start", "elapsed_seconds": 0.4222986990000095}
+{"N": "215500819660900670262502980200139341820140073898568617672868324868048147094132170284780349373762090648938443982064541309267412101181973439762176", "dimension": 198, "root": 5.2954918955246395, "stage": "stopped", "elapsed_seconds": 0.4465140759999713}
+Traceback (most recent call last):
+  File "/mnt/data/c11_r5_work/engine/bank.py", line 192, in <module>
+    s=crossover_sweep();ss=sweep()
+  File "/mnt/data/c11_r5_work/engine/bank.py", line 184, in crossover_sweep
+    if root.evaluate()!=old+best-oldpart:raise RuntimeError('crossover delta mismatch')
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: crossover delta mismatch

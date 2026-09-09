@@ -1,0 +1,4 @@
+$ lake env lean NEGATIVE_terminal_213.lean
+NEGATIVE_terminal_213.lean:9:2: error: Tactic `native_decide` evaluated that the proposition
+  ∀ x ∈ badTerminal, ∀ y ∈ badTerminal, x ≠ y → ∃ i, (x i).sep (y i) = true
+is false

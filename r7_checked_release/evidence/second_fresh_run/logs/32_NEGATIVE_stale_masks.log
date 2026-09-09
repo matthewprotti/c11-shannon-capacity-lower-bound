@@ -1,0 +1,4 @@
+$ lake env lean NEGATIVE_stale_masks.lean
+NEGATIVE_stale_masks.lean:10:62: error: Tactic `decide` proved that the proposition
+  ∃ i, apart (wordN i) (wordN i) = true
+is false

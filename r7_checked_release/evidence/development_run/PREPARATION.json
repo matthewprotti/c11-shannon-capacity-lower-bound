@@ -1,0 +1,873 @@
+{
+  "status": "PASS_FRESH_PINNED_BPZ_C11_CONTROL",
+  "started_at_utc": "2026-09-09T02:01:17.194323+00:00",
+  "commands": [
+    {
+      "label": "01_git_init",
+      "command": [
+        "git",
+        "init"
+      ],
+      "returncode": 0,
+      "seconds": 0.04107012506574392,
+      "log": "logs/01_git_init.log"
+    },
+    {
+      "label": "02_origin",
+      "command": [
+        "git",
+        "remote",
+        "add",
+        "origin",
+        "https://github.com/spectra-research/shannon-capacity-lean.git"
+      ],
+      "returncode": 0,
+      "seconds": 0.03700800007209182,
+      "log": "logs/02_origin.log"
+    },
+    {
+      "label": "03_fetch",
+      "command": [
+        "git",
+        "fetch",
+        "--depth=1",
+        "origin",
+        "aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65"
+      ],
+      "returncode": 0,
+      "seconds": 1.2569075000938028,
+      "log": "logs/03_fetch.log"
+    },
+    {
+      "label": "04_checkout",
+      "command": [
+        "git",
+        "checkout",
+        "-b",
+        "codex/c11-r7-formalization",
+        "aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65"
+      ],
+      "returncode": 0,
+      "seconds": 0.07520395889878273,
+      "log": "logs/04_checkout.log"
+    },
+    {
+      "label": "05_head",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.02074420778080821,
+      "log": "logs/05_head.log"
+    },
+    {
+      "label": "06_cache_mathlib_head",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/mathlib",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.040781083051115274,
+      "log": "logs/06_cache_mathlib_head.log"
+    },
+    {
+      "label": "06_cache_mathlib_worktree",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/mathlib",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.12824729084968567,
+      "log": "logs/06_cache_mathlib_worktree.log"
+    },
+    {
+      "label": "06_cache_mathlib_index",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/mathlib",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.04079716606065631,
+      "log": "logs/06_cache_mathlib_index.log"
+    },
+    {
+      "label": "06_cache_plausible_head",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/plausible",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.04102675011381507,
+      "log": "logs/06_cache_plausible_head.log"
+    },
+    {
+      "label": "06_cache_plausible_worktree",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/plausible",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.040719833225011826,
+      "log": "logs/06_cache_plausible_worktree.log"
+    },
+    {
+      "label": "06_cache_plausible_index",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/plausible",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.040740291122347116,
+      "log": "logs/06_cache_plausible_index.log"
+    },
+    {
+      "label": "06_cache_LeanSearchClient_head",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/LeanSearchClient",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.04084845818579197,
+      "log": "logs/06_cache_LeanSearchClient_head.log"
+    },
+    {
+      "label": "06_cache_LeanSearchClient_worktree",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/LeanSearchClient",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.04084412497468293,
+      "log": "logs/06_cache_LeanSearchClient_worktree.log"
+    },
+    {
+      "label": "06_cache_LeanSearchClient_index",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/LeanSearchClient",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.04034416703507304,
+      "log": "logs/06_cache_LeanSearchClient_index.log"
+    },
+    {
+      "label": "06_cache_importGraph_head",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/importGraph",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.04114979202859104,
+      "log": "logs/06_cache_importGraph_head.log"
+    },
+    {
+      "label": "06_cache_importGraph_worktree",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/importGraph",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.040889458963647485,
+      "log": "logs/06_cache_importGraph_worktree.log"
+    },
+    {
+      "label": "06_cache_importGraph_index",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/importGraph",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.04040212486870587,
+      "log": "logs/06_cache_importGraph_index.log"
+    },
+    {
+      "label": "06_cache_proofwidgets_head",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/proofwidgets",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.02085654204711318,
+      "log": "logs/06_cache_proofwidgets_head.log"
+    },
+    {
+      "label": "06_cache_proofwidgets_worktree",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/proofwidgets",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.03904666705057025,
+      "log": "logs/06_cache_proofwidgets_worktree.log"
+    },
+    {
+      "label": "06_cache_proofwidgets_index",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/proofwidgets",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.0403622908052057,
+      "log": "logs/06_cache_proofwidgets_index.log"
+    },
+    {
+      "label": "06_cache_aesop_head",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/aesop",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.04055454209446907,
+      "log": "logs/06_cache_aesop_head.log"
+    },
+    {
+      "label": "06_cache_aesop_worktree",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/aesop",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.041175999911502004,
+      "log": "logs/06_cache_aesop_worktree.log"
+    },
+    {
+      "label": "06_cache_aesop_index",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/aesop",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.020694042090326548,
+      "log": "logs/06_cache_aesop_index.log"
+    },
+    {
+      "label": "06_cache_Qq_head",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/Qq",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.020604749908670783,
+      "log": "logs/06_cache_Qq_head.log"
+    },
+    {
+      "label": "06_cache_Qq_worktree",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/Qq",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.02062466600909829,
+      "log": "logs/06_cache_Qq_worktree.log"
+    },
+    {
+      "label": "06_cache_Qq_index",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/Qq",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.02058441680856049,
+      "log": "logs/06_cache_Qq_index.log"
+    },
+    {
+      "label": "06_cache_batteries_head",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/batteries",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.020337708992883563,
+      "log": "logs/06_cache_batteries_head.log"
+    },
+    {
+      "label": "06_cache_batteries_worktree",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/batteries",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.03989666607230902,
+      "log": "logs/06_cache_batteries_worktree.log"
+    },
+    {
+      "label": "06_cache_batteries_index",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/batteries",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.04084887495264411,
+      "log": "logs/06_cache_batteries_index.log"
+    },
+    {
+      "label": "06_cache_Cli_head",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/Cli",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.020671499893069267,
+      "log": "logs/06_cache_Cli_head.log"
+    },
+    {
+      "label": "06_cache_Cli_worktree",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/Cli",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.020588167011737823,
+      "log": "logs/06_cache_Cli_worktree.log"
+    },
+    {
+      "label": "06_cache_Cli_index",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages/Cli",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.020378459012135863,
+      "log": "logs/06_cache_Cli_index.log"
+    },
+    {
+      "label": "07_dependency_copy",
+      "command": [
+        "/bin/cp",
+        "-cR",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/runs/02_clean_replay/bpz/.lake/packages",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages"
+      ],
+      "returncode": 0,
+      "seconds": 28.060382709139958,
+      "log": "logs/07_dependency_copy.log"
+    },
+    {
+      "label": "08_dependencies_mathlib_head",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/mathlib",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.04149716696701944,
+      "log": "logs/08_dependencies_mathlib_head.log"
+    },
+    {
+      "label": "08_dependencies_mathlib_worktree",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/mathlib",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 2.51817729184404,
+      "log": "logs/08_dependencies_mathlib_worktree.log"
+    },
+    {
+      "label": "08_dependencies_mathlib_index",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/mathlib",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.08063329104334116,
+      "log": "logs/08_dependencies_mathlib_index.log"
+    },
+    {
+      "label": "08_dependencies_plausible_head",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/plausible",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.039191249990835786,
+      "log": "logs/08_dependencies_plausible_head.log"
+    },
+    {
+      "label": "08_dependencies_plausible_worktree",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/plausible",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.13488345802761614,
+      "log": "logs/08_dependencies_plausible_worktree.log"
+    },
+    {
+      "label": "08_dependencies_plausible_index",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/plausible",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.04040612489916384,
+      "log": "logs/08_dependencies_plausible_index.log"
+    },
+    {
+      "label": "08_dependencies_LeanSearchClient_head",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/LeanSearchClient",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.03722395794466138,
+      "log": "logs/08_dependencies_LeanSearchClient_head.log"
+    },
+    {
+      "label": "08_dependencies_LeanSearchClient_worktree",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/LeanSearchClient",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.07762345904484391,
+      "log": "logs/08_dependencies_LeanSearchClient_worktree.log"
+    },
+    {
+      "label": "08_dependencies_LeanSearchClient_index",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/LeanSearchClient",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.03998458315618336,
+      "log": "logs/08_dependencies_LeanSearchClient_index.log"
+    },
+    {
+      "label": "08_dependencies_importGraph_head",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/importGraph",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.039568958105519414,
+      "log": "logs/08_dependencies_importGraph_head.log"
+    },
+    {
+      "label": "08_dependencies_importGraph_worktree",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/importGraph",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.13183295889757574,
+      "log": "logs/08_dependencies_importGraph_worktree.log"
+    },
+    {
+      "label": "08_dependencies_importGraph_index",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/importGraph",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.04087595804594457,
+      "log": "logs/08_dependencies_importGraph_index.log"
+    },
+    {
+      "label": "08_dependencies_proofwidgets_head",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/proofwidgets",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.04146516602486372,
+      "log": "logs/08_dependencies_proofwidgets_head.log"
+    },
+    {
+      "label": "08_dependencies_proofwidgets_worktree",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/proofwidgets",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.3947661251295358,
+      "log": "logs/08_dependencies_proofwidgets_worktree.log"
+    },
+    {
+      "label": "08_dependencies_proofwidgets_index",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/proofwidgets",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.03984341607429087,
+      "log": "logs/08_dependencies_proofwidgets_index.log"
+    },
+    {
+      "label": "08_dependencies_aesop_head",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/aesop",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.04127658414654434,
+      "log": "logs/08_dependencies_aesop_head.log"
+    },
+    {
+      "label": "08_dependencies_aesop_worktree",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/aesop",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.45140879182145,
+      "log": "logs/08_dependencies_aesop_worktree.log"
+    },
+    {
+      "label": "08_dependencies_aesop_index",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/aesop",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.04015554185025394,
+      "log": "logs/08_dependencies_aesop_index.log"
+    },
+    {
+      "label": "08_dependencies_Qq_head",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/Qq",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.04069891688413918,
+      "log": "logs/08_dependencies_Qq_head.log"
+    },
+    {
+      "label": "08_dependencies_Qq_worktree",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/Qq",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.12935812515206635,
+      "log": "logs/08_dependencies_Qq_worktree.log"
+    },
+    {
+      "label": "08_dependencies_Qq_index",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/Qq",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.04089412488974631,
+      "log": "logs/08_dependencies_Qq_index.log"
+    },
+    {
+      "label": "08_dependencies_batteries_head",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/batteries",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.04044012515805662,
+      "log": "logs/08_dependencies_batteries_head.log"
+    },
+    {
+      "label": "08_dependencies_batteries_worktree",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/batteries",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.6289271670393646,
+      "log": "logs/08_dependencies_batteries_worktree.log"
+    },
+    {
+      "label": "08_dependencies_batteries_index",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/batteries",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.04912787489593029,
+      "log": "logs/08_dependencies_batteries_index.log"
+    },
+    {
+      "label": "08_dependencies_Cli_head",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/Cli",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.039330166997388005,
+      "log": "logs/08_dependencies_Cli_head.log"
+    },
+    {
+      "label": "08_dependencies_Cli_worktree",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/Cli",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.04454691591672599,
+      "log": "logs/08_dependencies_Cli_worktree.log"
+    },
+    {
+      "label": "08_dependencies_Cli_index",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/Cli",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.04682641592808068,
+      "log": "logs/08_dependencies_Cli_index.log"
+    },
+    {
+      "label": "09_lean_version",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--version"
+      ],
+      "returncode": 0,
+      "seconds": 7.821404624963179,
+      "log": "logs/09_lean_version.log"
+    },
+    {
+      "label": "10_upstream_worktree",
+      "command": [
+        "git",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.041125332936644554,
+      "log": "logs/10_upstream_worktree.log"
+    },
+    {
+      "label": "11_upstream_index",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.020359250018373132,
+      "log": "logs/11_upstream_index.log"
+    },
+    {
+      "label": "12_baseline_build",
+      "command": [
+        "lake",
+        "--rehash",
+        "--no-ansi",
+        "build",
+        "ShannonBounds.CapCertC11"
+      ],
+      "returncode": 0,
+      "seconds": 83.22069579199888,
+      "log": "logs/12_baseline_build.log"
+    }
+  ],
+  "compiler_bin_directory": "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin",
+  "cached_dependency_pins": {
+    "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+    "plausible": "e12c1910fe855cbfc38803cd4e55543906d5fa62",
+    "LeanSearchClient": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+    "importGraph": "7e9612bf0b9ee66db3cb5b9988a35afc706f5a12",
+    "proofwidgets": "6e311e2a844da9b2cc3971187df2fe0066947b93",
+    "aesop": "a7dbf0c63b694e47f425f3dcddbc0e178bb432d3",
+    "Qq": "38d591e778f100aec9762bb582f9c7f55f50e9dc",
+    "batteries": "023ce7d62a0531e22a5331e20b587817a80d49ff",
+    "Cli": "88679d088c9720c27ebdf2ba4dafe17341747f94"
+  },
+  "actual_dependency_pins": {
+    "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+    "plausible": "e12c1910fe855cbfc38803cd4e55543906d5fa62",
+    "LeanSearchClient": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+    "importGraph": "7e9612bf0b9ee66db3cb5b9988a35afc706f5a12",
+    "proofwidgets": "6e311e2a844da9b2cc3971187df2fe0066947b93",
+    "aesop": "a7dbf0c63b694e47f425f3dcddbc0e178bb432d3",
+    "Qq": "38d591e778f100aec9762bb582f9c7f55f50e9dc",
+    "batteries": "023ce7d62a0531e22a5331e20b587817a80d49ff",
+    "Cli": "88679d088c9720c27ebdf2ba4dafe17341747f94"
+  },
+  "lean_version": "Lean (version 4.32.2, arm64-apple-darwin24.6.0, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "manifest_sha256": "9128c0c00233c8bee54a3b9eb75984fd7aca6a8821b49fae78e37482bcbbf0ef",
+  "bpz_build_products_reused": false,
+  "mathlib_cache_reused": true
+}

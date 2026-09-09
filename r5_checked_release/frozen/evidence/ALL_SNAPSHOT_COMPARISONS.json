@@ -1,0 +1,8 @@
+{
+  "candidate_snapshots_compared": 492,
+  "minimum_saved_dimension_above_R4_strongest": 186,
+  "minimum_saved_source": "search/compress/d186.json",
+  "maximum_saved_root_dimension": 213,
+  "maximum_saved_source": "search/grow_strong/d213.json",
+  "scope": "Arithmetic scan of saved snapshot claims, not an exhaustive construction search; retained cases and sampled-frontier representatives independently replayed."
+}

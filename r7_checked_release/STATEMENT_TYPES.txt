@@ -1,0 +1,325 @@
+@ShannonBounds.ProfileCompiler.universal_compilation.{u_1} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A]
+  [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {q : ℕ},
+  (∀ (b c : A), Eq.{1} (s b c) (s c b)) →
+    (∀ (b : A), Eq.{1} (s b b) Bool.false) →
+      ∀ (T : ShannonBounds.Subst.{u_1} A s q) (E : ShannonBounds.Code.{u_1} A s q) (a : A),
+        ∃ S,
+          Eq.{u_1 + 1} (ShannonBounds.Subst.T.{u_1} S) (ShannonBounds.ProfileCompiler.augmentedRows.{u_1} T E a) ∧
+            (∀ (b : A) (z : Fin q → ShannonBounds.ProfileCompiler.Ty.{u_1} s),
+                Membership.mem.{u_1, u_1} (ShannonBounds.Subst.T.{u_1} T b)
+                    (ShannonBounds.ProfileCompiler.labels.{u_1} z) →
+                  ∃ p,
+                    Eq.{u_1 + 1} (ShannonBounds.ProfileCompiler.label.{u_1} p) b ∧
+                      Eq.{u_1 + 1} (ShannonBounds.ProfileCompiler.mask.{u_1} p)
+                          (ShannonBounds.ProfileCompiler.update.{u_1} s a b
+                            (ShannonBounds.ProfileCompiler.phi.{u_1} T z)) ∧
+                        Membership.mem.{u_1, u_1} (ShannonBounds.Subst.T.{u_1} S p) z) ∧
+              ∀ (z : Fin q → ShannonBounds.ProfileCompiler.Ty.{u_1} s),
+                Membership.mem.{u_1, u_1} (ShannonBounds.Code.C.{u_1} E)
+                    (ShannonBounds.ProfileCompiler.labels.{u_1} z) →
+                  ShannonBounds.ProfileCompiler.Guard.{u_1} T a z →
+                    ∃ p,
+                      Eq.{u_1 + 1} (ShannonBounds.ProfileCompiler.label.{u_1} p) a ∧
+                        Eq.{u_1 + 1} (ShannonBounds.ProfileCompiler.mask.{u_1} p)
+                            (Insert.insert.{u_1, u_1} a (ShannonBounds.ProfileCompiler.phi.{u_1} T z)) ∧
+                          Membership.mem.{u_1, u_1} (ShannonBounds.Subst.T.{u_1} S p) z
+@ShannonBounds.ProfileCompiler.augmented.{u_1} : {A : Type u_1} →
+  [inst : Fintype.{u_1} A] →
+    [inst_1 : DecidableEq.{u_1 + 1} A] →
+      {s : A → A → Bool} →
+        {q : ℕ} →
+          (∀ (b c : A), Eq.{1} (s b c) (s c b)) →
+            ShannonBounds.Subst.{u_1} A s q →
+              ShannonBounds.Code.{u_1} A s q →
+                A →
+                  ShannonBounds.Subst.{u_1} (ShannonBounds.ProfileCompiler.Ty.{u_1} s)
+                    ShannonBounds.ProfileCompiler.apart.{u_1} q
+@ShannonBounds.ProfileCompiler.ordinary.{u_1} : {A : Type u_1} →
+  [inst : Fintype.{u_1} A] →
+    [inst_1 : DecidableEq.{u_1 + 1} A] →
+      {s : A → A → Bool} →
+        {q : ℕ} →
+          ShannonBounds.Subst.{u_1} A s q →
+            ShannonBounds.Subst.{u_1} (ShannonBounds.ProfileCompiler.Ty.{u_1} s)
+              ShannonBounds.ProfileCompiler.apart.{u_1} q
+@ShannonBounds.ProfileCompiler.Profile.toRealisation.{u_1,
+    u_2} : {A : Type u_1} →
+  [inst : Fintype.{u_1} A] →
+    [inst_1 : DecidableEq.{u_1 + 1} A] →
+      {s : A → A → Bool} →
+        {V : Type u_2} →
+          [Fintype.{u_2} V] →
+            [inst_3 : DecidableEq.{u_2 + 1} V] →
+              {G : SimpleGraph.{u_2} V} →
+                [inst_4 : DecidableRel.{u_2 + 1, u_2 + 1} (SimpleGraph.Adj.{u_2} G)] →
+                  ShannonBounds.ProfileCompiler.Profile.{u_2, u_1} A s G →
+                    ShannonBounds.Realisation.{u_2, u_1} (ShannonBounds.ProfileCompiler.Ty.{u_1} s)
+                      ShannonBounds.ProfileCompiler.apart.{u_1} G
+@ShannonBounds.ProfileCompiler.toProfile.{u_1,
+    u_2} : {A : Type u_1} →
+  [inst : Fintype.{u_1} A] →
+    [inst_1 : DecidableEq.{u_1 + 1} A] →
+      {s : A → A → Bool} →
+        {V : Type u_2} →
+          [Fintype.{u_2} V] →
+            [inst_3 : DecidableEq.{u_2 + 1} V] →
+              {G : SimpleGraph.{u_2} V} →
+                [inst_4 : DecidableRel.{u_2 + 1, u_2 + 1} (SimpleGraph.Adj.{u_2} G)] →
+                  ShannonBounds.Realisation.{u_2, u_1} (ShannonBounds.ProfileCompiler.Ty.{u_1} s)
+                      ShannonBounds.ProfileCompiler.apart.{u_1} G →
+                    ShannonBounds.ProfileCompiler.Profile.{u_2, u_1} A s G
+@ShannonBounds.ProfileCompiler.augmented_sets.{u_1,
+    u_2} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {q : ℕ}
+  {W : Fin q → Type u_2} [inst_2 : (i : Fin q) → Fintype.{u_2} (W i)]
+  [inst_3 : (i : Fin q) → DecidableEq.{u_2 + 1} (W i)] {Gs : (i : Fin q) → SimpleGraph.{u_2} (W i)}
+  [inst_4 : (i : Fin q) → DecidableRel.{u_2 + 1, u_2 + 1} (SimpleGraph.Adj.{u_2} (Gs i))]
+  (R :
+    (i : Fin q) →
+      ShannonBounds.Realisation.{u_2, u_1} (ShannonBounds.ProfileCompiler.Ty.{u_1} s)
+        ShannonBounds.ProfileCompiler.apart.{u_1} (Gs i))
+  (hs : ∀ (b c : A), Eq.{1} (s b c) (s c b)),
+  (∀ (b : A), Eq.{1} (s b b) Bool.false) →
+    ∀ (T : ShannonBounds.Subst.{u_1} A s q) (E : ShannonBounds.Code.{u_1} A s q) (a b : A),
+      Eq.{u_2 + 1}
+        (ShannonBounds.Realisation.P.{u_2, u_1}
+          (ShannonBounds.ProfileCompiler.coarsen.{u_1, u_2}
+            (ShannonBounds.ProfileCompiler.productSubstitute.{u_1, u_2} R
+              (ShannonBounds.ProfileCompiler.augmented.{u_1} hs T E a)))
+          b)
+        (Union.union.{u_2}
+          (ShannonBounds.ProfileCompiler.productSubstSet.{u_1, u_2}
+            (fun i => ShannonBounds.ProfileCompiler.coarsen.{u_1, u_2} (R i)) T b)
+          (ite.{u_2 + 1} (Eq.{u_1 + 1} b a) (ShannonBounds.ProfileCompiler.extensionSet.{u_1, u_2} R T E a)
+            EmptyCollection.emptyCollection.{u_2}))
+@ShannonBounds.ProfileCompiler.augmented_cardinalities.{u_1,
+    u_2} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {q : ℕ}
+  {W : Fin q → Type u_2} [inst_2 : (i : Fin q) → Fintype.{u_2} (W i)]
+  [inst_3 : (i : Fin q) → DecidableEq.{u_2 + 1} (W i)] {Gs : (i : Fin q) → SimpleGraph.{u_2} (W i)}
+  [inst_4 : (i : Fin q) → DecidableRel.{u_2 + 1, u_2 + 1} (SimpleGraph.Adj.{u_2} (Gs i))]
+  (R :
+    (i : Fin q) →
+      ShannonBounds.Realisation.{u_2, u_1} (ShannonBounds.ProfileCompiler.Ty.{u_1} s)
+        ShannonBounds.ProfileCompiler.apart.{u_1} (Gs i))
+  (hs : ∀ (b c : A), Eq.{1} (s b c) (s c b)),
+  (∀ (b : A), Eq.{1} (s b b) Bool.false) →
+    ∀ (T : ShannonBounds.Subst.{u_1} A s q) (E : ShannonBounds.Code.{u_1} A s q) (a b : A),
+      Eq.{1}
+        (ShannonBounds.Realisation.w.{u_2, u_1}
+          (ShannonBounds.ProfileCompiler.coarsen.{u_1, u_2}
+            (ShannonBounds.ProfileCompiler.productSubstitute.{u_1, u_2} R
+              (ShannonBounds.ProfileCompiler.augmented.{u_1} hs T E a)))
+          b)
+        (HAdd.hAdd.{0, 0, 0}
+          (∑ t ∈ ShannonBounds.Subst.T.{u_1} T b,
+            ∏ i, ShannonBounds.Realisation.w.{u_2, u_1} (ShannonBounds.ProfileCompiler.coarsen.{u_1, u_2} (R i)) (t i))
+          (ite.{1} (Eq.{u_1 + 1} b a)
+            (∑ z ∈ ShannonBounds.ProfileCompiler.selectedCells.{u_1} T E a,
+              ∏ i, ShannonBounds.Realisation.w.{u_2, u_1} (R i) (z i))
+            0))
+@ShannonBounds.ProfileCompiler.exact_gain.{u_1,
+    u_2} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {q : ℕ}
+  {W : Fin q → Type u_2} [(i : Fin q) → Fintype.{u_2} (W i)] [inst_3 : (i : Fin q) → DecidableEq.{u_2 + 1} (W i)]
+  {Gs : (i : Fin q) → SimpleGraph.{u_2} (W i)}
+  [inst_4 : (i : Fin q) → DecidableRel.{u_2 + 1, u_2 + 1} (SimpleGraph.Adj.{u_2} (Gs i))]
+  (R :
+    (i : Fin q) →
+      ShannonBounds.Realisation.{u_2, u_1} (ShannonBounds.ProfileCompiler.Ty.{u_1} s)
+        ShannonBounds.ProfileCompiler.apart.{u_1} (Gs i))
+  (T : ShannonBounds.Subst.{u_1} A s q) (E : ShannonBounds.Code.{u_1} A s q) (a : A),
+  Eq.{1} (Finset.card.{u_2} (ShannonBounds.ProfileCompiler.extensionSet.{u_1, u_2} R T E a))
+    (∑ t ∈ ShannonBounds.Code.C.{u_1} E,
+      ∑ z ∈ ShannonBounds.ProfileCompiler.selectedRefinements.{u_1} T a t,
+        ∏ i, ShannonBounds.Realisation.w.{u_2, u_1} (R i) (z i))
+@ShannonBounds.ProfileCompiler.bpz_augmented_sets.{u_1,
+    u_2} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool}
+  {V : Type u_2} [inst_2 : Fintype.{u_2} V] [inst_3 : DecidableEq.{u_2 + 1} V] {G : SimpleGraph.{u_2} V}
+  [inst_4 : DecidableRel.{u_2 + 1, u_2 + 1} (SimpleGraph.Adj.{u_2} G)] {q : ℕ} (e : Fin q → ℕ)
+  (R :
+    (i : Fin q) →
+      ShannonBounds.Realisation.{u_2, u_1} (ShannonBounds.ProfileCompiler.Ty.{u_1} s)
+        ShannonBounds.ProfileCompiler.apart.{u_1} (SimpleGraph.strongPower.{u_2} G (e i)))
+  (hs : ∀ (b c : A), Eq.{1} (s b c) (s c b)),
+  (∀ (b : A), Eq.{1} (s b b) Bool.false) →
+    ∀ (T : ShannonBounds.Subst.{u_1} A s q) (E : ShannonBounds.Code.{u_1} A s q) (a b : A),
+      Eq.{u_2 + 1}
+        (ShannonBounds.Realisation.P.{u_2, u_1}
+          (ShannonBounds.ProfileCompiler.coarsen.{u_1, u_2}
+            (ShannonBounds.Realisation.multiSubst.{u_2, u_1} e R
+              (ShannonBounds.ProfileCompiler.augmented.{u_1} hs T E a)))
+          b)
+        (Finset.image.{u_2, u_2} (⇑(ShannonBounds.flattenSumEquiv.{u_2} e V))
+          (Union.union.{u_2}
+            (ShannonBounds.ProfileCompiler.productSubstSet.{u_1, u_2}
+              (fun i => ShannonBounds.ProfileCompiler.coarsen.{u_1, u_2} (R i)) T b)
+            (ite.{u_2 + 1} (Eq.{u_1 + 1} b a) (ShannonBounds.ProfileCompiler.extensionSet.{u_1, u_2} R T E a)
+              EmptyCollection.emptyCollection.{u_2})))
+@ShannonBounds.ProfileCompiler.alphabet_cardinality.{u_1} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A]
+  [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool},
+  (∀ (a : A), Eq.{1} (s a a) Bool.false) →
+    Eq.{1} (Fintype.card.{u_1} (ShannonBounds.ProfileCompiler.Ty.{u_1} s))
+      (∑ a,
+        HPow.hPow.{0, 0, 0} 2
+          (HSub.hSub.{0, 0, 0} (HSub.hSub.{0, 0, 0} (Fintype.card.{u_1} A) 1)
+            (Finset.card.{u_1} (ShannonBounds.ProfileCompiler.neighbours.{u_1} s a))))
+@ShannonBounds.ProfileCompiler.pruning_sets.{u_1,
+    u_2} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {q : ℕ}
+  {W : Fin q → Type u_2} [(i : Fin q) → Fintype.{u_2} (W i)] [inst_3 : (i : Fin q) → DecidableEq.{u_2 + 1} (W i)]
+  {Gs : (i : Fin q) → SimpleGraph.{u_2} (W i)}
+  [inst_4 : (i : Fin q) → DecidableRel.{u_2 + 1, u_2 + 1} (SimpleGraph.Adj.{u_2} (Gs i))]
+  (R : (i : Fin q) → ShannonBounds.Realisation.{u_2, u_1} A s (Gs i)) (S : ShannonBounds.Subst.{u_1} A s q)
+  (U : A → Finset.{u_1} (Fin q → A)) (hu : ∀ (a : A), U a ⊆ ShannonBounds.Subst.T.{u_1} S a),
+  (∀ (a : A) (z : Fin q → A),
+      Membership.mem.{u_1, u_1} (ShannonBounds.Subst.T.{u_1} S a) z →
+        z ∉ U a → ∃ i, Eq.{1} (ShannonBounds.Realisation.w.{u_2, u_1} (R i) (z i)) 0) →
+    ∀ (a : A),
+      Eq.{u_2 + 1}
+        (ShannonBounds.ProfileCompiler.productSubstSet.{u_1, u_2} R
+          (ShannonBounds.ProfileCompiler.restrictSubst.{u_1} S U hu) a)
+        (ShannonBounds.ProfileCompiler.productSubstSet.{u_1, u_2} R S a)
+@ShannonBounds.ProfileCompiler.pruning_cardinalities.{u_1,
+    u_2} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {q : ℕ}
+  {W : Fin q → Type u_2} [(i : Fin q) → Fintype.{u_2} (W i)] [(i : Fin q) → DecidableEq.{u_2 + 1} (W i)]
+  {Gs : (i : Fin q) → SimpleGraph.{u_2} (W i)}
+  [inst_4 : (i : Fin q) → DecidableRel.{u_2 + 1, u_2 + 1} (SimpleGraph.Adj.{u_2} (Gs i))]
+  (R : (i : Fin q) → ShannonBounds.Realisation.{u_2, u_1} A s (Gs i)) (S : ShannonBounds.Subst.{u_1} A s q)
+  (U : A → Finset.{u_1} (Fin q → A)),
+  (∀ (a : A), U a ⊆ ShannonBounds.Subst.T.{u_1} S a) →
+    (∀ (a : A) (z : Fin q → A),
+        Membership.mem.{u_1, u_1} (ShannonBounds.Subst.T.{u_1} S a) z →
+          z ∉ U a → ∃ i, Eq.{1} (ShannonBounds.Realisation.w.{u_2, u_1} (R i) (z i)) 0) →
+      ∀ (a : A),
+        Eq.{1} (∑ z ∈ U a, ∏ i, ShannonBounds.Realisation.w.{u_2, u_1} (R i) (z i))
+          (∑ z ∈ ShannonBounds.Subst.T.{u_1} S a, ∏ i, ShannonBounds.Realisation.w.{u_2, u_1} (R i) (z i))
+@ShannonBounds.ProfileCompiler.support_pruning_sets.{u_1,
+    u_2} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {q : ℕ}
+  {W : Fin q → Type u_2} [(i : Fin q) → Fintype.{u_2} (W i)] [inst_3 : (i : Fin q) → DecidableEq.{u_2 + 1} (W i)]
+  {Gs : (i : Fin q) → SimpleGraph.{u_2} (W i)}
+  [inst_4 : (i : Fin q) → DecidableRel.{u_2 + 1, u_2 + 1} (SimpleGraph.Adj.{u_2} (Gs i))]
+  (R : (i : Fin q) → ShannonBounds.Realisation.{u_2, u_1} A s (Gs i)) (S : ShannonBounds.Subst.{u_1} A s q) (a : A),
+  Eq.{u_2 + 1}
+    (ShannonBounds.ProfileCompiler.productSubstSet.{u_1, u_2} R
+      (ShannonBounds.ProfileCompiler.supportPrune.{u_1, u_2} R S) a)
+    (ShannonBounds.ProfileCompiler.productSubstSet.{u_1, u_2} R S a)
+@ShannonBounds.ProfileCompiler.terminal_sets.{u_1,
+    u_2} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {q : ℕ}
+  {W : Fin q → Type u_2} [inst_2 : (i : Fin q) → Fintype.{u_2} (W i)]
+  [inst_3 : (i : Fin q) → DecidableEq.{u_2 + 1} (W i)] {Gs : (i : Fin q) → SimpleGraph.{u_2} (W i)}
+  [inst_4 : (i : Fin q) → DecidableRel.{u_2 + 1, u_2 + 1} (SimpleGraph.Adj.{u_2} (Gs i))]
+  (R :
+    (i : Fin q) →
+      ShannonBounds.Realisation.{u_2, u_1} (ShannonBounds.ProfileCompiler.Ty.{u_1} s)
+        ShannonBounds.ProfileCompiler.apart.{u_1} (Gs i))
+  (E : ShannonBounds.Code.{u_1} A s q),
+  Eq.{u_2 + 1}
+    (ShannonBounds.ProfileCompiler.productCodeSet.{u_1, u_2} R (ShannonBounds.ProfileCompiler.terminal.{u_1} E))
+    (ShannonBounds.ProfileCompiler.productCodeSet.{u_1, u_2}
+      (fun i => ShannonBounds.ProfileCompiler.coarsen.{u_1, u_2} (R i)) E)
+@ShannonBounds.ProfileCompiler.terminal_pruning_sets.{u_1,
+    u_2} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {q : ℕ}
+  {W : Fin q → Type u_2} [(i : Fin q) → Fintype.{u_2} (W i)] [inst_3 : (i : Fin q) → DecidableEq.{u_2 + 1} (W i)]
+  {Gs : (i : Fin q) → SimpleGraph.{u_2} (W i)}
+  [inst_4 : (i : Fin q) → DecidableRel.{u_2 + 1, u_2 + 1} (SimpleGraph.Adj.{u_2} (Gs i))]
+  (R : (i : Fin q) → ShannonBounds.Realisation.{u_2, u_1} A s (Gs i)) (E : ShannonBounds.Code.{u_1} A s q)
+  (U : Finset.{u_1} (Fin q → A)) (hu : U ⊆ ShannonBounds.Code.C.{u_1} E),
+  (∀ (z : Fin q → A),
+      Membership.mem.{u_1, u_1} (ShannonBounds.Code.C.{u_1} E) z →
+        z ∉ U → ∃ i, Eq.{1} (ShannonBounds.Realisation.w.{u_2, u_1} (R i) (z i)) 0) →
+    Eq.{u_2 + 1}
+      (ShannonBounds.ProfileCompiler.productCodeSet.{u_1, u_2} R
+        (ShannonBounds.ProfileCompiler.restrictCode.{u_1} E U hu))
+      (ShannonBounds.ProfileCompiler.productCodeSet.{u_1, u_2} R E)
+@ShannonBounds.ProfileCompiler.Recipe.exact_weights.{u_1, u_2,
+    u_3} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool}
+  {B : Type u_2} {V : Type u_3} [inst_2 : Fintype.{u_3} V] [inst_3 : DecidableEq.{u_3 + 1} V] {G : SimpleGraph.{u_3} V}
+  [inst_4 : DecidableRel.{u_3 + 1, u_3 + 1} (SimpleGraph.Adj.{u_3} G)] {d : B → ℕ}
+  (hs : ∀ (b c : A), Eq.{1} (s b c) (s c b))
+  (base :
+    (b : B) →
+      ShannonBounds.Realisation.{u_3, u_1} (ShannonBounds.ProfileCompiler.Ty.{u_1} s)
+        ShannonBounds.ProfileCompiler.apart.{u_1} (SimpleGraph.strongPower.{u_3} G (d b)))
+  (r : ShannonBounds.ProfileCompiler.Recipe.{u_1, u_2} A s B) (p : ShannonBounds.ProfileCompiler.Ty.{u_1} s),
+  Eq.{1}
+    (ShannonBounds.Realisation.w.{u_3, u_1} (ShannonBounds.ProfileCompiler.Recipe.evaluate.{u_1, u_2, u_3} hs base r) p)
+    (ShannonBounds.ProfileCompiler.Recipe.weights.{u_1, u_2} (fun b => ShannonBounds.Realisation.w.{u_3, u_1} (base b))
+      r p)
+@ShannonBounds.ProfileCompiler.DAG.independent.{u_1, u_2, u_3,
+    u_4} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool}
+  {B : Type u_2} {I : Type u_3} [inst_2 : Fintype.{u_3} I] {V : Type u_4} [inst_3 : Fintype.{u_4} V]
+  [inst_4 : DecidableEq.{u_4 + 1} V] {G : SimpleGraph.{u_4} V}
+  [inst_5 : DecidableRel.{u_4 + 1, u_4 + 1} (SimpleGraph.Adj.{u_4} G)] {d : B → ℕ}
+  (D : ShannonBounds.ProfileCompiler.DAG.{u_1, u_2, u_3} A s B I) (hs : ∀ (b c : A), Eq.{1} (s b c) (s c b))
+  (base :
+    (b : B) →
+      ShannonBounds.Realisation.{u_4, u_1} (ShannonBounds.ProfileCompiler.Ty.{u_1} s)
+        ShannonBounds.ProfileCompiler.apart.{u_1} (SimpleGraph.strongPower.{u_4} G (d b)))
+  (i : I) (p : ShannonBounds.ProfileCompiler.Ty.{u_1} s),
+  SimpleGraph.IsIndepSet.{u_4}
+    (SimpleGraph.strongPower.{u_4} G (ShannonBounds.ProfileCompiler.DAG.dimension.{u_1, u_2, u_3} D d i))
+    ↑(ShannonBounds.Realisation.P.{u_4, u_1}
+        (ShannonBounds.ProfileCompiler.DAG.evaluate.{u_1, u_2, u_3, u_4} D hs base i) p)
+@ShannonBounds.ProfileCompiler.DAG.exact_weights.{u_1, u_2, u_3,
+    u_4} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool}
+  {B : Type u_2} {I : Type u_3} [inst_2 : Fintype.{u_3} I] {V : Type u_4} [inst_3 : Fintype.{u_4} V]
+  [inst_4 : DecidableEq.{u_4 + 1} V] {G : SimpleGraph.{u_4} V}
+  [inst_5 : DecidableRel.{u_4 + 1, u_4 + 1} (SimpleGraph.Adj.{u_4} G)] {d : B → ℕ}
+  (D : ShannonBounds.ProfileCompiler.DAG.{u_1, u_2, u_3} A s B I) (hs : ∀ (b c : A), Eq.{1} (s b c) (s c b))
+  (base :
+    (b : B) →
+      ShannonBounds.Realisation.{u_4, u_1} (ShannonBounds.ProfileCompiler.Ty.{u_1} s)
+        ShannonBounds.ProfileCompiler.apart.{u_1} (SimpleGraph.strongPower.{u_4} G (d b)))
+  (i : I) (p : ShannonBounds.ProfileCompiler.Ty.{u_1} s),
+  Eq.{1}
+    (ShannonBounds.Realisation.w.{u_4, u_1}
+      (ShannonBounds.ProfileCompiler.DAG.evaluate.{u_1, u_2, u_3, u_4} D hs base i) p)
+    (ShannonBounds.ProfileCompiler.Recipe.weights.{u_1, u_2} (fun b => ShannonBounds.Realisation.w.{u_4, u_1} (base b))
+      (ShannonBounds.ProfileCompiler.DAG.unfold.{u_1, u_2, u_3} D i) p)
+@ShannonBounds.ProfileCompiler.DAG.dimension_augment.{u_1, u_2,
+    u_3} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {B : Type u_2}
+  {I : Type u_3} [inst_2 : Fintype.{u_3} I] (D : ShannonBounds.ProfileCompiler.DAG.{u_1, u_2, u_3} A s B I) (d : B → ℕ)
+  (i : I) {q : ℕ} (T : ShannonBounds.Subst.{u_1} A s q) (E : ShannonBounds.Code.{u_1} A s q) (a : A)
+  (children : Fin q → I),
+  Eq.{max (max (u_1 + 1) (u_2 + 1)) (u_3 + 1)} (ShannonBounds.ProfileCompiler.DAG.node.{u_1, u_2, u_3} D i)
+      (ShannonBounds.ProfileCompiler.Node.augment.{u_1, u_2, u_3} T E a children) →
+    Eq.{1} (ShannonBounds.ProfileCompiler.DAG.dimension.{u_1, u_2, u_3} D d i)
+      (∑ k, ShannonBounds.ProfileCompiler.DAG.dimension.{u_1, u_2, u_3} D d (children k))
+@ShannonBounds.ProfileCompiler.DAG.repeated_child_dimension.{u_1, u_2,
+    u_3} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {B : Type u_2}
+  {I : Type u_3} [inst_2 : Fintype.{u_3} I] (D : ShannonBounds.ProfileCompiler.DAG.{u_1, u_2, u_3} A s B I) (d : B → ℕ)
+  (i j : I) (T : ShannonBounds.Subst.{u_1} A s 2),
+  Eq.{max (max (u_1 + 1) (u_2 + 1)) (u_3 + 1)} (ShannonBounds.ProfileCompiler.DAG.node.{u_1, u_2, u_3} D i)
+      (ShannonBounds.ProfileCompiler.Node.plain.{u_1, u_2, u_3} T fun x => j) →
+    Eq.{1} (ShannonBounds.ProfileCompiler.DAG.dimension.{u_1, u_2, u_3} D d i)
+      (HMul.hMul.{0, 0, 0} 2 (ShannonBounds.ProfileCompiler.DAG.dimension.{u_1, u_2, u_3} D d j))
+@ShannonBounds.ProfileCompiler.DAG.profile.{u_1, u_2, u_3,
+    u_4} : {A : Type u_1} →
+  [inst : Fintype.{u_1} A] →
+    [inst_1 : DecidableEq.{u_1 + 1} A] →
+      {s : A → A → Bool} →
+        {B : Type u_2} →
+          {I : Type u_3} →
+            [inst_2 : Fintype.{u_3} I] →
+              {V : Type u_4} →
+                [Fintype.{u_4} V] →
+                  [inst_4 : DecidableEq.{u_4 + 1} V] →
+                    {G : SimpleGraph.{u_4} V} →
+                      [inst_5 : DecidableRel.{u_4 + 1, u_4 + 1} (SimpleGraph.Adj.{u_4} G)] →
+                        {d : B → ℕ} →
+                          (D : ShannonBounds.ProfileCompiler.DAG.{u_1, u_2, u_3} A s B I) →
+                            (∀ (b c : A), Eq.{1} (s b c) (s c b)) →
+                              ((b : B) →
+                                  ShannonBounds.Realisation.{u_4, u_1} (ShannonBounds.ProfileCompiler.Ty.{u_1} s)
+                                    ShannonBounds.ProfileCompiler.apart.{u_1} (SimpleGraph.strongPower.{u_4} G (d b))) →
+                                (i : I) →
+                                  ShannonBounds.ProfileCompiler.Profile.{u_4, u_1} A s
+                                    (SimpleGraph.strongPower.{u_4} G
+                                      (ShannonBounds.ProfileCompiler.DAG.dimension.{u_1, u_2, u_3} D d i))
+ShannonBounds.ProfileCompiler.Examples.bpz_alphabet_cardinality : Eq.{1}
+  (Fintype.card.{0} (ShannonBounds.ProfileCompiler.Ty.{0} ShannonBounds.Letter.sep)) 58
+ShannonBounds.ProfileCompiler.Examples.stale_masks_refuted : ¬∃ S,
+    Eq.{1} (ShannonBounds.Subst.T.{0} S) ShannonBounds.ProfileCompiler.Examples.staleRows
+ShannonBounds.ProfileCompiler.Examples.omitted_self_gain_refuted : Ne.{1}
+  (Finset.card.{0}
+    (Union.union.{0} ShannonBounds.ProfileCompiler.Examples.oldTarget
+      ShannonBounds.ProfileCompiler.Examples.badAddition))
+  (HAdd.hAdd.{0, 0, 0} (Finset.card.{0} ShannonBounds.ProfileCompiler.Examples.oldTarget)
+    (Finset.card.{0} ShannonBounds.ProfileCompiler.Examples.badAddition))
