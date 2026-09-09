@@ -21,3 +21,13 @@ coarse label, matrix-entry wording, and v0.5.0 communication status explicit.
 It reproduces the review with those approved prose clarifications; it is not
 another mathematical audit or an independent expert endorsement. The original
 review and all sealed packages remain unchanged.
+
+## v0.5.0 binary diagnosis
+
+[The compiled-file diagnosis](../diagnostics/olean-paths-2026-09-09/README.md)
+resolves the five differing v0.5.0 artifacts to persisted linter-warning
+filenames and their serialization alignment. It includes recorded comparisons,
+compressed declaration dumps, and a portable replay against the original sealed
+artifacts. It supersedes the earlier unresolved-cause wording for these five
+files only; it does not revise the separate historical R7 comparison or any
+mathematical claim or trust boundary.

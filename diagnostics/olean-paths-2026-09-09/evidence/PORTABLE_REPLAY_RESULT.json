@@ -1,0 +1,350 @@
+{
+  "status": "PASS_REPLAYED_BINARY_PATH_DIAGNOSIS",
+  "lean_version": "Lean (version 4.32.2, arm64-apple-darwin24.6.0, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "records": [
+    {
+      "module": "Core",
+      "runs": [
+        {
+          "run": "01_development",
+          "original_sha256": "8707118ae2483f7943f6aad6feca76e0ce4d91c167a10d1532c5f89f2f05e72d",
+          "roundtrip_exact": true,
+          "normalized_sha256": "2d56a6a9113541ad735b8266373891e7ce6cbdf5e01dd8e79e5b12204f5b6d20",
+          "lint_count": 12
+        },
+        {
+          "run": "02_fresh_replay",
+          "original_sha256": "1e0ea8c83af6cf9f9338a74fb1ad197283fa13b7943de665b947fa1dcc2400d0",
+          "roundtrip_exact": true,
+          "normalized_sha256": "2d56a6a9113541ad735b8266373891e7ce6cbdf5e01dd8e79e5b12204f5b6d20",
+          "lint_count": 12
+        }
+      ],
+      "constant_count": 51,
+      "normalized_bytes_equal": true,
+      "constant_types_and_values_equal": true
+    },
+    {
+      "module": "Semantics",
+      "runs": [
+        {
+          "run": "01_development",
+          "original_sha256": "32a2040e6b6023415ac453c1f3082ea4d008c4cc43f3bccd6d1d6d42286ac573",
+          "roundtrip_exact": true,
+          "normalized_sha256": "f87220f361410992d2f107a39cef8d179a328a99de17b90885632a5bfe9592e5",
+          "lint_count": 12
+        },
+        {
+          "run": "02_fresh_replay",
+          "original_sha256": "f42e1a9cc8c38a01ccc87bf3a4b6260e2322e88c762019829ea4abd588a1f7f5",
+          "roundtrip_exact": true,
+          "normalized_sha256": "f87220f361410992d2f107a39cef8d179a328a99de17b90885632a5bfe9592e5",
+          "lint_count": 12
+        }
+      ],
+      "constant_count": 60,
+      "normalized_bytes_equal": true,
+      "constant_types_and_values_equal": true
+    },
+    {
+      "module": "Operations",
+      "runs": [
+        {
+          "run": "01_development",
+          "original_sha256": "71a913be4d857e31dfe0fd8d13d9d9add763c672ee8ad388ea35b395736f44fe",
+          "roundtrip_exact": true,
+          "normalized_sha256": "298d34772e61c4d58aea168576246880bf26d5a3bd6e2f9938f0300062c8d4c9",
+          "lint_count": 3
+        },
+        {
+          "run": "02_fresh_replay",
+          "original_sha256": "43f659cee803011ea7d3d38bcaf2c063d157b93663fdc0713333d06b2bdbdc72",
+          "roundtrip_exact": true,
+          "normalized_sha256": "298d34772e61c4d58aea168576246880bf26d5a3bd6e2f9938f0300062c8d4c9",
+          "lint_count": 3
+        }
+      ],
+      "constant_count": 19,
+      "normalized_bytes_equal": true,
+      "constant_types_and_values_equal": true
+    },
+    {
+      "module": "Recursion",
+      "runs": [
+        {
+          "run": "01_development",
+          "original_sha256": "ef92810b35e15f0094b49abbc31c2fa5e869e2642fd8a40f8e30908dc1818a96",
+          "roundtrip_exact": true,
+          "normalized_sha256": "829bd2578a5f8ab9940a7912b78806696911e9ec15a22c5fae810c4b627bd1be",
+          "lint_count": 2
+        },
+        {
+          "run": "02_fresh_replay",
+          "original_sha256": "182cb5a21e959430897f1eee9cd7f3ac2333d06e8fa97f0dcb73ea85f0ec2844",
+          "roundtrip_exact": true,
+          "normalized_sha256": "829bd2578a5f8ab9940a7912b78806696911e9ec15a22c5fae810c4b627bd1be",
+          "lint_count": 2
+        }
+      ],
+      "constant_count": 60,
+      "normalized_bytes_equal": true,
+      "constant_types_and_values_equal": true
+    },
+    {
+      "module": "DAG",
+      "runs": [
+        {
+          "run": "01_development",
+          "original_sha256": "b21389262a55198501ad4ce6c02a45ce813a55007aaddd1c447e977b98fe4107",
+          "roundtrip_exact": true,
+          "normalized_sha256": "08591f3f5459411df74d6ccdb3a3abf2bfbe37048b92ba91c61db522bda81c9f",
+          "lint_count": 4
+        },
+        {
+          "run": "02_fresh_replay",
+          "original_sha256": "73627cd6c060dd76ee762bdf492042b263b5b14af65937bd26d36c239a188168",
+          "roundtrip_exact": true,
+          "normalized_sha256": "08591f3f5459411df74d6ccdb3a3abf2bfbe37048b92ba91c61db522bda81c9f",
+          "lint_count": 4
+        }
+      ],
+      "constant_count": 59,
+      "normalized_bytes_equal": true,
+      "constant_types_and_values_equal": true
+    }
+  ],
+  "commands": [
+    {
+      "command": [
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lean",
+        "--run",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/diagnostics/olean-paths-2026-09-09/NormalizeLintPaths.lean",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/shannon_checked_release/compiled/development/.lake/build/lib/lean/ShannonBounds/CellRetyping/Core.olean",
+        "ShannonBounds.CellRetyping.Core",
+        "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/binary_publication/portable_replay/Core_01_development",
+        "ShannonBounds/CellRetyping/Core.lean"
+      ],
+      "exit_code": 0,
+      "output": "Core_01_development.lint.json"
+    },
+    {
+      "command": [
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lean",
+        "--run",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/diagnostics/olean-paths-2026-09-09/InspectModule.lean",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/shannon_checked_release/compiled/development/.lake/build/lib/lean/ShannonBounds/CellRetyping/Core.olean"
+      ],
+      "exit_code": 0,
+      "output": "Core_01_development.decls.json"
+    },
+    {
+      "command": [
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lean",
+        "--run",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/diagnostics/olean-paths-2026-09-09/NormalizeLintPaths.lean",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/shannon_checked_release/compiled/fresh/.lake/build/lib/lean/ShannonBounds/CellRetyping/Core.olean",
+        "ShannonBounds.CellRetyping.Core",
+        "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/binary_publication/portable_replay/Core_02_fresh_replay",
+        "ShannonBounds/CellRetyping/Core.lean"
+      ],
+      "exit_code": 0,
+      "output": "Core_02_fresh_replay.lint.json"
+    },
+    {
+      "command": [
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lean",
+        "--run",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/diagnostics/olean-paths-2026-09-09/InspectModule.lean",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/shannon_checked_release/compiled/fresh/.lake/build/lib/lean/ShannonBounds/CellRetyping/Core.olean"
+      ],
+      "exit_code": 0,
+      "output": "Core_02_fresh_replay.decls.json"
+    },
+    {
+      "command": [
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lean",
+        "--run",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/diagnostics/olean-paths-2026-09-09/NormalizeLintPaths.lean",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/shannon_checked_release/compiled/development/.lake/build/lib/lean/ShannonBounds/CellRetyping/Semantics.olean",
+        "ShannonBounds.CellRetyping.Semantics",
+        "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/binary_publication/portable_replay/Semantics_01_development",
+        "ShannonBounds/CellRetyping/Semantics.lean"
+      ],
+      "exit_code": 0,
+      "output": "Semantics_01_development.lint.json"
+    },
+    {
+      "command": [
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lean",
+        "--run",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/diagnostics/olean-paths-2026-09-09/InspectModule.lean",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/shannon_checked_release/compiled/development/.lake/build/lib/lean/ShannonBounds/CellRetyping/Semantics.olean"
+      ],
+      "exit_code": 0,
+      "output": "Semantics_01_development.decls.json"
+    },
+    {
+      "command": [
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lean",
+        "--run",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/diagnostics/olean-paths-2026-09-09/NormalizeLintPaths.lean",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/shannon_checked_release/compiled/fresh/.lake/build/lib/lean/ShannonBounds/CellRetyping/Semantics.olean",
+        "ShannonBounds.CellRetyping.Semantics",
+        "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/binary_publication/portable_replay/Semantics_02_fresh_replay",
+        "ShannonBounds/CellRetyping/Semantics.lean"
+      ],
+      "exit_code": 0,
+      "output": "Semantics_02_fresh_replay.lint.json"
+    },
+    {
+      "command": [
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lean",
+        "--run",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/diagnostics/olean-paths-2026-09-09/InspectModule.lean",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/shannon_checked_release/compiled/fresh/.lake/build/lib/lean/ShannonBounds/CellRetyping/Semantics.olean"
+      ],
+      "exit_code": 0,
+      "output": "Semantics_02_fresh_replay.decls.json"
+    },
+    {
+      "command": [
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lean",
+        "--run",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/diagnostics/olean-paths-2026-09-09/NormalizeLintPaths.lean",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/shannon_checked_release/compiled/development/.lake/build/lib/lean/ShannonBounds/CellRetyping/Operations.olean",
+        "ShannonBounds.CellRetyping.Operations",
+        "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/binary_publication/portable_replay/Operations_01_development",
+        "ShannonBounds/CellRetyping/Operations.lean"
+      ],
+      "exit_code": 0,
+      "output": "Operations_01_development.lint.json"
+    },
+    {
+      "command": [
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lean",
+        "--run",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/diagnostics/olean-paths-2026-09-09/InspectModule.lean",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/shannon_checked_release/compiled/development/.lake/build/lib/lean/ShannonBounds/CellRetyping/Operations.olean"
+      ],
+      "exit_code": 0,
+      "output": "Operations_01_development.decls.json"
+    },
+    {
+      "command": [
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lean",
+        "--run",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/diagnostics/olean-paths-2026-09-09/NormalizeLintPaths.lean",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/shannon_checked_release/compiled/fresh/.lake/build/lib/lean/ShannonBounds/CellRetyping/Operations.olean",
+        "ShannonBounds.CellRetyping.Operations",
+        "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/binary_publication/portable_replay/Operations_02_fresh_replay",
+        "ShannonBounds/CellRetyping/Operations.lean"
+      ],
+      "exit_code": 0,
+      "output": "Operations_02_fresh_replay.lint.json"
+    },
+    {
+      "command": [
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lean",
+        "--run",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/diagnostics/olean-paths-2026-09-09/InspectModule.lean",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/shannon_checked_release/compiled/fresh/.lake/build/lib/lean/ShannonBounds/CellRetyping/Operations.olean"
+      ],
+      "exit_code": 0,
+      "output": "Operations_02_fresh_replay.decls.json"
+    },
+    {
+      "command": [
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lean",
+        "--run",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/diagnostics/olean-paths-2026-09-09/NormalizeLintPaths.lean",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/shannon_checked_release/compiled/development/.lake/build/lib/lean/ShannonBounds/CellRetyping/Recursion.olean",
+        "ShannonBounds.CellRetyping.Recursion",
+        "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/binary_publication/portable_replay/Recursion_01_development",
+        "ShannonBounds/CellRetyping/Recursion.lean"
+      ],
+      "exit_code": 0,
+      "output": "Recursion_01_development.lint.json"
+    },
+    {
+      "command": [
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lean",
+        "--run",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/diagnostics/olean-paths-2026-09-09/InspectModule.lean",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/shannon_checked_release/compiled/development/.lake/build/lib/lean/ShannonBounds/CellRetyping/Recursion.olean"
+      ],
+      "exit_code": 0,
+      "output": "Recursion_01_development.decls.json"
+    },
+    {
+      "command": [
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lean",
+        "--run",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/diagnostics/olean-paths-2026-09-09/NormalizeLintPaths.lean",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/shannon_checked_release/compiled/fresh/.lake/build/lib/lean/ShannonBounds/CellRetyping/Recursion.olean",
+        "ShannonBounds.CellRetyping.Recursion",
+        "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/binary_publication/portable_replay/Recursion_02_fresh_replay",
+        "ShannonBounds/CellRetyping/Recursion.lean"
+      ],
+      "exit_code": 0,
+      "output": "Recursion_02_fresh_replay.lint.json"
+    },
+    {
+      "command": [
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lean",
+        "--run",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/diagnostics/olean-paths-2026-09-09/InspectModule.lean",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/shannon_checked_release/compiled/fresh/.lake/build/lib/lean/ShannonBounds/CellRetyping/Recursion.olean"
+      ],
+      "exit_code": 0,
+      "output": "Recursion_02_fresh_replay.decls.json"
+    },
+    {
+      "command": [
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lean",
+        "--run",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/diagnostics/olean-paths-2026-09-09/NormalizeLintPaths.lean",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/shannon_checked_release/compiled/development/.lake/build/lib/lean/ShannonBounds/CellRetyping/DAG.olean",
+        "ShannonBounds.CellRetyping.DAG",
+        "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/binary_publication/portable_replay/DAG_01_development",
+        "ShannonBounds/CellRetyping/DAG.lean"
+      ],
+      "exit_code": 0,
+      "output": "DAG_01_development.lint.json"
+    },
+    {
+      "command": [
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lean",
+        "--run",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/diagnostics/olean-paths-2026-09-09/InspectModule.lean",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/shannon_checked_release/compiled/development/.lake/build/lib/lean/ShannonBounds/CellRetyping/DAG.olean"
+      ],
+      "exit_code": 0,
+      "output": "DAG_01_development.decls.json"
+    },
+    {
+      "command": [
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lean",
+        "--run",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/diagnostics/olean-paths-2026-09-09/NormalizeLintPaths.lean",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/shannon_checked_release/compiled/fresh/.lake/build/lib/lean/ShannonBounds/CellRetyping/DAG.olean",
+        "ShannonBounds.CellRetyping.DAG",
+        "/Users/matthew/Documents/Codex/2026-09-09/c11-consolidation/binary_publication/portable_replay/DAG_02_fresh_replay",
+        "ShannonBounds/CellRetyping/DAG.lean"
+      ],
+      "exit_code": 0,
+      "output": "DAG_02_fresh_replay.lint.json"
+    },
+    {
+      "command": [
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lean",
+        "--run",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/diagnostics/olean-paths-2026-09-09/InspectModule.lean",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-shannon-capacity-lower-bound/shannon_checked_release/compiled/fresh/.lake/build/lib/lean/ShannonBounds/CellRetyping/DAG.olean"
+      ],
+      "exit_code": 0,
+      "output": "DAG_02_fresh_replay.decls.json"
+    }
+  ],
+  "original_inputs_modified": false,
+  "completed_at_utc": "2026-09-09T22:44:35.048385+00:00"
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "stored": "evidence/Core_01_development.decls.json.gz",
+    "original": "Core_01_development.decls.json",
+    "uncompressed_bytes": 8879322,
+    "uncompressed_sha256": "7939139eae18e37125e36528035b4e3d3daf329d5460c4a71cf83745aa7c6612"
+  },
+  {
+    "stored": "evidence/Core_02_fresh_replay.decls.json.gz",
+    "original": "Core_02_fresh_replay.decls.json",
+    "uncompressed_bytes": 8879322,
+    "uncompressed_sha256": "7939139eae18e37125e36528035b4e3d3daf329d5460c4a71cf83745aa7c6612"
+  },
+  {
+    "stored": "evidence/DAG_01_development.decls.json.gz",
+    "original": "DAG_01_development.decls.json",
+    "uncompressed_bytes": 12652067,
+    "uncompressed_sha256": "73b974ea05bb892fc0fceba872ef85d3824e197668dd8090de8fd084e1e96e5e"
+  },
+  {
+    "stored": "evidence/DAG_02_fresh_replay.decls.json.gz",
+    "original": "DAG_02_fresh_replay.decls.json",
+    "uncompressed_bytes": 12652067,
+    "uncompressed_sha256": "73b974ea05bb892fc0fceba872ef85d3824e197668dd8090de8fd084e1e96e5e"
+  },
+  {
+    "stored": "evidence/Operations_01_development.decls.json.gz",
+    "original": "Operations_01_development.decls.json",
+    "uncompressed_bytes": 8534754,
+    "uncompressed_sha256": "61078587d027b428556c8c999f2b5bf30ba8edfc38941bfb2b6e1119c3cc92aa"
+  },
+  {
+    "stored": "evidence/Operations_02_fresh_replay.decls.json.gz",
+    "original": "Operations_02_fresh_replay.decls.json",
+    "uncompressed_bytes": 8534754,
+    "uncompressed_sha256": "61078587d027b428556c8c999f2b5bf30ba8edfc38941bfb2b6e1119c3cc92aa"
+  },
+  {
+    "stored": "evidence/Recursion_01_development.decls.json.gz",
+    "original": "Recursion_01_development.decls.json",
+    "uncompressed_bytes": 6285095,
+    "uncompressed_sha256": "d67f7f99e33747b70352da8e375fae4364574c5c83e00f1dc556045cc0c929a0"
+  },
+  {
+    "stored": "evidence/Recursion_02_fresh_replay.decls.json.gz",
+    "original": "Recursion_02_fresh_replay.decls.json",
+    "uncompressed_bytes": 6285095,
+    "uncompressed_sha256": "d67f7f99e33747b70352da8e375fae4364574c5c83e00f1dc556045cc0c929a0"
+  },
+  {
+    "stored": "evidence/Semantics_01_development.decls.json.gz",
+    "original": "Semantics_01_development.decls.json",
+    "uncompressed_bytes": 15562734,
+    "uncompressed_sha256": "ca76f9ea8a16200a478b2a7281f1893ced2540b7cdea810ee7d47d2183b89fa5"
+  },
+  {
+    "stored": "evidence/Semantics_02_fresh_replay.decls.json.gz",
+    "original": "Semantics_02_fresh_replay.decls.json",
+    "uncompressed_bytes": 15562734,
+    "uncompressed_sha256": "ca76f9ea8a16200a478b2a7281f1893ced2540b7cdea810ee7d47d2183b89fa5"
+  }
+]
