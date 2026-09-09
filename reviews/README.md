@@ -11,3 +11,13 @@ The report describes additional source parsing, finite replay, lineage, evidence
 [C11_R7_Lean_Receipt_Review_2026-09-08.md](C11_R7_Lean_Receipt_Review_2026-09-08.md) is the unchanged AI receiving review supplied by Matthew Protti. Its SHA256 is `825f2120ee0f0735bcc10b189e7baec0dd04924cd5821f93ae4a2f7a35a63a22`. It reviews the checked R7 archive with SHA256 `cc230eeaef95f974110827d149e07d7763ce136c58dfa85f5cf7b0b4648ea5c4` and requests no mathematical or build-harness repair.
 
 The receiving runtime did not run Lean. The report accepts the formalization on supplied compilation evidence after source-level and finite Python checks; it is not independent human expert endorsement or worldwide novelty clearance. Its separately written additional receiving scripts and raw results are not included here or replayed as part of publication. The sealed R7 package contains the author's actual fresh-build evidence and reproducibility tools. The binary differences remain disclosed without an asserted cause.
+
+## v0.5.0 publication clarification
+
+[The dated consolidation addendum](2026-09-09_CONSOLIDATION_REVIEW_ADDENDUM.md)
+is the current standalone publication review. It makes the numerical and
+symbolic trust boundaries, input-relation assumptions, retention within each
+coarse label, matrix-entry wording, and v0.5.0 communication status explicit.
+It reproduces the review with those approved prose clarifications; it is not
+another mathematical audit or an independent expert endorsement. The original
+review and all sealed packages remain unchanged.

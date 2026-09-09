@@ -4,7 +4,8 @@
 
 For arbitrary finite coarse labels, a finite coordinate set, and possibly
 different input alphabets in each coordinate, let `U_a` be a finite row of
-input words. Assume ordinary within-row and coarse cross-row separation.
+input words. The input separation predicates are symmetric and irreflexive,
+with the stated within-row and coarse cross-row admissibility conditions.
 For a word `u`, its canonical mask contains exactly the coarse labels whose
 rows have a word with no separating coordinate from `u`.
 
@@ -23,9 +24,10 @@ inclusion among masks sound for all realizations of the fixed input relations
 and generator cells.
 
 For an existing admissible refined table, forgetting its masks and applying
-this compiler only removes mask bits, preserves all coarse-labelled generators
-and actual coarse sets/counts, and is idempotent. This is not merely a permutation
-of type names: old rows can split or merge according to their generators' masks.
+this compiler only removes mask bits, retains every generator uniquely within
+its coarse label, preserves actual coarse sets/counts, and is idempotent. This is
+not merely a permutation of type names: old rows can split or merge according
+to their generators' masks.
 The normalized output alphabet remains the R7 alphabet.
 
 [Guarded additions and pruning](shannon_checked_release/source/ShannonBounds/CellRetyping/Operations.lean)
@@ -46,7 +48,7 @@ The symbolic audit covers 261 declarations, with only `propext`, `Classical.choi
 and `Quot.sound`; there are no new native-evaluation axioms. Numerical certificates
 retain their separately disclosed native-check trust. Full statements, two-build
 receipts, and limitations are in the [checked package](shannon_checked_release/README.md)
-and [mathematical review](shannon_checked_release/MATHEMATICAL_REVIEW.md).
+and [clarified standalone review](reviews/2026-09-09_CONSOLIDATION_REVIEW_ADDENDUM.md).
 
 The claim is relative to fixed cells and input separation information. It does
 not establish the tightest masks available from additional graph structure,

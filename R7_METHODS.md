@@ -2,7 +2,7 @@
 
 **Matthew Protti — AI co-developed — R7 methods release, v0.4.0**
 
-For an arbitrary finite alphabet with symmetric irreflexive Boolean separation, any arity, an admissible coarse substitution, a separated extension code, and a target letter, R7 constructs the prescribed full admissible substitution on a normalized family/mask alphabet. Every old and guarded extension generator is retained with its exact assigned label and mask.
+For an arbitrary finite alphabet with symmetric irreflexive Boolean separation, any arity, an admissible coarse substitution, a separated extension code, and a target letter, R7 constructs the prescribed full admissible substitution on a normalized family/mask alphabet. Every old and guarded extension generator is retained uniquely within its coarse label, with its exact assigned mask.
 
 This statement is proved by **`ShannonBounds.ProfileCompiler.universal_compilation`** in [Core.lean](r7_checked_release/source/ShannonBounds/ProfileCompiler/Core.lean). The [original theorem and proof note](r7_checked_release/frozen/THEOREM_AND_PROOF.md) gives the mathematical argument; the [printed Lean types](r7_checked_release/STATEMENT_TYPES.txt) and [source index](r7_checked_release/SOURCE_BINDINGS.json) connect that argument to the checked development.
 
