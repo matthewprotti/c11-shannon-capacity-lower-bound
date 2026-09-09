@@ -1,0 +1,213 @@
+{
+  "disclaimer": "Finite tests corroborate but do not prove universal correctness. No Lean execution.",
+  "exhaustive": [
+    {
+      "all_normalized_types": true,
+      "arity": 0,
+      "augmented_rules": 4,
+      "ordinary_rules": 2,
+      "r": 1,
+      "relations": 1
+    },
+    {
+      "all_normalized_types": true,
+      "arity": 1,
+      "augmented_rules": 4,
+      "ordinary_rules": 2,
+      "r": 1,
+      "relations": 1
+    },
+    {
+      "all_normalized_types": true,
+      "arity": 2,
+      "augmented_rules": 4,
+      "ordinary_rules": 2,
+      "r": 1,
+      "relations": 1
+    },
+    {
+      "all_normalized_types": true,
+      "arity": 0,
+      "augmented_rules": 28,
+      "ordinary_rules": 7,
+      "r": 2,
+      "relations": 2
+    },
+    {
+      "all_normalized_types": true,
+      "arity": 1,
+      "augmented_rules": 126,
+      "ordinary_rules": 18,
+      "r": 2,
+      "relations": 2
+    },
+    {
+      "all_normalized_types": true,
+      "arity": 2,
+      "augmented_rules": 2842,
+      "ordinary_rules": 106,
+      "r": 2,
+      "relations": 2
+    },
+    {
+      "all_normalized_types": true,
+      "arity": 0,
+      "augmented_rules": 270,
+      "ordinary_rules": 45,
+      "r": 3,
+      "relations": 8
+    },
+    {
+      "all_normalized_types": true,
+      "arity": 1,
+      "augmented_rules": 7749,
+      "ordinary_rules": 458,
+      "r": 3,
+      "relations": 8
+    }
+  ],
+  "full_alphabet_R6_rules": [
+    {
+      "label": "d186/n14, d186/n25, d198/n26, d213/n26",
+      "output_sha256": "198df0e49550c4e8d2ae0b04730d7672ab8961f7837850b97c43677c53cff886",
+      "required_unordered_pairs": 81940529,
+      "support_pruning": false,
+      "tagged_cells": 13696,
+      "typed_letters": 58,
+      "unique_input_words": 13696
+    },
+    {
+      "label": "d213/n9",
+      "output_sha256": "af987e3350b9a8a5c0d981d7015a2fd5d601665f7a3a268e80d754d4ee9b2988",
+      "required_unordered_pairs": 81940529,
+      "support_pruning": false,
+      "tagged_cells": 13696,
+      "typed_letters": 58,
+      "unique_input_words": 13696
+    },
+    {
+      "label": "d213/n30",
+      "output_sha256": "217c78a974160c9530691bd509c7c596f60f0c7ddf256ee6df7639a986dfb051",
+      "required_unordered_pairs": 80630598,
+      "support_pruning": false,
+      "tagged_cells": 13580,
+      "typed_letters": 58,
+      "unique_input_words": 13580
+    },
+    {
+      "label": "d198/n18",
+      "output_sha256": "d1f7f786db529db9d711b0d47f4019c089bca4343e202c5507b639aebb1c2cc3",
+      "required_unordered_pairs": 81940529,
+      "support_pruning": false,
+      "tagged_cells": 13696,
+      "typed_letters": 58,
+      "unique_input_words": 13696
+    },
+    {
+      "label": "d198/n12, d213/n3",
+      "output_sha256": "d9554f984af4ad2d6c15992bd817c2214c80cb5e68f2699936c7bb55a86e4f21",
+      "required_unordered_pairs": 78840575,
+      "support_pruning": false,
+      "tagged_cells": 13428,
+      "typed_letters": 58,
+      "unique_input_words": 13428
+    },
+    {
+      "label": "d198/n29",
+      "output_sha256": "77be833e97735e972af2b5c538a2438e8021fec7a8e8e8ab03fa714b23b0cada",
+      "required_unordered_pairs": 75911486,
+      "support_pruning": false,
+      "tagged_cells": 13524,
+      "typed_letters": 58,
+      "unique_input_words": 13524
+    },
+    {
+      "label": "d186/n26",
+      "output_sha256": "f19cf291b9039d05e58afe8132ed37811fadfdf4076a5d88164a6d35e9493871",
+      "required_unordered_pairs": 80630598,
+      "support_pruning": false,
+      "tagged_cells": 13580,
+      "typed_letters": 58,
+      "unique_input_words": 13580
+    },
+    {
+      "label": "d198/n19, d213/n10",
+      "output_sha256": "7aa22514350c774e430774e179317ecd17907b615b80d072ceff0846e299e4fc",
+      "required_unordered_pairs": 75571334,
+      "support_pruning": false,
+      "tagged_cells": 13508,
+      "typed_letters": 58,
+      "unique_input_words": 13508
+    },
+    {
+      "label": "d186/n11, d198/n15, d213/n6",
+      "output_sha256": "a823abc022432787fdaa3a19fa0b544575e5b39cde88459dfa43065749255771",
+      "required_unordered_pairs": 81940529,
+      "support_pruning": false,
+      "tagged_cells": 13696,
+      "typed_letters": 58,
+      "unique_input_words": 13696
+    },
+    {
+      "label": "d213/n20",
+      "output_sha256": "2a3cffe34db359b3af6f601cdf5dd15d46abc6e0f7b3d7c401cc26054f744654",
+      "required_unordered_pairs": 77071827,
+      "support_pruning": false,
+      "tagged_cells": 13260,
+      "typed_letters": 58,
+      "unique_input_words": 13260
+    },
+    {
+      "label": "d186/n17",
+      "output_sha256": "985e9dbf309cb978acdcbc8f7b93f232adb3ec6ada23043a5660ffb57988d7d2",
+      "required_unordered_pairs": 75571334,
+      "support_pruning": false,
+      "tagged_cells": 13508,
+      "typed_letters": 58,
+      "unique_input_words": 13508
+    }
+  ],
+  "negatives": [
+    {
+      "defect": "stale_masks",
+      "reason": "literal cross-row violation",
+      "rejected": true
+    },
+    {
+      "defect": "omit_self_protection",
+      "reason": "old/new collision or duplicate generated cell",
+      "rejected": true
+    },
+    {
+      "defect": "omit_neighbor_protection",
+      "reason": "non-normalized output type: (0, 3)",
+      "rejected": true
+    },
+    {
+      "defect": "omit_new_self_bit",
+      "reason": "non-normalized output type: (0, 0)",
+      "rejected": true
+    },
+    {
+      "defect": "unseparated_extension",
+      "reason": "literal within-row violation",
+      "rejected": true
+    },
+    {
+      "defect": "nonadmissible_coarse_input",
+      "reason": "nonseparated code words: (1,), (0,)",
+      "rejected": true
+    }
+  ],
+  "randomized": {
+    "all_eight_separation_relations": true,
+    "alphabet_size": 3,
+    "arities": [
+      2,
+      3
+    ],
+    "count": 192,
+    "seed": 20260908
+  },
+  "status": "PASS_FINITE_TESTS_OF_UNFORMALIZED_GENERAL_COMPILER"
+}

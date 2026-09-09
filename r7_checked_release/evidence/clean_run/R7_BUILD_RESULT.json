@@ -1,0 +1,2308 @@
+{
+  "status": "PASS_R7_UNIFORM_COMPILER_PINNED_LEAN_GATE",
+  "started_at_utc": "2026-09-09T02:59:09.330170+00:00",
+  "commands": [
+    {
+      "label": "30_r7_build",
+      "command": [
+        "lake",
+        "--rehash",
+        "--no-ansi",
+        "build",
+        "ShannonBounds.ProfileCompiler",
+        "ShannonBounds.ProfileCompiler.Examples"
+      ],
+      "returncode": 0,
+      "seconds": 29.399062250042334,
+      "log": "logs/30_r7_build.log",
+      "sha256": "df93aee0c68c866c934609d6d5c8b8ff17c094e113f1a390c1171e7bd95df23b"
+    },
+    {
+      "label": "31_r7_axioms_and_types",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        "R7_AxiomAudit.olean",
+        "R7_AxiomAudit.lean"
+      ],
+      "returncode": 0,
+      "seconds": 4.2348973751068115,
+      "log": "logs/31_r7_axioms_and_types.log",
+      "sha256": "0f95d1859269b1e388dd1d2c82552d06f6750c9e6d3e301863cdc60651c14cef"
+    },
+    {
+      "label": "32_NEGATIVE_stale_masks",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "NEGATIVE_stale_masks.lean"
+      ],
+      "returncode": 1,
+      "seconds": 2.7816214580088854,
+      "log": "logs/32_NEGATIVE_stale_masks.log",
+      "sha256": "4df27c19f94886fef9074f26abeb8c377db9b303d2eac353a109e747da7de8d8"
+    },
+    {
+      "label": "32_NEGATIVE_omitted_self",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "NEGATIVE_omitted_self.lean"
+      ],
+      "returncode": 1,
+      "seconds": 2.8724955830257386,
+      "log": "logs/32_NEGATIVE_omitted_self.log",
+      "sha256": "cf8c5d19514bc45558e57bd2c571ea1608caceca43a12e32a868512b4166eee0"
+    },
+    {
+      "label": "40_upstream_head",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.02453087503090501,
+      "log": "logs/40_upstream_head.log",
+      "sha256": "9be104d9fae2e8eee65a07d2f95d8d84c5a169697b6dd3b0d236502dff7924c1"
+    },
+    {
+      "label": "41_upstream_worktree",
+      "command": [
+        "git",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.04224741691723466,
+      "log": "logs/41_upstream_worktree.log",
+      "sha256": "fa392478538ba56e66953d343327c7b9264607de366a21925e65af69babb40a9"
+    },
+    {
+      "label": "42_upstream_index",
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.023659083992242813,
+      "log": "logs/42_upstream_index.log",
+      "sha256": "3208322c6a811fbab348bcf09b0e3975ac0daeeb0b7544f01211000fed795023"
+    },
+    {
+      "label": "43_mathlib_head",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-final-replay/bpz/.lake/packages/mathlib",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.0243218750692904,
+      "log": "logs/43_mathlib_head.log",
+      "sha256": "11179c664c3616b17433b6e3d0b0af244f11da0a7e8e55f708e3398c2df9cca6"
+    },
+    {
+      "label": "43_mathlib_worktree",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-final-replay/bpz/.lake/packages/mathlib",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.050187750020995736,
+      "log": "logs/43_mathlib_worktree.log",
+      "sha256": "af98397c30db367189ca7a36fec7855294afa0bf69002c9d5e37dafd0c6e293d"
+    },
+    {
+      "label": "43_mathlib_index",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-final-replay/bpz/.lake/packages/mathlib",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.02376720798201859,
+      "log": "logs/43_mathlib_index.log",
+      "sha256": "327ff21945292f61e266cc88d3367fdb234427c0f7b0f9fadd54404cd9209c71"
+    },
+    {
+      "label": "43_plausible_head",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-final-replay/bpz/.lake/packages/plausible",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.024422832997515798,
+      "log": "logs/43_plausible_head.log",
+      "sha256": "e3fbc03624107641879c406ca0d74c29996d0718f972df88beb25a77cc5e8390"
+    },
+    {
+      "label": "43_plausible_worktree",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-final-replay/bpz/.lake/packages/plausible",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.024571582907810807,
+      "log": "logs/43_plausible_worktree.log",
+      "sha256": "f4630af250fe3b4fe59a149cc9fc402087f33c0e0b104bb26aaa2bee6ecb6aa4"
+    },
+    {
+      "label": "43_plausible_index",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-final-replay/bpz/.lake/packages/plausible",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.023354750126600266,
+      "log": "logs/43_plausible_index.log",
+      "sha256": "89d00115955b2e49bce8f1fffaaa08ce649a161861ee36b38c3ce3a2ef27739d"
+    },
+    {
+      "label": "43_LeanSearchClient_head",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-final-replay/bpz/.lake/packages/LeanSearchClient",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.022473666118457913,
+      "log": "logs/43_LeanSearchClient_head.log",
+      "sha256": "4d4109c8c2f0d596bdfffa74898527d5b040341f836b7af612d50ab1a3036276"
+    },
+    {
+      "label": "43_LeanSearchClient_worktree",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-final-replay/bpz/.lake/packages/LeanSearchClient",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.022549042012542486,
+      "log": "logs/43_LeanSearchClient_worktree.log",
+      "sha256": "ad096518167dedfb81322fca2534aa9507a9de44bc2b8ae2d2ff57325f3b6021"
+    },
+    {
+      "label": "43_LeanSearchClient_index",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-final-replay/bpz/.lake/packages/LeanSearchClient",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.02450525015592575,
+      "log": "logs/43_LeanSearchClient_index.log",
+      "sha256": "f220d8b1d2b49c120028c6e99a5d4c6e50f7ee5cf399d0f7f609adc0a5eb2734"
+    },
+    {
+      "label": "43_importGraph_head",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-final-replay/bpz/.lake/packages/importGraph",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.024610541993752122,
+      "log": "logs/43_importGraph_head.log",
+      "sha256": "01db2ff51853bfedf77620c6cd8e3bd00302808500cecdade5a4c83f4bafcfe3"
+    },
+    {
+      "label": "43_importGraph_worktree",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-final-replay/bpz/.lake/packages/importGraph",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.024445709073916078,
+      "log": "logs/43_importGraph_worktree.log",
+      "sha256": "0d1b205fb5a42762ac2c6c677371caaec377a70b030840913b609cffcb997ce1"
+    },
+    {
+      "label": "43_importGraph_index",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-final-replay/bpz/.lake/packages/importGraph",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.024472916964441538,
+      "log": "logs/43_importGraph_index.log",
+      "sha256": "5b4f44174dc5fd35afd178e22bffe1e11ef7bda1ea2f65930e8e8bf1f1259f25"
+    },
+    {
+      "label": "43_proofwidgets_head",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-final-replay/bpz/.lake/packages/proofwidgets",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.024267875123769045,
+      "log": "logs/43_proofwidgets_head.log",
+      "sha256": "b0733ede88af10beabdaf8473c54205e4f4200d8b39e814209bb2e794f34c318"
+    },
+    {
+      "label": "43_proofwidgets_worktree",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-final-replay/bpz/.lake/packages/proofwidgets",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.02457491704262793,
+      "log": "logs/43_proofwidgets_worktree.log",
+      "sha256": "d90e32a0d7110eab44dbd8e44e9dfd2bcbdb0d6d567dc4aa3256b8e246a2a6f1"
+    },
+    {
+      "label": "43_proofwidgets_index",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-final-replay/bpz/.lake/packages/proofwidgets",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.020559417083859444,
+      "log": "logs/43_proofwidgets_index.log",
+      "sha256": "d2ccbb2db3217b9a337567e312bf6415414e450b25674f2ca6388aed3c499219"
+    },
+    {
+      "label": "43_aesop_head",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-final-replay/bpz/.lake/packages/aesop",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.024661125149577856,
+      "log": "logs/43_aesop_head.log",
+      "sha256": "a59ef016b347f5b5d9bd57753683077b1f4f93766e6b641182c501df7d3f2525"
+    },
+    {
+      "label": "43_aesop_worktree",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-final-replay/bpz/.lake/packages/aesop",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.024610124994069338,
+      "log": "logs/43_aesop_worktree.log",
+      "sha256": "4417523546a0b07173918fc4d25113557da3188c1e38cb40146550f2088316d2"
+    },
+    {
+      "label": "43_aesop_index",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-final-replay/bpz/.lake/packages/aesop",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.025113665964454412,
+      "log": "logs/43_aesop_index.log",
+      "sha256": "67dc90ef377c063660aebb113e3b33c61c2bc43615bdff4ec90eaa41d9967375"
+    },
+    {
+      "label": "43_Qq_head",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-final-replay/bpz/.lake/packages/Qq",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.024536916986107826,
+      "log": "logs/43_Qq_head.log",
+      "sha256": "1708d4668186c4881540866355fdc362553f96e878eff4afb9882109cc0fdb68"
+    },
+    {
+      "label": "43_Qq_worktree",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-final-replay/bpz/.lake/packages/Qq",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.025425124913454056,
+      "log": "logs/43_Qq_worktree.log",
+      "sha256": "5cf93554ec0509f830721252bcedaded8804a361eeb8e79d1b0fdf17d6dbda8e"
+    },
+    {
+      "label": "43_Qq_index",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-final-replay/bpz/.lake/packages/Qq",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.024169750045984983,
+      "log": "logs/43_Qq_index.log",
+      "sha256": "0931c237e282213c8bbe70d005d94971e41068344591052ae3b267e6d6f6d08e"
+    },
+    {
+      "label": "43_batteries_head",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-final-replay/bpz/.lake/packages/batteries",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.024105624994263053,
+      "log": "logs/43_batteries_head.log",
+      "sha256": "21567e22b9506efb0e521fbeb51d63a2b8a460d2f8e928293c17b91661414786"
+    },
+    {
+      "label": "43_batteries_worktree",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-final-replay/bpz/.lake/packages/batteries",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.023692042101174593,
+      "log": "logs/43_batteries_worktree.log",
+      "sha256": "c368578a1c0a7a8438988616b8a842177250cb82331d6aa7def699599a237b0f"
+    },
+    {
+      "label": "43_batteries_index",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-final-replay/bpz/.lake/packages/batteries",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.022491916082799435,
+      "log": "logs/43_batteries_index.log",
+      "sha256": "b2a928a938b66dd87987188d379c548b4fe3d44fc6efb1449a2796b877255341"
+    },
+    {
+      "label": "43_Cli_head",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-final-replay/bpz/.lake/packages/Cli",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "seconds": 0.023273499915376306,
+      "log": "logs/43_Cli_head.log",
+      "sha256": "b47f402a6af17d0eb6634739e543c7645b9dbbf8162d6a5e46b6d2ca2dd3f463"
+    },
+    {
+      "label": "43_Cli_worktree",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-final-replay/bpz/.lake/packages/Cli",
+        "diff",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.024898332776501775,
+      "log": "logs/43_Cli_worktree.log",
+      "sha256": "7c984f00c36e5ea877f0e0457b2062d6a544caf4a8738e0368c7e8f38bfbbff4"
+    },
+    {
+      "label": "43_Cli_index",
+      "command": [
+        "git",
+        "-C",
+        "/Users/matthew/Documents/Codex/2026-09-08/c11-r7-final-replay/bpz/.lake/packages/Cli",
+        "diff",
+        "--cached",
+        "--exit-code"
+      ],
+      "returncode": 0,
+      "seconds": 0.02444629091769457,
+      "log": "logs/43_Cli_index.log",
+      "sha256": "d84ab5e749c56b1013374baf4f375fd77561e1ea455eb3758db818428d670952"
+    }
+  ],
+  "preparation_sha256": "1baea8c0bc469641734c37d9ce5966d02f6c82620981905e365e20a11681073b",
+  "source_hashes": {
+    "R7_AxiomAudit.lean": "b0659e9130852d4ecf73b1c67d2d59d3c42932b7e37363243a36a56de4e1fb3e",
+    "ShannonBounds/ProfileCompiler/Cardinality.lean": "b057a6e9e5d18bf4a6f66a0acfa0d5056acb5534b9123fd7bfc2d5fe5ee82826",
+    "ShannonBounds/ProfileCompiler/Core.lean": "3e26fb9f03212c40758f0b9d152c343eda624e9bff74ca660d895cc3b66e85ac",
+    "ShannonBounds/ProfileCompiler/DAG.lean": "9f3b2b70764361d455fd4736f9f32281eccbe6aec0cfe08a81d030f1f3a9ad3b",
+    "ShannonBounds/ProfileCompiler/Examples.lean": "f566965836304574d02713b8806ac2cc1f81a0dc87157cf5a036a1b929dce749",
+    "ShannonBounds/ProfileCompiler/Powers.lean": "00cce75797e2c5117f7366c74acc5fecadbba0a4459d4d056e64367cc866c0e6",
+    "ShannonBounds/ProfileCompiler/Products.lean": "856daaad42ca0bc93ef2777c53c2836bc92f1095fd4ae58088c2c58b5a3d6e29",
+    "ShannonBounds/ProfileCompiler/Profiles.lean": "7aa4f9425180f914d03022bae753c22645a9f8fd731272c2c48acaed900c4d59",
+    "ShannonBounds/ProfileCompiler/Pruning.lean": "1df8657f1e615faf581a1614e21405c52ff7e34d8b1fd67b302ffa9effcffc15",
+    "ShannonBounds/ProfileCompiler/Recursion.lean": "3e3d53276ebddd20ac11c551fc1f6807080d24c85b13ac9255a472a4a539073a",
+    "ShannonBounds/ProfileCompiler/Semantics.lean": "e415589fa3ce2239db3a04a6148569a1e3c4a4e806f7995c22bffeb81f7e9330",
+    "ShannonBounds/ProfileCompiler.lean": "97bb8d1693b0abb0caf5eb371a3bc11ea3a52e36e397ef81799883f89a5fd104"
+  },
+  "raw_statement_types_sha256": "fb56553b6a1a2138f364bda3318a1d0446fae1325680a1c276d4bb6575180aaa",
+  "axioms": {
+    "ShannonBounds.ProfileCompiler.DAG": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG._sizeOf_1": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG._sizeOf_inst": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.casesOn": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.ctorIdx": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.dimension": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.dimension_augment": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.dimension_plain": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.evaluate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.exact_weights": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.independent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.mk": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.mk._flat_ctor": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.mk.inj": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.mk.injEq": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.mk.noConfusion": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.mk.sizeOf_spec": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.noConfusion": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.noConfusionType": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.node": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.profile": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.rec": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.recOn": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.repeated_child_dimension": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.unfold": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.unfold._proof_1": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.unfold._proof_2": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.unfold.match_1": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.unfold_augment": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.unfold_plain": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.unfold_seed": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.weight_augment": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.weight_plain": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.DAG.wellFounded": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.bBoth": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.bBoth._proof_1": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.bOnly": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.bOnly._proof_1": [
+      "propext"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.bOnly._proof_2": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.badAddition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.bpz_alphabet_cardinality": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.emptyGraph": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.emptyGraphDecidable": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.emptyGraphDecidable._proof_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.identityRule": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.identityRule._proof_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.identityRule._proof_2": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.nOnly": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.nOnly._proof_1": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.noSeparation": [],
+    "ShannonBounds.ProfileCompiler.Examples.oldTarget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.omitted_protection_collision": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.omitted_self_counts": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.omitted_self_gain_refuted": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.omitted_self_has_overlap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.singletonCode": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.singletonCode._simp_1": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.staleRows": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.stale_masks_refuted": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.stale_new_membership": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.stale_old_membership": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.stale_output_separated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.tinyRealisation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.tinyRealisation._proof_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.tinyRealisation._proof_2": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.unprotectedCells": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.unprotectedNew": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.wordB": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Examples.wordN": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Guard": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Guard.congr_simp": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.New": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.New.congr_simp": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node._sizeOf_1": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node._sizeOf_inst": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node.augment": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node.augment.elim": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node.augment.inj": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node.augment.injEq": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node.augment.noConfusion": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node.augment.sizeOf_spec": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node.casesOn": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node.ctorElim": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node.ctorElimType": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node.ctorIdx": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node.noConfusion": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node.noConfusionType": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node.plain": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node.plain.elim": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node.plain.inj": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node.plain.injEq": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node.plain.noConfusion": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node.plain.sizeOf_spec": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node.rec": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node.recOn": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node.seed": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node.seed.elim": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node.seed.inj": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node.seed.injEq": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node.seed.noConfusion": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Node.seed.sizeOf_spec": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Normal": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Old": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Old.congr_simp": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Profile": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Profile.Q": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Profile._sizeOf_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Profile._sizeOf_inst": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Profile.avoidance": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Profile.casesOn": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Profile.coarse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Profile.ctorIdx": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Profile.disjoint": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Profile.mk": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Profile.mk._flat_ctor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Profile.mk.inj": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Profile.mk.injEq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Profile.mk.noConfusion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Profile.mk.sizeOf_spec": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Profile.noConfusion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Profile.noConfusionType": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Profile.partition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Profile.piece_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Profile.rec": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Profile.recOn": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Profile.toRealisation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Profile.toRealisation._proof_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Profile.toRealisation._proof_2": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe._sizeOf_1": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe._sizeOf_inst": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.augment": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.augment.elim": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.augment.inj": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.augment.injEq": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.augment.noConfusion": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.augment.sizeOf_spec": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.below": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.brecOn": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.brecOn.eq": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.brecOn.go": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.casesOn": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.ctorElim": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.ctorElimType": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.ctorIdx": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.dimension": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.dimension._f": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.dimension._sunfold": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.dimension._unsafe_rec": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.dimension.match_1": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.evaluate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.evaluate._f": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.evaluate._sunfold": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.evaluate._unsafe_rec": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.exact_weights": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.independent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.noConfusion": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.noConfusionType": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.plain": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.plain.elim": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.plain.inj": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.plain.injEq": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.plain.noConfusion": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.plain.sizeOf_spec": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.profile": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.rec": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.recOn": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.seed": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.seed.elim": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.seed.inj": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.seed.injEq": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.seed.noConfusion": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.seed.sizeOf_spec": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.weight_augment": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.weight_plain": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.weights": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.weights._f": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.weights._sunfold": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Recipe.weights._unsafe_rec": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.Ty": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.WordApart": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.alphabet_cardinality": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.apart": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.apart.congr_simp": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.apart.eq_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.apart_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.apart_iff._simp_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.apart_irrefl": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.apart_symm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.augmented": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.augmented._proof_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.augmented._proof_2": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.augmented.eq_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.augmentedRows": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.augmentedRows.eq_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.augmented_cardinalities": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.augmented_new_complete": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.augmented_old_complete": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.augmented_sets": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.bpz_augmented_sets": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.bpz_typed_weights": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.card_coarsen": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.card_freeLabels": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.card_freeLabels._proof_1_3": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.card_normalMasks": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.card_productCodeSet": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.card_productSubstSet": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.card_rectangle": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.childOf": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.childOf.eq_1": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.childOf.match_1": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.coarse_augmented_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.coarse_lift": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.coarse_rectangle_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.coarse_subst_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.coarsen": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.coarsen._proof_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.coarsen._proof_2": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.coarsen_mapIso": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.compiled_rectangles_disjoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.empty_augmentation_sets": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.eq_of_code_nonsep": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.eq_of_labels_of_nonsep": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.eq_of_old_nonsep": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.exact_gain": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.extensionSet": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.extensionSet.eq_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.extensionSet_empty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.extension_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.extension_independent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.extension_normal": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.familyTypes": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.familyTypes.eq_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.freeLabels": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.freeLabels.eq_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.groupSets": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.groupSets.eq_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.guard_excludes": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.guard_excludes._simp_1_1": [
+      "propext"
+    ],
+    "ShannonBounds.ProfileCompiler.independent_productCodeSet": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.label": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.label_mem_phi": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.labels": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mask": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_augmentedRows": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_augmentedRows._simp_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_extensionSet": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_extensionSet._simp_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_extensionSet._simp_1_2": [
+      "propext"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_familyTypes": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_familyTypes._simp_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_freeLabels": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_freeLabels._simp_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_groupSets": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_groupSets._simp_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_normalMasks": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_normalMasks._simp_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_ordinaryRows": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_ordinaryRows._simp_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_phi": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_phi._simp_1": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_phi_of_nonsep": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_productSubstSet": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_productSubstSet._simp_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_protected": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_protected._simp_1": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_rectangle": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_rectangle._simp_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_selectedCells": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_selectedCells._simp_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_selectedRefinements": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mem_selectedRefinements._simp_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.mixed_pair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.neighbours": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.neighbours.eq_1": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.new_pair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.nonsep_coords": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.nonsep_of_common_point": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.normalMasks": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.normalMasks.eq_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.not_apart_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.not_apart_iff._simp_1_1": [
+      "propext"
+    ],
+    "ShannonBounds.ProfileCompiler.not_apart_iff._simp_1_2": [
+      "propext"
+    ],
+    "ShannonBounds.ProfileCompiler.not_apart_iff._simp_1_3": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.old_new_disjoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.old_normal": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.old_pair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.old_target_disjoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.ordinary": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.ordinary._proof_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.ordinary._proof_2": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.ordinaryRows": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.ordinaryRows.eq_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.ordinary_sets": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.phi": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.phi.eq_1": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.piece_subset_group": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.pieces_disjoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.productCodeSet": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.productCodeSet.eq_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.productCodeSet_eq_bpz": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.productGraph": [],
+    "ShannonBounds.ProfileCompiler.productGraph._proof_1": [],
+    "ShannonBounds.ProfileCompiler.productGraph._proof_2": [],
+    "ShannonBounds.ProfileCompiler.productGraph.match_1": [],
+    "ShannonBounds.ProfileCompiler.productGraph_decidable": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.productGraph_decidable._aux_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.productSubstSet": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.productSubstSet.eq_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.productSubstSet_eq_bpz": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.productSubstitute": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.productSubstitute._proof_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.productSubstitute._proof_2": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.productSubstitute.eq_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.product_weight_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.protectedLabels": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.protectedLabels.eq_1": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.pruning_cardinalities": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.pruning_sets": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.rectangle": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.rectangle.eq_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.rectangle_disjoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.rectangle_empty_of_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.rectangle_eq_bpz": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.rectangle_independent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.rectangle_separated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.restrictCode": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.restrictCode._proof_1": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.restrictSubst": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.restrictSubst._proof_1": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.restrictSubst._proof_2": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.roundtrip_coarse_sets": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.roundtrip_profile_sets": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.roundtrip_typed_sets": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.same_label_apart": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.selectedCells": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.selectedCells.eq_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.selectedCells_fibres": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.selectedCells_fibres._simp_1_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.selectedCode": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.selectedCode._proof_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.selectedRefinements": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.selectedRefinements.eq_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.selectedRefinements_disjoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.self_mem": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.self_mem._simp_1": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.subset_update": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.supportPrune": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.supportPrune._proof_1": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.supportRows": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.support_deleted_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.support_pruning_cardinalities": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.support_pruning_sets": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.terminal": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.terminal._proof_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.terminal._simp_1": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.terminal._simp_2": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.terminal_cardinalities": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.terminal_pruning_cardinalities": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.terminal_pruning_sets": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.terminal_sets": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.toProfile": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.toProfile._proof_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.typeSigmaEquiv": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.typeSigmaEquiv._proof_1": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.typeSigmaEquiv._proof_2": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.typeSigmaEquiv._proof_3": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.typeSigmaEquiv._proof_4": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.typeSigmaEquiv._proof_5": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.typeSigmaEquiv._proof_6": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.type_ext": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.typed_avoidance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.typed_output_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.typed_weights": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.universal_compilation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.update": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.update.eq_1": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.update_normal": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.weight_productSubstitute": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ShannonBounds.ProfileCompiler.wordApart_symm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "audited_declarations": 381,
+  "general_declarations": 346,
+  "example_declarations": 35,
+  "statement_types_reported": [
+    "ShannonBounds.ProfileCompiler.universal_compilation",
+    "ShannonBounds.ProfileCompiler.augmented",
+    "ShannonBounds.ProfileCompiler.ordinary",
+    "ShannonBounds.ProfileCompiler.Profile.toRealisation",
+    "ShannonBounds.ProfileCompiler.toProfile",
+    "ShannonBounds.ProfileCompiler.augmented_sets",
+    "ShannonBounds.ProfileCompiler.augmented_cardinalities",
+    "ShannonBounds.ProfileCompiler.exact_gain",
+    "ShannonBounds.ProfileCompiler.bpz_augmented_sets",
+    "ShannonBounds.ProfileCompiler.alphabet_cardinality",
+    "ShannonBounds.ProfileCompiler.pruning_sets",
+    "ShannonBounds.ProfileCompiler.pruning_cardinalities",
+    "ShannonBounds.ProfileCompiler.support_pruning_sets",
+    "ShannonBounds.ProfileCompiler.terminal_sets",
+    "ShannonBounds.ProfileCompiler.terminal_pruning_sets",
+    "ShannonBounds.ProfileCompiler.Recipe.exact_weights",
+    "ShannonBounds.ProfileCompiler.DAG.independent",
+    "ShannonBounds.ProfileCompiler.DAG.exact_weights",
+    "ShannonBounds.ProfileCompiler.DAG.dimension_augment",
+    "ShannonBounds.ProfileCompiler.DAG.repeated_child_dimension",
+    "ShannonBounds.ProfileCompiler.DAG.profile",
+    "ShannonBounds.ProfileCompiler.Examples.bpz_alphabet_cardinality",
+    "ShannonBounds.ProfileCompiler.Examples.stale_masks_refuted",
+    "ShannonBounds.ProfileCompiler.Examples.omitted_self_gain_refuted"
+  ],
+  "standard_axiom_union": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "native_axioms": [],
+  "new_logical_axioms": [],
+  "unsafe_declarations": [],
+  "negative_controls": [
+    {
+      "file": "NEGATIVE_stale_masks.lean",
+      "sha256": "c4bd1d8791879b04a0a84a4e61c3ad8ad0644864d8d360e3085aa14879aff662",
+      "result": "REJECTED_FALSE_PROPOSITION_BY_KERNEL_DECIDE"
+    },
+    {
+      "file": "NEGATIVE_omitted_self.lean",
+      "sha256": "a663263447058ee837efe4a8940936892c89ff23129f32dd574b11be26a852ed",
+      "result": "REJECTED_FALSE_PROPOSITION_BY_KERNEL_DECIDE"
+    }
+  ],
+  "compiled_artifacts": {
+    "R7_AxiomAudit.olean": "c2d7ed896408f5e1fe549b43e22b60c2c585693a8bcf02c83e91dec2d59d35bf",
+    ".lake/build/lib/lean/ShannonBounds/ProfileCompiler/Cardinality.olean": "9511df4b78c6fb7014c18df0bfcf885839994b9cdd769bae52443bd11e7e99f6",
+    ".lake/build/lib/lean/ShannonBounds/ProfileCompiler/Core.olean": "e37e738ca5d70421173286aa335f3333d03a6cd7d941de849874a8dabffda48e",
+    ".lake/build/lib/lean/ShannonBounds/ProfileCompiler/DAG.olean": "13191209e876278082d4bf9b72f304463168952e75ecafab5d2c5a630419ea46",
+    ".lake/build/lib/lean/ShannonBounds/ProfileCompiler/Examples.olean": "762a9c1d3cea39097c167daa8f9a83938eed0bc6028215cb966d47b3fbf16f23",
+    ".lake/build/lib/lean/ShannonBounds/ProfileCompiler/Powers.olean": "7493676ae22162fb5458672ea8b72f68945cf2ed6acbbdcac44ce6961183cb4c",
+    ".lake/build/lib/lean/ShannonBounds/ProfileCompiler/Products.olean": "3a10a75c304b79c115823af1f2db8b5d7ea72a8045094d8321e04affd5d4322a",
+    ".lake/build/lib/lean/ShannonBounds/ProfileCompiler/Profiles.olean": "7ea49b793f07569d0f2206d25d6cc7c16f6b356461d15c347cc14cc3c3288309",
+    ".lake/build/lib/lean/ShannonBounds/ProfileCompiler/Pruning.olean": "6e9e23d5b15764e7ba109232d4dd5e017fd2c46ad4a7dbf5cf4d50b528257ae9",
+    ".lake/build/lib/lean/ShannonBounds/ProfileCompiler/Recursion.olean": "8fc110e2f6fabb8093b23f1190ee7b17b52dad2db9bf7ff386648836404f66a8",
+    ".lake/build/lib/lean/ShannonBounds/ProfileCompiler/Semantics.olean": "1c052528a2249ef32c6e02f216dcc57ad6b7371dc525d4c6aaffbb7cfd6be2e8",
+    ".lake/build/lib/lean/ShannonBounds/ProfileCompiler.olean": "3ae4ed4e1e61c3a2d27d967a843f1b718458652ecb843cd3f9b0363b846c5fbf"
+  },
+  "final_dependency_pins": {
+    "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+    "plausible": "e12c1910fe855cbfc38803cd4e55543906d5fa62",
+    "LeanSearchClient": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+    "importGraph": "7e9612bf0b9ee66db3cb5b9988a35afc706f5a12",
+    "proofwidgets": "6e311e2a844da9b2cc3971187df2fe0066947b93",
+    "aesop": "a7dbf0c63b694e47f425f3dcddbc0e178bb432d3",
+    "Qq": "38d591e778f100aec9762bb582f9c7f55f50e9dc",
+    "batteries": "023ce7d62a0531e22a5331e20b587817a80d49ff",
+    "Cli": "88679d088c9720c27ebdf2ba4dafe17341747f94"
+  },
+  "universal_compiler_formalized": true,
+  "graph_and_cardinality_semantics_formalized": true,
+  "finite_DAG_recursion_formalized": true,
+  "alphabet_cardinality_and_58_specialization_formalized": true,
+  "pruning_and_terminal_expansion_formalized": true,
+  "new_capacity_bound": false,
+  "trust": "Pinned Lean 4.32.2 compiler/kernel and binary dependency cache; only propext, Classical.choice and Quot.sound as used. No native-evaluation or new logical axioms in R7, including its finite examples.",
+  "completed_at_utc": "2026-09-09T02:59:49.544543+00:00"
+}

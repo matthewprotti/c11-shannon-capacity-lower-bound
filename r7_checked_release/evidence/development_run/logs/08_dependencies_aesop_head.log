@@ -1,0 +1,2 @@
+$ git -C /Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/aesop rev-parse HEAD
+a7dbf0c63b694e47f425f3dcddbc0e178bb432d3

@@ -1,0 +1,6 @@
+{
+  "BPZ_pinned_framework": "https://github.com/spectra-research/shannon-capacity-lean/blob/aa21eeb12b75b0413d3fa9fb4208b5d0bf2c4d65/ShannonBounds/Layered.lean",
+  "attribution": "The generic arbitrary-alphabet Realisation/Subst/Code framework is BPZ prior work. The theorem in this package is a uniform profile compiler within that framework.",
+  "scope": "No worldwide novelty search was performed for R7; finite regression cases and mathematical source proof are not a Lean build.",
+  "local_inputs": "LINEAGE.json and inputs/R6_FROZEN.zip; prior accepted R6 Lean return identified separately by hash."
+}

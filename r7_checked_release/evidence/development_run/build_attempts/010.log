@@ -1,0 +1,447 @@
+$ /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lake --no-ansi build ShannonBounds.ProfileCompiler.DAG ShannonBounds.ProfileCompiler.Cardinality
+⚠ [2031/2117] Replayed ShannonBounds.Layered
+warning: ShannonBounds/Layered.lean:58:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_wordSet`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:64:0: automatically included section variable(s) unused in theorem `ShannonBounds.isIndepSet_wordSet`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:76:0: automatically included section variable(s) unused in theorem `ShannonBounds.sep_wordSet`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:103:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_substSet`:
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:230:8: automatically included section variable(s) unused in theorem `ShannonBounds.Realisation.w_mapIso`:
+  [Fintype V]
+  [DecidableEq V]
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:261:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_multiWordSet`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:268:0: automatically included section variable(s) unused in theorem `ShannonBounds.isIndepSet_multiWordSet`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:280:0: automatically included section variable(s) unused in theorem `ShannonBounds.sep_multiWordSet`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:298:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_multiSubstSet`:
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:390:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_codeSet`:
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:425:0: automatically included section variable(s) unused in theorem `ShannonBounds.card_multiCodeSet`:
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/Layered.lean:520:0: automatically included section variable(s) unused in theorem `ShannonBounds.isIndepSet_image_symm`:
+  [Fintype V]
+  [DecidableRel G.Adj]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableRel G.Adj] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3020/3027] Replayed ShannonBounds.ProfileCompiler.Core
+warning: ShannonBounds/ProfileCompiler/Core.lean:24:8: automatically included section variable(s) unused in theorem `ShannonBounds.ProfileCompiler.self_mem`:
+  [Fintype A]
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype A] [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/ProfileCompiler/Core.lean:26:0: automatically included section variable(s) unused in theorem `ShannonBounds.ProfileCompiler.type_ext`:
+  [Fintype A]
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype A] [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/ProfileCompiler/Core.lean:34:8: automatically included section variable(s) unused in theorem `ShannonBounds.ProfileCompiler.apart_iff`:
+  [Fintype A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/ProfileCompiler/Core.lean:147:0: automatically included section variable(s) unused in theorem `ShannonBounds.ProfileCompiler.subset_update`:
+  [Fintype A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/ProfileCompiler/Core.lean:151:0: automatically included section variable(s) unused in theorem `ShannonBounds.ProfileCompiler.update_normal`:
+  [Fintype A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3021/3027] Replayed ShannonBounds.ProfileCompiler.Profiles
+warning: ShannonBounds/ProfileCompiler/Profiles.lean:23:8: automatically included section variable(s) unused in theorem `ShannonBounds.ProfileCompiler.mem_groupSets`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/ProfileCompiler/Profiles.lean:38:0: automatically included section variable(s) unused in theorem `ShannonBounds.ProfileCompiler.pieces_disjoint`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3022/3027] Replayed ShannonBounds.ProfileCompiler.Products
+warning: ShannonBounds/ProfileCompiler/Products.lean:36:8: automatically included section variable(s) unused in theorem `ShannonBounds.ProfileCompiler.mem_rectangle`:
+  [DecidableEq A]
+  [(i : Fin q) → Fintype (W i)]
+  [(i : Fin q) → DecidableEq (W i)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] [(i : Fin q) → Fintype (W i)] [(i : Fin q) → DecidableEq (W i)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/ProfileCompiler/Products.lean:40:0: automatically included section variable(s) unused in theorem `ShannonBounds.ProfileCompiler.card_rectangle`:
+  [DecidableEq A]
+  [(i : Fin q) → Fintype (W i)]
+  [(i : Fin q) → DecidableEq (W i)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] [(i : Fin q) → Fintype (W i)] [(i : Fin q) → DecidableEq (W i)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/ProfileCompiler/Products.lean:134:0: automatically included section variable(s) unused in theorem `ShannonBounds.ProfileCompiler.rectangle_eq_bpz`:
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/ProfileCompiler/Products.lean:139:0: automatically included section variable(s) unused in theorem `ShannonBounds.ProfileCompiler.productSubstSet_eq_bpz`:
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/ProfileCompiler/Products.lean:144:0: automatically included section variable(s) unused in theorem `ShannonBounds.ProfileCompiler.productCodeSet_eq_bpz`:
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3023/3027] Replayed ShannonBounds.ProfileCompiler.Semantics
+warning: ShannonBounds/ProfileCompiler/Semantics.lean:206:0: automatically included section variable(s) unused in theorem `ShannonBounds.ProfileCompiler.extensionSet_empty`:
+  [(i : Fin q) → Fintype (W i)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [(i : Fin q) → Fintype (W i)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3024/3027] Replayed ShannonBounds.ProfileCompiler.Pruning
+warning: ShannonBounds/ProfileCompiler/Pruning.lean:27:4: Try `simp at hm` instead of `simpa using hm`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: ShannonBounds/ProfileCompiler/Pruning.lean:30:0: automatically included section variable(s) unused in theorem `ShannonBounds.ProfileCompiler.product_weight_zero`:
+  [DecidableEq A]
+  [(i : Fin q) → Fintype (W i)]
+  [(i : Fin q) → DecidableEq (W i)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] [(i : Fin q) → Fintype (W i)] [(i : Fin q) → DecidableEq (W i)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ShannonBounds/ProfileCompiler/Pruning.lean:72:0: automatically included section variable(s) unused in theorem `ShannonBounds.ProfileCompiler.support_deleted_zero`:
+  [DecidableEq A]
+  [(i : Fin q) → Fintype (W i)]
+  [(i : Fin q) → DecidableEq (W i)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] [(i : Fin q) → Fintype (W i)] [(i : Fin q) → DecidableEq (W i)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [3026/3027] Built ShannonBounds.ProfileCompiler.Recursion (12s)
+✖ [3027/3027] Building ShannonBounds.ProfileCompiler.DAG (2.3s)
+trace: .> LEAN_PATH=/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/Cli/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/batteries/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/Qq/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/aesop/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/importGraph/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/plausible/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/packages/mathlib/.lake/build/lib/lean:/Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/build/lib/lean /Users/matthew/Documents/Codex/2026-09-08/c11-lean-integration/toolchains/lean-4.32.2-darwin_aarch64/bin/lean /Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/ShannonBounds/ProfileCompiler/DAG.lean -o /Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/build/lib/lean/ShannonBounds/ProfileCompiler/DAG.olean -i /Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/build/lib/lean/ShannonBounds/ProfileCompiler/DAG.ilean -c /Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/build/ir/ShannonBounds/ProfileCompiler/DAG.c --setup /Users/matthew/Documents/Codex/2026-09-08/c11-r7-lean/runs/01_development/bpz/.lake/build/ir/ShannonBounds/ProfileCompiler/DAG.setup.json --json
+error: ShannonBounds/ProfileCompiler/DAG.lean:44:28: unsolved goals
+A : Type u_1
+inst✝² : Fintype A
+inst✝¹ : DecidableEq A
+s : A → A → Bool
+B : Type u_2
+I : Type u_3
+inst✝ : Fintype I
+D : DAG A s B I
+i : I
+b : B
+hn : D.node i = Node.seed b
+⊢ (match hn : D.node i with
+    | Node.seed b => Recipe.seed b
+    | Node.plain T children =>
+      Recipe.plain T fun k ↦
+        ⋯.fix
+          (fun i rec ↦
+            match hn : D.node i with
+            | Node.seed b => Recipe.seed b
+            | Node.plain T children => Recipe.plain T fun k ↦ rec (children k) ⋯
+            | Node.augment T E a children => Recipe.augment T E a fun k ↦ rec (children k) ⋯)
+          (children k)
+    | Node.augment T E a children =>
+      Recipe.augment T E a fun k ↦
+        ⋯.fix
+          (fun i rec ↦
+            match hn : D.node i with
+            | Node.seed b => Recipe.seed b
+            | Node.plain T children => Recipe.plain T fun k ↦ rec (children k) ⋯
+            | Node.augment T E a children => Recipe.augment T E a fun k ↦ rec (children k) ⋯)
+          (children k)) =
+    Recipe.seed b
+warning: ShannonBounds/ProfileCompiler/DAG.lean:47:13: This simp argument is unused:
+  hn
+
+Hint: Omit it from the simp argument list.
+  simp only ̵[̵h̵n̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: ShannonBounds/ProfileCompiler/DAG.lean:51:62: unsolved goals
+A : Type u_1
+inst✝² : Fintype A
+inst✝¹ : DecidableEq A
+s : A → A → Bool
+B : Type u_2
+I : Type u_3
+inst✝ : Fintype I
+D : DAG A s B I
+i : I
+q : ℕ
+T : Subst A s q
+children : Fin q → I
+hn : D.node i = Node.plain T children
+⊢ (match hn : D.node i with
+    | Node.seed b => Recipe.seed b
+    | Node.plain T children =>
+      Recipe.plain T fun k ↦
+        ⋯.fix
+          (fun i rec ↦
+            match hn : D.node i with
+            | Node.seed b => Recipe.seed b
+            | Node.plain T children => Recipe.plain T fun k ↦ rec (children k) ⋯
+            | Node.augment T E a children => Recipe.augment T E a fun k ↦ rec (children k) ⋯)
+          (children k)
+    | Node.augment T E a children =>
+      Recipe.augment T E a fun k ↦
+        ⋯.fix
+          (fun i rec ↦
+            match hn : D.node i with
+            | Node.seed b => Recipe.seed b
+            | Node.plain T children => Recipe.plain T fun k ↦ rec (children k) ⋯
+            | Node.augment T E a children => Recipe.augment T E a fun k ↦ rec (children k) ⋯)
+          (children k)) =
+    Recipe.plain T fun k ↦
+      ⋯.fix
+        (fun i rec ↦
+          match hn : D.node i with
+          | Node.seed b => Recipe.seed b
+          | Node.plain T children => Recipe.plain T fun k ↦ rec (children k) ⋯
+          | Node.augment T E a children => Recipe.augment T E a fun k ↦ rec (children k) ⋯)
+        (children k)
+warning: ShannonBounds/ProfileCompiler/DAG.lean:54:13: This simp argument is unused:
+  hn
+
+Hint: Omit it from the simp argument list.
+  simp only ̵[̵h̵n̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: ShannonBounds/ProfileCompiler/DAG.lean:59:68: unsolved goals
+A : Type u_1
+inst✝² : Fintype A
+inst✝¹ : DecidableEq A
+s : A → A → Bool
+B : Type u_2
+I : Type u_3
+inst✝ : Fintype I
+D : DAG A s B I
+i : I
+q : ℕ
+T : Subst A s q
+E : Code A s q
+a : A
+children : Fin q → I
+hn : D.node i = Node.augment T E a children
+⊢ (match hn : D.node i with
+    | Node.seed b => Recipe.seed b
+    | Node.plain T children =>
+      Recipe.plain T fun k ↦
+        ⋯.fix
+          (fun i rec ↦
+            match hn : D.node i with
+            | Node.seed b => Recipe.seed b
+            | Node.plain T children => Recipe.plain T fun k ↦ rec (children k) ⋯
+            | Node.augment T E a children => Recipe.augment T E a fun k ↦ rec (children k) ⋯)
+          (children k)
+    | Node.augment T E a children =>
+      Recipe.augment T E a fun k ↦
+        ⋯.fix
+          (fun i rec ↦
+            match hn : D.node i with
+            | Node.seed b => Recipe.seed b
+            | Node.plain T children => Recipe.plain T fun k ↦ rec (children k) ⋯
+            | Node.augment T E a children => Recipe.augment T E a fun k ↦ rec (children k) ⋯)
+          (children k)) =
+    Recipe.augment T E a fun k ↦
+      ⋯.fix
+        (fun i rec ↦
+          match hn : D.node i with
+          | Node.seed b => Recipe.seed b
+          | Node.plain T children => Recipe.plain T fun k ↦ rec (children k) ⋯
+          | Node.augment T E a children => Recipe.augment T E a fun k ↦ rec (children k) ⋯)
+        (children k)
+warning: ShannonBounds/ProfileCompiler/DAG.lean:62:13: This simp argument is unused:
+  hn
+
+Hint: Omit it from the simp argument list.
+  simp only ̵[̵h̵n̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: ShannonBounds/ProfileCompiler/DAG.lean:115:6: Tactic `rewrite` failed: motive is not type correct:
+  fun _a ↦
+    (Recipe.evaluate hs base _a).w p =
+      ∑ z ∈ ordinaryRows T p, ∏ k, (Recipe.evaluate hs base (D.unfold (children k))).w (z k)
+Error: Application type mismatch: The argument
+  Recipe.evaluate hs base _a
+has type
+  Realisation (Ty s) apart (G.strongPower (Recipe.dimension d _a))
+but is expected to have type
+  Realisation (Ty s) apart (G.strongPower (D.dimension d i))
+in the application
+  (Recipe.evaluate hs base _a).w
+
+Explanation: The rewrite tactic rewrites an expression 'e' using an equality 'a = b' by the following process. First, it looks for all 'a' in 'e'. Second, it tries to abstract these occurrences of 'a' to create a function 'm := fun _a => ...', called the *motive*, with the property that 'm a' is definitionally equal to 'e'. Third, we observe that 'congrArg' implies that 'm a = m b', which can be used with lemmas such as 'Eq.mpr' to change the goal. However, if 'e' depends on specific properties of 'a', then the motive 'm' might not typecheck.
+
+Possible solutions: use rewrite's 'occs' configuration option to limit which occurrences are rewritten, or use 'simp' or 'conv' mode, which have strategies for certain kinds of dependencies (these tactics can handle proofs and 'Decidable' instances whose types depend on the rewritten term, and 'simp' can apply user-defined '@[congr]' theorems as well).
+
+A : Type u_1
+inst✝⁵ : Fintype A
+inst✝⁴ : DecidableEq A
+s : A → A → Bool
+B : Type u_2
+I : Type u_3
+inst✝³ : Fintype I
+V : Type u_4
+inst✝² : Fintype V
+inst✝¹ : DecidableEq V
+G : SimpleGraph V
+inst✝ : DecidableRel G.Adj
+d : B → ℕ
+D : DAG A s B I
+hs : ∀ (b c : A), s b c = s c b
+base : (b : B) → Realisation (Ty s) apart (G.strongPower (d b))
+i : I
+q : ℕ
+T : Subst A s q
+children : Fin q → I
+hn : D.node i = Node.plain T children
+p : Ty s
+⊢ (Recipe.evaluate hs base (D.unfold i)).w p =
+    ∑ z ∈ ordinaryRows T p, ∏ k, (Recipe.evaluate hs base (D.unfold (children k))).w (z k)
+
+Note: The target expression is not type-correct under the `instances` transparency level, which may have triggered the failure. This is usually caused by unfolding of semireducible definitions in prior tactic steps. Use `set_option linter.tacticCheckInstances true` to investigate the source of the issue.
+Full error:
+  Application type mismatch: The argument
+    Recipe.evaluate hs base (D.unfold i)
+  has type
+    @Realisation (Fin (Recipe.dimension d (D.unfold i)) → V) (Ty s) (Subtype.fintype fun p ↦ Normal s p.1 p.2) apart
+      (G.strongPower (Recipe.dimension d (D.unfold i))) fun a b ↦
+      strongPower_adj_decidable G (Recipe.dimension d (D.unfold i)) a b
+  but is expected to have type
+    @Realisation (Fin (D.dimension d i) → V) (Ty s) (Subtype.fintype fun p ↦ Normal s p.1 p.2) apart
+      (G.strongPower (D.dimension d i)) fun a b ↦ strongPower_adj_decidable G (D.dimension d i) a b
+  in the application
+    (Recipe.evaluate hs base (D.unfold i)).w
+error: ShannonBounds/ProfileCompiler/DAG.lean:125:6: Tactic `rewrite` failed: motive is not type correct:
+  fun _a ↦
+    (Recipe.evaluate hs base _a).w p =
+      ∑ z ∈ augmentedRows T E a p, ∏ k, (Recipe.evaluate hs base (D.unfold (children k))).w (z k)
+Error: Application type mismatch: The argument
+  Recipe.evaluate hs base _a
+has type
+  Realisation (Ty s) apart (G.strongPower (Recipe.dimension d _a))
+but is expected to have type
+  Realisation (Ty s) apart (G.strongPower (D.dimension d i))
+in the application
+  (Recipe.evaluate hs base _a).w
+
+Explanation: The rewrite tactic rewrites an expression 'e' using an equality 'a = b' by the following process. First, it looks for all 'a' in 'e'. Second, it tries to abstract these occurrences of 'a' to create a function 'm := fun _a => ...', called the *motive*, with the property that 'm a' is definitionally equal to 'e'. Third, we observe that 'congrArg' implies that 'm a = m b', which can be used with lemmas such as 'Eq.mpr' to change the goal. However, if 'e' depends on specific properties of 'a', then the motive 'm' might not typecheck.
+
+Possible solutions: use rewrite's 'occs' configuration option to limit which occurrences are rewritten, or use 'simp' or 'conv' mode, which have strategies for certain kinds of dependencies (these tactics can handle proofs and 'Decidable' instances whose types depend on the rewritten term, and 'simp' can apply user-defined '@[congr]' theorems as well).
+
+A : Type u_1
+inst✝⁵ : Fintype A
+inst✝⁴ : DecidableEq A
+s : A → A → Bool
+B : Type u_2
+I : Type u_3
+inst✝³ : Fintype I
+V : Type u_4
+inst✝² : Fintype V
+inst✝¹ : DecidableEq V
+G : SimpleGraph V
+inst✝ : DecidableRel G.Adj
+d : B → ℕ
+D : DAG A s B I
+hs : ∀ (b c : A), s b c = s c b
+base : (b : B) → Realisation (Ty s) apart (G.strongPower (d b))
+i : I
+q : ℕ
+T : Subst A s q
+E : Code A s q
+a : A
+children : Fin q → I
+hn : D.node i = Node.augment T E a children
+p : Ty s
+⊢ (Recipe.evaluate hs base (D.unfold i)).w p =
+    ∑ z ∈ augmentedRows T E a p, ∏ k, (Recipe.evaluate hs base (D.unfold (children k))).w (z k)
+
+Note: The target expression is not type-correct under the `instances` transparency level, which may have triggered the failure. This is usually caused by unfolding of semireducible definitions in prior tactic steps. Use `set_option linter.tacticCheckInstances true` to investigate the source of the issue.
+Full error:
+  Application type mismatch: The argument
+    Recipe.evaluate hs base (D.unfold i)
+  has type
+    @Realisation (Fin (Recipe.dimension d (D.unfold i)) → V) (Ty s) (Subtype.fintype fun p ↦ Normal s p.1 p.2) apart
+      (G.strongPower (Recipe.dimension d (D.unfold i))) fun a b ↦
+      strongPower_adj_decidable G (Recipe.dimension d (D.unfold i)) a b
+  but is expected to have type
+    @Realisation (Fin (D.dimension d i) → V) (Ty s) (Subtype.fintype fun p ↦ Normal s p.1 p.2) apart
+      (G.strongPower (D.dimension d i)) fun a b ↦ strongPower_adj_decidable G (D.dimension d i) a b
+  in the application
+    (Recipe.evaluate hs base (D.unfold i)).w
+error: Lean exited with code 1
+Some required targets logged failures:
+- ShannonBounds.ProfileCompiler.DAG
+error: build failed

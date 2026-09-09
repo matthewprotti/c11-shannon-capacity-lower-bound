@@ -1,0 +1,1962 @@
+R7_AxiomAudit.lean:8:0: error: Unknown option `pp.width`
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG._sizeOf_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG._sizeOf_inst","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.casesOn","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.ctorIdx","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.dimension","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.dimension_augment","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.dimension_plain","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.evaluate","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.exact_weights","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.independent","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.mk","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.mk._flat_ctor","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.mk.inj","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.mk.injEq","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.mk.noConfusion","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.mk.sizeOf_spec","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.noConfusion","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.noConfusionType","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.node","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.profile","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.rec","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.recOn","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.repeated_child_dimension","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.unfold","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.unfold._proof_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.unfold._proof_2","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.unfold.match_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.unfold_augment","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.unfold_plain","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.unfold_seed","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.weight_augment","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.weight_plain","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.DAG.wellFounded","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.bBoth","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.bBoth._proof_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.bOnly","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext"],"name":"ShannonBounds.ProfileCompiler.Examples.bOnly._proof_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.bOnly._proof_2","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.badAddition","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.bpz_alphabet_cardinality","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.emptyGraph","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.emptyGraphDecidable","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.emptyGraphDecidable._proof_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.identityRule","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.identityRule._proof_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.identityRule._proof_2","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.nOnly","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.nOnly._proof_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":[],"name":"ShannonBounds.ProfileCompiler.Examples.noSeparation","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.oldTarget","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.omitted_protection_collision","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.omitted_self_counts","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.omitted_self_gain_refuted","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.omitted_self_has_overlap","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.singletonCode","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.singletonCode._simp_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.staleRows","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.stale_masks_refuted","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.stale_new_membership","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.stale_old_membership","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.stale_output_separated","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.tinyRealisation","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.tinyRealisation._proof_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.tinyRealisation._proof_2","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.unprotectedCells","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.unprotectedNew","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.wordB","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Examples.wordN","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Guard","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Guard.congr_simp","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.New","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.New.congr_simp","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node._sizeOf_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node._sizeOf_inst","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node.augment","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node.augment.elim","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node.augment.inj","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node.augment.injEq","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node.augment.noConfusion","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node.augment.sizeOf_spec","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node.casesOn","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node.ctorElim","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node.ctorElimType","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node.ctorIdx","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node.noConfusion","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node.noConfusionType","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node.plain","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node.plain.elim","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node.plain.inj","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node.plain.injEq","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node.plain.noConfusion","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node.plain.sizeOf_spec","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node.rec","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node.recOn","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node.seed","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node.seed.elim","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node.seed.inj","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node.seed.injEq","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node.seed.noConfusion","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Node.seed.sizeOf_spec","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Normal","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Old","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Old.congr_simp","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Profile","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Profile.Q","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Profile._sizeOf_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Profile._sizeOf_inst","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Profile.avoidance","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Profile.casesOn","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Profile.coarse","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Profile.ctorIdx","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Profile.disjoint","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Profile.mk","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Profile.mk._flat_ctor","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Profile.mk.inj","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Profile.mk.injEq","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Profile.mk.noConfusion","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Profile.mk.sizeOf_spec","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Profile.noConfusion","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Profile.noConfusionType","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Profile.partition","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Profile.piece_subset","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Profile.rec","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Profile.recOn","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Profile.toRealisation","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Profile.toRealisation._proof_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Profile.toRealisation._proof_2","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe._sizeOf_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe._sizeOf_inst","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.augment","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.augment.elim","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.augment.inj","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.augment.injEq","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.augment.noConfusion","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.augment.sizeOf_spec","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.below","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.brecOn","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.brecOn.eq","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.brecOn.go","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.casesOn","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.ctorElim","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.ctorElimType","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.ctorIdx","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.dimension","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.dimension._f","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.dimension._sunfold","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.dimension._unsafe_rec","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.dimension.match_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.evaluate","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.evaluate._f","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.evaluate._sunfold","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.evaluate._unsafe_rec","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.exact_weights","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.independent","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.noConfusion","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.noConfusionType","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.plain","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.plain.elim","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.plain.inj","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.plain.injEq","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.plain.noConfusion","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.plain.sizeOf_spec","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.profile","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.rec","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.recOn","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.seed","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.seed.elim","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.seed.inj","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.seed.injEq","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.seed.noConfusion","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.seed.sizeOf_spec","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.weight_augment","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.weight_plain","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.weights","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.weights._f","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.weights._sunfold","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Recipe.weights._unsafe_rec","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.Ty","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.WordApart","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.alphabet_cardinality","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.apart","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.apart.congr_simp","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.apart.eq_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.apart_iff","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.apart_iff._simp_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.apart_irrefl","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.apart_symm","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.augmented","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.augmented._proof_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.augmented._proof_2","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.augmented.eq_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.augmentedRows","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.augmentedRows.eq_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.augmented_cardinalities","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.augmented_sets","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.bpz_augmented_sets","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.bpz_typed_weights","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.card_coarsen","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.card_freeLabels","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.card_freeLabels._proof_1_3","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.card_normalMasks","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.card_productCodeSet","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.card_productSubstSet","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.card_rectangle","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.childOf","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.childOf.eq_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.childOf.match_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.coarse_augmented_iff","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.coarse_lift","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.coarse_rectangle_iff","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.coarse_subst_iff","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.coarsen","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.coarsen._proof_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.coarsen._proof_2","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.coarsen_mapIso","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.compiled_rectangles_disjoint","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.empty_augmentation_sets","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.eq_of_code_nonsep","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.eq_of_labels_of_nonsep","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.eq_of_old_nonsep","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.exact_gain","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.extensionSet","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.extensionSet.eq_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.extensionSet_empty","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.extension_card","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.extension_independent","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.extension_normal","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.familyTypes","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.familyTypes.eq_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.freeLabels","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.freeLabels.eq_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.groupSets","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.groupSets.eq_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.guard_excludes","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext"],"name":"ShannonBounds.ProfileCompiler.guard_excludes._simp_1_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.independent_productCodeSet","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.label","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.label_mem_phi","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.labels","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mask","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mem_augmentedRows","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mem_augmentedRows._simp_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mem_extensionSet","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mem_extensionSet._simp_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext"],"name":"ShannonBounds.ProfileCompiler.mem_extensionSet._simp_1_2","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mem_familyTypes","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mem_familyTypes._simp_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mem_freeLabels","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mem_freeLabels._simp_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mem_groupSets","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mem_groupSets._simp_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mem_normalMasks","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mem_normalMasks._simp_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mem_ordinaryRows","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mem_ordinaryRows._simp_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mem_phi","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mem_phi._simp_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mem_phi_of_nonsep","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mem_productSubstSet","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mem_productSubstSet._simp_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mem_protected","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mem_protected._simp_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mem_rectangle","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mem_rectangle._simp_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mem_selectedCells","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mem_selectedCells._simp_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mem_selectedRefinements","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mem_selectedRefinements._simp_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.mixed_pair","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.neighbours","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.neighbours.eq_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.new_pair","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.nonsep_coords","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.nonsep_of_common_point","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.normalMasks","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.normalMasks.eq_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.not_apart_iff","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext"],"name":"ShannonBounds.ProfileCompiler.not_apart_iff._simp_1_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext"],"name":"ShannonBounds.ProfileCompiler.not_apart_iff._simp_1_2","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.not_apart_iff._simp_1_3","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.old_new_disjoint","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.old_normal","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.old_pair","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.old_target_disjoint","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.ordinary","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.ordinary._proof_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.ordinary._proof_2","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.ordinaryRows","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.ordinaryRows.eq_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.ordinary_sets","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.phi","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.phi.eq_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.piece_subset_group","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.pieces_disjoint","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.productCodeSet","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.productCodeSet.eq_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.productCodeSet_eq_bpz","unsafe":false}
+R7_AUDIT_JSON: {"axioms":[],"name":"ShannonBounds.ProfileCompiler.productGraph","unsafe":false}
+R7_AUDIT_JSON: {"axioms":[],"name":"ShannonBounds.ProfileCompiler.productGraph._proof_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":[],"name":"ShannonBounds.ProfileCompiler.productGraph._proof_2","unsafe":false}
+R7_AUDIT_JSON: {"axioms":[],"name":"ShannonBounds.ProfileCompiler.productGraph.match_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.productGraph_decidable","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.productGraph_decidable._aux_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.productSubstSet","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.productSubstSet.eq_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.productSubstSet_eq_bpz","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.productSubstitute","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.productSubstitute._proof_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.productSubstitute._proof_2","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.productSubstitute.eq_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.product_weight_zero","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.protectedLabels","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.protectedLabels.eq_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.pruning_cardinalities","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.pruning_sets","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.rectangle","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.rectangle.eq_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.rectangle_disjoint","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.rectangle_empty_of_zero","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.rectangle_eq_bpz","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.rectangle_independent","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.rectangle_separated","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.restrictCode","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.restrictCode._proof_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.restrictSubst","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.restrictSubst._proof_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.restrictSubst._proof_2","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.roundtrip_coarse_sets","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.roundtrip_profile_sets","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.roundtrip_typed_sets","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.same_label_apart","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.selectedCells","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.selectedCells.eq_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.selectedCells_fibres","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.selectedCells_fibres._simp_1_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.selectedCode","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.selectedCode._proof_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.selectedRefinements","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.selectedRefinements.eq_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.selectedRefinements_disjoint","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.self_mem","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.self_mem._simp_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.subset_update","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.supportPrune","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.supportPrune._proof_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.supportRows","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.support_deleted_zero","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.support_pruning_cardinalities","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.support_pruning_sets","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.terminal","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.terminal._proof_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.terminal._simp_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.terminal._simp_2","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.terminal_cardinalities","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.terminal_pruning_cardinalities","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.terminal_pruning_sets","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.terminal_sets","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.toProfile","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.toProfile._proof_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.typeSigmaEquiv","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.typeSigmaEquiv._proof_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.typeSigmaEquiv._proof_2","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.typeSigmaEquiv._proof_3","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.typeSigmaEquiv._proof_4","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.typeSigmaEquiv._proof_5","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.typeSigmaEquiv._proof_6","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.type_ext","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.typed_avoidance","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.typed_output_iff","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.typed_weights","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.update","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.update.eq_1","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.update_normal","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.weight_productSubstitute","unsafe":false}
+R7_AUDIT_JSON: {"axioms":["propext","Classical.choice","Quot.sound"],"name":"ShannonBounds.ProfileCompiler.wordApart_symm","unsafe":false}
+R7_AUDIT_COUNT: 378
+R7_STANDARD_AXIOM_TYPE propext: ∀ {a b : Prop}, (a ↔ b) → Eq.{1} a b
+R7_STANDARD_AXIOM_TYPE Classical.choice: {α : Sort u} → Nonempty.{u} α → α
+R7_STANDARD_AXIOM_TYPE Quot.sound: ∀ {α : Sort u} {r : α → α → Prop} {a b : α},
+  r a b → Eq.{u} (Quot.mk.{u} r a) (Quot.mk.{u} r b)
+@ShannonBounds.ProfileCompiler.augmented.{u_1} : {A : Type u_1} →
+  [inst : Fintype.{u_1} A] →
+    [inst_1 : DecidableEq.{u_1 + 1} A] →
+      {s : A → A → Bool} →
+        {q : Nat} →
+          (∀ (b c : A), @Eq.{1} Bool (s b c) (s c b)) →
+            @ShannonBounds.Subst.{u_1} A inst s q →
+              @ShannonBounds.Code.{u_1} A inst s q →
+                A →
+                  @ShannonBounds.Subst.{u_1} (@ShannonBounds.ProfileCompiler.Ty.{u_1} A s)
+                    (@Subtype.fintype.{u_1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+                      (fun p =>
+                        @ShannonBounds.ProfileCompiler.Normal.{u_1} A s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) p)
+                          (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) p))
+                      (fun a =>
+                        @instDecidableAnd
+                          (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                            (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a))
+                          (∀ (b : A),
+                            @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                                (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                              @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                          (@Finset.decidableMem.{u_1} A inst_1 (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a)
+                            (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+                          (@Fintype.decidableForallFintype.{u_1} A
+                            (fun b =>
+                              @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                                  (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                                  (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                                @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                            (fun a_1 =>
+                              @forall_prop_decidable
+                                (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                                  (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                                  (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) a_1)
+                                (fun a_2 => @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_1) Bool.false)
+                                (@Finset.decidableMem.{u_1} A inst_1 a_1 (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+                                fun h =>
+                                (fun a a_2 =>
+                                    instDecidableEqBool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_2) Bool.false)
+                                  a a_1)
+                            inst))
+                      (@instFintypeProd.{u_1, u_1} A (Finset.{u_1} A) inst (@Finset.fintype.{u_1} A inst)))
+                    (@ShannonBounds.ProfileCompiler.apart.{u_1} A inst_1 s) q
+@ShannonBounds.ProfileCompiler.ordinary.{u_1} : {A : Type u_1} →
+  [inst : Fintype.{u_1} A] →
+    [inst_1 : DecidableEq.{u_1 + 1} A] →
+      {s : A → A → Bool} →
+        {q : Nat} →
+          @ShannonBounds.Subst.{u_1} A inst s q →
+            @ShannonBounds.Subst.{u_1} (@ShannonBounds.ProfileCompiler.Ty.{u_1} A s)
+              (@Subtype.fintype.{u_1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+                (fun p =>
+                  @ShannonBounds.ProfileCompiler.Normal.{u_1} A s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) p)
+                    (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) p))
+                (fun a =>
+                  @instDecidableAnd
+                    (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a))
+                    (∀ (b : A),
+                      @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                          (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                          (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                        @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                    (@Finset.decidableMem.{u_1} A inst_1 (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a)
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+                    (@Fintype.decidableForallFintype.{u_1} A
+                      (fun b =>
+                        @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                            (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                          @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                      (fun a_1 =>
+                        @forall_prop_decidable
+                          (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                            (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) a_1)
+                          (fun a_2 => @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_1) Bool.false)
+                          (@Finset.decidableMem.{u_1} A inst_1 a_1 (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a)) fun h =>
+                          (fun a a_2 =>
+                              instDecidableEqBool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_2) Bool.false)
+                            a a_1)
+                      inst))
+                (@instFintypeProd.{u_1, u_1} A (Finset.{u_1} A) inst (@Finset.fintype.{u_1} A inst)))
+              (@ShannonBounds.ProfileCompiler.apart.{u_1} A inst_1 s) q
+@ShannonBounds.ProfileCompiler.Profile.toRealisation.{u_1,
+    u_2} : {A : Type u_1} →
+  [inst : Fintype.{u_1} A] →
+    [inst_1 : DecidableEq.{u_1 + 1} A] →
+      {s : A → A → Bool} →
+        {V : Type u_2} →
+          [Fintype.{u_2} V] →
+            [inst_3 : DecidableEq.{u_2 + 1} V] →
+              {G : SimpleGraph.{u_2} V} →
+                [inst_4 : @DecidableRel.{u_2 + 1, u_2 + 1} V V (@SimpleGraph.Adj.{u_2} V G)] →
+                  @ShannonBounds.ProfileCompiler.Profile.{u_2, u_1} V inst_3 A inst inst_1 s G inst_4 →
+                    @ShannonBounds.Realisation.{u_2, u_1} V (@ShannonBounds.ProfileCompiler.Ty.{u_1} A s)
+                      (@Subtype.fintype.{u_1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+                        (fun p =>
+                          @ShannonBounds.ProfileCompiler.Normal.{u_1} A s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) p)
+                            (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) p))
+                        (fun a =>
+                          @instDecidableAnd
+                            (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                              (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                              (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a))
+                            (∀ (b : A),
+                              @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                                  (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                                  (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                                @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                            (@Finset.decidableMem.{u_1} A inst_1 (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a)
+                              (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+                            (@Fintype.decidableForallFintype.{u_1} A
+                              (fun b =>
+                                @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A
+                                      (@Finset.instSetLike.{u_1} A))
+                                    (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                                  @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                              (fun a_1 =>
+                                @forall_prop_decidable
+                                  (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A
+                                      (@Finset.instSetLike.{u_1} A))
+                                    (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) a_1)
+                                  (fun a_2 =>
+                                    @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_1) Bool.false)
+                                  (@Finset.decidableMem.{u_1} A inst_1 a_1 (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+                                  fun h =>
+                                  (fun a a_2 =>
+                                      instDecidableEqBool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_2)
+                                        Bool.false)
+                                    a a_1)
+                              inst))
+                        (@instFintypeProd.{u_1, u_1} A (Finset.{u_1} A) inst (@Finset.fintype.{u_1} A inst)))
+                      (@ShannonBounds.ProfileCompiler.apart.{u_1} A inst_1 s) G inst_4
+@ShannonBounds.ProfileCompiler.toProfile.{u_1,
+    u_2} : {A : Type u_1} →
+  [inst : Fintype.{u_1} A] →
+    [inst_1 : DecidableEq.{u_1 + 1} A] →
+      {s : A → A → Bool} →
+        {V : Type u_2} →
+          [Fintype.{u_2} V] →
+            [inst_3 : DecidableEq.{u_2 + 1} V] →
+              {G : SimpleGraph.{u_2} V} →
+                [inst_4 : @DecidableRel.{u_2 + 1, u_2 + 1} V V (@SimpleGraph.Adj.{u_2} V G)] →
+                  @ShannonBounds.Realisation.{u_2, u_1} V (@ShannonBounds.ProfileCompiler.Ty.{u_1} A s)
+                      (@Subtype.fintype.{u_1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+                        (fun p =>
+                          @ShannonBounds.ProfileCompiler.Normal.{u_1} A s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) p)
+                            (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) p))
+                        (fun a =>
+                          @instDecidableAnd
+                            (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                              (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                              (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a))
+                            (∀ (b : A),
+                              @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                                  (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                                  (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                                @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                            (@Finset.decidableMem.{u_1} A inst_1 (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a)
+                              (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+                            (@Fintype.decidableForallFintype.{u_1} A
+                              (fun b =>
+                                @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A
+                                      (@Finset.instSetLike.{u_1} A))
+                                    (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                                  @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                              (fun a_1 =>
+                                @forall_prop_decidable
+                                  (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A
+                                      (@Finset.instSetLike.{u_1} A))
+                                    (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) a_1)
+                                  (fun a_2 =>
+                                    @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_1) Bool.false)
+                                  (@Finset.decidableMem.{u_1} A inst_1 a_1 (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+                                  fun h =>
+                                  (fun a a_2 =>
+                                      instDecidableEqBool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_2)
+                                        Bool.false)
+                                    a a_1)
+                              inst))
+                        (@instFintypeProd.{u_1, u_1} A (Finset.{u_1} A) inst (@Finset.fintype.{u_1} A inst)))
+                      (@ShannonBounds.ProfileCompiler.apart.{u_1} A inst_1 s) G inst_4 →
+                    @ShannonBounds.ProfileCompiler.Profile.{u_2, u_1} V inst_3 A inst inst_1 s G inst_4
+@ShannonBounds.ProfileCompiler.augmented_sets.{u_1,
+    u_2} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {q : Nat}
+  {W : Fin q → Type u_2} [inst_2 : (i : Fin q) → Fintype.{u_2} (W i)]
+  [inst_3 : (i : Fin q) → DecidableEq.{u_2 + 1} (W i)] {Gs : (i : Fin q) → SimpleGraph.{u_2} (W i)}
+  [inst_4 : (i : Fin q) → @DecidableRel.{u_2 + 1, u_2 + 1} (W i) (W i) (@SimpleGraph.Adj.{u_2} (W i) (Gs i))]
+  (R :
+    (i : Fin q) →
+      @ShannonBounds.Realisation.{u_2, u_1} (W i) (@ShannonBounds.ProfileCompiler.Ty.{u_1} A s)
+        (@Subtype.fintype.{u_1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+          (fun p =>
+            @ShannonBounds.ProfileCompiler.Normal.{u_1} A s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) p)
+              (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) p))
+          (fun a =>
+            @instDecidableAnd
+              (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a))
+              (∀ (b : A),
+                @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                    (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                  @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+              (@Finset.decidableMem.{u_1} A inst_1 (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a)
+                (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+              (@Fintype.decidableForallFintype.{u_1} A
+                (fun b =>
+                  @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                    @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                (fun a_1 =>
+                  @forall_prop_decidable
+                    (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) a_1)
+                    (fun a_2 => @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_1) Bool.false)
+                    (@Finset.decidableMem.{u_1} A inst_1 a_1 (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a)) fun h =>
+                    (fun a a_2 => instDecidableEqBool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_2) Bool.false) a
+                      a_1)
+                inst))
+          (@instFintypeProd.{u_1, u_1} A (Finset.{u_1} A) inst (@Finset.fintype.{u_1} A inst)))
+        (@ShannonBounds.ProfileCompiler.apart.{u_1} A inst_1 s) (Gs i) (inst_4 i))
+  (hs : ∀ (b c : A), @Eq.{1} Bool (s b c) (s c b)),
+  (∀ (b : A), @Eq.{1} Bool (s b b) Bool.false) →
+    ∀ (T : @ShannonBounds.Subst.{u_1} A inst s q) (E : @ShannonBounds.Code.{u_1} A inst s q) (a b : A),
+      @Eq.{u_2 + 1} (Finset.{u_2} ((i : Fin q) → W i))
+        (@ShannonBounds.Realisation.P.{u_2, u_1} ((i : Fin q) → W i) A inst s
+          (@ShannonBounds.ProfileCompiler.productGraph.{u_2} q W Gs)
+          (fun a b => @ShannonBounds.ProfileCompiler.productGraph_decidable.{u_2} q W inst_3 Gs inst_4 a b)
+          (@ShannonBounds.ProfileCompiler.coarsen.{u_1, u_2} A inst inst_1 s ((i : Fin q) → W i)
+            (@Pi.instFintype.{0, u_2} (Fin q) W (instDecidableEqFin q) (Fin.fintype q) inst_2)
+            (fun a b => @Fintype.decidablePiFintype.{u_2, 0} (Fin q) W inst_3 (Fin.fintype q) a b)
+            (@ShannonBounds.ProfileCompiler.productGraph.{u_2} q W Gs)
+            (fun a b => @ShannonBounds.ProfileCompiler.productGraph_decidable.{u_2} q W inst_3 Gs inst_4 a b)
+            (@ShannonBounds.ProfileCompiler.productSubstitute.{u_1, u_2} (@ShannonBounds.ProfileCompiler.Ty.{u_1} A s)
+              (@Subtype.fintype.{u_1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+                (fun p =>
+                  @ShannonBounds.ProfileCompiler.Normal.{u_1} A s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) p)
+                    (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) p))
+                (fun a =>
+                  @instDecidableAnd
+                    (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a))
+                    (∀ (b : A),
+                      @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                          (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                          (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                        @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                    (@Finset.decidableMem.{u_1} A inst_1 (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a)
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+                    (@Fintype.decidableForallFintype.{u_1} A
+                      (fun b =>
+                        @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                            (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                          @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                      (fun a_1 =>
+                        @forall_prop_decidable
+                          (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                            (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) a_1)
+                          (fun a_2 => @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_1) Bool.false)
+                          (@Finset.decidableMem.{u_1} A inst_1 a_1 (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a)) fun h =>
+                          (fun a a_2 =>
+                              instDecidableEqBool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_2) Bool.false)
+                            a a_1)
+                      inst))
+                (@instFintypeProd.{u_1, u_1} A (Finset.{u_1} A) inst (@Finset.fintype.{u_1} A inst)))
+              (fun a b =>
+                @Subtype.instDecidableEq.{u_1 + 1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+                  (fun x =>
+                    @ShannonBounds.ProfileCompiler.Normal.{u_1} A s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) x)
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) x))
+                  (fun a b =>
+                    @instDecidableEqProd.{u_1, u_1} A (Finset.{u_1} A) inst_1
+                      (fun a b => @Finset.decidableEq.{u_1} A inst_1 a b) a b)
+                  a b)
+              (@ShannonBounds.ProfileCompiler.apart.{u_1} A inst_1 s) q W inst_2 inst_3 Gs inst_4 R
+              (@ShannonBounds.ProfileCompiler.augmented.{u_1} A inst inst_1 s q hs T E a)))
+          b)
+        (@Union.union.{u_2} (Finset.{u_2} ((i : Fin q) → W i))
+          (@Finset.instUnion.{u_2} ((i : Fin q) → W i) fun a b =>
+            @Fintype.decidablePiFintype.{u_2, 0} (Fin q) W inst_3 (Fin.fintype q) a b)
+          (@ShannonBounds.ProfileCompiler.productSubstSet.{u_1, u_2} A inst s q W inst_3 Gs inst_4
+            (fun i =>
+              @ShannonBounds.ProfileCompiler.coarsen.{u_1, u_2} A inst inst_1 s (W i) (inst_2 i) (inst_3 i) (Gs i)
+                (inst_4 i) (R i))
+            T b)
+          (@ite.{u_2 + 1} (Finset.{u_2} ((i : Fin q) → W i)) (@Eq.{u_1 + 1} A b a) (inst_1 b a)
+            (@ShannonBounds.ProfileCompiler.extensionSet.{u_1, u_2} A inst inst_1 s q W inst_3 Gs inst_4 R T E a)
+            (@EmptyCollection.emptyCollection.{u_2} (Finset.{u_2} ((i : Fin q) → W i))
+              (@Finset.instEmptyCollection.{u_2} ((i : Fin q) → W i)))))
+@ShannonBounds.ProfileCompiler.augmented_cardinalities.{u_1,
+    u_2} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {q : Nat}
+  {W : Fin q → Type u_2} [inst_2 : (i : Fin q) → Fintype.{u_2} (W i)]
+  [inst_3 : (i : Fin q) → DecidableEq.{u_2 + 1} (W i)] {Gs : (i : Fin q) → SimpleGraph.{u_2} (W i)}
+  [inst_4 : (i : Fin q) → @DecidableRel.{u_2 + 1, u_2 + 1} (W i) (W i) (@SimpleGraph.Adj.{u_2} (W i) (Gs i))]
+  (R :
+    (i : Fin q) →
+      @ShannonBounds.Realisation.{u_2, u_1} (W i) (@ShannonBounds.ProfileCompiler.Ty.{u_1} A s)
+        (@Subtype.fintype.{u_1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+          (fun p =>
+            @ShannonBounds.ProfileCompiler.Normal.{u_1} A s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) p)
+              (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) p))
+          (fun a =>
+            @instDecidableAnd
+              (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a))
+              (∀ (b : A),
+                @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                    (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                  @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+              (@Finset.decidableMem.{u_1} A inst_1 (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a)
+                (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+              (@Fintype.decidableForallFintype.{u_1} A
+                (fun b =>
+                  @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                    @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                (fun a_1 =>
+                  @forall_prop_decidable
+                    (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) a_1)
+                    (fun a_2 => @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_1) Bool.false)
+                    (@Finset.decidableMem.{u_1} A inst_1 a_1 (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a)) fun h =>
+                    (fun a a_2 => instDecidableEqBool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_2) Bool.false) a
+                      a_1)
+                inst))
+          (@instFintypeProd.{u_1, u_1} A (Finset.{u_1} A) inst (@Finset.fintype.{u_1} A inst)))
+        (@ShannonBounds.ProfileCompiler.apart.{u_1} A inst_1 s) (Gs i) (inst_4 i))
+  (hs : ∀ (b c : A), @Eq.{1} Bool (s b c) (s c b)),
+  (∀ (b : A), @Eq.{1} Bool (s b b) Bool.false) →
+    ∀ (T : @ShannonBounds.Subst.{u_1} A inst s q) (E : @ShannonBounds.Code.{u_1} A inst s q) (a b : A),
+      @Eq.{1} Nat
+        (@ShannonBounds.Realisation.w.{u_2, u_1} ((i : Fin q) → W i) A inst s
+          (@ShannonBounds.ProfileCompiler.productGraph.{u_2} q W Gs)
+          (fun a b => @ShannonBounds.ProfileCompiler.productGraph_decidable.{u_2} q W inst_3 Gs inst_4 a b)
+          (@ShannonBounds.ProfileCompiler.coarsen.{u_1, u_2} A inst inst_1 s ((i : Fin q) → W i)
+            (@Pi.instFintype.{0, u_2} (Fin q) W (instDecidableEqFin q) (Fin.fintype q) inst_2)
+            (fun a b => @Fintype.decidablePiFintype.{u_2, 0} (Fin q) W inst_3 (Fin.fintype q) a b)
+            (@ShannonBounds.ProfileCompiler.productGraph.{u_2} q W Gs)
+            (fun a b => @ShannonBounds.ProfileCompiler.productGraph_decidable.{u_2} q W inst_3 Gs inst_4 a b)
+            (@ShannonBounds.ProfileCompiler.productSubstitute.{u_1, u_2} (@ShannonBounds.ProfileCompiler.Ty.{u_1} A s)
+              (@Subtype.fintype.{u_1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+                (fun p =>
+                  @ShannonBounds.ProfileCompiler.Normal.{u_1} A s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) p)
+                    (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) p))
+                (fun a =>
+                  @instDecidableAnd
+                    (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a))
+                    (∀ (b : A),
+                      @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                          (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                          (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                        @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                    (@Finset.decidableMem.{u_1} A inst_1 (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a)
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+                    (@Fintype.decidableForallFintype.{u_1} A
+                      (fun b =>
+                        @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                            (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                          @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                      (fun a_1 =>
+                        @forall_prop_decidable
+                          (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                            (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) a_1)
+                          (fun a_2 => @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_1) Bool.false)
+                          (@Finset.decidableMem.{u_1} A inst_1 a_1 (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a)) fun h =>
+                          (fun a a_2 =>
+                              instDecidableEqBool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_2) Bool.false)
+                            a a_1)
+                      inst))
+                (@instFintypeProd.{u_1, u_1} A (Finset.{u_1} A) inst (@Finset.fintype.{u_1} A inst)))
+              (fun a b =>
+                @Subtype.instDecidableEq.{u_1 + 1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+                  (fun x =>
+                    @ShannonBounds.ProfileCompiler.Normal.{u_1} A s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) x)
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) x))
+                  (fun a b =>
+                    @instDecidableEqProd.{u_1, u_1} A (Finset.{u_1} A) inst_1
+                      (fun a b => @Finset.decidableEq.{u_1} A inst_1 a b) a b)
+                  a b)
+              (@ShannonBounds.ProfileCompiler.apart.{u_1} A inst_1 s) q W inst_2 inst_3 Gs inst_4 R
+              (@ShannonBounds.ProfileCompiler.augmented.{u_1} A inst inst_1 s q hs T E a)))
+          b)
+        (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+          (∑ t ∈ @ShannonBounds.Subst.T.{u_1} A inst s q T b,
+            ∏ i,
+              @ShannonBounds.Realisation.w.{u_2, u_1} (W i) A inst s (Gs i) (inst_4 i)
+                (@ShannonBounds.ProfileCompiler.coarsen.{u_1, u_2} A inst inst_1 s (W i) (inst_2 i) (inst_3 i) (Gs i)
+                  (inst_4 i) (R i))
+                (t i))
+          (@ite.{1} Nat (@Eq.{u_1 + 1} A b a) (inst_1 b a)
+            (∑ z ∈ @ShannonBounds.ProfileCompiler.selectedCells.{u_1} A inst inst_1 s q T E a,
+              ∏ i,
+                @ShannonBounds.Realisation.w.{u_2, u_1} (W i) (@ShannonBounds.ProfileCompiler.Ty.{u_1} A s)
+                  (@Subtype.fintype.{u_1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+                    (fun p =>
+                      @ShannonBounds.ProfileCompiler.Normal.{u_1} A s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) p)
+                        (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) p))
+                    (fun a =>
+                      @instDecidableAnd
+                        (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                          (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                          (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a))
+                        (∀ (b : A),
+                          @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                              (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                              (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                            @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                        (@Finset.decidableMem.{u_1} A inst_1 (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a)
+                          (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+                        (@Fintype.decidableForallFintype.{u_1} A
+                          (fun b =>
+                            @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                                (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                              @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                          (fun a_1 =>
+                            @forall_prop_decidable
+                              (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                                (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) a_1)
+                              (fun a_2 => @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_1) Bool.false)
+                              (@Finset.decidableMem.{u_1} A inst_1 a_1 (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+                              fun h =>
+                              (fun a a_2 =>
+                                  instDecidableEqBool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_2) Bool.false)
+                                a a_1)
+                          inst))
+                    (@instFintypeProd.{u_1, u_1} A (Finset.{u_1} A) inst (@Finset.fintype.{u_1} A inst)))
+                  (@ShannonBounds.ProfileCompiler.apart.{u_1} A inst_1 s) (Gs i) (inst_4 i) (R i) (z i))
+            (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))))
+@ShannonBounds.ProfileCompiler.exact_gain.{u_1,
+    u_2} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {q : Nat}
+  {W : Fin q → Type u_2} [(i : Fin q) → Fintype.{u_2} (W i)] [inst_3 : (i : Fin q) → DecidableEq.{u_2 + 1} (W i)]
+  {Gs : (i : Fin q) → SimpleGraph.{u_2} (W i)}
+  [inst_4 : (i : Fin q) → @DecidableRel.{u_2 + 1, u_2 + 1} (W i) (W i) (@SimpleGraph.Adj.{u_2} (W i) (Gs i))]
+  (R :
+    (i : Fin q) →
+      @ShannonBounds.Realisation.{u_2, u_1} (W i) (@ShannonBounds.ProfileCompiler.Ty.{u_1} A s)
+        (@Subtype.fintype.{u_1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+          (fun p =>
+            @ShannonBounds.ProfileCompiler.Normal.{u_1} A s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) p)
+              (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) p))
+          (fun a =>
+            @instDecidableAnd
+              (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a))
+              (∀ (b : A),
+                @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                    (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                  @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+              (@Finset.decidableMem.{u_1} A inst_1 (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a)
+                (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+              (@Fintype.decidableForallFintype.{u_1} A
+                (fun b =>
+                  @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                    @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                (fun a_1 =>
+                  @forall_prop_decidable
+                    (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) a_1)
+                    (fun a_2 => @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_1) Bool.false)
+                    (@Finset.decidableMem.{u_1} A inst_1 a_1 (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a)) fun h =>
+                    (fun a a_2 => instDecidableEqBool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_2) Bool.false) a
+                      a_1)
+                inst))
+          (@instFintypeProd.{u_1, u_1} A (Finset.{u_1} A) inst (@Finset.fintype.{u_1} A inst)))
+        (@ShannonBounds.ProfileCompiler.apart.{u_1} A inst_1 s) (Gs i) (inst_4 i))
+  (T : @ShannonBounds.Subst.{u_1} A inst s q) (E : @ShannonBounds.Code.{u_1} A inst s q) (a : A),
+  @Eq.{1} Nat
+    (@Finset.card.{u_2} ((i : Fin q) → W i)
+      (@ShannonBounds.ProfileCompiler.extensionSet.{u_1, u_2} A inst inst_1 s q W inst_3 Gs inst_4 R T E a))
+    (∑ t ∈ @ShannonBounds.Code.C.{u_1} A inst s q E,
+      ∑ z ∈ @ShannonBounds.ProfileCompiler.selectedRefinements.{u_1} A inst inst_1 s q T a t,
+        ∏ i,
+          @ShannonBounds.Realisation.w.{u_2, u_1} (W i) (@ShannonBounds.ProfileCompiler.Ty.{u_1} A s)
+            (@Subtype.fintype.{u_1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+              (fun p =>
+                @ShannonBounds.ProfileCompiler.Normal.{u_1} A s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) p)
+                  (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) p))
+              (fun a =>
+                @instDecidableAnd
+                  (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                    (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a))
+                  (∀ (b : A),
+                    @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                        (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                        (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                      @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                  (@Finset.decidableMem.{u_1} A inst_1 (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a)
+                    (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+                  (@Fintype.decidableForallFintype.{u_1} A
+                    (fun b =>
+                      @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                          (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                          (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                        @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                    (fun a_1 =>
+                      @forall_prop_decidable
+                        (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                          (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                          (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) a_1)
+                        (fun a_2 => @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_1) Bool.false)
+                        (@Finset.decidableMem.{u_1} A inst_1 a_1 (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a)) fun h =>
+                        (fun a a_2 =>
+                            instDecidableEqBool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_2) Bool.false)
+                          a a_1)
+                    inst))
+              (@instFintypeProd.{u_1, u_1} A (Finset.{u_1} A) inst (@Finset.fintype.{u_1} A inst)))
+            (@ShannonBounds.ProfileCompiler.apart.{u_1} A inst_1 s) (Gs i) (inst_4 i) (R i) (z i))
+@ShannonBounds.ProfileCompiler.bpz_augmented_sets.{u_1,
+    u_2} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool}
+  {V : Type u_2} [inst_2 : Fintype.{u_2} V] [inst_3 : DecidableEq.{u_2 + 1} V] {G : SimpleGraph.{u_2} V}
+  [inst_4 : @DecidableRel.{u_2 + 1, u_2 + 1} V V (@SimpleGraph.Adj.{u_2} V G)] {q : Nat} (e : Fin q → Nat)
+  (R :
+    (i : Fin q) →
+      @ShannonBounds.Realisation.{u_2, u_1} (Fin (e i) → V) (@ShannonBounds.ProfileCompiler.Ty.{u_1} A s)
+        (@Subtype.fintype.{u_1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+          (fun p =>
+            @ShannonBounds.ProfileCompiler.Normal.{u_1} A s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) p)
+              (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) p))
+          (fun a =>
+            @instDecidableAnd
+              (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a))
+              (∀ (b : A),
+                @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                    (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                  @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+              (@Finset.decidableMem.{u_1} A inst_1 (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a)
+                (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+              (@Fintype.decidableForallFintype.{u_1} A
+                (fun b =>
+                  @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                    @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                (fun a_1 =>
+                  @forall_prop_decidable
+                    (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) a_1)
+                    (fun a_2 => @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_1) Bool.false)
+                    (@Finset.decidableMem.{u_1} A inst_1 a_1 (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a)) fun h =>
+                    (fun a a_2 => instDecidableEqBool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_2) Bool.false) a
+                      a_1)
+                inst))
+          (@instFintypeProd.{u_1, u_1} A (Finset.{u_1} A) inst (@Finset.fintype.{u_1} A inst)))
+        (@ShannonBounds.ProfileCompiler.apart.{u_1} A inst_1 s) (@SimpleGraph.strongPower.{u_2} V G (e i)) fun a b =>
+        @ShannonBounds.strongPower_adj_decidable.{u_2} V inst_3 G inst_4 (e i) a b)
+  (hs : ∀ (b c : A), @Eq.{1} Bool (s b c) (s c b)),
+  (∀ (b : A), @Eq.{1} Bool (s b b) Bool.false) →
+    ∀ (T : @ShannonBounds.Subst.{u_1} A inst s q) (E : @ShannonBounds.Code.{u_1} A inst s q) (a b : A),
+      @Eq.{u_2 + 1} (Finset.{u_2} (Fin (∑ i, e i) → V))
+        (@ShannonBounds.Realisation.P.{u_2, u_1} (Fin (∑ i, e i) → V) A inst s
+          (@SimpleGraph.strongPower.{u_2} V G (∑ i, e i))
+          (fun a b => @ShannonBounds.strongPower_adj_decidable.{u_2} V inst_3 G inst_4 (∑ i, e i) a b)
+          (@ShannonBounds.ProfileCompiler.coarsen.{u_1, u_2} A inst inst_1 s (Fin (∑ i, e i) → V)
+            (@Pi.instFintype.{0, u_2} (Fin (∑ i, e i)) (fun a => V) (instDecidableEqFin (∑ i, e i))
+              (Fin.fintype (∑ i, e i)) fun a => inst_2)
+            (fun a b =>
+              @Fintype.decidablePiFintype.{u_2, 0} (Fin (∑ i, e i)) (fun a => V) (fun a => inst_3)
+                (Fin.fintype (∑ i, e i)) a b)
+            (@SimpleGraph.strongPower.{u_2} V G (∑ i, e i))
+            (fun a b => @ShannonBounds.strongPower_adj_decidable.{u_2} V inst_3 G inst_4 (∑ i, e i) a b)
+            (@ShannonBounds.Realisation.multiSubst.{u_2, u_1} V inst_2 inst_3
+              (@ShannonBounds.ProfileCompiler.Ty.{u_1} A s)
+              (@Subtype.fintype.{u_1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+                (fun p =>
+                  @ShannonBounds.ProfileCompiler.Normal.{u_1} A s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) p)
+                    (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) p))
+                (fun a =>
+                  @instDecidableAnd
+                    (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a))
+                    (∀ (b : A),
+                      @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                          (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                          (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                        @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                    (@Finset.decidableMem.{u_1} A inst_1 (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a)
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+                    (@Fintype.decidableForallFintype.{u_1} A
+                      (fun b =>
+                        @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                            (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                          @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                      (fun a_1 =>
+                        @forall_prop_decidable
+                          (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                            (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) a_1)
+                          (fun a_2 => @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_1) Bool.false)
+                          (@Finset.decidableMem.{u_1} A inst_1 a_1 (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a)) fun h =>
+                          (fun a a_2 =>
+                              instDecidableEqBool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_2) Bool.false)
+                            a a_1)
+                      inst))
+                (@instFintypeProd.{u_1, u_1} A (Finset.{u_1} A) inst (@Finset.fintype.{u_1} A inst)))
+              (fun a b =>
+                @Subtype.instDecidableEq.{u_1 + 1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+                  (fun x =>
+                    @ShannonBounds.ProfileCompiler.Normal.{u_1} A s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) x)
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) x))
+                  (fun a b =>
+                    @instDecidableEqProd.{u_1, u_1} A (Finset.{u_1} A) inst_1
+                      (fun a b => @Finset.decidableEq.{u_1} A inst_1 a b) a b)
+                  a b)
+              (@ShannonBounds.ProfileCompiler.apart.{u_1} A inst_1 s) G inst_4 q e R
+              (@ShannonBounds.ProfileCompiler.augmented.{u_1} A inst inst_1 s q hs T E a)))
+          b)
+        (@Finset.image.{u_2, u_2} ((i : Fin q) → Fin (e i) → V) (Fin (∑ i, e i) → V)
+          (fun a b =>
+            @Fintype.decidablePiFintype.{u_2, 0} (Fin (∑ i, e i)) (fun a => V) (fun a => inst_3)
+              (Fin.fintype (∑ i, e i)) a b)
+          (@DFunLike.coe.{u_2 + 1, u_2 + 1, u_2 + 1}
+            (Equiv.{u_2 + 1, u_2 + 1} ((i : Fin q) → Fin (e i) → V) (Fin (∑ i, e i) → V)) ((i : Fin q) → Fin (e i) → V)
+            (fun x => Fin (∑ i, e i) → V)
+            (@EquivLike.toFunLike.{u_2 + 1, u_2 + 1, u_2 + 1}
+              (Equiv.{u_2 + 1, u_2 + 1} ((i : Fin q) → Fin (e i) → V) (Fin (∑ i, e i) → V))
+              ((i : Fin q) → Fin (e i) → V) (Fin (∑ i, e i) → V)
+              (@Equiv.instEquivLike.{u_2 + 1, u_2 + 1} ((i : Fin q) → Fin (e i) → V) (Fin (∑ i, e i) → V)))
+            (@ShannonBounds.flattenSumEquiv.{u_2} q e V))
+          (@Union.union.{u_2} (Finset.{u_2} ((i : Fin q) → Fin (e i) → V))
+            (@Finset.instUnion.{u_2} ((i : Fin q) → Fin (e i) → V) fun a b =>
+              @Fintype.decidablePiFintype.{u_2, 0} (Fin q) (fun a => Fin (e a) → V)
+                (fun a a_1 b =>
+                  @Fintype.decidablePiFintype.{u_2, 0} (Fin (e a)) (fun a => V) (fun a => inst_3)
+                    ((fun a => Fin.fintype (e a)) a) a_1 b)
+                (Fin.fintype q) a b)
+            (@ShannonBounds.ProfileCompiler.productSubstSet.{u_1, u_2} A inst s q (fun i => Fin (e i) → V)
+              (fun i a b =>
+                @Fintype.decidablePiFintype.{u_2, 0} (Fin (e i)) (fun a => V) (fun a => inst_3)
+                  ((fun i => Fin.fintype (e i)) i) a b)
+              (fun i => @SimpleGraph.strongPower.{u_2} V G (e i))
+              (fun i a b => @ShannonBounds.strongPower_adj_decidable.{u_2} V inst_3 G inst_4 (e i) a b)
+              (fun i =>
+                @ShannonBounds.ProfileCompiler.coarsen.{u_1, u_2} A inst inst_1 s (Fin (e i) → V)
+                  (@Pi.instFintype.{0, u_2} (Fin (e i)) (fun a => V) (instDecidableEqFin (e i)) (Fin.fintype (e i))
+                    fun a => inst_2)
+                  (fun a b =>
+                    @Fintype.decidablePiFintype.{u_2, 0} (Fin (e i)) (fun a => V) (fun a => inst_3) (Fin.fintype (e i))
+                      a b)
+                  (@SimpleGraph.strongPower.{u_2} V G (e i))
+                  (fun a b => @ShannonBounds.strongPower_adj_decidable.{u_2} V inst_3 G inst_4 (e i) a b) (R i))
+              T b)
+            (@ite.{u_2 + 1} (Finset.{u_2} ((i : Fin q) → Fin (e i) → V)) (@Eq.{u_1 + 1} A b a) (inst_1 b a)
+              (@ShannonBounds.ProfileCompiler.extensionSet.{u_1, u_2} A inst inst_1 s q (fun i => Fin (e i) → V)
+                (fun i a b =>
+                  @Fintype.decidablePiFintype.{u_2, 0} (Fin (e i)) (fun a => V) (fun a => inst_3)
+                    ((fun i => Fin.fintype (e i)) i) a b)
+                (fun i => @SimpleGraph.strongPower.{u_2} V G (e i))
+                (fun i a b => @ShannonBounds.strongPower_adj_decidable.{u_2} V inst_3 G inst_4 (e i) a b) R T E a)
+              (@EmptyCollection.emptyCollection.{u_2} (Finset.{u_2} ((i : Fin q) → Fin (e i) → V))
+                (@Finset.instEmptyCollection.{u_2} ((i : Fin q) → Fin (e i) → V))))))
+@ShannonBounds.ProfileCompiler.alphabet_cardinality.{u_1} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A]
+  [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool},
+  (∀ (a : A), @Eq.{1} Bool (s a a) Bool.false) →
+    @Eq.{1} Nat
+      (@Fintype.card.{u_1} (@ShannonBounds.ProfileCompiler.Ty.{u_1} A s)
+        (@Subtype.fintype.{u_1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+          (fun p =>
+            @ShannonBounds.ProfileCompiler.Normal.{u_1} A s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) p)
+              (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) p))
+          (fun a =>
+            @instDecidableAnd
+              (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a))
+              (∀ (b : A),
+                @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                    (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                  @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+              (@Finset.decidableMem.{u_1} A inst_1 (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a)
+                (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+              (@Fintype.decidableForallFintype.{u_1} A
+                (fun b =>
+                  @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                    @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                (fun a_1 =>
+                  @forall_prop_decidable
+                    (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) a_1)
+                    (fun a_2 => @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_1) Bool.false)
+                    (@Finset.decidableMem.{u_1} A inst_1 a_1 (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a)) fun h =>
+                    (fun a a_2 => instDecidableEqBool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_2) Bool.false) a
+                      a_1)
+                inst))
+          (@instFintypeProd.{u_1, u_1} A (Finset.{u_1} A) inst (@Finset.fintype.{u_1} A inst))))
+      (∑ a,
+        @HPow.hPow.{0, 0, 0} Nat Nat Nat
+          (@instHPow.{0, 0} Nat Nat (@NPow.toPow.{0} Nat (@Monoid.toNPow.{0} Nat Nat.instMonoid)))
+          (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+          (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat)
+            (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat) (@Fintype.card.{u_1} A inst)
+              (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+            (@Finset.card.{u_1} A (@ShannonBounds.ProfileCompiler.neighbours.{u_1} A inst s a))))
+@ShannonBounds.ProfileCompiler.pruning_sets.{u_1,
+    u_2} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {q : Nat}
+  {W : Fin q → Type u_2} [(i : Fin q) → Fintype.{u_2} (W i)] [inst_3 : (i : Fin q) → DecidableEq.{u_2 + 1} (W i)]
+  {Gs : (i : Fin q) → SimpleGraph.{u_2} (W i)}
+  [inst_4 : (i : Fin q) → @DecidableRel.{u_2 + 1, u_2 + 1} (W i) (W i) (@SimpleGraph.Adj.{u_2} (W i) (Gs i))]
+  (R : (i : Fin q) → @ShannonBounds.Realisation.{u_2, u_1} (W i) A inst s (Gs i) (inst_4 i))
+  (S : @ShannonBounds.Subst.{u_1} A inst s q) (U : A → Finset.{u_1} (Fin q → A))
+  (hu :
+    ∀ (a : A),
+      @LE.le.{u_1} (Finset.{u_1} (Fin q → A))
+        (@Preorder.toLE.{u_1} (Finset.{u_1} (Fin q → A))
+          (@PartialOrder.toPreorder.{u_1} (Finset.{u_1} (Fin q → A)) (@Finset.instPartialOrder.{u_1} (Fin q → A))))
+        (U a) (@ShannonBounds.Subst.T.{u_1} A inst s q S a)),
+  (∀ (a : A) (z : Fin q → A),
+      @Membership.mem.{u_1, u_1} (Fin q → A) (Finset.{u_1} (Fin q → A))
+          (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Fin q → A)) (Fin q → A)
+            (@Finset.instSetLike.{u_1} (Fin q → A)))
+          (@ShannonBounds.Subst.T.{u_1} A inst s q S a) z →
+        z ∉ U a →
+          ∃ i,
+            @Eq.{1} Nat (@ShannonBounds.Realisation.w.{u_2, u_1} (W i) A inst s (Gs i) (inst_4 i) (R i) (z i))
+              (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))) →
+    ∀ (a : A),
+      @Eq.{u_2 + 1} (Finset.{u_2} ((i : Fin q) → W i))
+        (@ShannonBounds.ProfileCompiler.productSubstSet.{u_1, u_2} A inst s q W inst_3 Gs inst_4 R
+          (@ShannonBounds.ProfileCompiler.restrictSubst.{u_1} A inst s q S U hu) a)
+        (@ShannonBounds.ProfileCompiler.productSubstSet.{u_1, u_2} A inst s q W inst_3 Gs inst_4 R S a)
+@ShannonBounds.ProfileCompiler.pruning_cardinalities.{u_1,
+    u_2} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {q : Nat}
+  {W : Fin q → Type u_2} [(i : Fin q) → Fintype.{u_2} (W i)] [(i : Fin q) → DecidableEq.{u_2 + 1} (W i)]
+  {Gs : (i : Fin q) → SimpleGraph.{u_2} (W i)}
+  [inst_4 : (i : Fin q) → @DecidableRel.{u_2 + 1, u_2 + 1} (W i) (W i) (@SimpleGraph.Adj.{u_2} (W i) (Gs i))]
+  (R : (i : Fin q) → @ShannonBounds.Realisation.{u_2, u_1} (W i) A inst s (Gs i) (inst_4 i))
+  (S : @ShannonBounds.Subst.{u_1} A inst s q) (U : A → Finset.{u_1} (Fin q → A)),
+  (∀ (a : A),
+      @LE.le.{u_1} (Finset.{u_1} (Fin q → A))
+        (@Preorder.toLE.{u_1} (Finset.{u_1} (Fin q → A))
+          (@PartialOrder.toPreorder.{u_1} (Finset.{u_1} (Fin q → A)) (@Finset.instPartialOrder.{u_1} (Fin q → A))))
+        (U a) (@ShannonBounds.Subst.T.{u_1} A inst s q S a)) →
+    (∀ (a : A) (z : Fin q → A),
+        @Membership.mem.{u_1, u_1} (Fin q → A) (Finset.{u_1} (Fin q → A))
+            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Fin q → A)) (Fin q → A)
+              (@Finset.instSetLike.{u_1} (Fin q → A)))
+            (@ShannonBounds.Subst.T.{u_1} A inst s q S a) z →
+          z ∉ U a →
+            ∃ i,
+              @Eq.{1} Nat (@ShannonBounds.Realisation.w.{u_2, u_1} (W i) A inst s (Gs i) (inst_4 i) (R i) (z i))
+                (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))) →
+      ∀ (a : A),
+        @Eq.{1} Nat
+          (∑ z ∈ U a, ∏ i, @ShannonBounds.Realisation.w.{u_2, u_1} (W i) A inst s (Gs i) (inst_4 i) (R i) (z i))
+          (∑ z ∈ @ShannonBounds.Subst.T.{u_1} A inst s q S a,
+            ∏ i, @ShannonBounds.Realisation.w.{u_2, u_1} (W i) A inst s (Gs i) (inst_4 i) (R i) (z i))
+@ShannonBounds.ProfileCompiler.support_pruning_sets.{u_1,
+    u_2} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {q : Nat}
+  {W : Fin q → Type u_2} [(i : Fin q) → Fintype.{u_2} (W i)] [inst_3 : (i : Fin q) → DecidableEq.{u_2 + 1} (W i)]
+  {Gs : (i : Fin q) → SimpleGraph.{u_2} (W i)}
+  [inst_4 : (i : Fin q) → @DecidableRel.{u_2 + 1, u_2 + 1} (W i) (W i) (@SimpleGraph.Adj.{u_2} (W i) (Gs i))]
+  (R : (i : Fin q) → @ShannonBounds.Realisation.{u_2, u_1} (W i) A inst s (Gs i) (inst_4 i))
+  (S : @ShannonBounds.Subst.{u_1} A inst s q) (a : A),
+  @Eq.{u_2 + 1} (Finset.{u_2} ((i : Fin q) → W i))
+    (@ShannonBounds.ProfileCompiler.productSubstSet.{u_1, u_2} A inst s q W inst_3 Gs inst_4 R
+      (@ShannonBounds.ProfileCompiler.supportPrune.{u_1, u_2} A inst s q W Gs inst_4 R S) a)
+    (@ShannonBounds.ProfileCompiler.productSubstSet.{u_1, u_2} A inst s q W inst_3 Gs inst_4 R S a)
+@ShannonBounds.ProfileCompiler.terminal_sets.{u_1,
+    u_2} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {q : Nat}
+  {W : Fin q → Type u_2} [inst_2 : (i : Fin q) → Fintype.{u_2} (W i)]
+  [inst_3 : (i : Fin q) → DecidableEq.{u_2 + 1} (W i)] {Gs : (i : Fin q) → SimpleGraph.{u_2} (W i)}
+  [inst_4 : (i : Fin q) → @DecidableRel.{u_2 + 1, u_2 + 1} (W i) (W i) (@SimpleGraph.Adj.{u_2} (W i) (Gs i))]
+  (R :
+    (i : Fin q) →
+      @ShannonBounds.Realisation.{u_2, u_1} (W i) (@ShannonBounds.ProfileCompiler.Ty.{u_1} A s)
+        (@Subtype.fintype.{u_1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+          (fun p =>
+            @ShannonBounds.ProfileCompiler.Normal.{u_1} A s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) p)
+              (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) p))
+          (fun a =>
+            @instDecidableAnd
+              (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a))
+              (∀ (b : A),
+                @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                    (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                  @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+              (@Finset.decidableMem.{u_1} A inst_1 (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a)
+                (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+              (@Fintype.decidableForallFintype.{u_1} A
+                (fun b =>
+                  @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                    @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                (fun a_1 =>
+                  @forall_prop_decidable
+                    (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) a_1)
+                    (fun a_2 => @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_1) Bool.false)
+                    (@Finset.decidableMem.{u_1} A inst_1 a_1 (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a)) fun h =>
+                    (fun a a_2 => instDecidableEqBool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_2) Bool.false) a
+                      a_1)
+                inst))
+          (@instFintypeProd.{u_1, u_1} A (Finset.{u_1} A) inst (@Finset.fintype.{u_1} A inst)))
+        (@ShannonBounds.ProfileCompiler.apart.{u_1} A inst_1 s) (Gs i) (inst_4 i))
+  (E : @ShannonBounds.Code.{u_1} A inst s q),
+  @Eq.{u_2 + 1} (Finset.{u_2} ((i : Fin q) → W i))
+    (@ShannonBounds.ProfileCompiler.productCodeSet.{u_1, u_2} (@ShannonBounds.ProfileCompiler.Ty.{u_1} A s)
+      (@Subtype.fintype.{u_1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+        (fun p =>
+          @ShannonBounds.ProfileCompiler.Normal.{u_1} A s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) p)
+            (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) p))
+        (fun a =>
+          @instDecidableAnd
+            (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+              (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+              (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a))
+            (∀ (b : A),
+              @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                  (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                  (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+            (@Finset.decidableMem.{u_1} A inst_1 (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a)
+              (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+            (@Fintype.decidableForallFintype.{u_1} A
+              (fun b =>
+                @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                    (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                  @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+              (fun a_1 =>
+                @forall_prop_decidable
+                  (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                    (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) a_1)
+                  (fun a_2 => @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_1) Bool.false)
+                  (@Finset.decidableMem.{u_1} A inst_1 a_1 (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a)) fun h =>
+                  (fun a a_2 => instDecidableEqBool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_2) Bool.false) a
+                    a_1)
+              inst))
+        (@instFintypeProd.{u_1, u_1} A (Finset.{u_1} A) inst (@Finset.fintype.{u_1} A inst)))
+      (@ShannonBounds.ProfileCompiler.apart.{u_1} A inst_1 s) q W inst_3 Gs inst_4 R
+      (@ShannonBounds.ProfileCompiler.terminal.{u_1} A inst inst_1 s q E))
+    (@ShannonBounds.ProfileCompiler.productCodeSet.{u_1, u_2} A inst s q W inst_3 Gs inst_4
+      (fun i =>
+        @ShannonBounds.ProfileCompiler.coarsen.{u_1, u_2} A inst inst_1 s (W i) (inst_2 i) (inst_3 i) (Gs i) (inst_4 i)
+          (R i))
+      E)
+@ShannonBounds.ProfileCompiler.terminal_pruning_sets.{u_1,
+    u_2} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {q : Nat}
+  {W : Fin q → Type u_2} [(i : Fin q) → Fintype.{u_2} (W i)] [inst_3 : (i : Fin q) → DecidableEq.{u_2 + 1} (W i)]
+  {Gs : (i : Fin q) → SimpleGraph.{u_2} (W i)}
+  [inst_4 : (i : Fin q) → @DecidableRel.{u_2 + 1, u_2 + 1} (W i) (W i) (@SimpleGraph.Adj.{u_2} (W i) (Gs i))]
+  (R : (i : Fin q) → @ShannonBounds.Realisation.{u_2, u_1} (W i) A inst s (Gs i) (inst_4 i))
+  (E : @ShannonBounds.Code.{u_1} A inst s q) (U : Finset.{u_1} (Fin q → A))
+  (hu :
+    @LE.le.{u_1} (Finset.{u_1} (Fin q → A))
+      (@Preorder.toLE.{u_1} (Finset.{u_1} (Fin q → A))
+        (@PartialOrder.toPreorder.{u_1} (Finset.{u_1} (Fin q → A)) (@Finset.instPartialOrder.{u_1} (Fin q → A))))
+      U (@ShannonBounds.Code.C.{u_1} A inst s q E)),
+  (∀ (z : Fin q → A),
+      @Membership.mem.{u_1, u_1} (Fin q → A) (Finset.{u_1} (Fin q → A))
+          (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Fin q → A)) (Fin q → A)
+            (@Finset.instSetLike.{u_1} (Fin q → A)))
+          (@ShannonBounds.Code.C.{u_1} A inst s q E) z →
+        z ∉ U →
+          ∃ i,
+            @Eq.{1} Nat (@ShannonBounds.Realisation.w.{u_2, u_1} (W i) A inst s (Gs i) (inst_4 i) (R i) (z i))
+              (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))) →
+    @Eq.{u_2 + 1} (Finset.{u_2} ((i : Fin q) → W i))
+      (@ShannonBounds.ProfileCompiler.productCodeSet.{u_1, u_2} A inst s q W inst_3 Gs inst_4 R
+        (@ShannonBounds.ProfileCompiler.restrictCode.{u_1} A inst s q E U hu))
+      (@ShannonBounds.ProfileCompiler.productCodeSet.{u_1, u_2} A inst s q W inst_3 Gs inst_4 R E)
+@ShannonBounds.ProfileCompiler.Recipe.exact_weights.{u_1, u_2,
+    u_3} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool}
+  {B : Type u_2} {V : Type u_3} [inst_2 : Fintype.{u_3} V] [inst_3 : DecidableEq.{u_3 + 1} V] {G : SimpleGraph.{u_3} V}
+  [inst_4 : @DecidableRel.{u_3 + 1, u_3 + 1} V V (@SimpleGraph.Adj.{u_3} V G)] {d : B → Nat}
+  (hs : ∀ (b c : A), @Eq.{1} Bool (s b c) (s c b))
+  (base :
+    (b : B) →
+      @ShannonBounds.Realisation.{u_3, u_1} (Fin (d b) → V) (@ShannonBounds.ProfileCompiler.Ty.{u_1} A s)
+        (@Subtype.fintype.{u_1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+          (fun p =>
+            @ShannonBounds.ProfileCompiler.Normal.{u_1} A s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) p)
+              (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) p))
+          (fun a =>
+            @instDecidableAnd
+              (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a))
+              (∀ (b : A),
+                @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                    (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                  @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+              (@Finset.decidableMem.{u_1} A inst_1 (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a)
+                (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+              (@Fintype.decidableForallFintype.{u_1} A
+                (fun b =>
+                  @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                    @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                (fun a_1 =>
+                  @forall_prop_decidable
+                    (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) a_1)
+                    (fun a_2 => @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_1) Bool.false)
+                    (@Finset.decidableMem.{u_1} A inst_1 a_1 (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a)) fun h =>
+                    (fun a a_2 => instDecidableEqBool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_2) Bool.false) a
+                      a_1)
+                inst))
+          (@instFintypeProd.{u_1, u_1} A (Finset.{u_1} A) inst (@Finset.fintype.{u_1} A inst)))
+        (@ShannonBounds.ProfileCompiler.apart.{u_1} A inst_1 s) (@SimpleGraph.strongPower.{u_3} V G (d b)) fun a b_1 =>
+        @ShannonBounds.strongPower_adj_decidable.{u_3} V inst_3 G inst_4 (d b) a b_1)
+  (r : @ShannonBounds.ProfileCompiler.Recipe.{u_1, u_2} A inst s B) (p : @ShannonBounds.ProfileCompiler.Ty.{u_1} A s),
+  @Eq.{1} Nat
+    (@ShannonBounds.Realisation.w.{u_3, u_1}
+      (Fin (@ShannonBounds.ProfileCompiler.Recipe.dimension.{u_1, u_2} A inst s B d r) → V)
+      (@ShannonBounds.ProfileCompiler.Ty.{u_1} A s)
+      (@Subtype.fintype.{u_1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+        (fun p =>
+          @ShannonBounds.ProfileCompiler.Normal.{u_1} A s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) p)
+            (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) p))
+        (fun a =>
+          @instDecidableAnd
+            (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+              (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+              (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a))
+            (∀ (b : A),
+              @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                  (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                  (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+            (@Finset.decidableMem.{u_1} A inst_1 (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a)
+              (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+            (@Fintype.decidableForallFintype.{u_1} A
+              (fun b =>
+                @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                    (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                  @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+              (fun a_1 =>
+                @forall_prop_decidable
+                  (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                    (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) a_1)
+                  (fun a_2 => @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_1) Bool.false)
+                  (@Finset.decidableMem.{u_1} A inst_1 a_1 (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a)) fun h =>
+                  (fun a a_2 => instDecidableEqBool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_2) Bool.false) a
+                    a_1)
+              inst))
+        (@instFintypeProd.{u_1, u_1} A (Finset.{u_1} A) inst (@Finset.fintype.{u_1} A inst)))
+      (@ShannonBounds.ProfileCompiler.apart.{u_1} A inst_1 s)
+      (@SimpleGraph.strongPower.{u_3} V G (@ShannonBounds.ProfileCompiler.Recipe.dimension.{u_1, u_2} A inst s B d r))
+      (fun a b =>
+        @ShannonBounds.strongPower_adj_decidable.{u_3} V inst_3 G inst_4
+          (@ShannonBounds.ProfileCompiler.Recipe.dimension.{u_1, u_2} A inst s B d r) a b)
+      (@ShannonBounds.ProfileCompiler.Recipe.evaluate.{u_1, u_2, u_3} A inst inst_1 s B V inst_2 inst_3 G inst_4 d hs
+        base r)
+      p)
+    (@ShannonBounds.ProfileCompiler.Recipe.weights.{u_1, u_2} A inst inst_1 s B
+      (fun b =>
+        @ShannonBounds.Realisation.w.{u_3, u_1} (Fin (d b) → V) (@ShannonBounds.ProfileCompiler.Ty.{u_1} A s)
+          (@Subtype.fintype.{u_1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+            (fun p =>
+              @ShannonBounds.ProfileCompiler.Normal.{u_1} A s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) p)
+                (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) p))
+            (fun a =>
+              @instDecidableAnd
+                (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                  (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                  (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a))
+                (∀ (b : A),
+                  @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                    @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                (@Finset.decidableMem.{u_1} A inst_1 (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a)
+                  (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+                (@Fintype.decidableForallFintype.{u_1} A
+                  (fun b =>
+                    @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                        (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                        (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                      @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                  (fun a_1 =>
+                    @forall_prop_decidable
+                      (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                        (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                        (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) a_1)
+                      (fun a_2 => @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_1) Bool.false)
+                      (@Finset.decidableMem.{u_1} A inst_1 a_1 (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a)) fun h =>
+                      (fun a a_2 => instDecidableEqBool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_2) Bool.false)
+                        a a_1)
+                  inst))
+            (@instFintypeProd.{u_1, u_1} A (Finset.{u_1} A) inst (@Finset.fintype.{u_1} A inst)))
+          (@ShannonBounds.ProfileCompiler.apart.{u_1} A inst_1 s) (@SimpleGraph.strongPower.{u_3} V G (d b))
+          (fun a b_1 => @ShannonBounds.strongPower_adj_decidable.{u_3} V inst_3 G inst_4 (d b) a b_1) (base b))
+      r p)
+@ShannonBounds.ProfileCompiler.DAG.independent.{u_1, u_2, u_3,
+    u_4} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool}
+  {B : Type u_2} {I : Type u_3} [inst_2 : Fintype.{u_3} I] {V : Type u_4} [inst_3 : Fintype.{u_4} V]
+  [inst_4 : DecidableEq.{u_4 + 1} V] {G : SimpleGraph.{u_4} V}
+  [inst_5 : @DecidableRel.{u_4 + 1, u_4 + 1} V V (@SimpleGraph.Adj.{u_4} V G)] {d : B → Nat}
+  (D : @ShannonBounds.ProfileCompiler.DAG.{u_1, u_2, u_3} A inst s B I inst_2)
+  (hs : ∀ (b c : A), @Eq.{1} Bool (s b c) (s c b))
+  (base :
+    (b : B) →
+      @ShannonBounds.Realisation.{u_4, u_1} (Fin (d b) → V) (@ShannonBounds.ProfileCompiler.Ty.{u_1} A s)
+        (@Subtype.fintype.{u_1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+          (fun p =>
+            @ShannonBounds.ProfileCompiler.Normal.{u_1} A s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) p)
+              (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) p))
+          (fun a =>
+            @instDecidableAnd
+              (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a))
+              (∀ (b : A),
+                @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                    (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                  @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+              (@Finset.decidableMem.{u_1} A inst_1 (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a)
+                (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+              (@Fintype.decidableForallFintype.{u_1} A
+                (fun b =>
+                  @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                    @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                (fun a_1 =>
+                  @forall_prop_decidable
+                    (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) a_1)
+                    (fun a_2 => @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_1) Bool.false)
+                    (@Finset.decidableMem.{u_1} A inst_1 a_1 (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a)) fun h =>
+                    (fun a a_2 => instDecidableEqBool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_2) Bool.false) a
+                      a_1)
+                inst))
+          (@instFintypeProd.{u_1, u_1} A (Finset.{u_1} A) inst (@Finset.fintype.{u_1} A inst)))
+        (@ShannonBounds.ProfileCompiler.apart.{u_1} A inst_1 s) (@SimpleGraph.strongPower.{u_4} V G (d b)) fun a b_1 =>
+        @ShannonBounds.strongPower_adj_decidable.{u_4} V inst_4 G inst_5 (d b) a b_1)
+  (i : I) (p : @ShannonBounds.ProfileCompiler.Ty.{u_1} A s),
+  @SimpleGraph.IsIndepSet.{u_4}
+    (Fin (@ShannonBounds.ProfileCompiler.DAG.dimension.{u_1, u_2, u_3} A inst s B I inst_2 D d i) → V)
+    (@SimpleGraph.strongPower.{u_4} V G
+      (@ShannonBounds.ProfileCompiler.DAG.dimension.{u_1, u_2, u_3} A inst s B I inst_2 D d i))
+    (@SetLike.coe.{u_4, u_4}
+      (Finset.{u_4} (Fin (@ShannonBounds.ProfileCompiler.DAG.dimension.{u_1, u_2, u_3} A inst s B I inst_2 D d i) → V))
+      (Fin (@ShannonBounds.ProfileCompiler.DAG.dimension.{u_1, u_2, u_3} A inst s B I inst_2 D d i) → V)
+      (@Finset.instSetLike.{u_4}
+        (Fin (@ShannonBounds.ProfileCompiler.DAG.dimension.{u_1, u_2, u_3} A inst s B I inst_2 D d i) → V))
+      (@ShannonBounds.Realisation.P.{u_4, u_1}
+        (Fin (@ShannonBounds.ProfileCompiler.DAG.dimension.{u_1, u_2, u_3} A inst s B I inst_2 D d i) → V)
+        (@ShannonBounds.ProfileCompiler.Ty.{u_1} A s)
+        (@Subtype.fintype.{u_1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+          (fun p =>
+            @ShannonBounds.ProfileCompiler.Normal.{u_1} A s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) p)
+              (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) p))
+          (fun a =>
+            @instDecidableAnd
+              (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a))
+              (∀ (b : A),
+                @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                    (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                  @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+              (@Finset.decidableMem.{u_1} A inst_1 (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a)
+                (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+              (@Fintype.decidableForallFintype.{u_1} A
+                (fun b =>
+                  @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                    @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                (fun a_1 =>
+                  @forall_prop_decidable
+                    (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) a_1)
+                    (fun a_2 => @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_1) Bool.false)
+                    (@Finset.decidableMem.{u_1} A inst_1 a_1 (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a)) fun h =>
+                    (fun a a_2 => instDecidableEqBool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_2) Bool.false) a
+                      a_1)
+                inst))
+          (@instFintypeProd.{u_1, u_1} A (Finset.{u_1} A) inst (@Finset.fintype.{u_1} A inst)))
+        (@ShannonBounds.ProfileCompiler.apart.{u_1} A inst_1 s)
+        (@SimpleGraph.strongPower.{u_4} V G
+          (@ShannonBounds.ProfileCompiler.DAG.dimension.{u_1, u_2, u_3} A inst s B I inst_2 D d i))
+        (fun a b =>
+          @ShannonBounds.strongPower_adj_decidable.{u_4} V inst_4 G inst_5
+            (@ShannonBounds.ProfileCompiler.DAG.dimension.{u_1, u_2, u_3} A inst s B I inst_2 D d i) a b)
+        (@ShannonBounds.ProfileCompiler.DAG.evaluate.{u_1, u_2, u_3, u_4} A inst inst_1 s B I inst_2 V inst_3 inst_4 G
+          inst_5 d D hs base i)
+        p))
+@ShannonBounds.ProfileCompiler.DAG.exact_weights.{u_1, u_2, u_3,
+    u_4} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [inst_1 : DecidableEq.{u_1 + 1} A] {s : A → A → Bool}
+  {B : Type u_2} {I : Type u_3} [inst_2 : Fintype.{u_3} I] {V : Type u_4} [inst_3 : Fintype.{u_4} V]
+  [inst_4 : DecidableEq.{u_4 + 1} V] {G : SimpleGraph.{u_4} V}
+  [inst_5 : @DecidableRel.{u_4 + 1, u_4 + 1} V V (@SimpleGraph.Adj.{u_4} V G)] {d : B → Nat}
+  (D : @ShannonBounds.ProfileCompiler.DAG.{u_1, u_2, u_3} A inst s B I inst_2)
+  (hs : ∀ (b c : A), @Eq.{1} Bool (s b c) (s c b))
+  (base :
+    (b : B) →
+      @ShannonBounds.Realisation.{u_4, u_1} (Fin (d b) → V) (@ShannonBounds.ProfileCompiler.Ty.{u_1} A s)
+        (@Subtype.fintype.{u_1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+          (fun p =>
+            @ShannonBounds.ProfileCompiler.Normal.{u_1} A s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) p)
+              (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) p))
+          (fun a =>
+            @instDecidableAnd
+              (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a))
+              (∀ (b : A),
+                @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                    (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                  @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+              (@Finset.decidableMem.{u_1} A inst_1 (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a)
+                (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+              (@Fintype.decidableForallFintype.{u_1} A
+                (fun b =>
+                  @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                    @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                (fun a_1 =>
+                  @forall_prop_decidable
+                    (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) a_1)
+                    (fun a_2 => @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_1) Bool.false)
+                    (@Finset.decidableMem.{u_1} A inst_1 a_1 (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a)) fun h =>
+                    (fun a a_2 => instDecidableEqBool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_2) Bool.false) a
+                      a_1)
+                inst))
+          (@instFintypeProd.{u_1, u_1} A (Finset.{u_1} A) inst (@Finset.fintype.{u_1} A inst)))
+        (@ShannonBounds.ProfileCompiler.apart.{u_1} A inst_1 s) (@SimpleGraph.strongPower.{u_4} V G (d b)) fun a b_1 =>
+        @ShannonBounds.strongPower_adj_decidable.{u_4} V inst_4 G inst_5 (d b) a b_1)
+  (i : I) (p : @ShannonBounds.ProfileCompiler.Ty.{u_1} A s),
+  @Eq.{1} Nat
+    (@ShannonBounds.Realisation.w.{u_4, u_1}
+      (Fin (@ShannonBounds.ProfileCompiler.DAG.dimension.{u_1, u_2, u_3} A inst s B I inst_2 D d i) → V)
+      (@ShannonBounds.ProfileCompiler.Ty.{u_1} A s)
+      (@Subtype.fintype.{u_1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+        (fun p =>
+          @ShannonBounds.ProfileCompiler.Normal.{u_1} A s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) p)
+            (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) p))
+        (fun a =>
+          @instDecidableAnd
+            (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+              (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+              (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a))
+            (∀ (b : A),
+              @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                  (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                  (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+            (@Finset.decidableMem.{u_1} A inst_1 (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a)
+              (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+            (@Fintype.decidableForallFintype.{u_1} A
+              (fun b =>
+                @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                    (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                  @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+              (fun a_1 =>
+                @forall_prop_decidable
+                  (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                    (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) a_1)
+                  (fun a_2 => @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_1) Bool.false)
+                  (@Finset.decidableMem.{u_1} A inst_1 a_1 (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a)) fun h =>
+                  (fun a a_2 => instDecidableEqBool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_2) Bool.false) a
+                    a_1)
+              inst))
+        (@instFintypeProd.{u_1, u_1} A (Finset.{u_1} A) inst (@Finset.fintype.{u_1} A inst)))
+      (@ShannonBounds.ProfileCompiler.apart.{u_1} A inst_1 s)
+      (@SimpleGraph.strongPower.{u_4} V G
+        (@ShannonBounds.ProfileCompiler.DAG.dimension.{u_1, u_2, u_3} A inst s B I inst_2 D d i))
+      (fun a b =>
+        @ShannonBounds.strongPower_adj_decidable.{u_4} V inst_4 G inst_5
+          (@ShannonBounds.ProfileCompiler.DAG.dimension.{u_1, u_2, u_3} A inst s B I inst_2 D d i) a b)
+      (@ShannonBounds.ProfileCompiler.DAG.evaluate.{u_1, u_2, u_3, u_4} A inst inst_1 s B I inst_2 V inst_3 inst_4 G
+        inst_5 d D hs base i)
+      p)
+    (@ShannonBounds.ProfileCompiler.Recipe.weights.{u_1, u_2} A inst inst_1 s B
+      (fun b =>
+        @ShannonBounds.Realisation.w.{u_4, u_1} (Fin (d b) → V) (@ShannonBounds.ProfileCompiler.Ty.{u_1} A s)
+          (@Subtype.fintype.{u_1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+            (fun p =>
+              @ShannonBounds.ProfileCompiler.Normal.{u_1} A s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) p)
+                (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) p))
+            (fun a =>
+              @instDecidableAnd
+                (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                  (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                  (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a))
+                (∀ (b : A),
+                  @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                      (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                    @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                (@Finset.decidableMem.{u_1} A inst_1 (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a)
+                  (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+                (@Fintype.decidableForallFintype.{u_1} A
+                  (fun b =>
+                    @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                        (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                        (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                      @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                  (fun a_1 =>
+                    @forall_prop_decidable
+                      (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                        (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A (@Finset.instSetLike.{u_1} A))
+                        (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) a_1)
+                      (fun a_2 => @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_1) Bool.false)
+                      (@Finset.decidableMem.{u_1} A inst_1 a_1 (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a)) fun h =>
+                      (fun a a_2 => instDecidableEqBool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_2) Bool.false)
+                        a a_1)
+                  inst))
+            (@instFintypeProd.{u_1, u_1} A (Finset.{u_1} A) inst (@Finset.fintype.{u_1} A inst)))
+          (@ShannonBounds.ProfileCompiler.apart.{u_1} A inst_1 s) (@SimpleGraph.strongPower.{u_4} V G (d b))
+          (fun a b_1 => @ShannonBounds.strongPower_adj_decidable.{u_4} V inst_4 G inst_5 (d b) a b_1) (base b))
+      (@ShannonBounds.ProfileCompiler.DAG.unfold.{u_1, u_2, u_3} A inst s B I inst_2 D i) p)
+@ShannonBounds.ProfileCompiler.DAG.dimension_augment.{u_1, u_2,
+    u_3} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {B : Type u_2}
+  {I : Type u_3} [inst_2 : Fintype.{u_3} I] (D : @ShannonBounds.ProfileCompiler.DAG.{u_1, u_2, u_3} A inst s B I inst_2)
+  (d : B → Nat) (i : I) {q : Nat} (T : @ShannonBounds.Subst.{u_1} A inst s q) (E : @ShannonBounds.Code.{u_1} A inst s q)
+  (a : A) (children : Fin q → I),
+  @Eq.{max (max (u_1 + 1) (u_2 + 1)) (u_3 + 1)} (@ShannonBounds.ProfileCompiler.Node.{u_1, u_2, u_3} A inst s B I)
+      (@ShannonBounds.ProfileCompiler.DAG.node.{u_1, u_2, u_3} A inst s B I inst_2 D i)
+      (@ShannonBounds.ProfileCompiler.Node.augment.{u_1, u_2, u_3} A inst s B I q T E a children) →
+    @Eq.{1} Nat (@ShannonBounds.ProfileCompiler.DAG.dimension.{u_1, u_2, u_3} A inst s B I inst_2 D d i)
+      (∑ k, @ShannonBounds.ProfileCompiler.DAG.dimension.{u_1, u_2, u_3} A inst s B I inst_2 D d (children k))
+@ShannonBounds.ProfileCompiler.DAG.repeated_child_dimension.{u_1, u_2,
+    u_3} : ∀ {A : Type u_1} [inst : Fintype.{u_1} A] [DecidableEq.{u_1 + 1} A] {s : A → A → Bool} {B : Type u_2}
+  {I : Type u_3} [inst_2 : Fintype.{u_3} I] (D : @ShannonBounds.ProfileCompiler.DAG.{u_1, u_2, u_3} A inst s B I inst_2)
+  (d : B → Nat) (i j : I)
+  (T : @ShannonBounds.Subst.{u_1} A inst s (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))),
+  @Eq.{max (max (u_1 + 1) (u_2 + 1)) (u_3 + 1)} (@ShannonBounds.ProfileCompiler.Node.{u_1, u_2, u_3} A inst s B I)
+      (@ShannonBounds.ProfileCompiler.DAG.node.{u_1, u_2, u_3} A inst s B I inst_2 D i)
+      (@ShannonBounds.ProfileCompiler.Node.plain.{u_1, u_2, u_3} A inst s B I
+        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) T fun x => j) →
+    @Eq.{1} Nat (@ShannonBounds.ProfileCompiler.DAG.dimension.{u_1, u_2, u_3} A inst s B I inst_2 D d i)
+      (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+        (@ShannonBounds.ProfileCompiler.DAG.dimension.{u_1, u_2, u_3} A inst s B I inst_2 D d j))
+@ShannonBounds.ProfileCompiler.DAG.profile.{u_1, u_2, u_3,
+    u_4} : {A : Type u_1} →
+  [inst : Fintype.{u_1} A] →
+    [inst_1 : DecidableEq.{u_1 + 1} A] →
+      {s : A → A → Bool} →
+        {B : Type u_2} →
+          {I : Type u_3} →
+            [inst_2 : Fintype.{u_3} I] →
+              {V : Type u_4} →
+                [Fintype.{u_4} V] →
+                  [inst_4 : DecidableEq.{u_4 + 1} V] →
+                    {G : SimpleGraph.{u_4} V} →
+                      [inst_5 : @DecidableRel.{u_4 + 1, u_4 + 1} V V (@SimpleGraph.Adj.{u_4} V G)] →
+                        {d : B → Nat} →
+                          (D : @ShannonBounds.ProfileCompiler.DAG.{u_1, u_2, u_3} A inst s B I inst_2) →
+                            (∀ (b c : A), @Eq.{1} Bool (s b c) (s c b)) →
+                              ((b : B) →
+                                  @ShannonBounds.Realisation.{u_4, u_1} (Fin (d b) → V)
+                                    (@ShannonBounds.ProfileCompiler.Ty.{u_1} A s)
+                                    (@Subtype.fintype.{u_1} (Prod.{u_1, u_1} A (Finset.{u_1} A))
+                                      (fun p =>
+                                        @ShannonBounds.ProfileCompiler.Normal.{u_1} A s
+                                          (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) p)
+                                          (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) p))
+                                      (fun a =>
+                                        @instDecidableAnd
+                                          (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                                            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A
+                                              (@Finset.instSetLike.{u_1} A))
+                                            (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a)
+                                            (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a))
+                                          (∀ (b : A),
+                                            @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                                                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A
+                                                  (@Finset.instSetLike.{u_1} A))
+                                                (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                                              @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b) Bool.false)
+                                          (@Finset.decidableMem.{u_1} A inst_1
+                                            (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a)
+                                            (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+                                          (@Fintype.decidableForallFintype.{u_1} A
+                                            (fun b =>
+                                              @Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                                                  (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A
+                                                    (@Finset.instSetLike.{u_1} A))
+                                                  (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) b →
+                                                @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) b)
+                                                  Bool.false)
+                                            (fun a_1 =>
+                                              @forall_prop_decidable
+                                                (@Membership.mem.{u_1, u_1} A (Finset.{u_1} A)
+                                                  (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} A) A
+                                                    (@Finset.instSetLike.{u_1} A))
+                                                  (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a) a_1)
+                                                (fun a_2 =>
+                                                  @Eq.{1} Bool (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_1)
+                                                    Bool.false)
+                                                (@Finset.decidableMem.{u_1} A inst_1 a_1
+                                                  (@Prod.snd.{u_1, u_1} A (Finset.{u_1} A) a))
+                                                fun h =>
+                                                (fun a a_2 =>
+                                                    instDecidableEqBool
+                                                      (s (@Prod.fst.{u_1, u_1} A (Finset.{u_1} A) a) a_2) Bool.false)
+                                                  a a_1)
+                                            inst))
+                                      (@instFintypeProd.{u_1, u_1} A (Finset.{u_1} A) inst
+                                        (@Finset.fintype.{u_1} A inst)))
+                                    (@ShannonBounds.ProfileCompiler.apart.{u_1} A inst_1 s)
+                                    (@SimpleGraph.strongPower.{u_4} V G (d b)) fun a b_1 =>
+                                    @ShannonBounds.strongPower_adj_decidable.{u_4} V inst_4 G inst_5 (d b) a b_1) →
+                                (i : I) →
+                                  @ShannonBounds.ProfileCompiler.Profile.{u_4, u_1}
+                                    (Fin
+                                        (@ShannonBounds.ProfileCompiler.DAG.dimension.{u_1, u_2, u_3} A inst s B I
+                                          inst_2 D d i) →
+                                      V)
+                                    (fun a b =>
+                                      @Fintype.decidablePiFintype.{u_4, 0}
+                                        (Fin
+                                          (@ShannonBounds.ProfileCompiler.DAG.dimension.{u_1, u_2, u_3} A inst s B I
+                                            inst_2 D d i))
+                                        (fun a => V) (fun a => inst_4)
+                                        (Fin.fintype
+                                          (@ShannonBounds.ProfileCompiler.DAG.dimension.{u_1, u_2, u_3} A inst s B I
+                                            inst_2 D d i))
+                                        a b)
+                                    A inst inst_1 s
+                                    (@SimpleGraph.strongPower.{u_4} V G
+                                      (@ShannonBounds.ProfileCompiler.DAG.dimension.{u_1, u_2, u_3} A inst s B I inst_2
+                                        D d i))
+                                    fun a b =>
+                                    @ShannonBounds.strongPower_adj_decidable.{u_4} V inst_4 G inst_5
+                                      (@ShannonBounds.ProfileCompiler.DAG.dimension.{u_1, u_2, u_3} A inst s B I inst_2
+                                        D d i)
+                                      a b
+ShannonBounds.ProfileCompiler.Examples.bpz_alphabet_cardinality : @Eq.{1} Nat
+  (@Fintype.card.{0} (@ShannonBounds.ProfileCompiler.Ty.{0} ShannonBounds.Letter ShannonBounds.Letter.sep)
+    (@Subtype.fintype.{0} (Prod.{0, 0} ShannonBounds.Letter (Finset.{0} ShannonBounds.Letter))
+      (fun p =>
+        @ShannonBounds.ProfileCompiler.Normal.{0} ShannonBounds.Letter ShannonBounds.Letter.sep
+          (@Prod.fst.{0, 0} ShannonBounds.Letter (Finset.{0} ShannonBounds.Letter) p)
+          (@Prod.snd.{0, 0} ShannonBounds.Letter (Finset.{0} ShannonBounds.Letter) p))
+      (fun a =>
+        @instDecidableAnd
+          (@Membership.mem.{0, 0} ShannonBounds.Letter (Finset.{0} ShannonBounds.Letter)
+            (@SetLike.instMembership.{0, 0} (Finset.{0} ShannonBounds.Letter) ShannonBounds.Letter
+              (@Finset.instSetLike.{0} ShannonBounds.Letter))
+            (@Prod.snd.{0, 0} ShannonBounds.Letter (Finset.{0} ShannonBounds.Letter) a)
+            (@Prod.fst.{0, 0} ShannonBounds.Letter (Finset.{0} ShannonBounds.Letter) a))
+          (∀ (b : ShannonBounds.Letter),
+            @Membership.mem.{0, 0} ShannonBounds.Letter (Finset.{0} ShannonBounds.Letter)
+                (@SetLike.instMembership.{0, 0} (Finset.{0} ShannonBounds.Letter) ShannonBounds.Letter
+                  (@Finset.instSetLike.{0} ShannonBounds.Letter))
+                (@Prod.snd.{0, 0} ShannonBounds.Letter (Finset.{0} ShannonBounds.Letter) a) b →
+              @Eq.{1} Bool ((@Prod.fst.{0, 0} ShannonBounds.Letter (Finset.{0} ShannonBounds.Letter) a).sep b)
+                Bool.false)
+          (@Finset.decidableMem.{0} ShannonBounds.Letter ShannonBounds.instDecidableEqLetter
+            (@Prod.fst.{0, 0} ShannonBounds.Letter (Finset.{0} ShannonBounds.Letter) a)
+            (@Prod.snd.{0, 0} ShannonBounds.Letter (Finset.{0} ShannonBounds.Letter) a))
+          (@Fintype.decidableForallFintype.{0} ShannonBounds.Letter
+            (fun b =>
+              @Membership.mem.{0, 0} ShannonBounds.Letter (Finset.{0} ShannonBounds.Letter)
+                  (@SetLike.instMembership.{0, 0} (Finset.{0} ShannonBounds.Letter) ShannonBounds.Letter
+                    (@Finset.instSetLike.{0} ShannonBounds.Letter))
+                  (@Prod.snd.{0, 0} ShannonBounds.Letter (Finset.{0} ShannonBounds.Letter) a) b →
+                @Eq.{1} Bool ((@Prod.fst.{0, 0} ShannonBounds.Letter (Finset.{0} ShannonBounds.Letter) a).sep b)
+                  Bool.false)
+            (fun a_1 =>
+              @forall_prop_decidable
+                (@Membership.mem.{0, 0} ShannonBounds.Letter (Finset.{0} ShannonBounds.Letter)
+                  (@SetLike.instMembership.{0, 0} (Finset.{0} ShannonBounds.Letter) ShannonBounds.Letter
+                    (@Finset.instSetLike.{0} ShannonBounds.Letter))
+                  (@Prod.snd.{0, 0} ShannonBounds.Letter (Finset.{0} ShannonBounds.Letter) a) a_1)
+                (fun a_2 =>
+                  @Eq.{1} Bool ((@Prod.fst.{0, 0} ShannonBounds.Letter (Finset.{0} ShannonBounds.Letter) a).sep a_1)
+                    Bool.false)
+                (@Finset.decidableMem.{0} ShannonBounds.Letter ShannonBounds.instDecidableEqLetter a_1
+                  (@Prod.snd.{0, 0} ShannonBounds.Letter (Finset.{0} ShannonBounds.Letter) a))
+                fun h =>
+                (fun a a_2 =>
+                    instDecidableEqBool
+                      ((@Prod.fst.{0, 0} ShannonBounds.Letter (Finset.{0} ShannonBounds.Letter) a).sep a_2) Bool.false)
+                  a a_1)
+            ShannonBounds.instFintypeLetter))
+      (@instFintypeProd.{0, 0} ShannonBounds.Letter (Finset.{0} ShannonBounds.Letter) ShannonBounds.instFintypeLetter
+        (@Finset.fintype.{0} ShannonBounds.Letter ShannonBounds.instFintypeLetter))))
+  (@OfNat.ofNat.{0} Nat (nat_lit 58) (instOfNatNat (nat_lit 58)))
+ShannonBounds.ProfileCompiler.Examples.stale_masks_refuted : Not
+  (∃ S,
+    @Eq.{1}
+      (@ShannonBounds.ProfileCompiler.Ty.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+          ShannonBounds.ProfileCompiler.Examples.noSeparation →
+        Finset.{0}
+          (Fin (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) →
+            @ShannonBounds.ProfileCompiler.Ty.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+              ShannonBounds.ProfileCompiler.Examples.noSeparation))
+      (@ShannonBounds.Subst.T.{0}
+        (@ShannonBounds.ProfileCompiler.Ty.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+          ShannonBounds.ProfileCompiler.Examples.noSeparation)
+        (@Subtype.fintype.{0}
+          (Prod.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+            (Finset.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+          (fun p =>
+            @ShannonBounds.ProfileCompiler.Normal.{0}
+              (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+              ShannonBounds.ProfileCompiler.Examples.noSeparation
+              (@Prod.fst.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                (Finset.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))) p)
+              (@Prod.snd.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                (Finset.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))) p))
+          (fun a =>
+            @instDecidableAnd
+              (@Membership.mem.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                (Finset.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+                (@SetLike.instMembership.{0, 0}
+                  (Finset.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+                  (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                  (@Finset.instSetLike.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                (@Prod.snd.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                  (Finset.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))) a)
+                (@Prod.fst.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                  (Finset.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))) a))
+              (∀ (b : Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))),
+                @Membership.mem.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                    (Finset.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+                    (@SetLike.instMembership.{0, 0}
+                      (Finset.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+                      (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                      (@Finset.instSetLike.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                    (@Prod.snd.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                      (Finset.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))) a)
+                    b →
+                  @Eq.{1} Bool
+                    (ShannonBounds.ProfileCompiler.Examples.noSeparation
+                      (@Prod.fst.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (Finset.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))) a)
+                      b)
+                    Bool.false)
+              (@Finset.decidableMem.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                (instDecidableEqFin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                (@Prod.fst.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                  (Finset.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))) a)
+                (@Prod.snd.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                  (Finset.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))) a))
+              (@Nat.decidableForallFin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                (fun b =>
+                  @Membership.mem.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                      (Finset.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+                      (@SetLike.instMembership.{0, 0}
+                        (Finset.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+                        (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (@Finset.instSetLike.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                      (@Prod.snd.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (Finset.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))) a)
+                      b →
+                    @Eq.{1} Bool
+                      (ShannonBounds.ProfileCompiler.Examples.noSeparation
+                        (@Prod.fst.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (Finset.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))) a)
+                        b)
+                      Bool.false)
+                fun a_1 =>
+                @forall_prop_decidable
+                  (@Membership.mem.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                    (Finset.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+                    (@SetLike.instMembership.{0, 0}
+                      (Finset.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+                      (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                      (@Finset.instSetLike.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                    (@Prod.snd.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                      (Finset.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))) a)
+                    a_1)
+                  (fun a_2 =>
+                    @Eq.{1} Bool
+                      (ShannonBounds.ProfileCompiler.Examples.noSeparation
+                        (@Prod.fst.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (Finset.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))) a)
+                        a_1)
+                      Bool.false)
+                  (@Finset.decidableMem.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                    (instDecidableEqFin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) a_1
+                    (@Prod.snd.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                      (Finset.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))) a))
+                  fun h =>
+                  (fun a a_2 =>
+                      instDecidableEqBool
+                        (ShannonBounds.ProfileCompiler.Examples.noSeparation
+                          (@Prod.fst.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                            (Finset.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))) a)
+                          a_2)
+                        Bool.false)
+                    a a_1))
+          (@instFintypeProd.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+            (Finset.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+            (Fin.fintype (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+            (@Finset.fintype.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+              (Fin.fintype (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+        (@ShannonBounds.ProfileCompiler.apart.{0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+          (instDecidableEqFin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+          ShannonBounds.ProfileCompiler.Examples.noSeparation)
+        (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) S)
+      ShannonBounds.ProfileCompiler.Examples.staleRows)
+ShannonBounds.ProfileCompiler.Examples.omitted_self_gain_refuted : @Ne.{1} Nat
+  (@Finset.card.{0}
+    (Fin (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) →
+      Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+    (@Union.union.{0}
+      (Finset.{0}
+        (Fin (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) →
+          Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+      (@Finset.instUnion.{0}
+        (Fin (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) →
+          Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+        fun a b =>
+        @Fintype.decidablePiFintype.{0, 0} (Fin (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+          (fun a => Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+          (fun a => instDecidableEqFin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+          (Fin.fintype (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))) a b)
+      ShannonBounds.ProfileCompiler.Examples.oldTarget ShannonBounds.ProfileCompiler.Examples.badAddition))
+  (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+    (@Finset.card.{0}
+      (Fin (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) →
+        Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+      ShannonBounds.ProfileCompiler.Examples.oldTarget)
+    (@Finset.card.{0}
+      (Fin (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) →
+        Fin (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+      ShannonBounds.ProfileCompiler.Examples.badAddition))

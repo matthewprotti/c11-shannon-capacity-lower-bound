@@ -1,0 +1,704 @@
+{
+  "base_typed_weights": [
+    0,
+    127,
+    0,
+    9,
+    0,
+    9,
+    0,
+    0,
+    0,
+    142,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3
+  ],
+  "constructions": [
+    {
+      "N": "443276324003031783611356421181113884309761038339701682272503913637018224991280684849272770480887399420629190490478636970970895319532912",
+      "dimension": 186,
+      "nodes": [
+        {
+          "dimension": 9,
+          "kind": "substitution",
+          "node": "n1",
+          "retained_words": 98,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 15,
+          "kind": "substitution",
+          "node": "n2",
+          "retained_words": 124,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 18,
+          "kind": "substitution",
+          "node": "n3",
+          "retained_words": 44,
+          "universal_words": 740
+        },
+        {
+          "dimension": 21,
+          "kind": "substitution",
+          "node": "n4",
+          "retained_words": 47,
+          "universal_words": 740
+        },
+        {
+          "dimension": 9,
+          "kind": "substitution",
+          "node": "n5",
+          "retained_words": 98,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 15,
+          "kind": "substitution",
+          "node": "n6",
+          "retained_words": 124,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 18,
+          "kind": "substitution",
+          "node": "n7",
+          "retained_words": 44,
+          "universal_words": 740
+        },
+        {
+          "dimension": 9,
+          "kind": "substitution",
+          "node": "n8",
+          "retained_words": 98,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 15,
+          "kind": "substitution",
+          "node": "n9",
+          "retained_words": 124,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 6,
+          "kind": "substitution",
+          "node": "n10",
+          "retained_words": 29,
+          "universal_words": 740
+        },
+        {
+          "dimension": 27,
+          "kind": "substitution",
+          "node": "n11",
+          "retained_words": 258,
+          "universal_words": 13696
+        },
+        {
+          "dimension": 15,
+          "kind": "substitution",
+          "node": "n12",
+          "retained_words": 124,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 6,
+          "kind": "substitution",
+          "node": "n13",
+          "retained_words": 29,
+          "universal_words": 740
+        },
+        {
+          "dimension": 27,
+          "kind": "substitution",
+          "node": "n14",
+          "retained_words": 258,
+          "universal_words": 13696
+        },
+        {
+          "dimension": 12,
+          "kind": "substitution",
+          "node": "n15",
+          "retained_words": 124,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 18,
+          "kind": "substitution",
+          "node": "n16",
+          "retained_words": 149,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 72,
+          "kind": "substitution",
+          "node": "n17",
+          "retained_words": 259,
+          "universal_words": 13508
+        },
+        {
+          "dimension": 15,
+          "kind": "substitution",
+          "node": "n18",
+          "retained_words": 124,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 21,
+          "kind": "substitution",
+          "node": "n19",
+          "retained_words": 149,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 24,
+          "kind": "substitution",
+          "node": "n20",
+          "retained_words": 47,
+          "universal_words": 740
+        },
+        {
+          "dimension": 27,
+          "kind": "substitution",
+          "node": "n21",
+          "retained_words": 50,
+          "universal_words": 740
+        },
+        {
+          "dimension": 30,
+          "kind": "substitution",
+          "node": "n22",
+          "retained_words": 50,
+          "universal_words": 740
+        },
+        {
+          "dimension": 33,
+          "kind": "substitution",
+          "node": "n23",
+          "retained_words": 50,
+          "universal_words": 740
+        },
+        {
+          "dimension": 36,
+          "kind": "substitution",
+          "node": "n24",
+          "retained_words": 50,
+          "universal_words": 740
+        },
+        {
+          "dimension": 24,
+          "kind": "substitution",
+          "node": "n25",
+          "retained_words": 258,
+          "universal_words": 13696
+        },
+        {
+          "dimension": 75,
+          "kind": "substitution",
+          "node": "n26",
+          "retained_words": 326,
+          "universal_words": 13580
+        },
+        {
+          "dimension": 186,
+          "kind": "terminal",
+          "node": "n27",
+          "retained_words": 1289,
+          "universal_words": 113728
+        }
+      ],
+      "nonbase_nodes": 27
+    },
+    {
+      "N": "215650308240559271076661927763289270756233042340399408085079498236580156319151638131903708724387292184834844476542038069560746092535997639387752",
+      "dimension": 198,
+      "nodes": [
+        {
+          "dimension": 9,
+          "kind": "substitution",
+          "node": "n1",
+          "retained_words": 98,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 15,
+          "kind": "substitution",
+          "node": "n2",
+          "retained_words": 124,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 18,
+          "kind": "substitution",
+          "node": "n3",
+          "retained_words": 44,
+          "universal_words": 740
+        },
+        {
+          "dimension": 21,
+          "kind": "substitution",
+          "node": "n4",
+          "retained_words": 47,
+          "universal_words": 740
+        },
+        {
+          "dimension": 24,
+          "kind": "substitution",
+          "node": "n5",
+          "retained_words": 50,
+          "universal_words": 740
+        },
+        {
+          "dimension": 27,
+          "kind": "substitution",
+          "node": "n6",
+          "retained_words": 50,
+          "universal_words": 740
+        },
+        {
+          "dimension": 9,
+          "kind": "substitution",
+          "node": "n7",
+          "retained_words": 98,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 15,
+          "kind": "substitution",
+          "node": "n8",
+          "retained_words": 124,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 18,
+          "kind": "substitution",
+          "node": "n9",
+          "retained_words": 44,
+          "universal_words": 740
+        },
+        {
+          "dimension": 6,
+          "kind": "substitution",
+          "node": "n10",
+          "retained_words": 29,
+          "universal_words": 740
+        },
+        {
+          "dimension": 9,
+          "kind": "substitution",
+          "node": "n11",
+          "retained_words": 98,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 21,
+          "kind": "substitution",
+          "node": "n12",
+          "retained_words": 222,
+          "universal_words": 13428
+        },
+        {
+          "dimension": 9,
+          "kind": "substitution",
+          "node": "n13",
+          "retained_words": 98,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 15,
+          "kind": "substitution",
+          "node": "n14",
+          "retained_words": 127,
+          "universal_words": 13000
+        },
+        {
+          "dimension": 30,
+          "kind": "substitution",
+          "node": "n15",
+          "retained_words": 258,
+          "universal_words": 13696
+        },
+        {
+          "dimension": 6,
+          "kind": "substitution",
+          "node": "n16",
+          "retained_words": 29,
+          "universal_words": 740
+        },
+        {
+          "dimension": 12,
+          "kind": "substitution",
+          "node": "n17",
+          "retained_words": 127,
+          "universal_words": 13000
+        },
+        {
+          "dimension": 24,
+          "kind": "substitution",
+          "node": "n18",
+          "retained_words": 258,
+          "universal_words": 13696
+        },
+        {
+          "dimension": 75,
+          "kind": "substitution",
+          "node": "n19",
+          "retained_words": 200,
+          "universal_words": 13508
+        },
+        {
+          "dimension": 21,
+          "kind": "substitution",
+          "node": "n20",
+          "retained_words": 150,
+          "universal_words": 13000
+        },
+        {
+          "dimension": 24,
+          "kind": "substitution",
+          "node": "n21",
+          "retained_words": 47,
+          "universal_words": 740
+        },
+        {
+          "dimension": 27,
+          "kind": "substitution",
+          "node": "n22",
+          "retained_words": 50,
+          "universal_words": 740
+        },
+        {
+          "dimension": 30,
+          "kind": "substitution",
+          "node": "n23",
+          "retained_words": 50,
+          "universal_words": 740
+        },
+        {
+          "dimension": 33,
+          "kind": "substitution",
+          "node": "n24",
+          "retained_words": 50,
+          "universal_words": 740
+        },
+        {
+          "dimension": 15,
+          "kind": "substitution",
+          "node": "n25",
+          "retained_words": 124,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 27,
+          "kind": "substitution",
+          "node": "n26",
+          "retained_words": 258,
+          "universal_words": 13696
+        },
+        {
+          "dimension": 12,
+          "kind": "substitution",
+          "node": "n27",
+          "retained_words": 124,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 18,
+          "kind": "substitution",
+          "node": "n28",
+          "retained_words": 150,
+          "universal_words": 13000
+        },
+        {
+          "dimension": 78,
+          "kind": "substitution",
+          "node": "n29",
+          "retained_words": 354,
+          "universal_words": 13524
+        },
+        {
+          "dimension": 198,
+          "kind": "terminal",
+          "node": "n30",
+          "retained_words": 1365,
+          "universal_words": 109632
+        }
+      ],
+      "nonbase_nodes": 30
+    },
+    {
+      "N": "15576025705482926919349953542643365905237782337909670850715691763072207372542781005458638810301625659402522397392173748140017563747809127752382797850207774",
+      "dimension": 213,
+      "nodes": [
+        {
+          "dimension": 6,
+          "kind": "substitution",
+          "node": "n1",
+          "retained_words": 29,
+          "universal_words": 740
+        },
+        {
+          "dimension": 9,
+          "kind": "substitution",
+          "node": "n2",
+          "retained_words": 98,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 21,
+          "kind": "substitution",
+          "node": "n3",
+          "retained_words": 222,
+          "universal_words": 13428
+        },
+        {
+          "dimension": 9,
+          "kind": "substitution",
+          "node": "n4",
+          "retained_words": 98,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 15,
+          "kind": "substitution",
+          "node": "n5",
+          "retained_words": 127,
+          "universal_words": 13000
+        },
+        {
+          "dimension": 30,
+          "kind": "substitution",
+          "node": "n6",
+          "retained_words": 258,
+          "universal_words": 13696
+        },
+        {
+          "dimension": 12,
+          "kind": "substitution",
+          "node": "n7",
+          "retained_words": 127,
+          "universal_words": 13000
+        },
+        {
+          "dimension": 9,
+          "kind": "substitution",
+          "node": "n8",
+          "retained_words": 98,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 27,
+          "kind": "substitution",
+          "node": "n9",
+          "retained_words": 258,
+          "universal_words": 13696
+        },
+        {
+          "dimension": 78,
+          "kind": "substitution",
+          "node": "n10",
+          "retained_words": 200,
+          "universal_words": 13508
+        },
+        {
+          "dimension": 9,
+          "kind": "substitution",
+          "node": "n11",
+          "retained_words": 98,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 15,
+          "kind": "substitution",
+          "node": "n12",
+          "retained_words": 124,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 21,
+          "kind": "substitution",
+          "node": "n13",
+          "retained_words": 150,
+          "universal_words": 13000
+        },
+        {
+          "dimension": 27,
+          "kind": "substitution",
+          "node": "n14",
+          "retained_words": 160,
+          "universal_words": 13000
+        },
+        {
+          "dimension": 30,
+          "kind": "substitution",
+          "node": "n15",
+          "retained_words": 50,
+          "universal_words": 740
+        },
+        {
+          "dimension": 9,
+          "kind": "substitution",
+          "node": "n16",
+          "retained_words": 98,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 15,
+          "kind": "substitution",
+          "node": "n17",
+          "retained_words": 124,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 18,
+          "kind": "substitution",
+          "node": "n18",
+          "retained_words": 44,
+          "universal_words": 740
+        },
+        {
+          "dimension": 21,
+          "kind": "substitution",
+          "node": "n19",
+          "retained_words": 47,
+          "universal_words": 740
+        },
+        {
+          "dimension": 24,
+          "kind": "substitution",
+          "node": "n20",
+          "retained_words": 192,
+          "universal_words": 13260
+        },
+        {
+          "dimension": 27,
+          "kind": "substitution",
+          "node": "n21",
+          "retained_words": 36,
+          "universal_words": 740
+        },
+        {
+          "dimension": 30,
+          "kind": "substitution",
+          "node": "n22",
+          "retained_words": 43,
+          "universal_words": 740
+        },
+        {
+          "dimension": 33,
+          "kind": "substitution",
+          "node": "n23",
+          "retained_words": 50,
+          "universal_words": 740
+        },
+        {
+          "dimension": 36,
+          "kind": "substitution",
+          "node": "n24",
+          "retained_words": 50,
+          "universal_words": 740
+        },
+        {
+          "dimension": 12,
+          "kind": "substitution",
+          "node": "n25",
+          "retained_words": 124,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 30,
+          "kind": "substitution",
+          "node": "n26",
+          "retained_words": 258,
+          "universal_words": 13696
+        },
+        {
+          "dimension": 6,
+          "kind": "substitution",
+          "node": "n27",
+          "retained_words": 29,
+          "universal_words": 740
+        },
+        {
+          "dimension": 12,
+          "kind": "substitution",
+          "node": "n28",
+          "retained_words": 124,
+          "universal_words": 13128
+        },
+        {
+          "dimension": 18,
+          "kind": "substitution",
+          "node": "n29",
+          "retained_words": 150,
+          "universal_words": 13000
+        },
+        {
+          "dimension": 84,
+          "kind": "substitution",
+          "node": "n30",
+          "retained_words": 351,
+          "universal_words": 13580
+        },
+        {
+          "dimension": 213,
+          "kind": "terminal",
+          "node": "n31",
+          "retained_words": 1370,
+          "universal_words": 109632
+        }
+      ],
+      "nonbase_nodes": 31
+    }
+  ],
+  "distinct_universal_rules": 35,
+  "scope": "Exact finite specialization checks; no new Lean execution or universal proof by testing.",
+  "status": "PASS_UNIVERSAL_COMPILER_SPECIALIZES_TO_FROZEN_R6"
+}

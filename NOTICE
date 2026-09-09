@@ -1,4 +1,4 @@
-C11 Shannon capacity lower-bound improvement
+C11 Shannon capacity bounds and a uniform avoidance-profile compiler
 Copyright 2026 Matthew Protti for the new contribution and publication wrapper.
 
 This repository includes and builds upon the work of Pjotr Buys, Sven Polak,

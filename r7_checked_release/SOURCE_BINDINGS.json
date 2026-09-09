@@ -1,0 +1,146 @@
+{
+  "original_R7_archive_sha256": "f6c16059de6509b5040becfaa565b19535298705935d23eae31924bc39728ac7",
+  "source_hashes": {
+    "R7_AxiomAudit.lean": "b0659e9130852d4ecf73b1c67d2d59d3c42932b7e37363243a36a56de4e1fb3e",
+    "ShannonBounds/ProfileCompiler/Cardinality.lean": "b057a6e9e5d18bf4a6f66a0acfa0d5056acb5534b9123fd7bfc2d5fe5ee82826",
+    "ShannonBounds/ProfileCompiler/Core.lean": "3e26fb9f03212c40758f0b9d152c343eda624e9bff74ca660d895cc3b66e85ac",
+    "ShannonBounds/ProfileCompiler/DAG.lean": "9f3b2b70764361d455fd4736f9f32281eccbe6aec0cfe08a81d030f1f3a9ad3b",
+    "ShannonBounds/ProfileCompiler/Examples.lean": "f566965836304574d02713b8806ac2cc1f81a0dc87157cf5a036a1b929dce749",
+    "ShannonBounds/ProfileCompiler/Powers.lean": "00cce75797e2c5117f7366c74acc5fecadbba0a4459d4d056e64367cc866c0e6",
+    "ShannonBounds/ProfileCompiler/Products.lean": "856daaad42ca0bc93ef2777c53c2836bc92f1095fd4ae58088c2c58b5a3d6e29",
+    "ShannonBounds/ProfileCompiler/Profiles.lean": "7aa4f9425180f914d03022bae753c22645a9f8fd731272c2c48acaed900c4d59",
+    "ShannonBounds/ProfileCompiler/Pruning.lean": "1df8657f1e615faf581a1614e21405c52ff7e34d8b1fd67b302ffa9effcffc15",
+    "ShannonBounds/ProfileCompiler/Recursion.lean": "3e3d53276ebddd20ac11c551fc1f6807080d24c85b13ac9255a472a4a539073a",
+    "ShannonBounds/ProfileCompiler/Semantics.lean": "e415589fa3ce2239db3a04a6148569a1e3c4a4e806f7995c22bffeb81f7e9330",
+    "ShannonBounds/ProfileCompiler.lean": "97bb8d1693b0abb0caf5eb371a3bc11ea3a52e36e397ef81799883f89a5fd104"
+  },
+  "imports": {
+    "R7_AxiomAudit.lean": [
+      "ShannonBounds.ProfileCompiler",
+      "ShannonBounds.ProfileCompiler.Examples",
+      "Lean.Util.CollectAxioms"
+    ],
+    "ShannonBounds/ProfileCompiler/Cardinality.lean": [
+      "ShannonBounds.ProfileCompiler.Core"
+    ],
+    "ShannonBounds/ProfileCompiler/Core.lean": [
+      "ShannonBounds.Layered",
+      "Mathlib.Data.Fintype.Powerset",
+      "Mathlib.Tactic"
+    ],
+    "ShannonBounds/ProfileCompiler/DAG.lean": [
+      "ShannonBounds.ProfileCompiler.Recursion"
+    ],
+    "ShannonBounds/ProfileCompiler/Examples.lean": [
+      "ShannonBounds.ProfileCompiler.Cardinality",
+      "ShannonBounds.ProfileCompiler.Semantics",
+      "ShannonBounds.PortRealisation"
+    ],
+    "ShannonBounds/ProfileCompiler/Powers.lean": [
+      "ShannonBounds.ProfileCompiler.Semantics"
+    ],
+    "ShannonBounds/ProfileCompiler/Products.lean": [
+      "ShannonBounds.ProfileCompiler.Profiles"
+    ],
+    "ShannonBounds/ProfileCompiler/Profiles.lean": [
+      "ShannonBounds.ProfileCompiler.Core"
+    ],
+    "ShannonBounds/ProfileCompiler/Pruning.lean": [
+      "ShannonBounds.ProfileCompiler.Semantics"
+    ],
+    "ShannonBounds/ProfileCompiler/Recursion.lean": [
+      "ShannonBounds.ProfileCompiler.Pruning"
+    ],
+    "ShannonBounds/ProfileCompiler/Semantics.lean": [
+      "ShannonBounds.ProfileCompiler.Products"
+    ],
+    "ShannonBounds/ProfileCompiler.lean": [
+      "ShannonBounds.ProfileCompiler.Core",
+      "ShannonBounds.ProfileCompiler.Profiles",
+      "ShannonBounds.ProfileCompiler.Products",
+      "ShannonBounds.ProfileCompiler.Semantics",
+      "ShannonBounds.ProfileCompiler.Cardinality",
+      "ShannonBounds.ProfileCompiler.Pruning",
+      "ShannonBounds.ProfileCompiler.Recursion",
+      "ShannonBounds.ProfileCompiler.DAG",
+      "ShannonBounds.ProfileCompiler.Powers"
+    ]
+  },
+  "general_modules_import_finite_examples": false,
+  "scope_index": {
+    "universal_compiler": [
+      "Core.lean",
+      "universal_compilation"
+    ],
+    "all_generator_completeness": [
+      "Core.lean",
+      "augmented_old_complete",
+      "augmented_new_complete"
+    ],
+    "profile_semantics": [
+      "Profiles.lean",
+      "Profile.toRealisation",
+      "toProfile",
+      "roundtrip_typed_sets",
+      "roundtrip_coarse_sets"
+    ],
+    "arbitrary_child_graph_products": [
+      "Products.lean",
+      "productSubstitute",
+      "card_productSubstSet"
+    ],
+    "exact_masks_sets_and_counts": [
+      "Semantics.lean",
+      "typed_output_iff",
+      "augmented_sets",
+      "augmented_cardinalities",
+      "exact_gain",
+      "old_target_disjoint"
+    ],
+    "BPZ_summed_powers": [
+      "Powers.lean",
+      "bpz_augmented_sets",
+      "bpz_typed_weights"
+    ],
+    "finite_recipes": [
+      "Recursion.lean",
+      "Recipe.exact_weights",
+      "Recipe.independent",
+      "Recipe.profile"
+    ],
+    "finite_DAGs": [
+      "DAG.lean",
+      "DAG.unfold",
+      "DAG.independent",
+      "DAG.exact_weights",
+      "DAG.dimension_augment",
+      "DAG.repeated_child_dimension",
+      "DAG.profile"
+    ],
+    "alphabet_cardinality": [
+      "Cardinality.lean",
+      "alphabet_cardinality"
+    ],
+    "certified_pruning": [
+      "Pruning.lean",
+      "pruning_sets",
+      "pruning_cardinalities",
+      "support_pruning_sets"
+    ],
+    "terminal_expansion": [
+      "Core.lean",
+      "terminal",
+      "Pruning.lean",
+      "terminal_sets",
+      "terminal_cardinalities",
+      "terminal_pruning_sets",
+      "terminal_pruning_cardinalities"
+    ],
+    "separate_finite_examples": [
+      "Examples.lean",
+      "bpz_alphabet_cardinality",
+      "stale_masks_refuted",
+      "omitted_self_gain_refuted"
+    ]
+  }
+}

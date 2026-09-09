@@ -1,0 +1,16 @@
+{
+  "review_completed_at_utc": "2026-09-09T01:52:06.072784+00:00",
+  "supplied_verifier_normal_and_optimized_identical": true,
+  "independent_physical_review_normal_and_optimized_identical": true,
+  "received_manifest_entries_unchanged": 18,
+  "Lean_run": false,
+  "R7_formalization_completed": false,
+  "no_blocking_error_found_in_initial_written_proof_review": true,
+  "files": {
+    "semantic_review.py": "5abc16df9cecc1eb1f57d0d49c30d33e75bf0cc363712dbb3d9e5528cc0b89f3",
+    "evidence/VERIFY_NORMAL.json": "4653c0f44e3809e6d1aa7dc52efbe1fd4e2eb6c3e17d46dd626876bdd90e0205",
+    "evidence/VERIFY_OPTIMIZED.json": "4653c0f44e3809e6d1aa7dc52efbe1fd4e2eb6c3e17d46dd626876bdd90e0205",
+    "evidence/SEMANTICS_NORMAL.json": "86f59c7ea915303d68085f3d06539ad1844d52b3f2a8764a9b2d4210200f56cc",
+    "evidence/SEMANTICS_OPTIMIZED.json": "86f59c7ea915303d68085f3d06539ad1844d52b3f2a8764a9b2d4210200f56cc"
+  }
+}

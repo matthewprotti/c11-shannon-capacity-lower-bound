@@ -1,0 +1,19 @@
+{
+  "R6_dimensions": [
+    186,
+    198,
+    213
+  ],
+  "R6_specialization_nodes_including_bases": 91,
+  "defective_variants_rejected": 6,
+  "exhaustive_augmented_cases": 11027,
+  "exhaustive_ordinary_cases": 640,
+  "full_type_R6_augmented_templates": 11,
+  "lean_status": "NOT_RUN",
+  "manifest_entries": 18,
+  "new_capacity_bound": false,
+  "non_mutating": true,
+  "randomized_cases": 192,
+  "status": "PASS_R7_WRITTEN_THEOREM_FINITE_REGRESSIONS",
+  "universal_claim_status": "WRITTEN_PROOF_NOT_FORMALIZED_OR_EXTERNALLY_REVIEWED"
+}

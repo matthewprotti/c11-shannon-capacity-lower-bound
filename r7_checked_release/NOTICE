@@ -1,0 +1,11 @@
+R7 uniform avoidance-profile compiler formalization
+Copyright 2026 Matthew Protti for the new contribution and handoff tooling.
+
+This work builds on the arbitrary-alphabet Realisation/Subst/Code framework
+of Pjotr Buys, Sven Polak, and Jeroen Zuiddam, released under Apache-2.0.
+The product proofs adapt their pinned Layered.lean arguments. Their notices
+and the original R7 package, including its upstream attribution, are retained.
+
+AI co-developed with OpenAI's Astra 6 Pro and Codex GPT-6 Astra Extra-High
+under Matthew Protti's direction. No independent expert endorsement or
+worldwide priority clearance is claimed.
